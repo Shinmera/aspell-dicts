@@ -1,0 +1,34 @@
+2009.04.10
+2.01-2	Rozsiahle opravy flagov a doplnenie zoznamu slov
+
+2007.10.31
+0.60.3  Prečistenie zoznamu slov (2.0), prevzatie a vylepšenie affix kompresie 
+	z myspell-sk.
+	Zmena licencie podľa ispell-u/myspell-u.
+	
+2004.03.20
+0.52-0	Aktualizácia zoznamu slov (1.4), vygenerovanie balíčka podľa
+	inštrukcií Kevina Atkinsona, doplnenie sample.aspell.conf 
+	a README na základe poznatkov Tomasa Hogera.
+
+2004.02.01
+0.50.3-1.3pre1 Aktualizácia
+
+2003.08.24
+0.50.3-1.2 Aktualizácia - doplnenie viac ako 98000 slov.
+
+2003.01.11
+0.50.3-1.1  Táto verzia vznikla ako podpora verzie aspell-0.50. Vychádza
+	  z verzie aspell-1.1. Bolo doplnených niekoľko slov a boli upravené
+	  názvy súborov.
+
+2002.12.24
+1.1	- Aktualizácia slovenskej podpory pre program aspell voči slovenskej
+	  podpore programu ispell 0.1.10. 
+	- Odstránené boli niektoré nesprávne slová. 
+	- Bola pridaná databáza s nespisovnými slovami a skratkami. Vysvetlenie
+	  je v súbore README.
+
+2002.07.06
+1.0 	  Prvá verejná verzia
+

@@ -1,0 +1,23 @@
+name_english Bengali
+name_native বাংলা
+lang bn
+data-file u-beng.cset
+data-file u-beng.cmap
+author:
+  name Taneem Ahmed
+  email taneem at eyetap org
+author:
+  name .
+  email dictionary at bengalinux org
+author:
+  name Dr Abhijit Das
+copyright GPL
+url http://www.bengalinux.org/downloads
+version 0.01.1-1
+source-version 0.50-1
+complete unknown
+accurate unknown
+alias bn bengali
+dict:
+  name bn
+  add bn

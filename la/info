@@ -1,0 +1,18 @@
+name_english Latin
+lang la
+data-file la_affix.dat
+author:
+  name  Bjoern Jacke 
+  email bjoern.jacke at gmx de
+author:
+  name Jean-Pierre Sutto
+copyright GPL
+version 20020503-0
+source-version 20020503
+complete false
+accurate true
+url http://j3e.de/ispell/iroma/
+alias la latin
+dict:
+  name la
+  add la

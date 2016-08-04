@@ -1,0 +1,39 @@
+name_english Belarusian
+name_native Беларускі
+lang be
+data-file be.dat
+mode aspell5
+# -- The complete and accurate flag need to be varified by at least one
+# -- of the authors.
+complete unknown # true
+accurate unknown # true
+alt-encoding cp1251 cp
+author:
+  name  Vital Khilko
+  email vk at mova dot org
+author:
+  name  Koshchanka Uladzimir
+  email dassax at tut dot by
+author:
+  name Yaugenuja Volkava
+  email volkava at eml dot cc
+author:
+  name Valjancina Avilava
+  email valoshka at mail dot ru
+copyright GPL
+version 0.01
+# -- This url is broken
+# url http://mova.linux.by/aspell/
+# source-version 0.01 
+alias be_SU belarusian-soviet
+alias be belarusian
+dict:
+  name be
+  alias be_BY
+  add be-common
+  add be-only
+dict: 
+  name be_SU
+  add be-common
+  add be_SU-only
+

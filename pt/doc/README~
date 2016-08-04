@@ -1,0 +1,13 @@
+This package (aspell-pt) is actually a combination of two diffrent
+word lists.
+
+pt_BR comes from the RedHat 7.1 rpm which is based on Conectiva's
+ispell-brazilian sub-package (http://www.ime.usp.br/~ueda/br.ispell/).
+
+pt_PT comes from Jose Joao Almeida's Aspell Portuguese dictionary 
+(http://natura.di.uminho.pt/~jj/SOURCES/aspell.port.tgz).
+
+Documentation that came with these dictionaries can be found in the
+BR/ and PT/ directory respectfully.
+
+Both dictionaries are under the GPL.

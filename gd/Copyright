@@ -1,0 +1,48 @@
+Aspell dictionary for Scottish Gaelic (gd).
+
+Copyright 2000 Alastair McKinstry <mckinstry@computer.org> 
+Copyright 2004 Kevin P. Scannell <scannell@slu.edu>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+The current word list was assembled entirely by statistical 
+means applied to a large text corpus harvested by by web crawler
+"An Crúbadán":
+
+http://borel.slu.edu/crubadan/
+
+See the file doc/Crawler.txt for more information.
+
+In particular, Alastair McKinstry's list of about 1600 words
+for the Debian package "igaelic" has not been merged in;
+it is included in this distribution as doc/igaelic.
+
+Speakers of Scottish Gaelic will notice some idiosyncratic
+spelling choices, following, for the most part, Dwelly and
+MacBain over the modern sources; e.g.:
+
+féin vs. fèin
+as vs às
+mór vs mòr
+fianuis vs. fianais
+fòghlum vs foghlam
+chéile vs. chèile
+
+The software attempts to find all potential alternate spellings
+and selects a preferred form.  It has surely missed some pairs so 
+corrections or additions would be greatly appreciated.
+
+Kevin Scannell
+<scannell@slu.edu>

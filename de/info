@@ -1,0 +1,27 @@
+name_english German
+name_ascii Deutsches
+lang de
+data-file de_phonet.dat
+data-file de_affix.dat
+author:
+  name  Björn Jacke
+  email bjoern jacke at gmx de
+copyright GPL
+version 20030222-1
+url http://j3e.de/ispell/igerman98/
+accurate true
+complete true
+alias de_DE de:awli german deutsch
+alias de_CH swiss
+dict:
+  name de_DE
+  add de-common
+  add de_DE-only
+dict: 
+  name de_CH
+  add de-common
+  add de_CH-only
+dict:
+  name de_AT
+  add de-common
+  add de_AT-only

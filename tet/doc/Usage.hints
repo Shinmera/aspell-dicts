@@ -1,0 +1,147 @@
+Please: 
+-read the README file for install instructions.
+-run  ./configure -help for configure options
+
+For a standard install (e.g. aspell was installed from a deb or rpm or similar)
+##########
+run:
+./configure
+make
+then as admin (or sudo)
+make install
+#########
+Problems ?
+mail <tetum-translators@nongnu.org>
+or Peter Gossner <gossner@arcom.com.au>
+
+
+## USING the tetum dictionary with aspell. ##
+
+If all went well with the install run using the --master option:
+You may use tetun or tetum to identify the master wordlist (dictionary).
+
+SIMPLE EXAMPLES: 
+
+A plain text file:
+
+$ aspell --master tetum check filename-to-check.txt
+
+or 
+
+$ aspell --master tetum -c filename-to-check.txt
+
+An sgml / html file:
+
+$ aspell --master tetun -H -c filename-to-check.html
+
+
+The Following is output by running:
+$ aspell --help
+
+Aspell 0.50.5 alpha.  Copyright 2000 by Kevin Atkinson.
+
+Usage: aspell [options] <command>
+
+<command> is one of:
+  -?|help          display this help message
+  -c|check <file>  to check a file
+  -a|pipe          "ispell -a" compatibility mode
+  -l|list          produce a list of misspelled words from standard input
+  [dump] config    dumps the current configuration to stdout
+  config <key>     prints the current value of an option
+  soundslike       returns the soundslike equivalent for each word entered
+  filter           passes standard input through filters
+  -v|version       prints a version line
+  dump|create|merge master|personal|repl [word list]
+    dumps, creates or merges a master, personal, or replacement word list.
+
+[options] is any of the following:
+
+  --conf=<str>                main configuration file
+  --conf-dir=<str>            location of main configuration file
+  --data-dir=<str>            location of language data files
+  --dict-dir=<str>            location of the main word list
+  --encoding=<str>            encoding to expect data to be in
+  --add|rem-filter=<str>      add or removes a filter
+  --mode=<str>                filter mode = none,url,email,sgml,tex
+  -e,--mode=email             enter Email mode.
+  -H,--mode=sgml              enter Html/Sgml mode.
+  -t,--mode=tex               enter TeX mode.
+  --add|rem-extra-dicts=<str> extra dictionaries to use
+  --home-dir=<str>            location for personal files
+  -W,--ignore=<int>           ignore words <= n chars
+  --[dont-]ignore-accents     ignore accents when checking words
+  --[dont-]ignore-case        ignore case when checking words
+  --[dont-]ignore-repl        ignore commands to store replacement pairs
+  --jargon=<str>              extra information for the word list
+  --keyboard=<str>            keyboard definition to use for typo analysis
+  --lang=<str>                language code
+  --language-tag=<str>        deprecated, use lang instead
+  --local-data-dir=<str>      location of local language data files
+  -d,--master=<str>           base name of the main dictionary to use
+  --module=<str>              
+  --add|rem-module-search-order=<str> 
+  --per-conf=<str>            personal configuration file
+  -p,--personal=<str>         personal word list file name
+  --prefix=<str>              prefix directory
+  --repl=<str>                replacements list file name
+  -C|-B,--[dont-]run-together consider run-together words legal
+  --run-together-limit=<int>  maxium numbers that can be strung together
+  --run-together-min=<int>    minimal length of interior words
+  --[dont-]save-repl          save replacement pairs on save all
+  --[dont-]set-prefix         set the prefix based on executable location
+  --size=<str>                size of the word list
+  --spelling=<str>            no longer used
+  --[dont-]strip-accents      strip accents from word lists
+  --sug-mode=<str>            suggestion mode
+  --add|rem-word-list-path=<str> Search path for word list information files
+  -b|-x,--[dont-]backup       create a backup file by appending ".bak"
+  --[dont-]reverse            reverse the order of the suggest list
+  --[dont-]time               time load time and suggest time in pipe mode
+  --keymapping=<str>          keymapping for check mode, one of aspell ispell
+  --add|rem-email-quote=<str> email quote characters
+  --email-margin=<int>        num chars that can appear before the quote char
+  --add|rem-tex-command=<str> TeX commands
+  --[dont-]tex-check-comments check TeX comments
+  --add|rem-tex-extension=<str> TeX file extensions
+  --add|rem-sgml-check=<str>  sgml attributes to always check.
+  --add|rem-sgml-extension=<str> sgml file extensions
+
+##########
+For more complete information:
+(and explanations)
+
+$ man aspell 
+
+and or
+
+$ info aspell
+
+Finally check /usr/share/doc/aspell-doc for a manual in postscript or html format.
+and look at the aspell site for the latest versions.
+
+##########
+
+A final hint:
+
+Add some convenience aliases to your ~/.bashrc 
+for example:
+##### Tetum Aliases #####
+# this runs aspell set for tetum
+alias aspelltet='aspell --master tetun'
+# the following 2 entries are for using the Tetum translating dictionaries
+
+alias teteng='dict --database tet-eng-dictionary'
+alias engtet='dict --database eng-tet-dictionary'
+
+# call a local version of aspell 
+
+alias asl='/usr/local/bin/aspell'
+#### End tetum aliases
+
+reload bash:
+(just type bash and hit enter)
+
+then 
+
+$ aspelltet -c filename-to-check

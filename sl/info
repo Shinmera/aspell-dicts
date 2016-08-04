@@ -1,0 +1,18 @@
+name_english Slovenian
+lang sl
+author:
+  name Ale"s Ko"sir
+  email ales kosir at pingo org
+author:
+  name Robert Ludvik
+  email r at aufbix org
+author:
+  name and others
+copyright GPL
+version 0.50-0
+charset iso8859-2
+soundslike none
+alias sl slovenian
+dict:
+  name sl
+  add sl

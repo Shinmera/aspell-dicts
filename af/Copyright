@@ -1,0 +1,24 @@
+The Aspell Afrikaans dictionary is based on the MySpell One:
+
+Afrikaans Wordlist
+------------------
+
+First published in this form in 1993 by Bernard A Nieuwoudt
+Contact details: origen@icon.co.za or bnieuwoudt@acm.org
+
+Copyright (C) 1993, 2003 Bernard A Nieuwoudt
+the wordlist has been relicened under the LGPL.
+
+MySpell Affix File
+------------------
+
+Copyright (C) 2003 Dwayne Bailey under the LGPL
+based on the original ispell list by Renier de Vos which was released under
+the BSD license.
+
+
+A few words with special characters were removed such as those ending
+in '=' and '-'.
+
+Original MySpell README file and affix file can be found in the doc/
+directory.

@@ -1,0 +1,27 @@
+name_english Walloon
+lang wa
+copyright GPL
+version 0.50-0
+source-version 0.4.5
+charset iso8859-1
+soundslike phonet
+# ' at begining of words, eg: "'l est bon", middle, eg: "a-d'-couloûte"
+# and end, eg: "k'".
+# . is used for some acronyms
+# - is used in words like "abat-djoû", "a-d'-couloûte"
+# 1 is for "1î", only at the beginning; but aspell wants middle if begin is set
+# 2 is for "bzip2-rastrindou"
+# ° is for "°C" and "l°"; but aspell wants middle if begin is set
+###special ' ***  . -*- - -*- 1 **- 2 -** ° ***
+special ' ***  . -*- - -*- 1 **- 2 -** 
+author:
+ name Pablo Saratxaga
+ email pablo at walon org
+ maintainer true
+alias wa walon walloon
+dict:
+ name wa
+ add wa
+url http://chanae.walon.org/walon/ispell.html
+name_ascii walon
+name_native walon

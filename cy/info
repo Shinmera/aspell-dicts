@@ -1,0 +1,21 @@
+name_english Welsh
+lang cy
+author:
+  name Jim Killock
+  email jim killock at hebffinia com
+author:
+  name Thierry Vignaud
+  email tvignaud at mandrakesoft com
+author:
+  name Mark Nodine
+  email Mark Nodine at motorola com
+copyright GPL
+url http://www.hebffinia.com/geiriadur/
+version 0.50-3
+charset iso8859-14
+special ' **- - -**
+soundslike generic
+alias cy welsh
+dict:
+  name cy
+  add cy

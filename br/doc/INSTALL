@@ -1,0 +1,15 @@
+mkdir -p /usr/lib/ispell
+
+install -m 644 brezhoneg.aff /usr/lib/ispell/brezhoneg.aff
+install -m 644 brezhoneg.hash /usr/lib/ispell/brezhoneg.hash
+cd /usr/lib/ispell
+ln -s brezhoneg.aff bzh.aff
+ln -s brezhoneg.hash bzh.hash
+ln -s brezhoneg.aff breton.aff
+ln -s brezhoneg.hash breton.hash
+ln -s brezhoneg.aff br.aff
+ln -s brezhoneg.hash br.hash
+
+mv -f brezhoneg.hash brezhoneg.ispell
+buildhash brezhoneg.ispell brezhoneg.aff brezhoneg.hash &> /dev/null
+rm -f brezhoneg.ispell.stat brezhoneg.ispell.cnt brezhoneg.ispell

@@ -1,0 +1,92 @@
+                         Czech data for ispell
+
+The dictionary is rapidly evolving - see ftp://ftp.vslib.cz/pub/unix/ispell/
+for actual version!
+
+                         Èeská data pro ispell
+
+V¹echny tyto soubory jsou ve stádiu pomìrnì rychlých zmìn. Sledujte
+ftp://ftp.vslib.cz/pub/unix/ispell/, kde jsou zveøejòovány nejnovìj¹í verze.
+
+Slovník je rozdìlen na následující èásti:
+
+hlavni.cat	Pravidelná skloòovaná podstatná jména a pøídavná jména,
+		(vèetnì tìch, která mají kromì pravidelných tvarù jeden
+		nebo více tvarù nepravidelných), v¹echna slovesa, a
+		pøíslovce odvozená od pøídavných jmen flagem R
+nepravid.cat	Nepravidelná podstatná jména a pøídavná jména (jsou
+		uvedeny v¹echny tvary bez flagù)
+nesklon.cat	Nesklonná podstatná a pøídavná jména (mají jediná tvar)
+zajmena.cat	Zájmena
+cislovk.cat	Èíslovky
+prislovc.cat	Pøíslovce (kromì pøíslovcí odvozených z pøídavných jmen
+		flagem R)
+predlozk.cat	Pøedlo¾ky (vèetnì víceslovných)
+spojky.cat	Spojky (vèetnì víceslovných)
+citoslov.cat	Citoslovce
+castice.cat	Èástice
+zkratky.cat	Iniciálové zkratky a zkratky typu napø., apod.
+nezaraz.cat	Dosud nezaøazená slova
+krestni.cat     Køestní jména
+prijmeni.cat    Èeská pøíjmení
+narstjaz.cat    Jména národù, státù a jazykù
+obce.cat        Jména obcí v ÈR
+geogr.cat       Zemìpisná jména v ÈR i ve svìtì, jména mìst mimo ÈR
+cizi.cat        Cizí jména
+nazvy.cat       Ostatní názvy
+
+Zdrojový soubor czech.a-z pro vytvoøení slovníku pro ispell se získá takto:
+
+    perl -pe 'print "echo "' *.cat | sh - | \
+      perl -pe 's/ +/\n/g; s/[{}\.]//g; s/-/\n/g' > czech.a-z
+
+Slouèený soubor se zpracuje pøíkazem buildhash:
+
+    buildhash czech.a-z czech.aff czech.hash
+
+který vytvoøí slovník pro ispell. Po zkopírování souboru czech.aff a
+czech.hash do adresáøe, ve kterém ispell oèekává slovníky, lze ispell
+pou¾ívat pøíkazem
+
+    ispell -d czech kontrolovaný_soubor
+
+Pokud pøi nalezení neznámého slova pøi kontrole textu zvolíte mo¾nost
+I)nsert, pøidá se slovo do souboru $HOME/.ispell_czech. Chcete-li pomoci
+s vytváøením slovníku, za¹lete tento soubor (pokud mo¾no vyèi¹tìný od
+nespisovných a cizích slov a pøípadných HTML znaèek nebo pøíkazù pro
+TeX) na adresu Petr.Kolar@vslib.cz.
+
+Pokud chcete pouze pøispìt k roz¹íøení slovníku a nechcete text zdlouhavì
+interaktivnì kontrolovat, mù¾ete pou¾ít pøíkaz
+
+    ispell -d czech -l < kontrolovaný_soubor > výstup
+
+který pracuje neinteraktivnì a ulo¾í do souboru výstup v¹echna slova
+ze vstupního souboru, která nejsou obsa¾ena ve slovníku spell checkeru.
+Tento výstupní soubor za¹lete pro úèely roz¹iøování slovníku. Zasílejte
+pouze slovníky vzniklé kontrolou souèasných pøevá¾nì spisovných textù
+(Mácha nebo Neruda pravdìpodobnì není na závadu, ale tøeba Bible Kralická
+u¾ vhodná není).
+
+Rozdìlení zdrojového slovníku na èásti je provedeno z toho dùvodu, aby
+bylo mo¾né slovník snadno doplòovat (zatím ov¹em pomù¾e více, kdy¾ po¹lete
+syrový seznam neznámých slov):
+
+Soubor výstup se slouèí se souborem hlavni.cat, retrográdnì setøídí
+(slova se setøídí jako by byla napsaná pozpátku, aby se snadno doplòovaly
+flagy):
+
+    perl retro.p hlavni.cat výstup | perl sort.p | perl retro.p > hlavni1.cat
+
+V souboru hlavni1.cat je pak tøeba (na øádcích, které neobsahují ¾ádné
+lomítko) doplnit flagy. Slova, která do souboru nepatøí (pøíslovce apod.),
+se potom pøemístí do jiných souborù. Na závìr se pøipojí dosud nezaøazená
+slova do nezaraz.cat a výsledkem je nová verze souboru hlavni.cat:
+
+    grep -v / hlavni1.cat >> nezaraz.cat
+    grep / hlavni1.cat > hlavni.cat
+
+Pro doplòování flagù lze pou¾ít i skript blemma - viz soubor ceskeaff.txt.
+Jeho úèinnost je v¹ak pomìrnì nízká a chybovost pomìrnì velká.
+
+                                                  Petr.Kolar@vslib.cz

@@ -1,0 +1,16 @@
+* Wed Jan 10 2001 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.2.1
+- initial aspell support framework
+- more docs
+- Makefile cleaning
+
+* Wed Jan 10 2001 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.2
+- merged my word list with Philippe Argouarch's one : we'v 33281 words now.
+
+* Thu Nov 25 1999 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.2
+- more words (1000<)
+
+* Wed Nov 17 1999 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.1
+- more words
+
+* Tue Nov 05 1999 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1
+- First version (mainly town names and words that i remember)

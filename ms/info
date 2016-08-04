@@ -1,0 +1,17 @@
+name_english Malay
+lang ms
+author:
+  name Norazah Abd Aziz
+  email azahaa at mimos my
+author:
+  name Imran William Smith
+copyright Open Source
+version 0.50-0
+source-version 1.0.3
+charset iso8859-1
+special - -*- _ -*- ` --* . -*-
+soundslike none
+alias ms malay
+dict:
+  name ms
+  add ms

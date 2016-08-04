@@ -1,0 +1,15 @@
+name_english Zulu
+lang zu
+author:
+  name Dwayne Bailey
+  email dwayne at translate org za
+copyright LGPL
+version 0.50-0
+source-version 20030116
+charset iso8859-1
+special - -*-
+soundslike none
+alias zu zulu
+dict:
+  name zu
+  add zu

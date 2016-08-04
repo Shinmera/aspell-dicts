@@ -1,0 +1,6 @@
+name            pt_BR
+charset         iso8859-1
+special         - -*- ' -*- ª --* º --* µ **-
+keyboard        br-abnt2
+affix           pt_BR
+affix-compress  true

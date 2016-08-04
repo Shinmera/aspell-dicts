@@ -1,0 +1,18 @@
+name_english Huastec
+name_native Tenek
+lang hus
+data-file hus_affix.dat
+author:
+  name Jesus Carretero
+  email jesus carretero at uc3m es
+author:
+  name Jose Luis Gonzalez
+  email joseluisg at gmail coms
+copyright GPLv3
+complete unknown
+accurate unknown
+version 0.03-1
+dict:
+  name hus
+  add hus
+

@@ -1,0 +1,29 @@
+
+
+
+Paket za podršku srpskog jezika u programu GNU aspell
+
+Dnevnik promena
+
+* verzija 0.02, 09. 11. 2005.
+
+ - Prvo izdanje zvanično uključeno u listu jezičkih paketa
+   na stranici paketa GNU aspell.
+
+ - Izmenjen sistem imenovanja verzija. Prethodno probno izdanje
+   je 0.1, naredno će biti 0.03
+
+ - Izmenjen naziv rečnika koji sadrži samo ćirilične reči
+   iz "cyr" u "cyrl".
+
+ - Nova kodna stranica sa podrškom za akcentovane vokale
+   Kodna stranica ima promenjen naziv, umesto "u-serbian",
+   sada se koristi "l-sr". Ubuduće ne bi trebalo da dolazi 
+   do promene kodne stranice.
+ 
+ - Uočene neispravne reči su uklonjene iz liste, nove reči
+   su dodate u listu reči
+
+* verzija 0.1 (prvo izdanje), 08. 08. 2005.
+
+ - Prvo nezvanično izdanje, objavljeno na http://srpski.org/aspell

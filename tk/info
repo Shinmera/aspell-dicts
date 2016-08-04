@@ -1,0 +1,21 @@
+name_english Turkmen
+lang tk
+doc-encoding utf-8
+author:
+  name Jumamurat Bayjan
+  email jumamurat at yahoo com
+  maintainer true
+author:
+  name Kevin P. Scannell
+  email kscanne at gmail com
+copyright GPL
+version 0.01-0
+url http://borel.slu.edu/crubadan/
+source-version 0.01
+complete false
+accurate true
+alias tk turkmen
+mode aspell5
+dict:
+  name tk
+  add tk

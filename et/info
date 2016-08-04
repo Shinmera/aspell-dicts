@@ -1,0 +1,14 @@
+name_english Estonian
+lang et
+data-file et_affix.dat
+author:
+  name Pearu Peterson
+  email pearu at cens ioc ee
+copyright LGPL
+version 0.1.21-1
+complete unknown
+accurate unknown
+alias et estonian
+dict:
+  name et
+  add et

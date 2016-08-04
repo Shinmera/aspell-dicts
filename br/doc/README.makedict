@@ -1,0 +1,72 @@
+MAKEDICT program can be used to construct (or extend) dictionary
+by exploring russian texts. This program extracts russian word from 
+standard input, inserts them into hash table and then tries to
+apply some heuristic rules to produce new forms of each word.
+Only words with occurrence count less than some predefined value 
+depending on the length of the word are ignored (assumed to be mistyping).  
+Currently we reject all words with counter less than
+
+MIN_COUNT + average_count(length(word))/count(word)/DISPERSION
+
+where DISPERSION and MIN_COUNT parameters can be specified from command line.
+Default value for MIN_COUNT is 2 and for DISPERSION is 50.
+
+If "-check" option is specified special checking algorithm is used to 
+throw away all possible mistypings. We use the following rule:
+if word with counter less than checking threshold specified by "-check" 
+option can be transformed by adding, removing or replacing any one letter
+to another word which has counter DISPERSION times bigger, then
+first word is removed from dictionary (assumed to be mistyping).
+To implement this algorithm another hash table is used. For each word
+two new elements are inserted in this hash table with hash values 
+calculated for two half of the word (so if error is in one half
+of the word then hash values for another part will be equal with
+correspondent hash value calculated for correct word).
+
+Rules which are used for generation of new forms of a word are not real 
+rules of russian language word declension but
+some heuristics allowing to produce most frequently used forms and 
+possibly not generate words with mistakes 
+(sometimes it is difficult to distinguish forms of nouns, 
+verbs and adjectives). To choose concrete rule algorithm tries to locate
+specified suffixes in the word. If suffix is found then we construct
+all forms of word using suffixes from rule and root of the word and
+look for them into the dictionary. The rule with the biggest number of
+matches is chosen (but only if number of matches is bigger than
+MIN_MATCH parameter). Default value for MIN_MATCH is 2. 
+
+At the final stage program outputs words from hash table to standard output
+using ISPELL affix rules as well as file with affix rules (if option -aff
+is specified). Dictionary and affix files can be used by BUILDHASH
+utility to create hash file for ISPELL.
+
+Below is small description of MAKEDICT command line options: 
+
+-alt		   assume input is in alternative DOS character set (default)
+-koi		   assume input in in KOI-8 character set
+-aff    	   generate affix file "russian.aff"
+-wc		   output count of occurrence for each word
+-stat     	   output statistics for average word occurrence
+-read              read list of words with counters (see below)
+-mincount <number> specify value of MIN_COUNT 
+-maxcount <number> specify miximal count of word to be placed in dictionary
+-match <number>    specify value of MIN_MATCH 
+-check <number>    specify checking threshold
+-disp  <number>    specify value of DISPERSION 
+
+As far as scanning all input sources takes a lot of time, 
+it is useful to create once list of all words with counters of occurrences
+and then read only this file (it is much faster). List of all words
+with occurrence counters can be produced by MAKEDICT with the following options
+
+MAKEDICT -wc -count 0 -match 100 < input-source > word-list-file
+
+You can then perform various experiment with different values of 
+parameters and list of rules, using produced file with word list as input:
+
+MAKEDICT -read ... < word-list-file > dictionary
+
+Dictionary produced by MAKEDICT utility can be sort by 'sort' utility.
+
+
+

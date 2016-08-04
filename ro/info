@@ -1,0 +1,41 @@
+name_english Romanian
+name_native Română
+lang ro
+mode aspell5
+author:
+  name Lucian Constantin (rospell)
+  email struct_bylighting at yahoo dot com
+author:
+  name Alexandru Szasz (Mozilla and OpenOffice.org Romanian Translation Team)
+author:
+  name Ionut Paduraru (http://www.archeus.ro)
+author:
+  name Adrian Stoica (OpenOffice.org Romanian Translation Team)
+  email adrian dot stoica at cuvinte dot ro
+author:
+  name Nicu Buculei (OpenOffice.org Romanian Translation Team)
+  email nicu at apsro dot com
+author:
+  name Catalin Francu (DEX Online Team, http://dexonline.ro)
+author:
+  name Ionel Mugurel Ciobica (previous aspell releases)
+  email tgakic at sg10 chem tue nl
+author:
+  name Mihai Budiu (ispell dictionary)
+  email mihaib at cs cmu edu
+copyright GPLv2
+source_url http://rospell.sourceforge.net
+source_version 3.3.2
+version 3.3-2
+accurate true
+complete almost
+alias ro romanian
+alias ro-classic romanian-classic
+dict:
+	name ro
+	add ro-common
+	add ro-only
+dict:
+	name ro-classic
+	add ro-common
+	add ro-classic-only

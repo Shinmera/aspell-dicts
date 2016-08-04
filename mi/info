@@ -1,0 +1,15 @@
+name_english Maori
+lang mi
+author:
+  name Tristan Burtenshaw
+author:
+  name Dr. Mark Laws
+copyright LGPL
+version 0.50-0
+charset iso8859-4
+soundslike none
+special - -*-
+alias mi maori
+dict:
+  name mi
+  add mi

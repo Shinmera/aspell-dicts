@@ -1,0 +1,22 @@
+name_english Italian
+name_native Italiano
+name_ascii Italiano
+lang it
+version 2.2_20050523-0
+author:
+  name Gianluca Turconi
+  email luctur at comeg dot it
+author:
+  name Davide Prina
+  email davideprina at yahoo dot com
+  maintainer true
+copyright GPL
+accurate false
+complete true
+alias it italian italiano
+dict:
+  name it
+  add it
+data-file it_affix.dat
+source_url https://sourceforge.net/projects/linguistico/
+source-version 2.2-beta-20050523

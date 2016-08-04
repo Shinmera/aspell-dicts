@@ -1,0 +1,19 @@
+name_english Slovak
+name_native Slovenský
+lang sk
+author:
+  name Zdenko Podobný
+  email zdposter at gmail com
+  maintainer true
+copyright Open Source
+copyright_desc released under 3 licences: LGPLv2.1, GPLv2, MPLv1.1
+url http://www.sk-spell.sk.cx/aspell-sk
+version 2.01-2
+accurate true
+complete false
+mode aspell6
+data-file sk_affix.dat
+alias sk sk_SK slovak slovensky
+dict:
+  name sk
+  add sk

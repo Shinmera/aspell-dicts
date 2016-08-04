@@ -1,0 +1,15 @@
+Aspell imla kýlavuzu için Türkçe sözlük Ýkinci Sürüm 19-01-2001
+
+Eðer daha önceki aspell-tr-01.tar.gz dosyasýný sisteminize yüklemediyseniz :
+
+1) turkish.dat dosyasýný /usr/lib/aspell dizini altýna kopyalayýnýz
+2) turkish dosyasýný  /usr/lib/aspell dizini altýna kopyalayýnýz
+
+Eðer daha önceden aspell-tr-01 sürümünü yüklediyseniz o takdirde sadece ikinci adýmý
+uygulayýnýz.
+
+Bu sürümde kelimeler listesi bulunmamaktadýr. Toplam kelime sayýsý 51380'den 80376'ya
+çýkmýþtýr.
+
+Togan Muftuoglu
+togan@users.sourceforge.net 

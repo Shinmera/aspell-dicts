@@ -1,0 +1,20 @@
+name_english Setswana
+lang tn
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+  maintainer true
+author:
+  name  Thapelo Otlogetswe
+  email Thapelo.Otlogetswe at itri brighton ac uk
+copyright GPL
+version 1.0.1-0
+url http://borel.slu.edu/crubadan/index.html
+source-version 1.0.1
+alias tn setswana tswana
+complete false
+accurate true
+mode aspell5
+dict:
+  name tn
+  add tn

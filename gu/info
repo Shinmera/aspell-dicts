@@ -1,0 +1,23 @@
+name_english Gujarati
+name_native ગુજરાતી
+lang gu
+data-file u-gujr.cset
+data-file u-gujr.cmap
+author:
+  name Kartik Mistry
+  name-native કાર્તિક મિસ્ત્રી
+  email kartik dot mistry at gmail dot com
+  maintainer true
+author:
+  name Utkarsh Project volunteers
+  email team at utkarsh dot org
+copyright GPL
+url http://sourceforge.net/projects/aspell-gu/
+version 0.03-0
+complete false
+accurate true
+alias gu gujarati
+dict:
+  name gu
+  add gu
+notes Based on Gnome, OpenOffice and others Gujarati PO Files

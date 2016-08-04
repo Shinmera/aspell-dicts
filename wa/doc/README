@@ -1,0 +1,76 @@
+This is a Walloon dictionnary for the ispell spell checker program.
+
+ Copyright (c) 2000-2003 Pablo Saratxaga
+ Copyright (c) 2000-2001 Lucyin Mahin
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. This software can be
+    obtained from http://chanae.walon.org/walon/
+
+This set of data files implements a Walloon dictionary to be used with
+the international ispell program, version 3.1.13 or further.
+
+If you want to run the Walloon dictionary, you have to undefine the
+NO8BIT macro in the local.h configuration file.
+
+
+Walloon is a roman language spoken in Wallonia, south of Belgium.
+You can have more information about Walloon language at the following URL:
+http://www.wallonie.com/wallang/wal-wal.htm
+
+Here is a short description of how this dictionnary works; for more detailed
+explanations, in Walloon, read the LEJHOZMU file.
+
+Pablo Saratxaga
+November 2000
+
+========================================================================
+
+The way ispell works is simple, it defines some rules to derivate words from
+stem words in the *.aff file; those rules are regrouped under "flag" entries;
+a flag is a set of rules. There are also two kind of flags: suffixes (they
+apply to end of a word) and prefixes (they apply to beginning of a word).
+
+Then, a list of words is created, and for each of them none, one or several
+flags are appended, so that ispell knows that from that stem word all
+combinations produced by the indicated flags will produce a correct word.
+That technique allows to provide a smaller list of words (no need to provide
+each form for conjugation or plural, gender etc).
+
+The different available flags are:
+"v": a suffix flag, it is for verbs, it will derivate all (or near all) the
+     verbal forms of regular and "regularly irregular" verbs. Two forms for
+     each verb must be given: past participle and 2d person of present tense.
+     eg for verb "tchanter" the two forms "tchanté" and "tchantes" are given.
+"s": a suffix flag, it tells that the word can have a plural by adding an "s"
+     (this one is the simplest rule :) )
+"i": a prefix flag, this handle a particularity of Walloon language which is
+     the ellision of the first vowel of some words and verbs in some cases
+     eg: tchivå -> tchvå, sicole -> scole, comére -> cmére,...
+"n": a suffix flag, used mainly with nouns; it creates the plural, feminine,
+     and feminine plural from the masculine version.
+"a": a suffix flag, used for adjectives. it is almost identical to "n" flag,
+     but it adds a rule for the -ès ending of feminine plural adjectives
+     before the word.
+"r": creates the feminine versions with -resse (eg: braibandî -> braibandresse)
+"j": creates a word in -aedje (and its plural -aedjes) from a verb (this
+     flag must be used with the past participle form of the verbs)
+"t": creates adjectives in -ant from verbs
+"c": creates words in -ance from verbs
+"m": - for nouns: creates an adverb in -mint
+     - for verbs: creates a noun in -mint
+
+"P" and "S" are special entries never used in the wordlist, but that will
+suggest several possibilities when an unknown word is found in a text that
+may result of a known stem word plus some of the ruls in "P" and "S".
+"P" adds some prefixes like dis- ra- raca- ri-
+"S" tries various suffixes and derivations, like -åcion, -rece, -mint,
+and the euphonic liaison letters -z, -t, -st
+
+

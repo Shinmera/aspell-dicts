@@ -1,0 +1,21 @@
+name_english Sardinian
+lang sc
+author:
+  name  Francesco Cheratzu
+  email f.cheratzu at tiscali it
+  maintainer true
+author:
+  name  Mario Puddu
+  email mapud at tiscali it
+author:
+  name  Narciso Caddeo
+copyright GPL
+version 1.0
+url http://www.ditzionariu.org/
+complete true
+accurate unknown
+mode aspell5
+alias sc srd sardinian
+dict:
+  name sc
+  add sc

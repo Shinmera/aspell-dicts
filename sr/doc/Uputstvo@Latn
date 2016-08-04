@@ -1,0 +1,56 @@
+
+Paket za podršku srpskog jezika u programu GNU aspell
+0.02, 09. 11. 2005.
+
+
+UPUTSTVO ZA INSTALACIJU
+
+Paket je izrađen pomoću GNU aspell alata za kreiranje jezičkih paketa tako da se njegova 
+instalacija obavlja na isti način kao i instalacija paketa za druge jezike.
+
+Najpre raspakujte arhivu komandom:
+
+  tar -xvjf aspell6-sr-0.02.tar.bz2
+
+Zatim uđite u novonastali direktorijum:
+
+  cd aspell6-sr-0.02
+
+Ako su alati prezip-bin i aspell u putanji sistema, pokrenite proces konfigurisanja komandom:
+
+  ./configure
+
+Ukoliko sve prođe kako treba, izlaz bi trebao biti nalik na:
+
+  Finding Dictionary file location ... /usr/local/lib/aspell
+  Finding Data file location ... /usr/local/share/aspell
+
+u suprotnom nešto nije u redu.
+
+Sledeće što trebate uraditi jeste kreiranje paketa komadnom:
+
+  make
+
+A onda ga instalirati komandom:
+
+  make install
+
+Zavisno od podešavanja Vašeg sistema, u poslednjem koraku će vam možda trebati privilegije 
+root korisnika na sistemu.
+
+Ako gore pomenuti programi nisu u putanji sistema, morate podesiti varijable okruženja ASPELL 
+i PREZIP na vrednosti koje odgovaraju putanjama programa.
+
+Da biste uklonili zaostale datoteke nakon kreiranja paketa pozovite komandu:
+
+  make clean
+
+Da biste uklonili paket podrške, pokrenite:
+
+  make unistall
+
+
+Nakon što je rečnik instaliran na Vašem sistemu, možete podesiti lokalitet ili LANG varijablu 
+okruženja na sr, odnosno sr_CS ali možete i direktno proslediti "--lang=sr" pri pozivu programa 
+GNU aspell. Da biste uključili proveru teksta napisanog samo ćirilicom ili samo latiniciom, 
+iskoristite opciju "--variety=cyrl" ili "--variety=latn".

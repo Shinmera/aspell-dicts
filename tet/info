@@ -1,0 +1,19 @@
+name_english Tetum
+lang tet
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+author:
+  name  Peter Gossner
+  email gossner at arcom com au
+  maintainer true
+copyright GPL
+version 0.1.1
+url http://www.gnu.org/software/tetum/dictionaries/spellcheckers.html
+complete false
+accurate unknown
+mode aspell5
+alias tet tetum tetun
+dict:
+  name tet
+  add tet

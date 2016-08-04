@@ -1,0 +1,24 @@
+name_english Scottish Gaelic
+name_ascii Gaidhlig
+name_native Gàidhlig
+lang gd
+data-file gd_phonet.dat
+doc_encoding iso-8859-1
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+  maintainer true
+author:
+  name  Alastair McKinstry
+  email mckinstry at computer org
+copyright GPL
+version 0.1.1-1
+url http://borel.slu.edu/crubadan/
+source-version 0.1.1
+alias gd gaidhlig
+complete false
+accurate true
+mode aspell5
+dict:
+  name gd
+  add gd

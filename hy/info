@@ -1,0 +1,24 @@
+name_english Armenian
+name_native Հայերեն
+lang hy
+data-file u-armn.cset
+data-file u-armn.cmap
+data-file hy_affix.dat
+author:
+  name Alan Baghumian
+  email alan at technotux org
+  maintainer true
+author:
+  name  Arthur Serkis
+  email serkis at gmail com
+copyright GPL
+version 0.10.0-0
+source_version 0.10.0
+mode aspell6
+complete false
+accurate true
+alias hy armenian
+
+dict:
+  name hy
+  add hy-common

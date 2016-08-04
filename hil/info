@@ -1,0 +1,19 @@
+name_english Hiligaynon
+lang hil
+author:
+  name  Francis Dimzon
+  email fdimzon at yahoo com 
+  maintainer true
+author:
+  name Kevin Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.11-0
+source-version 0.11
+complete false
+accurate true
+alias hil
+mode aspell5
+dict:
+  name hil
+  add hil

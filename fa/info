@@ -1,0 +1,48 @@
+name_english Persian
+name_native فارسی
+lang fa 
+data-file l-fa.cset
+data-file l-fa.cmap
+author:
+  name Alan Baghumian
+  email alan at technotux org
+  maintainer true
+author:
+  name  Gostareh Negar Co.
+  email info at gnco ir
+author:
+  name  Babak Mahmoudi
+  email babak at gnco ir
+author:
+  name Edwin Hakopian
+  email edwin at gnco ir
+author:
+  name Sharareh Kheiri
+  email shery at pariansoft com
+author:
+  name Roozbeh Pournader
+  email roozbeh at farsiweb info
+copyright GPL
+version 0.11-0
+source_version 0.11
+mode aspell6
+complete false
+accurate true
+alias fa farsi persian
+
+dict:
+  name fa
+  add fa-common
+  add fa-scientific
+
+dict:
+  name fa-scientific
+  add fa-scientific
+
+dict:
+  name fa-generic
+  add fa-generic
+
+dict:
+  name fa-common
+  add fa-common

@@ -1,0 +1,27 @@
+name_english Serbian
+name_ascii Srpski
+name_native Српски
+lang sr
+complete false
+accurate true
+data-file l-sr.cset
+data-file l-sr.cmap
+doc-encoding utf-8
+author:
+  name Goran Rakic
+  name-native Горан Ракић
+  email gox at devbase net
+  maintainer true
+copyright LGPL
+version 0.02
+url http://srpski.org/aspell/
+dict:
+  name sr-cyrl
+  add sr-cyrl-only
+dict:
+  name sr-latn
+  add sr-latn-only
+dict:
+  name sr
+  add sr-cyrl-only
+  add sr-latn-only

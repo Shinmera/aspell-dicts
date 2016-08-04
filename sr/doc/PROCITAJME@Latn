@@ -1,0 +1,52 @@
+
+
+
+Paket za podršku srpskog jezika u programu GNU aspell
+0.02, 09. 11. 2005.
+
+
+Pripremio i izdao Goran Rakić, <gox na devbase tacka net>. Paket je objavljen pod GNU 
+LGPL licencom (kopija licence je dostavljena u paketu)  i objavljen je na lokaciji 
+http://www.srpski.org/aspell/
+
+U listi reči se nalazi i 133986 reči dobijenih iz Korpusa savremenog srpskog jezika 
+izgrađenom na Matematičkom fakultetu Univerziteta u Beogradu ukupne veličine 25MW 
+sastavljen od strane Grupe za jezičke tehnologije MATF. Lista reči je ustpljena pod 
+GNU LGPL licencom za potrebe formiranja GNU aspell i MySpell rečnika srpskog jezika. 
+Dodatno, ispravnost 284420 drugih reči, iz korpusa formiranog iz tekstova objavljenih 
+na internetu, je provrena propuštanjem kroz pomenuti Korpus savremenog srpskog jezika 
+čime je 150080 reči označeno kao potencijalno neispravno. Ovom prilikom se
+zahvaljujem profesoru Dušku Vitasu sa Matematičkog fakulteta Univerziteta u Beogradu 
+na ukazanoj pomoći i ustupljenim resursima. Više informacija o Korpusu savremenog 
+srpskog jezika možete pronaći na lokaciji http://korpus.matf.bg.ac.yu.
+
+Zahvaljujem se i Viktoru Kerkezu <alef na uns.ns.ac tacka yu> na listi reči iz koje
+se 281865 reči našlo u ovom izdanju. 762 potpuno novih reči je prisutno samo zahvaljujući
+ovoj listi.
+
+Takođe, osećam potrebu da se zahvalim i Tanji Samardžić sa Filološkog fakulteta
+Univerziteta u Beogradu na savetima i pomoći u proveri ispravnosti reči. Neke
+njene sugestije su već primenjene na ovo izdanje, ali će veći deo biti primenjen u
+narednim izdanjima.
+
+Rečnik u ovoj verziji još uvek ne koristi afiksna pravila i sadrži 343242 reči 
+i njihovih oblika.
+
+Paket sadrži tri rečnika (ćirilica, latinica i kombinovani) i dve liste reči 
+(ćirilica i latinica). Podrazumevani je kombinovani rečnik. Da biste uključili 
+proveru samo teksta napisanog na ćirilici, odnosno latinici iskoristite opciju 
+"--variety" pri pozivu programa. Reči su zapisane u UTF-8 kodnoj stranici,  
+normalizovanoj na posebnu 8bit-nu kodnu stranicu pod imenom l-sr. GNU aspell  
+datoteke l-sr.cset i l-sr.cmap su priložene u paketu. Za opis kodne stranice,
+pogledajte datoteku misc/l-sr.txt u distribuciji. Kodna stranica podržava
+akcentovane vokale, ali se u ovom izdanju u rečniku ne nalaze reči sa akcentovanim
+vokalima. Autor se zahvaljuje Kevinu Etkinsonu, koordinatoru razvoja programa 
+GNU aspell na pomoći pri kreiranju kodne stranice.
+
+Biću obradovan ukoliko Vi kao korisnici pokažete bilo kakvu incijativu u 
+vezi ispravke grešaka u rečima u rečniku ili u vezi dopune rečnika novim rečima.
+U planu je otvaranje stranica na lokaciji ovog paketa preko koje će korisnici
+biti u mogućnosti da u rečnik uvezu svoje lične rečnike, kao i da pomognu u proveri
+ispravnosti reči koje se sada nalaze u rečniku.
+
+Autora možete kontaktirati na e-adresu navedenu u zaglavlju ove datoteke.

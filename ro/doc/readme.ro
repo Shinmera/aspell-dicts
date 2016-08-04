@@ -1,0 +1,11 @@
+Informații privind dicționarele incluse:
+
+Următoarele dicționare sunt incluse în pachet:
+
+- ro  - ortografia românească curentă (â/sunt)
+- ro-classic  - ortografia românească de dinainte de 1993 (î/sînt)
+
+Aspell folosește implicit ortografia curentă. Ca să treceți la ortografia clasică adăugați
+"master ro-classic" în fișierul .aspell.conf. Fișierul se găsește în directorul home al
+utilizatorului.
+

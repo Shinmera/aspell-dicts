@@ -1,0 +1,27 @@
+
+                    Svenska Ordlistan (1.3)
+
+The Swedish Dictionary for Spell Checking from SSLUG. This series of releases
+contains all words from our word list, that have been verified as correct by
+at least one (?) reviewer.
+
+You can read more about the project at:
+
+   http://sv.speling.org/
+
+Download the latest edition of this series from:
+
+   http://sv.speling.org/filer/
+
+----------------------------------------------------------------------------
+
+Ifall du finner några fel på ordlistan kan du rapportera det till:
+
+                   http://sv.speling.org/fejlmelding/
+
+----------------------------------------------------------------------------
+
+You install the aspell wordlist with the commands:
+
+   $ make ; make install
+

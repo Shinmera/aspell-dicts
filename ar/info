@@ -1,0 +1,24 @@
+name_english Arabic
+name_native عربي
+lang ar 
+data-file l-ar.cset
+data-file l-ar.cmap
+data-file ar_affix.dat
+author:
+  name  Ethan Bradford
+  email ethanrbradford at users.sourceforge.net 
+  maintainer true
+author:
+  name  Gökalp Yapici
+  email alpy_seattle at users.sourceforge.net
+  maintainer true
+copyright GPL
+version 1.2-0
+url https://sourceforge.net/projects/arabic-spell/ 
+complete true
+accurate true
+alias ar arabic
+dict:
+  name ar
+  add ar
+

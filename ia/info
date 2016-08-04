@@ -1,0 +1,18 @@
+name_english Interlingua
+lang ia
+author:
+  name Ove Hanebring
+  email ove hanebring at comhem se
+author:
+  name Peter Kleiweg
+author:
+  name Piet Cleij
+copyright LGPL
+version 0.50-1
+charset iso8859-1
+special ' -*- - -*-
+soundslike none
+alias ia interlingua
+dict:
+  name ia
+  add ia

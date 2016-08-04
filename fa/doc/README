@@ -1,0 +1,30 @@
+GNU Aspell 0.60 Persian (فارسی) Dictionary Package
+Version 0.10-0
+2006-09-10
+-------------------------------------------------------------------
+A Short description of currently available dictionaries
+-------------------------------------------------------------------
+fa:
+	Default dictionary that uses fa-common,fa-generic and 
+	fa-scientific together.	
+
+fa-common:  
+	Persian common word list with about 300,000 words. The 
+	original word list used for this package was generated
+	using Gostareh Negar Farsi spell-checker.
+
+fa-generic: 
+	A rewrite of Persian common from scratch that will replace 
+	fa-common when it is complete. It's created by Rouzbeh 
+	Pournader of FarsiWeb Inc and edited by Alan Baghumian.
+
+fa-scientific: 
+	Persian scientific word list. This dictionary contains
+	scientific words from electronics, physics, biology, IT
+	and etc. It's collected by Alan Baghumian. 
+-------------------------------------------------------------------
+For installation instructions, see ../README
+-------------------------------------------------------------------
+We are planning to improve quality of word list in our next 
+releases.
+-------------------------------------------------------------------

@@ -1,0 +1,13 @@
+The Aspell Indonesian dictionary is based on the MySpell One:
+
+  Indonesian spell-checker and hyphenator for OpenOffice.org
+  Version 1.0 - 19-02-2004
+  Version 1.1 - 06-04-2004
+  Archives id_ID.dic, id_ID.aff and hyphen_id_ID.dic were created from
+    scratch by
+  Author: Benitius Brevoort <benitius.brevoort@kapusin.org>
+  Copyright (c) 2004, held by Author
+  under the terms of the GNU General Public License.
+
+Original MySpell README file and affix file can be found in the doc/
+directory.

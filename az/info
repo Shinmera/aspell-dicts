@@ -1,0 +1,25 @@
+name_english Azerbaijani
+name_native Azərbaycanca
+lang az
+data-file l-az.cset
+data-file l-az.cmap
+author:
+  name  Metin Amiroff
+  email metin at karegen com
+author:
+  name  Orkhan Jafarov
+  email oceferov at yahoo com
+  maintainer true
+author:
+  name Kevin P. Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.02-0
+source_version 0.02
+url http://borel.slu.edu/crubadan/
+complete false
+accurate true
+alias az azeri azerbaijani
+dict:
+  name az
+  add az

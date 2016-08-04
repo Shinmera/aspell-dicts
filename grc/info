@@ -1,0 +1,17 @@
+name_english Ancient Greek
+lang grc
+data-file l-grc.cset
+data-file l-grc.cmap
+author:
+  name Federico Boschetti
+  email federico boschetti 73 at gmail com
+copyright GPLv3
+#url http://www.himeros.eu
+version 0.02-0
+source-version 0.02
+accurate true
+complete true
+#alias grc unknown
+dict:
+  name grc
+  add grc

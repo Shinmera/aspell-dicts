@@ -1,0 +1,17 @@
+name_english Indonesian
+name_native Bahasa Indonesia
+lang id
+author:
+  name Benitius Brevoort
+  email benitius at tiscali it
+  maintainer true
+copyright GPL
+version 1.2-0
+source-version 1.2
+alias id indonesian
+complete false
+accurate true
+mode aspell5
+dict:
+  name id
+  add id

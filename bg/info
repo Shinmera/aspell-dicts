@@ -1,0 +1,21 @@
+name_english Bulgarian
+name_native Български
+lang bg
+data-file bulgarian.kbd
+data-file bg_phonet.dat
+data-file bg_affix.dat
+author:
+  name Radostin Radnev
+  name-native Радостин Раднев
+  email radnev at yahoo com
+copyright GPLv2
+version 4.1-0
+url http://bgoffice.sourceforge.net/
+mode aspell6
+complete true
+accurate true
+alias bg bulgarian
+dict:
+  name bg
+  add bg
+

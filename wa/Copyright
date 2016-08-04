@@ -1,0 +1,21 @@
+This is a Walloon dictionary for the aspell spell checker program.
+
+ Copyright (c) 2000-2003 Pablo Saratxaga
+ Copyright (c) 2000-2001 Lucyin Mahin
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. This software can be
+    obtained from http://chanae.walon.org/walon/
+
+Walloon is a roman language spoken in Wallonia, south of Belgium.
+You can have more information about Walloon language at the following URL:
+http://www.wallonie.com/wallang/wal-wal.htm
+
+Here is a short description of how this dictionnary works; for more detailed
+explanations, in Walloon, read the LEJHOZMU file in the doc directory.

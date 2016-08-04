@@ -1,0 +1,9 @@
+This is a very preliminary step at making a usable aspell dictionary for
+Oriya. The current version has many shortcomings: (a) the wordlist is limited,
+and far from being a real dictionary. It is based on the Rebati glossary of
+computer-related terms, and is largely drawn from the GNOME glossary.
+(b) support for advanced aspell features like affixes and soundslike is
+lacking.
+  The complete aspell distribution as well as the source files (in PDf and
+UTF-8) for the original Rebati glossary are available from under
+http://oriya.sarovar.org/dictionary.html.

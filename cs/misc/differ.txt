@@ -1,0 +1,18 @@
+expansion of "Grodeckı/N" differ
+  aspell: Grodeckı neGrodeckı
+  ispell: Grodeckı Negrodeckı
+expansion of "Norman/E" differ
+  aspell: Norman nejNorman
+  ispell: Nejnorman Norman
+expansion of "Sedmibolestnı/N" differ
+  aspell: Sedmibolestnı neSedmibolestnı
+  ispell: Nesedmibolestnı Sedmibolestnı
+expansion of "TeXovı/N" differ
+  aspell: TeXovı neTeXovı
+  ispell: NETeXovı TeXovı
+expansion of "ledòáèKùv/Y" differ
+  aspell: ledòáèKova ledòáèKovi ledòáèKovo ledòáèKovou ledòáèKovu ledòáèKovy ledòáèKovıch ledòáèKovım ledòáèKovıma ledòáèKovımi ledòáèKovì ledòáèKùv
+  ispell: ledòáèKOVA ledòáèKOVI ledòáèKOVO ledòáèKOVOU ledòáèKOVU ledòáèKOVY ledòáèKOVİCH ledòáèKOVİM ledòáèKOVİMA ledòáèKOVİMI ledòáèKOVÌ ledòáèKùv
+expansion of "©ackı/N" differ
+  aspell: ne©ackı ©ackı
+  ispell: Ne¹ackı ©ackı

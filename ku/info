@@ -1,0 +1,25 @@
+name_english Kurdi
+name_native KurdÃ®
+lang ku
+doc-encoding iso-8859-9
+author:
+  name  Erdal Ronahi
+  email erdal ronahi at gmx net
+  maintainer true
+author:
+  name Rêzan Tovjîn
+  email retovjin at hotmail com
+author:
+  name Kevin P. Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.20-1
+source-version 0.20
+url http://sourceforge.net/projects/myspellkurdish/
+complete false
+accurate true
+alias ku kurdi kurdish
+mode aspell5
+dict:
+  name ku
+  add ku

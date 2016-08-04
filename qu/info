@@ -1,0 +1,17 @@
+name_english Quechua
+name_native Runasimi (qheshwa)
+lang qu
+data-file qu_affix.dat
+author:
+  name  Amos Batto
+  email abatto at indiana edu
+  maintainer true
+copyright GPL
+version 0.02-0
+source-version 0.02
+complete false
+accurate true
+alias qu quechua
+dict:
+  name qu
+  add qu

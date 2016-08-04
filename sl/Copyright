@@ -1,0 +1,24 @@
+The Aspell Slovenian dictionary is based on the MySpell One:
+
+  This Slovenian dictionary was created by (in alphabetical order):
+     Amebis, d.o.o.
+     Toma"z Erjavec
+     Ale"s Ko"sir
+     Primo"z Peterlin
+
+  The Slovenian dictionary is covered by the GNU GPL License and
+  supports Slovenian language (sl_SI)
+
+  The affix file was adapted by:
+  Robert Ludvik, <r@aufbix.org>
+
+  Project was supported in part by Ministry of Information Society (MID,
+  Republic of Slovenia) and Linux User Group of Slovenia (Lugos).
+
+  Bug report: <ales.kosir@pingo.org>
+
+Several words ending in '.' were removed because Aspell 0.50 can not
+handle them correctly.
+
+Original MySpell README file and affix file can be found in the doc/
+directory.

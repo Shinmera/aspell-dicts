@@ -1,0 +1,17 @@
+name-english Amharic
+name-native አማርኛ
+lang am
+data-file s-ethi.cset
+data-file s-ethi.cmap
+data-file am_affix.dat
+data-file am_phonet.dat
+author:
+  name Daniel Yacob
+copyright Public Domain
+version 0.03-1
+complete false
+accurate true
+alias am amharic
+dict:
+  name am
+  add am

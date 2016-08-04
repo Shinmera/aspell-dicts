@@ -1,0 +1,16 @@
+name_english Maltese
+lang mt
+version 0.50-0
+source-version 0.3
+charset iso8859-3
+soundslike phonet
+author:
+  name Ramon Casha
+  email ramon casha at linux org mt
+url http://linux.org.mt/projects/spellcheck
+copyright LGPL
+special ' --*  - --*
+alias mt maltese malti
+dict:
+  name mt
+  add mt

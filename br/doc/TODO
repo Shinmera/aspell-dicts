@@ -1,0 +1,26 @@
+TODO:
+-----
+
+* support mutations (urgent)
+* support of hen-brezoneg ("brezhoneg kozh" aka "old breton"), les
+  graphies KLT, ZH (peurunvan aka "breton totally united"), Skolveurieg
+  (aka "university breton") [maybe] and etrerannyezhel (aka
+  "super-united breton")
+  Of course, current is _peurunvan_.
+* more (or less?) utils
+
+IN PROGRESS:
+------------
+* clean Makefile
+* [RPM] provide aspell support too [PARTIAL]
+
+DONE:
+-----
+* more docs
+* [RPM] split aspell & ispell packages
+* [RPM] ispell-br => spell-br
+* [RPM] move scripts from %post to %install
+* [RPM] major spec cleaning and simplification
+	- use more macros
+	- move all post{un,} scripts in %%install
+* clean word list for lord BuildHash

@@ -1,0 +1,21 @@
+name_english Asturian
+name_native Asturianu
+name_ascii Asturianu
+lang ast
+data-file ast_affix.dat
+data-file l-ast.cmap
+data-file l-ast.cset
+author:
+  name Xesús González Rato
+  email esbardu at softastur org
+  maintainer true
+url http://softastur.org/Aspell
+copyright GPLv2
+version 0.01
+accurate true
+complete almost
+alias ast asturianu
+dict:
+  name ast
+  add ast
+

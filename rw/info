@@ -1,0 +1,23 @@
+name_english Kinyarwanda
+lang rw
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+  maintainer true
+author:
+  name  Steve Murphy
+  email murf at e-tools com 
+author:
+  name  Philibert Ndandali
+  email ndandali at yahoo fr
+copyright GPL
+version 0.50-0
+url http://borel.slu.edu/crubadan/index.html
+source-version 1.0
+charset iso8859-1
+special	' -*- - -*-
+soundslike generic
+alias rw
+dict:
+  name rw
+  add rw

@@ -1,0 +1,19 @@
+name_english Telugu
+name_native తెలుగు
+lang te
+data-file u-telu.cset
+data-file u-telu.cmap
+author:
+  name Khader
+  name_native ఖాదిర్
+  email khader69 at rediffmail com
+copyright GPL
+version 0.01-2
+source-version 1
+complete false
+accurate false
+url http://telugu.sarovar.org/wiki/index.php/Wordlist%20and%20Dictionaries
+alias te telugu
+dict:
+  name te
+  add te

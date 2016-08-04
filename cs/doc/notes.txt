@@ -1,0 +1,20 @@
+
+The word list used corresponds to the file cs.nocwl created with "make
+aspell-new" in an yet to released version (20040614) of the ispell-czech
+file, sent to me by the author.
+
+The affix file is created using the aff2oo.pl script found in the
+misc/ directory.  This script differs from the one proved in the
+original ispell-czech package in a number of ways.
+
+Due to the fact that Aspell and Ispell handle case differently when
+expanding affixes the expansion a few of the base words in the word
+list are different for Aspell and Ispell.  Since I was unsure what
+the desirable behavior was I simply removed those affixes using the
+comp.pl script which can be found in the misc/ directory.  The output
+of this script, which lists the affixes that were removed, is also
+included in the file differ.txt.
+
+Kevin Atkinson
+2004-08-24
+

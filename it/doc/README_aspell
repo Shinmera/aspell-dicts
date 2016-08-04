@@ -1,0 +1,307 @@
+GNU Aspell Italian Word List Package
+Ver. 0.60-1
+29-03-2005 (dd/mm/yyyy)
+
+Aspell is created by Kevin Atkinson (kevina [at] gnu [dot] org)
+
+This dictionary files are created by Davide Prina (DavidePrina [at] yahoo [dot] com)
+
+For English Readers: please see the text at the end of this document
+
+----------------------------------
+
+**********************************
+***********  Italiano  ***********
+**********************************
+
+INDICE
+
+1) INTRODUZIONE
+2) COPYRIGHT
+3) LICENZA
+4) COME CREARE IL DIZIONARIO PER ASPELL
+5) COME INSTALLARE IL DIZIONARIO PER ASPELL
+6) DOVE TROVARE NUOVE VERSIONI
+7) NOTE
+
+
+***************
+1. INTRODUZIONE
+
+Questa documentazione riguarda il dizionario italiano per GNU/Aspell.
+
+Il dizionario italiano per Aspell è stato ottenuto usando il dizionario italiano creato per MySpell. MySpell è un programma creato per OpenOffice.org ed usato da altri prodotti quali mozilla-thunderbird, mozilla-firefox (plug-in spell-bound), mozilla, ...
+
+Questo dizionario funziona con versioni di Aspell >= 0.60
+
+
+************
+2. COPYRIGHT
+
+Il dizionario italiano è distribuito con i seguenti copyright:
+Copyright (C) 2001, 2002 Gianluca Turconi
+Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+Copyright (C) 2004, 2005  Davide Prina
+
+Gli autori sono contattabili ai seguenti indirizzi E-Mail:
+Gianluca Turconi: luctur (at) comeg (dot) it
+Davide Prina: DavidePrina (at) yahoo (dot) com
+
+Per ogni problema contattare direttamente: Davide Prina
+
+
+**********
+3. LICENZA
+
+Il pacchetto è distribuito sotto licenza GPL versione 2 o superiore
+Vedere il file allegato per il copyright esatto.
+
+
+***************************************
+4. COME CREARE IL DIZIONARIO PER ASPELL 
+
+Questa sezione descrive come ottenere il dizionario per Aspell a partire da un dizionario per MySpell.
+Questa sezione serve soltanto a chi vuole aggiornare il dizionario attualmente contenuto in questo file zip con uno più recente ed emesso solo per MySpell.
+
+I passi da seguire, su un sistema GNU/Linux, sono i seguenti:
+1) scaricare Aspell ver. 0.60 o superiore, se già non è disponibile a sistema, altrimenti passare al punto 6)
+2) scompattare Aspell ed entrare nella directory creata
+3) ./configure
+4) make
+5) make install
+6) scaricare il language-pack che permette di creare un nuovo dizionario (ftp://ftp.gnu.org/gnu/aspell/aspell-lang-YYYYMMDD.tar.bz2 <- sostituire a YYYYMMDD la versione più recente presente in ftp://ftp.gnu.org/gnu/aspell/)
+7) estrarre il file aspell-lang-YYYYMMDD.tar.bz2 (tar jxvf aspell-lang-YYYYMMDD.tar.bz2).
+   Nota: in questa directory non bisogna entrare per costruire il package
+8) scaricare un dizionario creato per MySpell ed estrarre i file .aff e .dic (in seguito prenderemo come esempio il dizionario italiano (it) e quindi it_IT.aff e it_IT.dic). Si assumerà che tali file saranno nella directory in cui è stato estratto l'aspell-lang
+9) mv it_IT.aff it_affix.dat
+10) nella directory in cui sono presenti i file it_IT.aff e it_IT.dic eseguire il seguente comando (non deve essere la directory aspell-lang):
+$ aspell --local-data-dir=./ --lang=it clean < it_IT.dic > it.wl; prezip -s it.wl
+11) leggere il file README e creare/modificare i files:
+    info
+    Copyright (qui impostare il copyright presente nel dizionario di MySpell che avete usato aggiungendo anche il proprio copyright se già non presente)
+    it.dat (aggiungere/modificare le seguenti due righe:
+            affix          it
+            affix-compress true
+	   )
+    COPYING (la licenza applicata, è quella del dizionario per MySpell usato)
+    doc/* (creare la directory doc ed inserire la documentazione presente nel dizionario di MySpell usato, più eventualmente altra documentazione)
+    misc/* (altri file da includere nella distribuzione)
+12) $ aspell-lang/perl proc create
+13) ./configure
+14) make
+15) make dist-nogen # crea il pacchetto da distribuire
+16) make install # installa il dizionario, bisogna essere root per farlo
+17) a questo punto il dizionario installato funziona correttamente con aspell 0.6
+
+
+*******************************************
+5. COME INSTALLARE IL DIZIONARIO PER ASPELL
+
+Se Aspell è installato, i comandi aspell e word-list-compress sono nel path e si è posizionati all'interno della directory creata dalla scompattazione del file zip, allora è possibile installare il dizionario italiano per Aspell digitando:
+
+ ./configure
+
+Questo comando stamperà sullo standard output qualcosa tipo:
+
+  Finding Dictionary file location ... /usr/local/lib/aspell
+  Finding Data file location ... /usr/local/share/aspell
+    
+Se non succede questo, vuol dire che qualcosa è andato storto.
+
+Successivamente è possibile compilare il pacchetto digitando:
+
+ make
+
+Infine per installare il pacchetto compilato digitare:
+
+ make install
+
+
+È possibile installare Aspell anche se il programma aspell e la word-list-compress non sono nel path. In questo caso però bisogna definire le variabili d'ambiente ASPELL e WORD_LIST_COMPRESS con i percorsi assoluti corretti. Queste variabili possono essere settate sia prima di lanciare i comandi, sia sulla linea di comando con l'opzione --vars (es: ./configure --vars VAR1=VAL1 ...)
+Altre variabili utili per la configurazione sono ASPELL_PARMS e DESTDIR.
+
+Per cancellare tutti i file ottenuti da una compilazione precedente digitare:
+
+ make clean
+
+Per disinstallare i file del dizionario:
+
+ make uninstall
+
+Subito dopo aver installato il dizionario italiano si può settarlo come dizionario principale modificando la variabile d'ambiente LANG al valore it, o eseguire aspell con --lang=it. È possibile selezionare il dizionario direttamente con l'opzione -d o --master.
+
+Se si hanno problemi con l'installazione o con Aspell è possibile contattare l'autore di Aspell Kevin Atkinson.
+
+Se si hanno problemi con le parole del dizionario contattare Davide Prina.
+
+Ogni altro documento addizionale può essere trovato nella directory doc/
+
+
+******************************
+6. DOVE TROVARE NUOVE VERSIONI
+
+Nuove versione di Aspell possono essere trovate qui:
+http://aspell.net/
+
+Nuove versioni del dizionario possono essere trovate qui:
+http://sourceforge.net/projects/linguistico/
+
+
+*******
+7. NOTE
+
+Il campo ACCURATE del file 'info' è stato fissato per il momento a FALSE (falso) perché il dizionario genera un certo numero di parole errate in italiano.
+Per maggiori dettagli vedere il file notes.txt
+
+
+**********************************
+***********  English  ************
+**********************************
+
+INDEX
+
+1) INTRODUCTION
+2) COPYRIGHT
+3) LICENSE
+4) HOW TO CREATE A ASPELL DICTIONARY
+5) HOW TO INSTALL THE ASPELL DICTIONARY
+6) WHERE TO LOOKING FOR NEW VERSIONS
+7) NOTE
+
+
+***************
+1. INTRODUCTION
+
+This document is about the GNU/Aspell Italian dictionary.
+
+The Aspell Italian dictionary has been created from the MySpell Italian dictionary. MySpell is a program created for OpenOffice.org and now used by others products as mozilla-thunderbird, mozilla-firefox (plug-in spell-bound), mozilla, ...
+
+This dictionary work only with Aspell versions >= 0.60
+
+
+************
+2. COPYRIGHT
+
+The Italian dictionary is under the followings copyrights:
+Copyright (C) 2001, 2002 Gianluca Turconi
+Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+Copyright (C) 2004, 2005  Davide Prina
+
+Contacts:
+Gianluca Turconi: luctur (at) comeg (dot) it
+Davide Prina: DavidePrina (at) yahoo (dot) com
+
+For any problems you can contact: Davide Prina
+
+
+**********
+3. LICENSE
+
+Copyright Terms: GPL
+see the file Copyright for the exact copyright.
+
+
+************************************
+4. HOW TO CREATE A ASPELL DICTIONARY
+
+This section describe how to create one Aspell dictionary starting from a MySpell dictionary. You need to read this only if you want to have a more recent dictionary only available under the MySpell system.
+
+For building the Aspell dictionary under GNU/Linux the steps are:
+1) download Aspell ver. >=  0.60, if you don't have it already, elsewhere go to step 6)
+2) uncompress Aspell and enter to the created directory
+3) ./configure
+4) make
+5) make install
+6) download language-pack (ftp://ftp.gnu.org/gnu/aspell/aspell-lang-YYYYMMDD.tar.bz2 <- change YYYYMMDD with last version that can be found here: ftp://ftp.gnu.org/gnu/aspell/)
+7) tar jxvf aspell-lang-YYYYMMDD.tar.bz2
+   Note: you don't must create the package in the aspell-lang directory
+8) download a MySpell dictionary; uncompress the .aff and .dic files (we will use the italian dictionary as example and so it_IT.aff and it_IT.dic files). We will assume that you operate in the directory where you have do the command on 7)
+9) mv it_IT.aff it_affix.dat
+10) go to the directory with it_IT.dic e it_IT.aff and execute:
+   $ aspell --local-data-dir=./ --lang=it clean < it_IT.dic > it.wl; prezip -s it.wl
+11) read the README file and create/modify the following files:
+    info
+    Copyright (use the copyright found in the MySpell dictionary that you have used)
+    it.dat (add/modify the following two lines:
+            affix   it
+	    affix_compress true
+	   )
+    COPYING (license used in the MySpell dictonary that you have used)
+    doc/* (addictional documentation, copy here all the documentation of the MySpell dictionary that you have used)
+    misc/* (addictional files)
+12) aspell-lang/perl proc create
+13) ./configure
+14) make
+15) make dist-nogen # build the distribution files for the aspell dictionary
+16) make install # install the dictionary on your system, you must be root
+17) now the new installed dictionary work with aspell 0.6
+
+
+***************************************
+5. HOW TO INSTALL THE ASPELL DICTIONARY
+
+If Aspell is installed and aspell and word-list-compress are all
+in the path first do a:
+
+  ./configure
+
+Which should output something like:
+
+  Finding Dictionary file location ... /usr/local/lib/aspell
+  Finding Data file location ... /usr/local/share/aspell
+
+if it did not something likely went wrong.
+
+After that build the package with:
+  make
+and then install it with
+  make install
+
+If any of the above mentioned programs are not in your path than the
+variables, ASPELL and/or WORD_LIST_COMPRESS need to be set to the
+commands (with path) to run the utilities.  These variables may be set
+in the environment before configure is run or specified at the command
+line using the following syntax
+  ./configure --vars VAR1=VAL1 ...
+Other useful variables configure recognizes are ASPELL_PARMS, and DESTDIR.
+
+To clean up after the build:
+  make clean
+
+To uninstall the files:
+  make uninstall
+
+After the word lists are installed you can use the main one (it) by
+setting the LANG environmental variable to it or running Aspell
+with --lang=it.  You may also chose the dictionary directly
+with the -d or --master option of Aspell.  You can chose from any of
+the following dictionaries:
+  it (italian italiano)
+Whereas the names in parentheses are alternate names for the
+dictionary preceding the parentheses.
+
+If you have any problem with installing or using the word lists please
+let me (Kevin Atkinson) know.
+
+If you have problems with the actual word lists please contact one of
+the Word lists authors as I do not maintain the actual Word Lists.
+
+Any additional documentation that came with the original word list can
+be found in the doc/ directory.
+
+
+***************************** 
+6. WHERE TO FIND NEW VERSIONS
+
+New Aspell versions can be foud here:
+http://aspell.net/
+
+New Italian dictionary versions can be found here:
+http://sourceforge.net/projects/linguistico/
+
+
+*******
+7. NOTE
+
+The ACCURATE field of 'info' file is set to FALSE becouse the dictionary generate some wrong italian words. For more information see the notes.txt file.
+

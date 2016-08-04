@@ -1,0 +1,19 @@
+name_english Finnish
+lang fi
+data-file fi_affix.dat
+author:
+  name Martin Vermeer 
+  email mv at liisa pp fi
+author:
+  name Pauli Virtanen 
+  email pauli.virtanen at hut fi
+copyright GPL
+version 0.7-0
+source-version 0.7
+url http://ispell-fi.sourceforge.net/
+complete false
+accurate unknown
+alias fi finnish
+dict:
+  name fi
+  add fi

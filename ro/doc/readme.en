@@ -1,0 +1,10 @@
+Information on provided dictionaries
+
+The following dictionaries are included:
+
+- ro  - contemporary Romanian orthography (â/sunt)
+- ro-classic  - Romanian orthography before 1993 (î/sînt)
+
+Aspell uses by default the contemporary dictionary. To switch to the classic dictionary add
+"master ro-classic" in .aspell.conf. file. The file is located in user home directory.
+

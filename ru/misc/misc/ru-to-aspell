@@ -1,0 +1,261 @@
+#!/bin/bash
+
+PROC=/home/kevina/dict/proc
+VERSION=0.99f7-0
+
+export LANG=C
+export LC_COLLATE=C
+export LC_CTYPE=C
+export LC_MESSAGES=C
+
+test -e yo && rm -r yo
+test -e ye && rm -r ye
+
+mkdir yo/
+cd yo/
+tar xfz ../rus-myspell-yo-0.99f7.tar.gz
+
+# This patch fixes a bug in the affix file
+patch -N ru_RU_yo.koi8r.aff <<'EOF'
+--- ru_RU_yo.koi8r.aff.bk       Sat Jun  5 13:59:44 2004
++++ ru_RU_yo.koi8r.aff  Sat Jun  5 14:01:12 2004
+@@ -32,7 +32,7 @@
+ SFX L стись лась стись
+ SFX L стись лось стись
+ SFX L стись лись стись
+-SFX L езти ёз зти
++SFX L езти ёз езти
+ SFX L ти ла зти
+ SFX L ти ли зти
+ SFX L ти ло зти
+EOF
+
+# This patch compensates for the fact that Aspell/Myspell affix code
+# is case sensitive while ispell's is case insensitive.  In particular
+# in the expansion of "Аня/I"
+patch ru_RU_yo.koi8r.aff -N <<'EOF'
+--- ru_RU_yo.koi8r.aff.bk     Sat Jun  5 15:54:29 2004
++++ ru_RU_yo.koi8r.aff  Sat Jun  5 16:20:06 2004
+@@ -1038,8 +1038,8 @@
+ SFX I я ей я
+ SFX I я ею я
+ SFX I я й [еиу]я
+-SFX I ня ен [^аезийоуыья]ня
+-SFX I я ь [аеиоуыя]ня
++SFX I ня ен [^Ааезийоуыья]ня
++SFX I я ь [Ааеиоуыя]ня
+ SFX I йня ен йня
+ SFX I ьня ен ьня
+ SFX I 0 м я
+EOF
+
+cd ..
+
+mkdir ye/
+cd ye/
+tar xfz ../rus-myspell-0.99f7.tar.gz
+
+# This patch compensates for the fact that Aspell/Myspell affix code
+# is case sensitive while ispell's is case insensitive.  In particular
+# in the expansion of "Аня/I"
+patch ru_RU.koi8r.aff -N <<'EOF'
+--- ru_RU.koi8r.aff.bk        Sun Dec 29 17:46:27 2002
++++ ru_RU.koi8r.aff     Sat Jun  5 16:18:07 2004
+@@ -1031,8 +1031,8 @@
+ SFX I я ей я
+ SFX I я ею я
+ SFX I я й [еиу]я
+-SFX I ня ен [^аезийоуыья]ня
+-SFX I я ь [аеиоуыя]ня
++SFX I ня ен [^Ааезийоуыья]ня
++SFX I я ь [Ааеиоуыя]ня
+ SFX I йня ен йня
+ SFX I ьня ен ьня
+ SFX I 0 м я
+EOF
+
+cd ..
+
+test -e aspell5 && rm -r aspell5 
+test -e aspell6 && rm -r aspell6
+
+mkdir aspell5/
+mkdir aspell6/
+
+perl <<'EOF'
+open F, "yo/ru_RU_yo.koi8r.aff" or die;
+while (<F>) {
+  /SFX\s+(.)\s+(.+)\s*$/ or next;
+  $yo{$1} .= "$2\n";
+}
+
+open F, "ye/ru_RU.koi8r.aff" or die;
+while (<F>) {
+  /SFX\s+(.)\s+(.+?)\s*$/ or next;
+  $ye{$1} .= "$2\n";
+}
+
+@flags = sort keys %yo;
+
+foreach (@flags) {
+  #print "flag $_ equal\n"  if ($ye{$_} eq $yo{$_});
+  #print "flag $_ differ\n" if ($ye{$_} ne $yo{$_});
+  $differ{$_} = 1 if $ye{$_} ne $yo{$_}
+}
+
+open F, ">aspell6/ru_affix.dat" or die;
+print F "SET KOI8-R\n";
+
+foreach my $F (@flags) {
+  print F "\n";
+  $_ = $yo{$F};
+  s/^/SFX $F /mg;
+  print F "$_\n";
+  next unless $differ{$F};
+  $f = lc $F;
+  $_ = $ye{$F};
+  s/^/SFX $f /mg;
+  print F "$_\n";
+}
+
+open F, "yo/ru_myspell.dict" or die;
+open O, ">aspell6/ru-yo-orig.wl";
+<F>;
+while (<F>) {
+  print O;
+}
+
+foreach my $f (sort keys %differ) {
+  $from .= $f;
+}
+$to = lc $from;
+#print "tr/$from/$to/\n";
+
+open F, "ye/ru_myspell.dict";
+open O, ">aspell6/ru-ye-orig.wl";
+<F>;
+while (<F>) {
+  my ($w, $a) = m~^(.+?)(|/.+)$~;
+  eval "\$a =~ tr/$from/$to/";
+  print O "$w$a\n";
+}
+
+EOF
+
+cd aspell6/
+
+cat <<EOF > info
+name_english Russian
+name_native п═я┐я│я│п╨п╦п╧
+lang ru
+data-file ru_affix.dat
+author:
+  name Alexander Lebedev
+  email swan at scon155 phys msu su
+url ftp://scon155.phys.msu.su/pub/russian/ispell/
+copyright Other
+mode aspell6
+version $VERSION
+complete unknown
+accurate unknown
+dict:
+  name ru-ye
+  add ru-ye
+  alias ru:awli
+dict:
+  name ru-yo
+  add ru-yo
+dict:
+  name ru-yeyo
+  add ru-ye
+  add ru-yo
+EOF
+
+cat <<EOF > ru.dat
+name ru
+charset koi8-r
+affix ru
+affix-compress true
+EOF
+
+aspell --local-data-dir=./ --lang=ru clean < ru-ye-orig.wl > ru-ye.wl 
+aspell --local-data-dir=./ --lang=ru clean < ru-yo-orig.wl > ru-yo.wl 
+
+rm ru-ye-orig.wl ru-yo-orig.wl
+
+cp ../ye/LICENSE Copyright
+
+mkdir doc
+cp ../ye/readme.koi doc/
+mkdir misc
+cp -a ../ru-to-aspell misc/
+cp ../ru_phonet.dat misc/
+
+aspell conv koi8-r utf-8 < doc/readme.koi > doc/readme.txt
+aspell conv koi8-r utf-8 < doc/note.koi > doc/note.txt
+
+ln -s $PROC proc
+./proc
+./configure
+make
+make dist
+cp *.tar.bz2 ../
+
+aspell --local-data-dir=./ --lang=ru expand < ru-ye.wl \
+  | tr ' ' '\n' | sort -u > ../aspell5/ru-ye.wl
+aspell --local-data-dir=./ --lang=ru expand < ru-yo.wl \
+  | tr ' ' '\n' | sort -u > ../aspell5/ru-yo.wl
+
+cd ..
+
+cd aspell5
+
+comm -23 ru-ye.wl ru-yo.wl > ru-ye-only.wl
+comm -13 ru-ye.wl ru-yo.wl > ru-yo-only.wl
+comm -12 ru-ye.wl ru-yo.wl > ru-only.wl
+
+rm ru-ye.wl ru-yo.wl
+
+cat <<EOF > info
+name_english Russian
+lang ru
+author:
+  name  Alexander Lebedev
+  email swan at scon155 phys msu su
+url ftp://scon155.phys.msu.su/pub/russian/ispell/
+copyright Other
+mode aspell5
+version $VERSION
+complete unknown
+accurate unknown
+dict:
+  name ru-ye
+  add ru-only
+  add ru-ye-only
+  alias ru:awli
+dict:
+  name ru-yo
+  add ru-only
+  add ru-yo-only
+dict:
+  name ru-yeyo
+  add ru-only
+  add ru-ye-only
+  add ru-yo-only
+EOF
+
+cat <<EOF > ru.dat
+name ru
+charset koi8-r
+soundslike none
+EOF
+
+cp -a ../aspell6/{Copyright,doc,misc} .
+
+ln -s $PROC proc
+./proc
+./configure
+make dist
+cp *.tar.bz2 ../
+
+cd ..

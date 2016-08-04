@@ -1,0 +1,31 @@
+name_english Tamil
+name_native தமிழ்
+lang ta
+data-file u-taml.cset
+data-file u-taml.cmap
+author:
+  name S. Muguntharaj
+  name_native முகுந்தராஜ்
+  email mugunth at thamizha com
+author:
+  name Elanjelian 
+  name_native இளஞ்செழியன்
+  email elan at thamizha com
+author:
+  name Radhakrishnan 
+  name_native ராதாகிருஷ்ணன்
+  email nradhak at yahoo com
+author:
+  name Vijay 
+  name_native விஜய்
+  email vijayd_81 at hotmail com
+copyright GPL
+version 20040424-1
+source-version 20040324
+complete unknown
+accurate unknown
+url http://www.developer.thamizha.com/spellchecker/
+alias ta tamil
+dict:
+  name ta
+  add ta

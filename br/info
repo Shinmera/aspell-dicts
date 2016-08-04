@@ -1,0 +1,16 @@
+name_english Breton
+name_ascii Brezhoneg
+lang br
+author:
+  name Thierry Vignaud
+  email tvignaud at mandrakesoft com
+copyright GPL
+version 0.50-1
+source-version 0.2.1-2mdk
+charset iso8859-1
+special ' -*-  . -*- - -*-
+soundslike phonet
+alias br breton brezhoneg
+dict:
+  name br
+  add br

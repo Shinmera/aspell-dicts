@@ -1,0 +1,24 @@
+name_ascii Dansk
+name_english Danish
+name_native Dansk
+lang da
+data-file da_phonet.dat
+doc_encoding iso-8859-1
+author:
+  name Skåne Sjælland Linux User Group
+  email bestyrelsen at sslug dk
+author:
+  name Jacob Sparre Andersen
+  email sparre at nbi dk
+  maintainer true
+copyright GPL
+version 1.4.42-1
+source_version 1.4.42
+url http://da.speling.org/
+complete true
+accurate true
+mode aspell5
+alias da dansk
+dict:
+  name da
+  add da

@@ -1,0 +1,83 @@
+<html
+<head>
+<style type=text/css> 
+	a:link { text-decoration:none } 
+	a:active { text-decoration:none } 
+	a:visited { text-decoration:none } 
+</style>
+<title>nl-aspell dutch language files for aspell spell checker</title>
+</head>
+<body bgcolor="#ffffff">
+<h2>nl-aspell</h2>
+This package provides a dutch dictionary and a language file for use
+with the <a href="http://aspell.sourceforge.net/">aspell</a>
+spelling checker.
+<p>
+The word list has been compiled from a number of sources:
+<ol>
+<li> The list used in the aspell-nl-0.1.rpm package. The main reason I decided
+     to build the present package is that I could not find a tarball distribution
+     of this rpm and that some ``exceptions'' from the official
+     <a href="nl-spelling.txt">lists</a> 
+     seemed to be missing.
+<li> The lists in the official <a href="nl-spelling.txt">announcement</a>
+     (1996) about spelling changes.
+<li> The list by Piet Tutelaers available on 
+     <a href="http://www.ntg.nl/spell-nl-v5b/">http://www.ntg.nl/spell-nl-v5b/</a>.
+</ol>
+The full word list (approx. 222K words) is available as a
+text file <code>dutch.words</code>
+in the distribution. The language definition is in the file
+<code>dutch.dat</code>. 
+
+<h3>prerequisites</h3>
+<ul>
+<li> <a href="http://pspell.sourceforge.net/">pspell</a>
+<li> <a href="http://aspell.sourceforge.net/">aspell</a>
+</ul>
+The availability of these packages is verified during the installation.
+
+<h3>download</h3>
+The latest version (I don't expect there will be many) is available 
+<a href="download/">here</a>.
+
+<h3>installation</h3>
+Standard (unpack; configure; make install). See the INSTALL file in the
+distribution. The installation will compile the word list into
+a master dictionary.
+
+<h3>manual</h3>
+Two trivial scripts, called <b>nlspell</b>,
+and <b>nllspell</b> are installed in <code>bindir</code>
+(typically <code>/usr/local/bin</code>).
+They are replicated below.
+<ol>
+<li> nlspell
+<pre>
+#!/bin/sh
+aspell --conf=/usr/local/share/aspell/nlspell.config $*
+</pre>
+E.g. for interactive use, one would type
+<pre>
+	nlspell -c filename
+</pre>
+<li> nllspell uses a ``per-directory'' dictionary ``nlspell.dict''
+in the current directory. 
+<pre>
+#!/bin/sh
+aspell --conf=/usr/local/share/aspell/nlspell.config \
+	--add-extra-dicts=$HOME/.aspell.dutch.pws \
+	--personal=./nlspell.dict $*
+</pre>
+</ol>
+See the <a href="http://aspell.sourceforge.net/">aspell</a> manual
+for more information.
+<!-- Cut here -->
+<hr>
+<a href="http://tinf2.vub.ac.be/~dvermeir/index.html">Dirk Vermeir</a>
+(<a href="mailto:dvermeir@vub.ac.be">dvermeir@vub.ac.be</a>)
+[Last modified: 
+Sat May 19 11:22:00 CEST 2001
+]
+</body>
+</html>

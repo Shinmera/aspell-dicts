@@ -1,0 +1,25 @@
+name_english Mongolian
+name_native Монгол
+lang mn
+data-file l-mn.cset
+data-file l-mn.cmap
+data-file mn_affix.dat
+author:
+  name Sanlig Badral
+  name-native Санлигийн Бадрал
+  email Badral at openmn org
+  maintainer true
+author:
+  name Dorjgotov Batmunkh
+  name-native Доржготовын Батмөнх
+  email batmunkh at num edu mn
+  maintainer true
+copyright GPLv2
+url http://www.openmn.org
+version 0.06-2
+complete true
+accurate true
+alias mn mongolian
+dict:
+  name mn
+  add mn

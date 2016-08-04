@@ -1,0 +1,24 @@
+name_english Kirghiz
+name_ascii Kirghiz 
+lang ky
+data-file ky_affix.dat
+data-file l-ky.cset
+data-file l-ky.cmap
+doc-encoding utf-8
+author:
+  name  Ilyas Bakirov
+  email just_ilyas at yahoo com
+  maintainer true
+author:
+  name Kevin Scannell
+  email kscanne at gmail com
+copyright GPL
+version 0.01-0
+url http://borel.slu.edu/crubadan/
+source-version 0.01
+complete false
+accurate true
+alias ky kirghiz
+dict:
+  name ky
+  add ky

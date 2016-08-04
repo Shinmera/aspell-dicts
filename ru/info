@@ -1,0 +1,24 @@
+name_english Russian
+name_native Русский
+lang ru
+data-file ru_affix.dat
+author:
+  name Alexander Lebedev
+  email swan at scon155 phys msu su
+url ftp://scon155.phys.msu.su/pub/russian/ispell/
+copyright Other
+mode aspell6
+version 0.99f7-1
+complete unknown
+accurate unknown
+dict:
+  name ru-ye
+  add ru-ye
+  alias ru:awli
+dict:
+  name ru-yo
+  add ru-yo
+dict:
+  name ru-yeyo
+  add ru-ye
+  add ru-yo

@@ -1,0 +1,20 @@
+name_english Norwegian Bokmal
+lang nb
+version 0.50.1-0
+charset iso8859-1
+soundslike none
+url http://www.uio.no/~runekl/dictionary.html
+author:
+  name  Rune Kleveland
+  email runekl at math uio no
+author:
+  name  Toralf Lund
+  email toralf at procaptura com
+copyright GPL
+source-version 2.0
+run-together true
+special " -*- . -*-
+alias nb no norsk bokmal bokmål
+dict:
+  name nb
+  add nb

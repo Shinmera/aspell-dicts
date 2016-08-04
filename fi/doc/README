@@ -1,0 +1,150 @@
+
+This README is the web page http://ispell-fi.sourceforge.net/
+as it appeared in April 2004.   It contains some details specific
+to the installation and use with ispell, but also some more general
+remarks about the scope of the dictionary.
+  - Kevin Scannell <scannell@slu.edu>
+-------------------------------------------------------------------------
+	    
+	    ispell-fi: Finnish spell checking dictionary for ispell
+
+Version 0.7 (3rd of September 2000)
+
+
+    by Martin Vermeer <mv@liisa.pp.fi> and
+    Pauli Virtanen <pauli.virtanen@hut.fi>
+
+   Finnish pages / Suomenkieliset sivut.
+     _________________________________________________________________
+
+   This project aims at creating affix and dictionary files to allow
+   ispell to be used for spell checking Finnish language documents.
+
+   Both the dictionary and the affix files are distributed under the
+   terms of the GNU General Public License version 2 as published by the
+   Free Software Foundation. (See the file COPYING.)
+   ______________________________________________________________________
+
+Current status
+
+   This spell check dictionary for ispell should cover a moderate portion
+   of common Finnish words.
+
+   The dictionary is usable, but not very suitable for serious use. (See
+   Flaws.)
+   ______________________________________________________________________
+
+Three different sizes
+
+   Three different versions of this dictionary exists: small, medium and
+   large. These differ only by the number of words derived from other
+   words. (See statistics in CHANGELOG.)
+
+   The small version recognizes 756588 words, and requires 2.7 megabytes
+   of hard disk space. Ispell uses 5 megabytes of memory when using this
+   version, so it should be usable also on slower computers.
+
+   The medium version recognizes 1894529 words, and requires 5.3
+   megabytes of hard disk space. Ispell uses about 10 megabytes of memory
+   when using this version. This is the recommended version.
+
+   The large version recognizes 6678677 words, and requires 9.0 megabytes
+   of hard disk space. Ispell uses as much as 19 megabytes of memory when
+   using this version. Using it may be not worth the memory used.
+   ______________________________________________________________________
+
+Installation instructions
+
+   You can get files mentioned here from the address
+   http://ispell-fi.sourceforge.net/. Like INSTALL.
+    1. Download the file finnish.dict.bz2
+    2. Download one of the following files:
+          + Small version: finnish.small.aff.bz2
+          + Medium version: finnish.medium.aff.bz2 (recommended)
+          + Large version: finnish.large.aff.bz2
+
+   After this you should do either this:
+    3. Download build.sh
+    4. Run command "sh build.sh <size>", in directory where the files
+       are. (The size is either small, medium or large, corresponding the
+       affix file.)
+    5. Move the created finnish.hash file to dir /usr/lib/ispell/ (Or
+       wherever the other <language>.hash files are.)
+
+   or this:
+    3. Uncompress finnish.dict.bz2 and the affix file using the bzip2
+       utility.
+    4. Run "buildhash finnish.dict <affix file> finnish.hash", where
+       <affix file> is the name of the uncompressed affix file. Just
+       ignore possible warnings: everything should work if the
+       finnish.hash file is created.
+    5. Move the created finnish.hash file to dir /usr/lib/ispell/ (Or
+       wherever the other <language>.hash files are.)
+
+   Spell checking Finnish with ispell should work now.
+   ______________________________________________________________________
+
+Flaws
+
+   Many words do not have some word forms included. More words should
+   therefore be tagged as roots for inflection.
+
+   Ispell has only elementary support for compound words, so they do not
+   work very well. For example there may be no suggestions for a
+   misspelled compound word.
+
+   Part of the names of countries (and places) are still written in
+   lowercase letters. Additionally their amount could still be increased.
+
+   The dictionary contains rather lot of not commonly used words, and
+   words of special areas (computers, linguistics). They may slow down
+   ispell and take unnecessary disk space and memory. However, I don't
+   know how big a benefit removing them would be. (But it is likely
+   rather hard.)
+
+   There are also a number of abbreviations in the dictionary. They may
+   cause some misspelled words to be accepted.
+   ______________________________________________________________________
+
+Contributing
+
+   Additional word lists are appreciated, especially if they are both
+   extensive and spell checked. (And, of course, free to add to this
+   package distributed under the GNU GPL).
+
+   Please inform the authors (us) if ispell accepts a certainly
+   misspelled word when using this dictionary. Before that, however,
+   remember to make sure that the flaw is in the main dictionary, not in
+   your personal dictionary (which is usually the file
+   ~/.ispell_finnish).
+   ______________________________________________________________________
+
+Sources of the dictionary
+
+     * The original dictionary written by Martin Vermeer (which existed
+       in version 0.1, and before it).
+     * A word list downloaded from Internet address
+       ftp://ftp.uu.net:/doc/dictionaries/Finnish. It contains many
+       spelling errors and only lowercase letters, and needed a lot of
+       spell checking (automatic and manual), before it could be used.
+     * Quite a lot of words from ~/.ispell_finnish -file.
+     * 200 most common words. (According to Finnish Frequency
+       Dictionary).
+   ______________________________________________________________________
+
+Sources of the affix files
+
+   These affix files are based on the affix file written by Martin
+   Vermeer. It existed in version 0.1, and before that. Also the book
+   Finnish grammar by Fred Karlsson (1983) published by Werner Söderström
+   Oy, and its Finnish version have been a great help.
+
+   Currently the affix files are partially automatically generated by the
+   genfisuffix program. If you are curious, you can get the source code
+   from the address genfisuffix/genfisuffix-0.7.tar.bz2.
+   ______________________________________________________________________
+
+   Hosted on:
+   SourceForge Logo
+
+   Page last updated 2002-08-26.

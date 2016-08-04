@@ -1,0 +1,3325 @@
+# $Id: czech.aff,v 0.80 2004/02/29  23:55:03 $
+# Czech affix table for ispell
+# Copyright (C) 1998-2004 Petr Koláø <Petr.Kolar@vslib.cz>
+# Copyright (C) 1996-1997 Tomá¹ Èermák <Cermak@fsv.cvut.cz>
+# UTF-8 support Copyright (C) 2003 Jiri Hladky, hladky.jiri@seznam.cz
+#
+# Contributors to the Czech dictionary:
+#   1996-1997  Tomá¹ Èermák <Cermak@fsv.cvut.cz> (original author)
+#   1997       Petr Prenghy <Petr.Prenghy@cesnet.cz>
+#   1997/02/02 Hanu¹ Adler <had@pdas.cz>
+#   1998-2004  Petr Koláø <Petr.Kolar@vslib.cz>
+#   and many others that sent unknown words
+#
+# Current version ftp://ftp.vslib.cz/pub/unix/ispell/czech/
+# Older version http://hlava22.fsv.cvut.cz/~cermak/ispell/
+#
+#    This data file and the enclosed Czech dictionary files for
+#    ispell are free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License version 2
+#    as published by the Free Software Foundation.
+#
+#    These files are distributed in the hope that they will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software Foundation, 
+#    Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+nroffchars	().\\*
+texchars	()\[]{}<\>\\$*.%
+defstringtype "nroff" "nroff" ".mm" ".ms" ".me" ".man" ".NeXT"
+
+#boundarychars "-" [.]
+#
+#   nejprve definujeme ISO-8859-2 znaky 
+#
+wordchars	a A
+stringchar	á Á
+stringchar	ä Ä
+stringchar	± ¡
+stringchar	â Â
+stringchar	ã Ã
+wordchars	b B
+wordchars	c C
+stringchar	è È
+stringchar	æ Æ
+stringchar	ç Ç
+wordchars	d D
+stringchar	ï Ï
+stringchar	ð Ð
+wordchars	e E
+stringchar	é É
+stringchar	ì Ì
+stringchar	ë Ë
+stringchar	ê Ê
+wordchars	[f-i] [F-I]
+stringchar	í Í
+stringchar	î Î
+wordchars	[j-l] [J-L]
+stringchar	å Å
+stringchar	µ ¥
+stringchar	³ £
+wordchars	[mn] [MN]
+stringchar	ò Ò
+stringchar	ñ Ñ
+wordchars	o O
+stringchar	ó Ó
+stringchar	ô Ô
+stringchar	ö Ö
+stringchar	õ Õ
+wordchars	[p-r] [P-R]
+stringchar	ø Ø
+stringchar	à À
+wordchars	s S
+stringchar	¹ ©
+stringchar	¶ ¦
+stringchar	º ª
+wordchars	t T
+stringchar	» «
+stringchar	þ Þ
+wordchars	u U
+stringchar	ú Ú
+stringchar	ù Ù
+stringchar	ü Ü
+stringchar	û Û
+wordchars	[v-y] [V-Y]
+stringchar	ý Ý
+wordchars	z Z
+stringchar	¾ ®
+stringchar	¼ ¬
+stringchar	¿ ¯
+stringchar	ß ß
+#stringchar	­ ­
+
+#boundarychars	­
+
+#altstringtype "tex" "tex" ".tex" ".bib"
+altstringtype "utf8" "tex" ".html"
+altstringchar Ã¡ á
+altstringchar Ã Á
+altstringchar Ã¤ ä
+altstringchar Ã„ Ä
+altstringchar Ä… ±
+altstringchar Ä„ ¡
+altstringchar Ã¢ â
+altstringchar Ã‚ Â
+altstringchar Äƒ ã
+altstringchar Ä‚ Ã
+altstringchar Ä è
+altstringchar ÄŒ È
+altstringchar Ä‡ æ
+altstringchar Ä† Æ
+altstringchar Ã§ ç
+altstringchar Ã‡ Ç
+altstringchar Ä ï
+altstringchar ÄŽ Ï
+altstringchar Ä‘ ð
+altstringchar Ä Ð
+altstringchar Ã© é
+altstringchar Ã‰ É
+altstringchar Ä› ì
+altstringchar Äš Ì
+altstringchar Ã« ë
+altstringchar Ã‹ Ë
+altstringchar Ä™ ê
+altstringchar Ä˜ Ê
+altstringchar Ã­ í
+altstringchar Ã Í
+altstringchar Ã® î
+altstringchar ÃŽ Î
+altstringchar Ä¾ µ
+altstringchar Ä½ ¥
+altstringchar Äº å
+altstringchar Ä¹ Å
+altstringchar Å‚ ³
+altstringchar Å £
+altstringchar Åˆ ò
+altstringchar Å‡ Ò
+altstringchar Å„ ñ
+altstringchar Åƒ Ñ
+altstringchar Ã³ ó
+altstringchar Ã“ Ó
+altstringchar Ã´ ô
+altstringchar Ã” Ô
+altstringchar Ã¶ ö
+altstringchar Ã– Ö
+altstringchar Å‘ õ
+altstringchar Å Õ
+altstringchar Å™ ø
+altstringchar Å˜ Ø
+altstringchar Å• à
+altstringchar Å” À
+altstringchar Å¡ ¹
+altstringchar Å  ©
+altstringchar Å› ¶
+altstringchar Åš ¦
+altstringchar ÅŸ º
+altstringchar Åž ª
+altstringchar Å¥ »
+altstringchar Å¤ «
+altstringchar Å£ þ
+altstringchar Å¢ Þ
+altstringchar Å¯ ù
+altstringchar Å® Ù
+altstringchar Ãº ú
+altstringchar Ãš Ú
+altstringchar Ã¼ ü
+altstringchar Ãœ Ü
+altstringchar Å± û
+altstringchar Å° Û
+altstringchar Ã½ ý
+altstringchar Ã Ý
+altstringchar Å¾ ¾
+altstringchar Å½ ®
+altstringchar Åº ¼
+altstringchar Å¹ ¬
+altstringchar Å¼ ¿
+altstringchar Å» ¯
+altstringchar ÃŸ ß
+#altstringchar Â­ ­
+
+# pou¾ité "flagy" v èeské verzi:
+#            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# Obsazeno   ABCDEF HIJKLMNOPQRSTUVWXYZ
+# Volno            G                   
+#
+#   P - pán (i typ Bidlo), pøedseda
+#   I - koncovka -i
+#   V - koncovka -ové
+#   D - koncovka -é (1. a 5. pád mn. èísla - obèan, obyvatel, husita, ¾id)
+#       v¹echny tvary ¾ivotných na -os -us (2. p. -a: Kristus, diskobolos)
+#   U - mu¾, soudce
+#   H - hrad kromì slov s odsouvaným -e-, koncovka -ì/-e se vytváøí flagem R
+#   L - ostrov, les (2. pád -a, vèetnì koncovky -ì/-e)
+#   S - stroj, stavení, pouze jednotné èíslo na -ice, -ace (jména obcí)
+#   Z - ¾ena, nù¹e, píseò i Roudnice (má jednotné èíslo), Atlantis
+#       pomno¾ná na -ky (nù¾ky, kalhoty)
+#   C - pomno¾ná slova na -ce jako Dale¹ice, dveøe; hromadná vzor stavení
+#	(chmýøí > chmýøím); trpný rod z infinitivu s alternací tit>cen,
+#	dit>zen, sit>¹en, zit>¾en, slit>¹len, stit>¹tìn, zdit>¾dìn;
+#	názvy vlastností z pøídavných jmen s alternací (toxický > toxiènost)
+#   Q - 2. pád mno¾ného èísla bez koncovky u vzorù ¾ena a mìsto (v¹echna
+#       slova vzorù ¾ena, nù¹e, mìsto a moøe, která mají tento tvar bez
+#       koncovky, musí mít i flag Q; slova s nepravidelným 2. pádem
+#       mno¾ného èísla (houba > hub, kráva > krav, kapsa > kapes,
+#       dáma > dam, mzda > mezd apod.) jsou bez flagu Q a nepravidelný
+#       tvar musí být ve slovníku jako zvlá¹tní slovo bez flagù);
+#	vzor hrad s odsouvaným -e- a -nìk (bílek > bílku, úplnìk > úplòku);
+#       vzor hrad s odsouvanou koncovkou -us a -os (cyklus, kapitalismus,
+#       ale ne autobus) pro -ismus generuje té¾ tvary na -izmus, -izmu
+#   M - mìsto, moøe, akvárium, koncovka -ì/-e pro vzor mìsto se vytváøí
+#       flagem R
+#   K - kuøe, kost (i pro odvozování z pøíd. jmen), téma (tématu, ...);
+#	názvy vlastností tvoøené z pøídavných jmen (kluzký > kluzkost)
+#   Y - pøídavná jména (mladý i jarní, otcùv, matèin)
+#   R - pøíslovce z pøídavných jmen pomocí koncovky -ì/-e
+#   A - slovesa kromì vzoru dìlat, sázet, tnout a krýt
+#   J - slovesa vzor dìlat (volat), sázet a tnout (min. èas -nul)
+#   B - slovesa v 1. nebo 3. osobì èísla jednotného, + infinitiv vzoru
+#       krýt (-ji/je¹)
+#   T - trpný rod z infinitivu
+#       (trpný rod mají slovesa, která mají vazbu se 4. pádem)
+#   X - pøechodníky (ze základního tvaru pøechodníku, nìkteré minulé i
+#	z infinitivu)
+#   N - pøedpona ne-
+#   E - pøedpona nej-
+#   W - pøedpony ne-, nej-, nejne-
+#   F - pøedpony jedna-, dvaa-, tøia-, ...
+#   O - koncovky -a, -o, -i, -y (-u pro slova nekonèící -l); pouze -o
+#       pro slova konèící -ý (pøíslovce z pøídavných jmen)
+#
+# prefix table -- tabulka pøedpon
+#
+prefixes
+
+flag *N:
+	. > NE		# mnoho -> nemnoho
+
+flag *E:
+	. > NEJ		# vìt¹í -> nejvìt¹í
+	
+flag *W:
+	. > NE
+	. > NEJ
+	. > NEJNE
+
+flag *F:
+	. > JEDENA
+	. > JEDNA
+	. > DVAA
+	. > TØIA
+	. > ÈTYØIA
+	. > ÈTYRYA
+	. > PÌTA
+	. > ©ESTA
+	. > SEDMA
+	. > OSMA
+	. > DEVÌTA
+
+#
+# suffixes -- tabulka pøípon
+#
+suffixes
+
+flag *P:
+# Vzor pán, ale pán je zrovna výjimka proto¾e se v 5. pádì zkracuje na pane
+	[^AEOKL] > A
+	[^AEOKLU] > U
+	[^AEOKL] > OVI
+	[^AEOKLURCGH] > E	# hoch > hoche není!
+	[AEIOUYÁÉÍÓÚÙÝÌ] R > E
+	[^AEIOUYÁÉÍÓÚÙÝÌ] R > -R, ØE
+	[^AEOKL] > EM
+	[^AEOKL] > Ù
+	[^AEOKL] > ÙM
+	[^AEOKL] > Y
+	[^AEOKLGHU] > ECH
+#	[BCDFMNPRTVZ] > ECH
+#	[GH] > ÁCH	# nespisovné!
+	G > -G, ZÍCH
+	[^C] H > -H, ZÍCH
+	C H > -CH, ©ÍCH
+	U > ÍCH
+
+	[^EÌ] K > A	# pták
+	[^EÌ] K > U
+	[^EÌ] K > OVI
+	[^EÌ] K > EM
+	[^EÌ] K > Ù
+	[^EÌ] K > ÙM
+	[^EÌ] K > -K, CÍCH
+	[^EÌ] K > Y
+
+	E K > -EK, KA	# mládek 
+	E K > -EK, KU
+	E K > -EK, KOVI
+	E K > -EK, KEM
+	E K > -EK, KÙ
+	E K > -EK, KÙM
+	E K > -EK, CÍCH
+	E K > -EK, KY
+
+	[^DTN] Ì K > A	# èlovìk, ale ten má mno¾né èíslo lidé
+	[^DTN] Ì K > U
+	[^DTN] Ì K > OVI
+	[^DTN] Ì K > EM
+	[^DTN] Ì K > KÙ
+	[^DTN] Ì K > KÙM
+	[^DTN] Ì K > CÍCH
+	[^DTN] Ì K > KY
+
+	D Ì K > -DÌK, ÏKA	# Ludìk
+	D Ì K > -DÌK, ÏKU
+	D Ì K > -DÌK, ÏKOVI
+	D Ì K > -DÌK, ÏKEM
+	D Ì K > -DÌK, ÏKÙ
+	D Ì K > -DÌK, ÏKÙM
+	D Ì K > -DÌK, ÏCÍCH
+	D Ì K > -DÌK, ÏKY
+
+	N Ì K > -NÌK, ÒKA	# danìk 
+	N Ì K > -NÌK, ÒKU
+	N Ì K > -NÌK, ÒKOVI
+	N Ì K > -NÌK, ÒKEM
+	N Ì K > -NÌK, ÒKÙ
+	N Ì K > -NÌK, ÒKÙM
+	N Ì K > -NÌK, ÒCÍCH
+	N Ì K > -NÌK, ÒKY
+
+	T Ì K > -TÌK, «KA	# Batìk 
+	T Ì K > -TÌK, «KU
+	T Ì K > -TÌK, «KOVI
+	T Ì K > -TÌK, «KEM
+	T Ì K > -TÌK, «KÙ
+	T Ì K > -TÌK, «KÙM
+	T Ì K > -TÌK, «CÍCH
+	T Ì K > -TÌK, «KY
+
+	[ABDT©®IOU] E L > A	# rebel, pedel, kon¹el, man¾el, Immanuel
+	[ABDT©®IOU] E L > U
+	[ABDT©®IOU] E L > OVI
+	[ABDT©®IOU] E L > E
+	[ABDT©®IOU] E L > EM
+	[ABDT©®IOU] E L > Ù
+	[ABDT©®IOU] E L > ÙM
+	[ABDT©®IOU] E L > Y
+	[ABDT©®IOU] E L > ECH
+
+	[^ABDT©®IOU] E L > -EL, LA	# kozel, orel, osel, mazel
+	[^ABDT©®IOU] E L > -EL, LU
+	[^ABDT©®IOU] E L > -EL, LOVI
+	[^ABDT©®IOU] E L > -EL, LE
+	[^ABDT©®IOU] E L > -EL, LI
+	[^ABDT©®IOU] E L > -EL, LEM
+	[^ABDT©®IOU] E L > -EL, LÙ
+	[^ABDT©®IOU] E L > -EL, LÙM
+	[^ABDT©®IOU] E L > -EL, LY
+	[^ABDT©®IOU] E L > -EL, LECH
+
+	[^E] L > A	# buvol
+	[^E] L > U
+	[^E] L > OVI
+	[^E] L > E
+	[^E] L > EM
+	[^E] L > Ù
+	[^E] L > ÙM
+	[^E] L > Y
+	[^E] L > ECH
+
+	O > -O, A	# Kolombo, dingo, Bidlo, Kvido
+	O > -O, U    
+	O > -O, OVI
+	O > -O, EM
+	O > -O, Ù
+	O > -O, ÙM
+	O > -O, Y
+	[^GK] O > -O, ECH
+	[GK] O > -O, ÁCH
+
+	[^CÈÏIJÒØ©«®] A > -A, Y	# pøedseda
+	[CÈIJØ©®] A > -A, I	# paòáci, maharad¾i, pa¹i, baèi, Va¹ici
+	Ï A > -ÏA, DI	# Vládi
+	Ò A > -ÒA, NI	# Stáni
+	« A > -«A, TI	# Bati
+	A > -A, OVI
+	A > -A, U
+	A > -A, O
+	A > -A, OU
+	A > -A, Ù
+	A > -A, ÙM
+	[^KÏÒ«H] A > -A, ECH	# jaká koncovka pro oligarcha, sluha ???
+	K A > -KA, CÍCH
+	Ï A > -ÏA, DÌCH
+	Ò A > -ÒA, NÌCH
+	« A > -«A, TÌCH
+
+	E > -E, A	# Shakespeare
+	E > -E, U
+	E > -E, OVI
+	E > M
+	E > -E, Ù
+	E > -E, ÙM
+	E > -E, Y
+	E > CH
+
+flag *I:
+	Ï > -Ï, DI
+	Ò > -Ò, NI
+	« > -«, TI
+	[^C] H > -H, ZI
+	C H > -CH, ©I
+	R > -R, ØI
+	[BDFMNPTVWCÈJØS©Z®] > I
+	O > -O, I
+	[^BDT©®IOU] E L > -EL, LI
+	[BDT©®IOU] E L > I
+	[^E] L > I
+	[^EÌ] K > -K, CI
+	E K > -EK, CI
+	D Ì K > -DÌK, ÏCI
+	N Ì K > -NÌK, ÒCI
+	T Ì K > -TÌK, «CI
+	R E > -RE, ØI
+	A > -A, I
+
+flag *V:
+	[^AEKLOÒ] > OVÉ
+	A > -A, OVÉ
+	E > -E, OVÉ
+	[^AEIOUYÁÉÍÓÚÝÌ] [^BDAEIOUYÁÉÍÓÚÝÌ] E L > OVÉ
+	[AEIOUYÁÉÍÓÚÝÌ] [^BDAEIOUYÁÉÍÓÚÝÌ] E L > -EL, LOVÉ
+	[BDAEIOUYÁÉÍÓÚÝÌ] E L > OVÉ
+	[^E] L > OVÉ
+	[^DTN] Ì K > OVÉ
+	D Ì K > -DÌK, ÏKOVÉ
+	N Ì K > -NÌK, ÒKOVÉ
+	T Ì K > -TÌK, «KOVÉ
+	O > VÉ
+	[^EÌ] K > OVÉ
+	E K > -EK, KOVÉ
+	L E Ò > OVÉ
+	[^L] E Ò > -EÒ, ÒOVÉ
+	[^E] Ò > OVÉ
+#    O S > -OS, OVÉ
+#    U S > -US, OVÉ
+#    [^OU] S > OVÉ
+
+flag *U:
+	E C > -EC, CE	# pulec
+	E C > -EC, CI 
+	E C > -EC, ÈE
+	E C > -EC, CEM 
+	E C > -EC, CÙ 
+	E C > -EC, CÙM  
+	E C > -EC, CÍCH 
+
+	[^E] C > E	# dìdic
+	[^E] C > I 
+	[^E] C > EM 
+	[^E] C > Ù 
+	[^E] C > ÙM  
+	[^E] C > ÍCH 
+
+	[^ACÏEÒ«] > E	# mu¾
+	[^ACÏEÒ«I] > I
+	[^ACÏEÒ«] > OVI
+	[^ACÏEÒ«] > EM
+	[^ACEÒ]  > Ù
+	[^ACEÒ]  > ÙM
+	[^ACÏEÒ«SX] > ÍCH
+
+	[SX] > ECH	# rorýsech
+	X > Y
+
+	A > -A, E	# pária
+	A > -A, OVI
+	A > -A, EM
+	A > -A, OVÉ
+	A > -A, Ù
+	A > -A, ÙM
+	A > -A, I
+	A > -A, ÍCH
+
+	Ï > -Ï, DÌ	# sleï
+	Ï > -Ï, DI
+	Ï > -Ï, DÌM
+	Ï > -Ï, DÍCH
+
+	L E Ò > -Ò, NÌ	# tuleò
+	L E Ò > -Ò, NI
+	L E Ò > -Ò, NÌM
+	L E Ò > Ù
+	L E Ò > ÙM
+	L E Ò > -Ò, NÍCH
+
+	[^L] E Ò > -EÒ, NÌ	# vìzeò
+	[^L] E Ò > -EÒ, NI
+	[^L] E Ò > -EÒ, NÌM
+	[^L] E Ò > -EÒ, ÒÙ
+	[^L] E Ò > -EÒ, ÒÙM
+	[^L] E Ò > -EÒ, NÍCH
+
+	[^E] Ò > -Ò, NÌ	# komoò
+	[^E] Ò > -Ò, NI
+	[^E] Ò > -Ò, NÌM
+	[^E] Ò > Ù
+	[^E] Ò > ÙM
+	[^E] Ò > -Ò, NÍCH
+
+	« > -«, TÌ	# cho»
+	« > -«, TI
+	« > -«, TÌM
+	« > -«, TÍCH
+
+	E > -E, I	# soudce
+	E > M
+	E > -E, Ù
+	E > -E, ÙM
+	E > -E, ÍCH
+
+flag *D:
+	E S > -ES, A	# Aristoteles
+	E S > -ES, U    
+	E S > -ES, OVI
+	[^GHK] E S > -ES, E
+	E S > -ES, EM
+	E S > -ES, OVÉ
+	E S > -ES, Ù
+	E S > -ES, ÙM
+	[^IGHK] E S > -ES, ECH
+	[^I] E S > -ES, Y
+	I E S > -ES, ÍCH
+	K E S > -ES, ÁCH
+	I E S > -ES, I
+
+	É S > -ÉS, A	# Aristoteles
+	É S > -ÉS, U    
+	É S > -ÉS, OVI
+	[^GHK] É S > -ÉS, E
+	É S > -ÉS, EM
+	É S > -ÉS, OVÉ
+	É S > -ÉS, Ù
+	É S > -ÉS, ÙM
+	[^IGHK] É S > -ÉS, ECH
+	[^I] É S > -ÉS, Y
+	I É S > -ÉS, ÍCH
+	K É S > -ÉS, ÁCH
+	I É S > -ÉS, I
+
+	O S > -OS, A	# diskobolos
+	O S > -OS, U    
+	O S > -OS, OVI
+	[^GHK] O S > -OS, E
+	O S > -OS, EM
+	O S > -OS, OVÉ
+	O S > -OS, Ù
+	O S > -OS, ÙM
+	[^IGHK] O S > -OS, ECH
+	[^I] O S > -OS, Y
+	I O S > -OS, ÍCH
+	K O S > -OS, ÁCH
+	I O S > -OS, I
+
+	U S > -US, A	# Kristus
+	U S > -US, U    
+	U S > -US, OVI
+	[^GHK] U S > -US, E
+	U S > -US, EM
+	U S > -US, OVÉ
+	U S > -US, Ù
+	U S > -US, ÙM
+	[^EIK] U S > -US, ECH	# o Kristech
+	[^EI] U S > -US, Y	# s Kristy
+	[EI] U S > -US, ÍCH	# o géniích
+	K U S > -US, ÁCH	# o Spartakách
+	[EI] U S > -US, I	# s génii
+
+	A S > -AS, A	# Pythagoras
+	A S > -AS, U    
+	A S > -AS, OVI
+	[^GHK] A S > -AS, E
+	A S > -AS, EM
+	A S > -AS, OVÉ
+	A S > -AS, Ù
+	A S > -AS, ÙM
+	[^IGHK] A S > -AS, ECH
+	[^I] A S > -AS, Y
+	I A S > -AS, ÍCH
+	K A S > -AS, ÁCH
+	I A S > -AS, I
+
+	I S > -S, DA	# Adonis
+	I S > -S, DU
+	I S > -S, DOVI
+	I S > -S, DE
+	I S > -S, DEM
+	I S > -S, DOVÉ
+	I S > -S, DÙ
+	I S > -S, DÙM
+	I S > -S, DY
+	I S > -S, DECH
+
+	O N > A
+	O N > TA
+	O N > U
+	O N > TU
+	O N > OVI
+	O N > TOVI
+	O N > E
+	O N > TE
+	O N > EM
+	O N > TEM
+
+	[^AEIOU] S > É
+	[^ANSY] > É
+	A > -A, É
+	A N > É
+
+# Pomno¾ná místní jména vzoru hrad; u -ky dává -kùm ale -kách
+# pro -sy, -zy dává -ùm, -ech i -ích
+	[AEIOUYÁÉÍÓÚÙÝÌ] [LR] K Y > -KY, EK
+	[^AEIOUYÁÉÍÓÚÙÝÌ] [LR] K Y > -Y, -
+	[ÈDNTV] K Y > -KY, EK	# Dolánek
+	[^ÈDNTVRL] K Y > -Y, -
+	[DKPZ] L Y > -LY, EL
+	[^DKPZ] L Y > -Y, -
+	[^KL] Y > -Y, -		# Hradèan
+	Y > -Y, ÙM
+	[GH] Y > -Y, ÁCH
+	K Y > -Y, ÁCH
+	R Y > -Y, ÁCH
+	[^GHKR] Y > -Y, ECH
+	[SZ] Y > -Y, ÍCH
+
+flag *H:
+	[^EY] > U	# hrad
+	[^EYGHKC] > E	# bìh > bìhe není!
+#    [BFP] > Ì	# na hradì
+	[^EY] > EM
+	[^EY] > Y
+	[^EY] > Ù
+	[^EY] > ÙM
+	[^EYGHK] > ECH
+#    [GH] > ÁCH
+	G > -G, ZÍCH
+	[^C] H > -H, ZÍCH
+	C H > -CH, ©ÍCH
+	K > -K, CÍCH	# lesík > lesících
+
+	E >  -E, U	# byte
+	E >  M
+	E >  -E, Y
+	E >  -E, Ù
+	E >  -E, ÙM
+	E >  -E, ECH
+
+	Y > -Y, Ù
+	Y > -Y, ÙM
+	[^GHK] Y > -Y, ECH
+#    [GH] > ÁCH
+	G Y > -GY, ZÍCH
+	[^C] H Y > -HY, ZÍCH
+	C H Y > -CHY, ©ÍCH
+	K Y > -KY, CÍCH	# man¹estráky > man¹estrácích
+
+flag *L:	# ostrov (les kolísá)
+	[^NK] > A
+	[^NK] > U
+	[^KN] > E
+	Y K > -K, CE	# jazyce
+	[BDFMPTVW] > Ì	# o ostrovì
+	[^NK] > EM
+	[^NK] > Y
+	[^NK] > Ù
+	[^NK] > ÙM
+	[BDFLMPRTVZ] > ECH
+	[GH] > ÁCH
+	G > -G, ZÍCH
+	[^C] H > -H, ZÍCH
+	C H > -CH, ©ÍCH
+	[CÈJØS©®] > ÍCH
+#    [^KVN] > ÍCH
+
+	E K > -EK, KA	# lesíèek
+	E K > -EK, KU
+	E K > -EK, KEM
+	E K > -EK, KY
+	E K > -EK, KÙ
+	E K > -EK, KÙM
+	E K > -EK, CÍCH
+	Í È E K > -EK, KÁCH	# lesíèkách
+
+	[^E] K > A	# lesík, kostelík
+	[^E] K > U
+	[^E] K > EM
+	[^E] K > Y
+	[^E] K > Ù
+	[^E] K > ÙM
+	[^E] K > -K, CÍCH
+
+	M E N > A	# jeèmen
+	M E N > U
+	M E N > E
+	M E N > EM
+	M E N > Y
+	M E N > Ù
+	M E N > ÙM
+	M E N > ECH
+
+	[^M] E N > -EN, NA	# leden
+	[^M] E N > -EN, NU
+	[^M] E N > -EN, NE
+	[^M] E N > -EN, NEM
+	[^M] E N > -EN, NY
+	[^M] E N > -EN, NÙ
+	[^M] E N > -EN, NÙM
+	[^M] E N > -EN, NECH
+
+	[^E] N > A	# 
+	[^E] N > U
+	[^E] N > E
+	[ÁÉÍÝJ] N > Ì	# v Kojetínì, v Londýnì
+	[^E] N > EM
+	[^E] N > Y
+	[^E] N > Ù
+	[^E] N > ÙM
+	[^E] N > ECH
+
+flag *S:
+	[^AEÍÌCÒ«Y] > E	# stroj
+	[^AEÍÌCÒ«Y] > I
+	[^AEÍÌCÒ«Y] > EM
+	[^AEÍÌCÒY]  > Ù
+	[^AEÍÌCÒY]  > ÙM
+	[^AEÍÌCÒ«NLSZY] > ÍCH
+	N > Y
+	[NSZ] > ECH	# køemenech, mìstysech, penízech
+	Í L > ECH	# cílech
+	[^Í] L > ÍCH	# cílech
+
+	E C > -EC, CE	# konec
+	E C > -EC, CI 
+	E C > -EC, CEM 
+	E C > -EC, CÙ 
+	E C > -EC, CÙM  
+	E C > -EC, CÍCH 
+
+	[^E] C > E	# líc
+	[^E] C > I 
+	[^E] C > EM 
+	[^E] C > Ù 
+	[^E] C > ÙM  
+	[^E] C > ÍCH 
+
+	« > -«, TÌ	# plá¹»
+	« > -«, TI
+	« > -«, TÌM
+	« > -«, TÍCH
+
+	E Ò > -EÒ, NÌ	# stupeò
+	E Ò > -EÒ, NI
+	E Ò > -EÒ, ÒÙ
+	E Ò > -EÒ, ÒÙM
+	E Ò > -EÒ, NÌM
+	E Ò > -EÒ, NÍCH
+
+	[^E] Ò > -Ò, NÌ	# 
+	[^E] Ò > -Ò, NI
+	[^E] Ò > Ù
+	[^E] Ò > ÙM
+	[^E] Ò > -Ò, NÌM
+	[^E] Ò > -Ò, NÍCH
+
+	Í > M	# stavení
+	Í > CH
+	Í > MI
+
+	E > -E, I	# Roudnice
+	E > -E, Í
+
+	Ì > -Ì, I	# Bechynì
+	Ì > -Ì, Í
+
+	Y > HO	# Presley, Henry
+	Y > MU
+	Y > M
+	Y > OVÉ
+	Y > OVI
+
+	[^CÈÏJÒØ©«®] A > -A, Y
+	[CÈJØ©®] A > -A, I
+	Ï A > -ÏA, DI
+	Ò A > -ÒA, NI
+	« A > -«A, TI
+	G A > -GA, ZE
+	K A > -KA, CE
+	A > -A, U
+	A > -A, O
+	A > -A, OU
+
+# flag Q je pro 2. pád mno¾ného èísla vzoru ¾ena a mìsto
+# pro velké mno¾ství nepravidelností oddìleno
+# tvary na -Y jsou pro pomno¾ná jména (kalhoty, nù¾ky)
+# navíc vzor hrad s odsouvaným -e- (bílek > bílku) i -nìk (úplnìk > úplòku)
+flag *Q:
+#    AÁBCÈDÏEÉÌFGHIÍJKLMNÒOÓPQRØS©T«UÚÙVWXYÝZ®
+#    AÁCÈÏEÉÌFGHIÍJÒOÓPQØS©«UÚÙWXYÝZ®
+	[^AEIOUYÁÉÍÓÚÝÙÌR] U M > -UM, -	# adjektivum > adjektiv
+	[AEIOUYÁÉÍÓÚÝÙÌ] R U M > -RUM, R	# fórum > fór
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R U M > -RUM, ER	# centrum > center
+	I S > -S, D	# Atlantid
+	[ÈDLSTVZ®] B A > -BA, EB	#slu¾eb
+	[ÈDLSTVZ®] B O > -BO, EB	#
+	[ÈDLSTVZ®] B Y > -BY, EB	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] R B A > -BA, EB	#koreb
+	[AEIOUYÁÉÍÓÚÝÙÌ] R B O > -BO, EB	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] R B Y > -BY, EB	#
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R B A > -BA, B	#vrb
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R B O > -BO, B	#
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R B Y > -BY, B	#
+	[^ÈDLRSTVZ®] B A > -BA, B	#bomb
+	[^ÈDLRSTVZ®] B O > -BO, B	#
+	[^ÈDLRSTVZ®] B Y > -BY, B	#
+	[SRN] C A > -CA, K	#Casablank
+	[SRN] C O > -CO, K	#Francisk
+	[^SRN] C A > -CA, C	#skic
+	[^SRN] C O > -CO, C
+	E > -E, -	#Roudnic
+	[ÈDÏFGHJÒPØS©«WXZ®] A > -A, -	# káè, stád, Naï, ¾iraf
+	[ÈDÏFGHJÒPØS©«WXZ®] O > -O, -	# stád, traf, knih, vepø
+	[DFGHPSZ] Y > -Y, -	# Beskydy, Èechy, Kosmonosy
+	Ï K A > -ÏKA, DÌK	#lodìk
+	Ï K O > -ÏKO, DÌK	#
+	Ï K Y > -ÏKY, DÌK	#
+	Ò K A > -ÒKA, NÌK	#planìk
+	Ò K O > -ÒKO, NÌK	#
+	Ò K Y > -ÒKY, NÌK	#
+	« K A > -«KA, TÌK	#latìk
+	« K O > -«KO, TÌK	#
+	« K Y > -«KY, TÌK	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] K A > -KA, K	#pák
+	[AEIOUYÁÉÍÓÚÝÙÌ] K O > -KO, K
+	[AEIOUYÁÉÍÓÚÝÙÌ] K Y > -KY, K	#Pasek
+	[^AEIOUYÁÉÍÓÚÝÙÌÏ«ÒK] K A > -KA, EK	#lásek
+	K K A > -KA, -	# Mekka
+	[^AEIOUYÁÉÍÓÚÝÙÌÏ«Ò] K O > -KO, EK	#plecko>plecek
+	[^AEIOUYÁÉÍÓÚÝÙÌÏ«Ò] K Y > -KY, EK	#nù¾ek, kalhotek
+	[AEIOUYÁÉÍÓÚÝÙÌ] L A > -LA, L	#nul
+	[AEIOUYÁÉÍÓÚÝÙÌ] L O > -LO, L	#dìl
+	[AEIOUYÁÉÍÓÚÝÙÌ] L Y > -LY, L	#dìl
+	[^AEIOUYÁÉÍÓÚÝÙÌ] L A > -LA, EL	#cihel
+	[^AEIOUYÁÉÍÓÚÝÙÌ] L O > -LO, EL	#sídel
+	[^AEIOUYÁÉÍÓÚÝÙÌ] L Y > -LY, EL	#Poèápel
+	[AEIOUYÁÉÍÓÚÝÙÌ] M A > -MA, M	#sum
+	[AEIOUYÁÉÍÓÚÝÙÌ] M O > -MO, M	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] M Y > -MY, M	#
+	[^AEIOUYÁÉÍÓÚÝÙÌ] M A > -MA, EM	#norem
+	[^AEIOUYÁÉÍÓÚÝÙÌ] M O > -MO, EM	#jaøem
+	[^AEIOUYÁÉÍÓÚÝÙÌ] M Y > -MY, EM	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N A > -NA, EN	#cukráren
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N O > -NO, EN	#inferen
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Y > -NY, EN	#
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N A > -NA, N	#srn, vln
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N O > -NO, N	#Brn
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Y > -NY, N	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] N A > -NA, N	#¾en
+	N Ì > -NÌ, Ò	# pøítelkyò
+	[AEIOUYÁÉÍÓÚÝÙÌ] N O > -NO, N	#vín
+	[AEIOUYÁÉÍÓÚÝÙÌ] N Y > -NY, N	#prázdnin
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N A > -NA, EN	#beden
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N O > -NO, EN	#bahen
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N Y > -NY, EN	#
+	[AEIOUYÁÉÍÓÚÝÙÌ] R A > -RA, R	#hor
+	[AEIOUYÁÉÍÓÚÝÙÌ] R O > -RO, R	#jar
+	[AEIOUYÁÉÍÓÚÝÙÌ] R Y > -RY, R	#Kordiller
+	[^AEIOUYÁÉÍÓÚÝÙÌR] R A > -RA, ER	#sester
+	R R A > -RA, -	# Andor
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R O > -RO, ER	#bister
+	[^AEIOUYÁÉÍÓÚÝÙÌ] R Y > -RY, ER	#Uher
+	[^H] T A > -TA, T	#lat
+	[^H] T O > -TO, T	#mýt
+	[^H] T Y > -TY, T	#kalhot
+	[^C] H T A > -TA, T	#jen pro úplnost
+	[^C] H T O > -TO, T	#
+	[^C] H T Y > -TY, T	#
+	[^AU] C H T A > -TA, T	#¹lecht
+	[^AU] C H T O > -TO, T	#
+	[^AU] C H T Y > -TY, T	#
+	[AU] C H T A > -TA, ET	#buchet
+	[AU] C H T O > -TO, ET	#
+	[AU] C H T Y > -TY, ET	#
+	[HKTZ] V A > -VA, EV	#bitev
+	[HKTZ] V O > -VO, EV	#bitev
+	[HKTZ] V Y > -VY, EV	#bitev
+	[^HKTZ] V A > -VA, V	#slev
+	[^HKTZ] V O > -VO, V	#slov
+	[^HKTZ] V Y > -VY, V	#slov
+
+	E K > -EK, KU	# hrádek
+	E K > -EK, KEM
+	E K > -EK, KY
+	E K > -EK, KÙ
+	E K > -EK, KÙM
+	E K > -EK, CÍCH	# lesíècích
+	È E K > -EK, KÁCH	# o domeèkách, lesíèkách
+
+	O K > -OK, KU	# Chopok
+	O K > -OK, KEM
+	O K > -OK, KY
+	O K > -OK, KÙ
+	O K > -OK, KÙM
+	O K > -OK, KÁCH
+
+	E L > -EL, LU	# úhel
+	E L > -EL, LE
+	E L > -EL, LEM
+	E L > -EL, LY
+	E L > -EL, LÙ
+	E L > -EL, LÙM
+	E L > -EL, LECH
+
+	N Ì K > -NÌK, ÒKU	# doplnìk
+	N Ì K > -NÌK, ÒKEM
+	N Ì K > -NÌK, ÒKY
+	N Ì K > -NÌK, ÒKÙ
+	N Ì K > -NÌK, ÒKÙM
+	N Ì K > -NÌK, ÒCÍCH
+
+	E M > -EM, MU	# nájem
+	E M > -EM, ME
+	E M > -EM, MEM
+	E M > -EM, MY
+	E M > -EM, MÙ
+	E M > -EM, MÙM
+	E M > -EM, MECH
+
+	E N > -EN, NU	# sen
+	E N > -EN, NE
+	E N > -EN, NEM
+	E N > -EN, NY
+	E N > -EN, NÙ
+	E N > -EN, NÙM
+	E N > -EN, NECH
+
+	E T > -ET, TU	# souèet, nehet
+	E T > -ET, TE
+	E T > -ET, TEM
+	E T > -ET, TY
+	E T > -ET, TÙ
+	E T > -ET, TÙM
+	E T > -ET, TECH
+
+	E R > -ER, RU	# souèet, nehet
+	E R > -ER, RE
+	E R > -ER, REM
+	E R > -ER, RY
+	E R > -ER, RÙ
+	E R > -ER, RÙM
+	E R > -ER, RECH
+
+	E V > -EV, VU	# ¹ev
+	E V > -EV, VE
+	E V > -EV, VEM
+	E V > -EV, VY
+	E V > -EV, VÙ
+	E V > -EV, VÙM
+	E V > -EV, VECH
+
+	E S > -ES, U	# diabetes
+	[^GHK] E S > -ES, E
+	E S > -ES, EM
+	E S > -ES, Y
+	E S > -ES, Ù
+	E S > -ES, ÙM
+        [^GHK] E S > -S, CH
+        G E S > -GES, ZÍCH
+        C H E S > -CHES, ©ÍCH
+        [^C] H E S > -HES, ZÍCH
+        K E S > -KES, CÍCH
+
+	O S > -OS, U	# kosmos
+	[^GHK] O S > -OS, E
+	O S > -OS, EM
+	O S > -OS, Y
+	O S > -OS, Ù
+	O S > -OS, ÙM
+        [^GHK] O S > -OS, ECH
+        G O S > -GOS, ZÍCH
+        C H O S > -CHOS, ©ÍCH
+        [^C] H O S > -HOS, ZÍCH
+        K O S > -KOS, CÍCH
+
+	U S > -US, U	# ateismus, cyklus
+	[^GHK] U S > -US, E
+	U S > -US, EM
+	U S > -US, Y
+	U S > -US, Ù
+	U S > -US, ÙM
+	[^GHK] U S > -US, ECH
+	G U S > -GUS, ZÍCH
+	C H U S > -CHUS, ©ÍCH
+	[^C] H U S > -HUS, ZÍCH
+	K U S > -KUS, CÍCH
+
+	I S M U S > -SMUS, ZMUS
+	I S M U S > -SMUS, ZMU
+	I S M U S > -SMUS, ZME
+	I S M U S > -SMUS, ZMEM
+	I S M U S > -SMUS, ZMY
+	I S M U S > -SMUS, ZMÙ
+	I S M U S > -SMUS, ZMÙM
+	I S M U S > -SMUS, ZMECH
+
+	N S > -S, TU	# prézens
+	N S > -S, TE
+	N S > -S, TEM
+	N S > -S, TY
+	N S > -S, TÙ
+	N S > -S, TÙM
+	N S > -S, TECH
+
+flag *Z:
+	[AEIOUY®©ÈØJ] A > -A, I	# Andrea, gej¹a, sója
+	[^SRN] C A > -A, I	# skica > skici
+	[SRN] C A > -CA, KY	# Mallorca
+	Ï A > -ÏA, DI	# Nadi
+	Ò A > -ÒA, NI	# Táni
+	« A > -«A, TI	# Káti
+	[^AEIOUY®©ÈØCJÏ«Ò] A > -A, Y	# ¾ena
+
+	[BDFMNPTVW] A > -A, Ì
+	Ï A > -ÏA, DÌ	# Nadì
+	Ò A > -ÒA, NÌ	# Tánì
+	« A > -«A, TÌ	# Kátì
+	G A > -GA, ZE	#droze
+	C H A > -CHA, ©E	#ble¹e
+	[^C] H A > -HA, ZE	#chaluze
+	K A > -KA, CE	#ta¹ce
+	[^R] R A > -RA, ØE	#bramboøe
+	R R A > -RRA, ØE	#Andoøe
+	[^BDFMNPTVWÏ«ÒGHKR] A > -A, E	# kráse
+
+	A > -A, U
+	A > -A, O
+	A > -A, OU
+
+	E A > -A, Y	# Andrey, idey
+	[AEIOUY] A > -A, Í	#Vantaí, Andreí, Mamaí
+	[^I] A > -A, ÁM
+	[^I] A > -A, ÁCH
+	[^I] A > MI
+
+	I A > -A, ÍM
+	I A > -A, ÍCH
+	I A > -A, EMI
+
+	[^A] Y > -Y, ÁM	# kalhotám
+	[^A] Y > -Y, ÁCH	# o kalhotách
+	[^A] Y > -Y, AMI	# kalhotami
+
+	A Y > E		# Uruguay
+	A Y > I
+	A Y > Í
+	A Y > ÍM
+	A Y > ÍCH
+	A Y > EMI
+
+	S > -S, DA	# Atlantis > Atlantida
+	S > -S, DY	# Atlantidy
+	S > -S, DÌ	# Atlantidì
+	S > -S, DU	# Atlantidy
+	S > -S, DO	# Atlantido
+	S > -S, DOU	# Atlantidou
+	S > -S, DÁM	# Atlantidám
+	S > -S, DÁCH	# Atlantidách
+	S > -S, DAMI	# Atlantidami
+
+	[^G] E > -E, I	# rù¾e, Marseille, Bretagne
+	[^G] E > -E, Í
+	[^G] E > -E, ÍM
+	[^G] E > -E, ÍCH
+	[^G] E >  MI
+
+	Ì > -Ì, I	# jeskynì
+	Ì > -Ì, Í
+	Ì > -Ì, ÍM
+	Ì > -Ì, ÍCH
+	Ì >  MI
+
+	D G E > -GE, ®I	# (Cam)bridge
+	D G E > -GE, ®Í
+	D G E > -GE, ®ÍM
+	D G E > -GE, ®ÍCH
+	D G E > -GE, ®EMI
+
+	[^AEIOYÌ] S E Ò > -EÒ, NÌ	# píseò, pøedprseò
+	[^AEIOYÌ] S E Ò > -EÒ, NI
+	[^AEIOYÌ] S E Ò > -EÒ, NÍ
+	[^AEIOYÌ] S E Ò > -EÒ, NÍM
+	[^AEIOYÌ] S E Ò > -EÒ, NÍCH
+	[^AEIOYÌ] S E Ò > -EÒ, NÌMI
+
+	[AEIOYÌ] S E Ò > -Ò, NÌ	# jeseò
+	[AEIOYÌ] S E Ò > -Ò, NI
+	[AEIOYÌ] S E Ò > -Ò, NÍ
+	[AEIOYÌ] S E Ò > -Ò, NÍM
+	[AEIOYÌ] S E Ò > -Ò, NÍCH
+	[AEIOYÌ] S E Ò > -Ò, NÌMI
+
+	[^LØS] E Ò > -EÒ, NÌ	# líheò
+	[^LØS] E Ò > -EÒ, NI
+	[^LØS] E Ò > -EÒ, NÍ
+	[^LØS] E Ò > -EÒ, NÍM
+	[^LØS] E Ò > -EÒ, NÍCH
+	[^LØS] E Ò > -EÒ, NÌMI
+
+	[LØ] E Ò > -Ò, NÌ	# zeleò
+	[LØ] E Ò > -Ò, NI
+	[LØ] E Ò > -Ò, NÍ
+	[LØ] E Ò > -Ò, NÍM
+	[LØ] E Ò > -Ò, NÍCH
+	[LØ] E Ò > -Ò, NÌMI
+
+	E V > -EV, VE	# ploutev
+	E V > -EV, VI
+	E V > -EV, VÍ
+	E V > -EV, VÍM
+	E V > -EV, VÍCH
+	E V > -EV, VEMI
+
+	[^LP] E C > -EC, CE	# obec; nesystémové øe¹ení, ale snad vyhovující
+	[^LP] E C > -EC, CI
+	[^LP] E C > -EC, CÍ
+	[^LP] E C > -EC, CÍM
+	[^LP] E C > -EC, CÍCH
+	[^LP] E C > -EC, CEMI
+
+	[LP] E C > E	# klec, pec
+	[LP] E C > I
+	[LP] E C > Í
+	[LP] E C > ÍM
+	[LP] E C > ÍCH
+	[LP] E C > EMI
+
+	[JLPTXZÈ©Ø®] > E	# èepel, syntax
+	[JLMPTXZÈ©Ø®] > I
+	[JLMPTXZÈ©Ø®] > Í
+	[JLMPTXZÈ©Ø®] > ÍM
+	[JLMPTXZÈ©Ø®] > ÍCH
+	[JLMPTXZÈ©Ø®] > EMI
+
+	E M > Ì
+	E M > ÌMI
+
+	[^E] [CMV] > E	# krùpìj, strá¾
+	[^E] [CV] > I
+	[^E] [CV] > Í
+	[^E] [CV] > ÍM
+	[^E] [CV] > ÍCH
+	[^E] [CV] > EMI
+
+	[^E] Ò > -Ò, NÌ	# laò
+	[^E] Ò > -Ò, NI
+	[^E] Ò > -Ò, NÍ
+	[^E] Ò > -Ò, NÍM
+	[^E] Ò > -Ò, NÍCH
+	[^E] Ò > -Ò, NÌMI
+
+	« > -«, TÌ	# la»
+	« > -«, TI
+	« > -«, TÍ
+	« > -«, TÍM
+	« > -«, TÍCH
+	« > -«, TÌMI
+
+	Ï > -Ï, DÌ	# loï
+	Ï > -Ï, DI
+	Ï > -Ï, DÍ
+	Ï > -Ï, DÍM
+	Ï > -Ï, DÍCH
+	Ï > -Ï, DÌMI
+
+flag *C:
+	I C E > -CE, C	# Dale¹ice
+	[^I] C E > -E, Í	# ovace > ovací
+	[ÈIJLØ] E > -E, Í	# orgie, dveøe, housle
+	© E > -E, -
+	[CÈIJLØ©] E > -E, ÍM
+	[CÈIJLØ©] E > -E, ÍCH
+	[CÈIJL©] E > MI
+	Ø E > -E, MI
+
+	[BDFMNPTVW] A > -A, Ì
+	Ï A > -ÏA, DÌ	# Nadì
+	Ò A > -ÒA, NÌ	# Tánì
+	« A > -«A, TÌ	# Kátì
+	G A > -GA, ZE	#droze
+	C H A > -CHA, ©E	#ble¹e
+	[^C] H A > -HA, ZE	#chaluze
+	K A > -KA, CE	#ta¹ce
+	[^R] R A > -RA, ØE	#bramboøe
+	R R A > -RRA, ØE	#Andoøe
+	[^BDFMNPTVWÏ«ÒGHKR] A > -A, E	# kráse
+
+	Ì > -Ì, Í	# kle¹tì
+	Ì > -Ì, ÍM
+	Ì > -Ì, ÍCH
+	Ì > MI
+
+	Í > M		# hromadná vzor stavení (chmýøí > chmýøím)
+
+	E È > -EÈ, ÈE	# Skuteè, Støeleè, Mikuleè (pouze sg.)
+	E È > -EÈ, ÈI
+	E È > -EÈ, ÈÍ
+
+	O > -O, A	# svalstvo
+	O > -O, U
+	O > -O, EM
+
+	A > -A, Y	# Salamanca
+	A > -A, E
+	A > -A, U
+	A > -A, O
+	A > -A, OU
+	C A > -CA, KY
+	C A > -CA, KO
+	C A > -CA, KOU
+
+	C K Ý > -CKÝ, ÈNOST	# dìdický > dìdiènost
+	C K Ý > -CKÝ, ÈNOSTI
+	C K Ý > -CKÝ, ÈNOSTÍ
+	C K Ý > -CKÝ, ÈNOSTEM
+	C K Ý > -CKÝ, ÈNOSTECH
+	C K Ý > -CKÝ, ÈNOSTMI
+
+	O C I > -CI, ®EN	# pøemo¾en
+	O C I > -CI, ®ENA
+	O C I > -CI, ®ENO
+	O C I > -CI, ®ENI
+	O C I > -CI, ®ENY
+	O C I > -CI, ®ENU
+
+	[^S] T I T > -TIT, CEN	# sycen
+	[^S] T I T > -TIT, CENA
+	[^S] T I T > -TIT, CENO
+	[^S] T I T > -TIT, CENI
+	[^S] T I T > -TIT, CENY
+	[^S] T I T > -TIT, CENU
+
+	[^Z®] D I T > -DIT, ZEN	# hlazen
+	[^Z®] D I T > -DIT, ZENA
+	[^Z®] D I T > -DIT, ZENO
+	[^Z®] D I T > -DIT, ZENI
+	[^Z®] D I T > -DIT, ZENY
+	[^Z®] D I T > -DIT, ZENU
+
+	S I T > -SIT, ©EN	# pro¹en
+	S I T > -SIT, ©ENA
+	S I T > -SIT, ©ENO
+	S I T > -SIT, ©ENI
+	S I T > -SIT, ©ENY
+	S I T > -SIT, ©ENU
+
+	Z I T > -ZIT, ®EN	# vo¾en
+	Z I T > -ZIT, ®ENA
+	Z I T > -ZIT, ®ENO
+	Z I T > -ZIT, ®ENI
+	Z I T > -ZIT, ®ENY
+	Z I T > -ZIT, ®ENU
+
+	S L I T > -SLIT, ©LEN	# my¹len
+	S L I T > -SLIT, ©LENA
+	S L I T > -SLIT, ©LENO
+	S L I T > -SLIT, ©LENI
+	S L I T > -SLIT, ©LENY
+	S L I T > -SLIT, ©LENU
+
+	S T I T > -STIT, ©TÌN	# hu¹tìn
+	S T I T > -STIT, ©TÌNA
+	S T I T > -STIT, ©TÌNO
+	S T I T > -STIT, ©TÌNI
+	S T I T > -STIT, ©TÌNY
+	S T I T > -STIT, ©TÌNU
+
+	Z D I T > -ZDIT, ®DÌN	# opo¾dìn
+	Z D I T > -ZDIT, ®DÌNA
+	Z D I T > -ZDIT, ®DÌNO
+	Z D I T > -ZDIT, ®DÌNI
+	Z D I T > -ZDIT, ®DÌNY
+	Z D I T > -ZDIT, ®DÌNU
+
+	Á H N O U T > -ÁHNOUT, A®EN	# ta¾en
+	Á H N O U T > -ÁHNOUT, A®ENA
+	Á H N O U T > -ÁHNOUT, A®ENO
+	Á H N O U T > -ÁHNOUT, A®ENI
+	Á H N O U T > -ÁHNOUT, A®ENY
+	Á H N O U T > -ÁHNOUT, A®ENU
+
+	C H N O U T > -CHNOUT, ©EN	# nad¹en (i nadchnut)
+	C H N O U T > -CHNOUT, ©ENA
+	C H N O U T > -CHNOUT, ©ENO
+	C H N O U T > -CHNOUT, ©ENI
+	C H N O U T > -CHNOUT, ©ENY
+	C H N O U T > -CHNOUT, ©ENU
+
+	[^ÁC] H N O U T > -HNOUT, ®EN	# sti¾en
+	[^ÁC] H N O U T > -HNOUT, ®ENA
+	[^ÁC] H N O U T > -HNOUT, ®ENO
+	[^ÁC] H N O U T > -HNOUT, ®ENI
+	[^ÁC] H N O U T > -HNOUT, ®ENY
+	[^ÁC] H N O U T > -HNOUT, ®ENU
+
+	É K N O U T > -ÉKNOUT, EÈEN	# svleèen
+	É K N O U T > -ÉKNOUT, EÈENA
+	É K N O U T > -ÉKNOUT, EÈENO
+	É K N O U T > -ÉKNOUT, EÈENI
+	É K N O U T > -ÉKNOUT, EÈENY
+	É K N O U T > -ÉKNOUT, EÈENU
+
+	S K N O U T > -SKNOUT, ©TÌN	# ti¹tìn
+	S K N O U T > -SKNOUT, ©TÌNA
+	S K N O U T > -SKNOUT, ©TÌNO
+	S K N O U T > -SKNOUT, ©TÌNI
+	S K N O U T > -SKNOUT, ©TÌNY
+	S K N O U T > -SKNOUT, ©TÌNU
+
+	[^ÉS] K N O U T > -KNOUT, ÈEN	# odemèen
+	[^ÉS] K N O U T > -KNOUT, ÈENA
+	[^ÉS] K N O U T > -KNOUT, ÈENO
+	[^ÉS] K N O U T > -KNOUT, ÈENI
+	[^ÉS] K N O U T > -KNOUT, ÈENY
+	[^ÉS] K N O U T > -KNOUT, ÈENU
+
+flag *M:   
+# koncovky sedle, støíbøe, jaøe, mìstì se vytváøejí pomocí flagu R!
+# problémy: v ¹eru, prázdnu, nitru, jaømu, pásmu, tichu, tempu, o procentu
+# pro 2. pád mno¾ného èísla bez koncovky se pou¾ívá flag Q
+#   [^CLBFMPW] O > -O, U	# o tangu, jablku, panstvu, kuøivu, kakau
+	[^C] O > -O, A		# mìsta
+	[^C] O > -O, U
+	D L O > -O, E
+	[^C] O > -O, EM
+	[^CIY] O > -O, ÙM	# mìstùm, kakaùm, rodeùm
+	[^CGHKEIY] O > -O, ECH	# mìstech, kakaech
+	[GHK] O > -O, ÁCH	# tangách, suchách, psiskách, jablkách
+	I S K O > -KO, CÍCH
+	[^®©ÈØCJIY] O > -O, Y	# s mìsty, rodey, kakay
+
+	[AEIOUY] O > -O, Í	# kakaí, rodeí, rádií
+	[EIY] O > -O, ÍM		# rodeím, rádiím
+	[EIY] O > -O, ÍCH	# rádiích, rodeích
+	[®©ÈØJEIY] O > -O, I	# s ponèi, rodei, rádii
+
+	A > -A, ÙM	# pomno¾ná: játrùm, zádùm, vrátkùm
+	[GHK] A > -A, ÁCH	# vrátkách
+	[^GHKEI] A > -A, ECH	# zádech
+	[^®©ÈØCJI] A > -A, Y	# s mìsty, rodey, kakay
+
+	O N > -ON, A	# symposion > symposia
+	O N > -ON, U
+	O N > -ON, EM
+	O N > -ON, Í
+	O N > -ON, ÍM
+	O N > -ON, ÍCH
+	O N > -ON, I
+
+	U M > -UM, A	# centra, vakua
+	U M > -UM, U	# centru, vakuu
+	U M > -UM, EM	# centrem, vakuem
+	[AEIOUYÁÉÍÓÚÝÙÌ] U M > -UM, Í	# vakuum > vakuí
+	[AEIOUYÁÉÍÓÚÙÝÌ] U M > -UM, ÍM	# akváriím
+	[^AEIOUYÁÉÍÓÚÙÝÌ] U M > -UM, ÙM	# centrùm
+	[AEIOUYÁÉÍÓÚÙÝÌ] U M > -UM, ÍCH	# akváriích
+	[^AEIOUYÁÉÍÓÚÙÝÌK] U M > -UM, ECH	# centrech
+	K U M > -UM, ÁCH	# o publikách
+	[^HKRDTNBFLMBSVZ] U M > -UM, I	# s akvárii
+	[HKRDTNBFLMBSVZ] U M > -UM, Y	# s centry
+
+	[^SRN] C O > -O, A
+
+	[SRN] C O > -CO, KA	# Francisco > Franciska
+	[SRN] C O > -CO, KU
+	[SRN] C O > -CO, KEM
+	[SRN] C O > -CO, KÙM
+	[SRN] C O > -CO, KY
+	[SRN] C O > -O, ÍCH
+#  
+	E > -E, I	#moøe
+	[EÌ] > M
+	E > -E, Í
+	E > -E, ÍM
+	E > -E, ÍCH
+
+	Ì > -Ì, I	#boji¹tì
+	T Ì > -TÌ, «
+	M Ì > -Ì, Í	#rámì
+	Ì > -Ì, ÍM
+	Ì > -Ì, ÍCH
+
+flag *K:
+	[EÌ] > TE	#kuøe, doupì
+	[EÌ] > TI
+	[EÌ] > TEM
+	E > -E, ATA
+	E > -E, AT
+	E > -E, ATÙM
+	E > -E, ATECH
+	E > -E, ATY
+	[^DNT] Ì > -Ì, ATA
+	[^DNT] Ì > -Ì, AT
+	[^DNT] Ì > -Ì, ATÙM
+	[^DNT] Ì > -Ì, ATECH
+	[^DNT] Ì > -Ì, ATY
+	N Ì > -NÌ, ÒATA
+	N Ì > -NÌ, ÒAT
+	N Ì > -NÌ, ÒATÙM
+	N Ì > -NÌ, ÒATECH
+	N Ì > -NÌ, ÒATY
+	T Ì > -TÌ, «ATA
+	T Ì > -TÌ, «AT
+	T Ì > -TÌ, «ATÙM
+	T Ì > -TÌ, «ATECH
+	T Ì > -TÌ, «ATY
+	D Ì > -DÌ, ÏATA
+	D Ì > -DÌ, ÏAT
+	D Ì > -DÌ, ÏATÙM
+	D Ì > -DÌ, ÏATECH
+	D Ì > -DÌ, ÏATY
+
+	A > TU	# téma, astma, kóma
+	A > TEM
+	A > TA
+	A > T
+	A > TÙM
+	A > TECH
+	A > TY
+
+	[^AEÌÍÝÏÒ«S] > I	# kost
+	[^AEÌÍÝÏÒ«S] > Í
+	[^AEÌÍÝÏÒ«SMCP©V] > EM
+	[^AEÌÍÝÏÒ«SMCP©V] > ECH
+	[^AEÌÍÝÏÒ«SMCV] > MI
+#	M > Ì		# Vla¹im mn. èíslo
+#	M > ÍM
+#	M > ÍCH
+#	M > ÌMI
+	[P©V] > ÍCH	# o my¹ích, otepích
+	[P©V] > ÍM	# my¹ím, otepím
+	O C > ÍCH	# nocích, -mocích
+	O C > ÍM
+	M O C > ECH	# -moc má tvary mocích/mocech a mocím/mocem
+	M O C > EM
+	[^O] C > ECH	# o vìcech
+	[^O] C > EM
+	Ì C > MI	# vìcmi
+	[^Ì] C > EMI	# mocemi
+	Ï > -Ï, DI	# loï, èeleï; zeï je nepravidelné
+	Ï > -Ï, DÍ
+	Ï > -Ï, DÍM
+	Ï > -Ï, DÍCH
+	[^EÌU] Ï > -Ï, DÌMI
+	[EÌU] Ï > MI
+	« > -«, TI	# havì»
+	« > -«, TÍ
+	« > -«, TÍM
+	« > -«, TÍCH
+	[^Ì] « > -«, TÌMI
+	Ì « > MI
+	V > ÌMI
+
+	E S > -ES, SI	# ves
+	E S > -ES, SÍ
+	E S > -ES, SÍM
+	E S > -ES, SÍCH
+	E S > -ES, SEMI
+
+	[^E] S > I	# smìs
+	[^E] S > Í
+	[^E] S > ÍM
+	[^E] S > ÍCH
+	[^E] S > MI
+
+	Ý > -Ý, OST	# mladý > mladost
+	Ý > -Ý, OSTI
+	Ý > -Ý, OSTÍ
+	Ý > -Ý, OSTEM
+	Ý > -Ý, OSTECH
+	Ý > -Ý, OSTMI
+
+	Í > -Í, OST	# masivní > masivnost
+	Í > -Í, OSTI
+	Í > -Í, OSTÍ
+	Í > -Í, OSTEM
+	Í > -Í, OSTECH
+	Í > -Í, OSTMI
+
+flag *Y:
+	Ý > -Ý, Á	# mladý
+	Ý > -Ý, É
+	Ý > -Ý, ÉHO
+	Ý > -Ý, ÉMU
+	Ý > -Ý, ÉM
+	Ý > M
+	Ý > -Ý, OU
+#	Ý > -Ý, O­
+
+	Á > -Á, É
+	Á > -Á, OU
+	Á > -Á, ÝCH
+	Á > -Á, ÝM
+	Á > -Á, ÝMI
+
+	É > HO
+	É > MU
+	É > M
+	É > -É, ÝM
+	É > -É, Á
+	É > -É, ÝCH
+	É > -É, ÝMI
+
+	[^RHK] Ý > -Ý, Í	# jací - mladí
+	R Ý > -RÝ, ØÍ	# chytøí
+	[^C] H Ý > -HÝ, ZÍ	# nazí
+	C H Ý > -CHÝ, ©Í	# jednodu¹í
+	[^SCÈ] K Ý > -KÝ, CÍ	# hezcí
+	S K Ý > -SKÝ, ©TÍ	# pan¹tí, pol¹tí, ru¹tí
+	C K Ý > -CKÝ, ÈTÍ	# kupeètí, dobráètí, angliètí
+	È K Ý > -KÝ, CÍ	# droubouècí
+	Ý > CH
+	Ý > MI
+	Ý > MA	# jen zdravýMA rukaMA
+
+	Í > HO	#jarní
+	Í > MU
+	Í > M
+	Í > CH
+	Í > MI
+	Í > MA	# jen koèièíma oèima
+
+	O J > -OJ, ÉHO	# Dostojevskij, Tolstoj
+	O J > -OJ, ÉMU
+	O J > -OJ, Ý
+	O J > -OJ, ÉM
+	O J > -OJ, ÝM
+	S K O J > -SKOJ, ©TÍ
+	C K O J > -CKOJ, ÈTÍ
+	[^SC] K O J > -KOJ, CÍ
+	[^K] O J > -OJ, Í
+	O J > -OJ, ÝCH
+	O J > -OJ, É
+	O J > -OJ, ÝMI
+
+	I J > -IJ, ÉHO	# Dostojevskij, Tolstoj
+	I J > -IJ, ÉMU
+	I J > -IJ, Ý
+	I J > -IJ, ÉM
+	I J > -IJ, ÝM
+	S K I J > -SKIJ, ©TÍ
+	C K I J > -CKIJ, ÈTÍ
+	[^SC] K I J > -KIJ, CÍ
+	[^K] I J > -IJ, Í
+	I J > -IJ, ÝCH
+	I J > -IJ, É
+	I J > -IJ, ÝMI
+
+	Y J > -YJ, ÉHO	# Groznyj
+	Y J > -YJ, ÉMU
+	Y J > -YJ, Ý
+	Y J > -YJ, ÉM
+	Y J > -YJ, ÝM
+
+	[IY] > HO
+	[IY] > MU
+	[IY] > M
+	[IY] > OVÉ
+	[IY] > CH
+	[IY] > Ù
+	[IY] > ÙM
+	[IY] > E
+	[IY] > ÍCH
+	[IY] > MI
+	[IY] > I
+
+	E > HO		# Anderle > Anderleho
+	E > MU
+	E > M
+	E > -E, OVÉ
+	E > -E, Ù
+	E > -E, ÙM
+	E > -E, Y
+	E > CH
+
+	Ì > HO
+	Ì > MU
+	Ì > M
+	N Ì > -NÌ, ÒOVÉ
+	N Ì > -NÌ, ÒÙ
+	N Ì > -NÌ, ÒÙM
+	Ì > -Ì, I
+	Ì > -Ì, ÍCH
+
+	Ù V > -ÙV, OVA	# otcùv, Pavlùv
+	Ù V > -ÙV, OVU
+	Ù V > -ÙV, OVÌ
+	Ù V > -ÙV, OVÝM
+	Ù V > -ÙV, OVI
+	Ù V > -ÙV, OVY
+	Ù V > -ÙV, OVO
+	Ù V > -ÙV, OVOU
+	Ù V > -ÙV, OVÝCH
+	Ù V > -ÙV, OVÝMI
+	Ù V > -ÙV, OVÝMA
+
+	I N > A	# matèin
+	I N > U
+	I N > Ì
+	I N > ÝM
+	I N > I
+	I N > Y
+	I N > OU
+	I N > ÝCH
+	I N > ÝMI
+	I N > O
+	I N > ÝMA
+
+	E N > -EN, OHO	# ten
+	E N > -EN, OMU
+	E N > -EN, OM
+	E N > -EN, ÍM
+	E N > -EN, A
+	E N > -EN, É
+	E N > -EN, U
+	E N > -EN, OU
+	E N > -EN, O
+	E N > -EN, I
+	E N > -EN, Y
+	E N > -EN, ÌCH
+	E N > -EN, ÌM
+	E N > -EN, ÌMI
+	E N > -EN, ÌMA
+
+	D O > -DO, OHO	# kdo
+	D O > -DO, OMU
+	D O > -DO, OM
+	D O > -DO, ÝM
+
+	C O > -CO, ÈEHO
+	C O > -CO, ÈEMU
+	C O > -CO, ÈEM
+	C O > -CO, ÈÍM
+
+	Á © > -Á©, A©EHO	# ná¹
+	Á © > -Á©, A©EMU
+	Á © > -Á©, A©EM
+	Á © > -Á©, A©ÍM
+	Á © > -Á©, A©E
+	Á © > -Á©, A©Í
+	Á © > -Á©, A©I
+	Á © > -Á©, A©ICH
+	Á © > -Á©, A©IM
+	Á © > -Á©, A©IMI
+	Á © > -Á©, A©IMA
+
+	Ù J > -ÙJ, ÉHO	# mùj, tvùj, svùj
+	Ù J > -ÙJ, ÉMU
+	Ù J > -ÙJ, ÉM
+	Ù J > -ÙJ, ÝM
+	Ù J > -ÙJ, Á
+	Ù J > -ÙJ, OJE
+	Ù J > -ÙJ, É
+	Ù J > -ÙJ, OJÍ
+	Ù J > -ÙJ, OU
+	Ù J > -ÙJ, OJI
+	Ù J > -ÙJ, Í
+	Ù J > -ÙJ, ÝCH
+	Ù J > -ÙJ, ÝMI
+	Ù J > -ÙJ, ÝMA
+
+flag *R:	# pøíslovce z pøídavných jmen
+	[BPVMFDNT] Ý > -Ý, Ì	# mladì
+	[LSZ] Ý > -Ý, E	# stále, drze
+	[^C] H Ý > -HÝ, ZE	# naze
+	C H Ý  >  -CHÝ, ©E	# pla¹e
+	R Ý > -RÝ, ØE	# chytøe
+	[SC] K Ý > -Ý, Y	# anglicky
+	[^SC] K Ý > -KÝ, CE	# blízce
+	[DNT] Í > -Í, Ì	# jarnì
+	[Z®] Í > -Í, E	# cize, svì¾e
+	È Í > -Í, EJI	# bøitèí > bøitèeji
+	[EÌ] J © Í > -©Í, I	# chytøej¹í > chytøeji
+
+	[BDFMNPTVW] > Ì	# v sadì, bytì, pøíkopì, na stromì
+	G > -G, ZE
+	C H > -CH, ©E	# v ko¾i¹e
+	[^C] H > -H, ZE     
+	K > -K, CE	# 
+	[CÈJLØS©Z®] > E	# v originále, v cestopise, na pøívoze
+	R > -R, ØE	# na papíøe
+	[BDFMNPTVW] O > -O, Ì	# o mìstì;
+	G O > -GO, ZE	# 
+	C H O > -CHO, ©E	# bøi¹e
+	[^C] H O > -HO, ZE	# 
+	K O > -KO, CE	# v mléce
+	[CÈJLØS©Z®] O > -O, E	# o sedle, mase
+	R O > -RO, ØE	# na støíbøe, jaøe
+
+# slovesa
+flag *J:
+	A T > -AT, ÁM	# volat, dìlat, zadat, poznat
+	A T > -AT, Á©
+	A T > -AT, Á
+	A T > -AT, ÁME
+	A T > -AT, ÁTE
+	A T > -T,  JÍ
+	A T > -T,  JE
+	A T > -T,  JÍC
+	A T > -T,  JÍCE
+	A T > -AT, EJ
+	A T > -AT, EJTE
+	A T > -AT, EJME
+	A T > -T, L
+	A T > -T, LA
+	A T > -T, LO
+	A T > -T, LI
+	A T > -T, LY
+
+	[^L] Á T > -T, M	# dbát, dát, znát, tkát, zdát se, ptát se
+	[^L] Á T > -T, ©
+	[^L] Á T > -T, -
+	[^L] Á T > -T, ME
+	[^L] Á T > -T, TE
+	[^L] Á T > -ÁT, AJÍ
+	[^L] Á T > -ÁT, AJE
+	[^L] Á T > -ÁT, AJÍC
+	[^L] Á T > -ÁT, AJÍCE
+	[^L] Á T > -ÁT, EJ
+	[^L] Á T > -ÁT, EJTE
+	[^L] Á T > -ÁT, EJME
+
+	L Á T > -ÁT, ANU	# vzplát, rozeklát
+	L Á T > -ÁT, ANE©
+	L Á T > -ÁT, ANE
+	L Á T > -ÁT, ANEME
+	L Á T > -ÁT, ANETE
+	L Á T > -ÁT, ANOU
+	L Á T > -ÁT, ANA
+	L Á T > -ÁT, ANOUC
+	L Á T > -ÁT, ANOUCE
+	L Á T > -ÁT, AÒ
+	L Á T > -ÁT, AÒME
+	L Á T > -ÁT, AÒTE
+
+	[^L®] Á T > -ÁT, AL
+	[^L®] Á T > -ÁT, ALA
+	[^L®] Á T > -ÁT, ALO
+	[^L®] Á T > -ÁT, ALI
+	[^L®] Á T > -ÁT, ALY
+
+	[L®] Á T > -T, L	# vlát
+	[L®] Á T > -T, LA
+	[L®] Á T > -T, LO
+	[L®] Á T > -T, LI
+	[L®] Á T > -T, LY
+
+	E T > -ET, ÍM	# sázet
+	E T > -ET, Í©
+	E T > -ET, Í
+	E T > -ET, ÍME
+	E T > -ET, ÍTE
+	[EÌ] T > -T, JÍ
+	[EÌ] T > -T, JE
+	[EÌ] T > -T, JÍC
+	[EÌ] T > -T, JÍCE
+	[EÌ] T > -T, J
+	[EÌ] T > -T, JME
+	[EÌ] T > -T, JTE
+
+	Ì T > -ÌT, ÍM	# ¹edivìt, churavìt
+	Ì T > -ÌT, Í©
+	Ì T > -ÌT, Í
+	Ì T > -ÌT, ÍME
+	Ì T > -ÌT, ÍTE
+
+	Í T > -T, M	# bdít, rdít se, dlít, mdlít, tlít, hømít, ènít, èpít
+	Í T > -T, ©	# znít, m¾ít, lpít, skvíti se, tkvít
+	Í T > -T, -	# té¾ pro mno¾né èíslo
+	Í T > -T, ME
+	Í T > -T, TE
+	[BDFMNPTVW] Í T > -ÍT, ÌJÍ	# bdìjí, ènìjí
+	[BDFMNPTVW] Í T > -ÍT, ÌJE
+	[BDFMNPTVW] Í T > -ÍT, ÌJÍC
+	[BDFMNPTVW] Í T > -ÍT, ÌJÍCE
+	[^BDFMNPTVWÈØ] Í T > -ÍT, EJÍ	# dlejí, tlejí
+	[^BDFMNPTVWÈØ] Í T > -ÍT, EJE
+	[^BDFMNPTVWÈØ] Í T > -ÍT, EJÍC
+	[^BDFMNPTVWÈØ] Í T > -ÍT, EJÍCE
+	Í T > -ÍT, I
+	[BDFMNPTVW] Í T > -ÍT, ÌME
+	[^BDFMNPTVW] Í T > -ÍT, EME
+	[BDFMNPTVW] Í T > -ÍT, ÌTE
+	[^BDFMNPTVW] Í T > -ÍT, ETE
+	[BDFMNPTVW] Í T > -ÍT, ÌL
+	[BDFMNPTVW] Í T > -ÍT, ÌLA
+	[BDFMNPTVW] Í T > -ÍT, ÌLO
+	[BDFMNPTVW] Í T > -ÍT, ÌLI
+	[BDFMNPTVW] Í T > -ÍT, ÌLY
+	[^BDFMNPTVWÈ] Í T > -ÍT, EL
+	[^BDFMNPTVWÈ] Í T > -ÍT, ELA
+	[^BDFMNPTVWÈ] Í T > -ÍT, ELO
+	[^BDFMNPTVWÈ] Í T > -ÍT, ELI
+	[^BDFMNPTVWÈ] Í T > -ÍT, ELY
+	È Í T > -ÍT, IL
+	È Í T > -ÍT, ILA
+	È Í T > -ÍT, ILO
+	È Í T > -ÍT, ILI
+	È Í T > -ÍT, ILY
+
+	Á M > -M, ©	# lkám, potrvám
+	Á M > -M, -
+	Á M > E
+	Á M > -M, TE
+	Á M > -ÁM, AJÍ
+	Á M > -ÁM, AJE
+	Á M > -ÁM, AJÍC
+	Á M > -ÁM, AJÍCE
+	Á M > -ÁM, EJ
+	Á M > -ÁM, EJME
+	Á M > -ÁM, EJTE
+
+	Í M > -M, ©	# sázím, ¹edivím
+	Í M > -M, -
+	Í M > E
+	Í M > -M, TE
+	Í M > -ÍM, EJÍ
+	Í M > -ÍM, EJ
+	Í M > -ÍM, EJME
+	Í M > -ÍM, EJTE
+
+	[^ÁÍUS] T > -T, L
+	[^ÁÍUS] T > -T, LA
+	[^ÁÍUS] T > -T, LO
+	[^ÁÍUS] T > -T, LI
+	[^ÁÍUS] T > -T, LY
+
+	Á S T > -ÁST, ADNU	# ukrást
+	Á S T > -ÁST, ADNE©
+	Á S T > -ÁST, ADNE
+	Á S T > -ÁST, ADNEME
+	Á S T > -ÁST, ADNETE
+	Á S T > -ÁST, ADNOU
+	Á S T > -ÁST, ADNI
+	Á S T > -ÁST, ADNÌME
+	Á S T > -ÁST, ADNÌTE
+	Á S T > -ÁST, ADL
+	Á S T > -ÁST, ADLA
+	Á S T > -ÁST, ADLO
+	Á S T > -ÁST, ADLI
+	Á S T > -ÁST, ADLY
+
+	Í S T > -ST, M	# jíst, sníst
+	Í S T > -ST, ©
+	Í S T > -ST, -
+	Í S T > -ST, ME
+	Í S T > -ST, TE
+	[DNT] Í S T > -ÍST, ÌDÍ
+	[DNT] Í S T > -ÍST, ÌZ
+	[DNT] Í S T > -ÍST, ÌZME
+	[DNT] Í S T > -ÍST, ÌZTE
+	[DNT] Í S T > -ÍST, ÌDL
+	[DNT] Í S T > -ÍST, ÌDLA
+	[DNT] Í S T > -ÍST, ÌDLO
+	[DNT] Í S T > -ÍST, ÌDLI
+	[DNT] Í S T > -ÍST, ÌDLY
+	[^DNT] Í S T > -ÍST, EDÍ
+	[^DNT] Í S T > -ÍST, EZ
+	[^DNT] Í S T > -ÍST, EZME
+	[^DNT] Í S T > -ÍST, EZTE
+	[^DNT] Í S T > -ÍST, EDL
+	[^DNT] Í S T > -ÍST, EDLA
+	[^DNT] Í S T > -ÍST, EDLO
+	[^DNT] Í S T > -ÍST, EDLI
+	[^DNT] Í S T > -ÍST, EDLY
+
+	T > I	# infinitiv na -ti
+
+	O U T > -OUT, U	# tnout, hnout
+	O U T > -OUT, E©
+	O U T > -OUT, E 
+	O U T > -OUT, EME
+	O U T > -OUT, ETE
+	O U T > -T, -
+	O U T > -OUT, A
+	O U T > -T, C
+	O U T > -T, CE
+	O U T > -OUT, I	# tni, hni
+	O U T > -OUT, ÌME
+	O U T > -OUT, ÌTE
+
+	O U T > -OUT, UL	# tnul
+	O U T > -OUT, ULA
+	O U T > -OUT, ULO
+	O U T > -OUT, ULI
+	O U T > -OUT, ULY
+
+flag *A:
+	È Í S T > -ÍST, TU	#èíst
+	È Í S T > -ÍST, TE©
+	È Í S T > -ÍST, TE
+	È Í S T > -ÍST, TEME
+	È Í S T > -ÍST, TETE
+	È Í S T > -ÍST, TOU
+	È Í S T > -ÍST, TI
+	È Í S T > -ÍST, TÌME
+	È Í S T > -ÍST, TÌTE
+	È Í S T > -ÍST, ETL
+	È Í S T > -ÍST, ETLA
+	È Í S T > -ÍST, ETLO
+	È Í S T > -ÍST, ETLI
+	È Í S T > -ÍST, ETLY
+	È Í S T > -ÍST, TA
+	È Í S T > -ÍST, TOUC
+	È Í S T > -ÍST, TOUCE
+
+	[DNT] Í S T > -ÍST, ÌTU	# hníst
+	[DNT] Í S T > -ÍST, ÌTE©
+	[DNT] Í S T > -ÍST, ÌTE
+	[DNT] Í S T > -ÍST, ÌTEME
+	[DNT] Í S T > -ÍST, ÌTETE
+	[DNT] Í S T > -ÍST, ÌTOU
+	[DNT] Í S T > -ÍST, Ì«
+	[DNT] Í S T > -ÍST, Ì«ME
+	[DNT] Í S T > -ÍST, Ì«TE
+	[DNT] Í S T > -ÍST, ÌTL
+	[DNT] Í S T > -ÍST, ÌTLA
+	[DNT] Í S T > -ÍST, ÌTLO
+	[DNT] Í S T > -ÍST, ÌTLI
+	[DNT] Í S T > -ÍST, ÌTLY
+	[DNT] Í S T > -ÍST, ÌTA
+	[DNT] Í S T > -ÍST, ÌTOUC
+	[DNT] Í S T > -ÍST, ÌTOUCE
+
+	[^ÈDNT] Í S T > -ÍST, EDU	# pøíst
+	[^ÈDNT] Í S T > -ÍST, EDE©
+	[^ÈDNT] Í S T > -ÍST, EDE
+	[^ÈDNT] Í S T > -ÍST, EDEME
+	[^ÈDNT] Í S T > -ÍST, EDETE
+	[^ÈDNT] Í S T > -ÍST, EDOU
+	[^ÈDNT] Í S T > -ÍST, EÏ
+	[^ÈDNT] Í S T > -ÍST, EÏME
+	[^ÈDNT] Í S T > -ÍST, EÏTE
+	[^ÈDNT] Í S T > -ÍST, EDL
+	[^ÈDNT] Í S T > -ÍST, EDLA
+	[^ÈDNT] Í S T > -ÍST, EDLO
+	[^ÈDNT] Í S T > -ÍST, EDLI
+	[^ÈDNT] Í S T > -ÍST, EDLY
+	[^ÈDNT] Í S T > -ÍST, EDA
+	[^ÈDNT] Í S T > -ÍST, EDOUC
+	[^ÈDNT] Í S T > -ÍST, EDOUCE
+
+	N É S T > -ÉST, ESU	# nést
+	N É S T > -ÉST, ESE©
+	N É S T > -ÉST, ESE
+	N É S T > -ÉST, ESEME
+	N É S T > -ÉST, ESETE
+	N É S T > -ÉST, ESOU
+	N É S T > -ÉST, ES
+	N É S T > -ÉST, ESME
+	N É S T > -ÉST, ESTE
+	N É S T > -ÉST, ESL
+	N É S T > -ÉST, ESLA
+	N É S T > -ÉST, ESLO
+	N É S T > -ÉST, ESLI
+	N É S T > -ÉST, ESLY
+	N É S T > -ÉST, ESA
+	N É S T > -ÉST, ESOUC
+	N É S T > -ÉST, ESOUCE
+
+	[^N] É S T > -ÉST, ETU	# kvést, mést, plést
+	[^N] É S T > -ÉST, ETE©
+	[^N] É S T > -ÉST, ETE
+	[^N] É S T > -ÉST, ETEME
+	[^N] É S T > -ÉST, ETETE
+	[^N] É S T > -ÉST, ETOU
+	[^N] É S T > -ÉST, E«
+	[^N] É S T > -ÉST, E«ME
+	[^N] É S T > -ÉST, E«TE
+	[^N] É S T > -ÉST, ETL
+	[^N] É S T > -ÉST, ETLA
+	[^N] É S T > -ÉST, ETLO
+	[^N] É S T > -ÉST, ETLI
+	[^N] É S T > -ÉST, ETLY
+	[^N] É S T > -ÉST, ETA
+	[^N] É S T > -ÉST, ETOUC
+	[^N] É S T > -ÉST, ETOUCE
+
+	Á S T > -ÁST, ADU	# klást, krást
+	Á S T > -ÁST, ADE©
+	Á S T > -ÁST, ADE
+	Á S T > -ÁST, ADEME
+	Á S T > -ÁST, ADETE
+	Á S T > -ÁST, ADOU
+	Á S T > -ÁST, AÏ
+	Á S T > -ÁST, AÏME
+	Á S T > -ÁST, AÏTE
+	Á S T > -ÁST, ADL
+	Á S T > -ÁST, ADLA
+	Á S T > -ÁST, ADLO
+	Á S T > -ÁST, ADLI
+	Á S T > -ÁST, ADLY
+	Á S T > -ÁST, ADA
+	Á S T > -ÁST, ADOUC
+	Á S T > -ÁST, ADOUCE
+
+	É Z T > -ÉZT, EZU	# vézt
+	É Z T > -ÉZT, EZE©
+	É Z T > -ÉZT, EZE
+	É Z T > -ÉZT, EZEME
+	É Z T > -ÉZT, EZETE
+	É Z T > -ÉZT, EZOU
+	É Z T > -ÉZT, EZ
+	É Z T > -ÉZT, EZME
+	É Z T > -ÉZT, EZTE
+	É Z T > -ÉZT, EZL
+	É Z T > -ÉZT, EZLA
+	É Z T > -ÉZT, EZLO
+	É Z T > -ÉZT, EZLI
+	É Z T > -ÉZT, EZLY
+	É Z T > -ÉZT, EZA
+	É Z T > -ÉZT, EZOUC
+	É Z T > -ÉZT, EZOUCE
+
+	R Á T > -RÁT, ERU	# brát
+	R Á T > -RÁT, ERE©
+	R Á T > -RÁT, ERE
+	R Á T > -RÁT, EREME
+	R Á T > -RÁT, ERETE
+	R Á T > -RÁT, EROU
+	R Á T > -RÁT, ER
+	R Á T > -RÁT, ERME
+	R Á T > -RÁT, ERTE
+	R Á T > -RÁT, ERA
+	R Á T > -RÁT, EROUC
+	R Á T > -RÁT, EROUCE
+
+	L Á T > -LÁT, ELU	# stlát
+	L Á T > -LÁT, ELE©
+	L Á T > -LÁT, ELE
+	L Á T > -LÁT, ELEME
+	L Á T > -LÁT, ELETE
+	L Á T > -LÁT, ELOU
+	L Á T > -LÁT, EL
+	L Á T > -LÁT, ELME
+	L Á T > -LÁT, ELTE
+	L Á T > -LÁT, ELA
+	L Á T > -LÁT, ELOUC
+	L Á T > -LÁT, ELOUCE
+
+	[^LR] Á T > -ÁT, U	# cpát
+	[^LR] Á T > -ÁT, E©
+	[^LR] Á T > -ÁT, E
+	[^LR] Á T > -ÁT, EME
+	[^LR] Á T > -ÁT, ETE
+	[^LR] Á T > -ÁT, OU
+	[^LR] Á T > -ÁT, I
+	[^LR] Á T > -ÁT, ÌME
+	[^LR] Á T > -ÁT, ÌTE
+
+	Á T > -ÁT, AL
+	Á T > -ÁT, ALA
+	Á T > -ÁT, ALO
+	Á T > -ÁT, ALI
+	Á T > -ÁT, ALY
+
+	C T > -T, I
+	C I > -I, T
+
+	É C T > -ÉCT, EÈU	# péct
+	É C T > -ÉCT, EKU
+	É C T > -ÉCT, EÈE©
+	É C T > -ÉCT, EÈE
+	É C T > -ÉCT, EÈEME
+	É C T > -ÉCT, EÈETE
+	É C T > -ÉCT, EÈOU
+	É C T > -ÉCT, EKOU
+	É C T > -ÉCT, EÈ
+	É C T > -ÉCT, EC
+	É C T > -ÉCT, EÈME
+	É C T > -ÉCT, ECME
+	É C T > -ÉCT, EÈTE
+	É C T > -ÉCT, ECTE
+	[^L] É C T > -ÉCT, EKL
+	[^L] É C T > -ÉCT, EKLA
+	[^L] É C T > -ÉCT, EKLO
+	[^L] É C T > -ÉCT, EKLI
+	[^L] É C T > -ÉCT, EKLY
+	[^L] É C T > -ÉCT, EKA
+	[^L] É C T > -ÉCT, EKOUC
+	[^L] É C T > -ÉCT, EKOUCE
+
+	O U C T > -OUCT, UÈU	# tlouct
+	O U C T > -OUCT, UKU
+	O U C T > -OUCT, UÈE©
+	O U C T > -OUCT, UÈE
+	O U C T > -OUCT, UÈEME
+	O U C T > -OUCT, UÈETE
+	O U C T > -OUCT, UÈOU
+	O U C T > -OUCT, UKOU
+	O U C T > -OUCT, UÈ
+	O U C T > -OUCT, UC
+	O U C T > -OUCT, UÈME
+	O U C T > -OUCT, UCME
+	O U C T > -OUCT, UÈTE
+	O U C T > -OUCT, UCTE
+	O U C T > -CT, KL
+	O U C T > -CT, KLA
+	O U C T > -CT, KLO
+	O U C T > -CT, KLI
+	O U C T > -CT, KLY
+	O U C T > -OUCT, UKA
+	O U C T > -OUCT, UKOUC
+	O U C T > -OUCT, UKOUCE
+
+	O C I > -CI, HU	# pomoci
+	O C I > -OCI, Ù®U
+	O C I > -OCI, Ù®E©
+	O C I > -OCI, Ù®E
+	O C I > -OCI, Ù®EME
+	O C I > -OCI, Ù®ETE
+	O C I > -CI, HOU
+	O C I > -OCI, Ù®OU
+	O C I > -CI, HL
+	O C I > -CI, HLA
+	O C I > -CI, HLO
+	O C I > -CI, HLI
+	O C I > -CI, HLY
+	O C I > -CI, HA
+	O C I > -CI, HOUC
+	O C I > -CI, HOUCE
+
+	O V A T > -OVAT, UJI	# kupovat, modelovat
+	O V A T > -OVAT, UJE©
+	O V A T > -OVAT, UJE
+	O V A T > -OVAT, UJEME
+	O V A T > -OVAT, UJETE
+	O V A T > -OVAT, UJÍ
+	O V A T > -OVAT, UJ
+	O V A T > -OVAT, UJTE
+	O V A T > -OVAT, UJME
+	O V A T > -OVAT, UJÍC
+	O V A T > -OVAT, UJÍCE
+
+	[^O] V A T > -AT, U	# pozvat
+	[^O] V A T > -AT, E©
+	[^O] V A T > -AT, E
+	[^O] V A T > -AT, EME
+	[^O] V A T > -AT, ETE
+	[^O] V A T > -AT, OU
+	A V A T > -AT, -	# plavat
+	A V A T > -AT, ME
+	A V A T > -AT, TE
+	A V A T > -T, JE
+	A V A T > -T, JÍC
+	A V A T > -T, JÍCE
+#   I V A T > -AT, EJ	# plivat
+#   I V A T > -AT, EJME
+#   I V A T > -AT, EJTE
+	[^AIO] V A T > -AT, I	# pozvat
+	[^AIO] V A T > -AT, ÌME
+	[^AIO] V A T > -AT, ÌTE
+
+	Z A T > -ZAT, ®U	# mazat
+	Z A T > -ZAT, ®E©
+	Z A T > -ZAT, ®E
+	Z A T > -ZAT, ®EME
+	Z A T > -ZAT, ®ETE
+	Z A T > -ZAT, ®OU
+	[^ÁÍU] Z A T > -ZAT, ®
+	[^ÁÍU] Z A T > -ZAT, ®ME
+	[^ÁÍU] Z A T > -ZAT, ®TE
+	Á Z A T > -ÁZAT, A®
+	Á Z A T > -ÁZAT, A®ME
+	Á Z A T > -ÁZAT, A®TE
+	Í Z A T > -ÍZAT, I®
+	Í Z A T > -ÍZAT, I®ME
+	Í Z A T > -ÍZAT, I®TE
+	U Z A T > -AT, EJ
+	U Z A T > -AT, EJME
+	U Z A T > -AT, EJTE
+	[^ÁÍU] Z A T > -ZAT, ®ÍC
+	[^ÁÍU] Z A T > -ZAT, ®ÍCE
+        [YU] Z A T > -T, JE
+        [YU] Z A T > -T, JÍC
+        [YU] Z A T > -T, JÍCE
+
+	S A T > -SAT, ©U	# èesat
+	S A T > -SAT, ©E©
+	S A T > -SAT, ©E
+	S A T > -SAT, ©EME
+	S A T > -SAT, ©ETE
+	S A T > -SAT, ©OU
+	S A T > -SAT, ©
+	S A T > -SAT, ©ME
+	S A T > -SAT, ©TE
+	S A T > -SAT, ©ÍC
+	S A T > -SAT, ©ÍCE
+
+	R A T > -RAT, ERU	# nebrat
+	R A T > -RAT, ERE©
+	R A T > -RAT, ERE
+	R A T > -RAT, EREME
+	R A T > -RAT, ERETE
+	R A T > -RAT, EROU
+	R A T > -RAT, ER
+	R A T > -RAT, ERME
+	R A T > -RAT, ERTE
+	R A T > -RAT, ERA
+	R A T > -RAT, EROUC
+	R A T > -RAT, EROUCE
+
+	A K A T > -AKAT, ÁÈU	# plakat
+	A K A T > -AKAT, ÁÈE©
+	A K A T > -AKAT, ÁÈE
+	A K A T > -AKAT, ÁÈEME
+	A K A T > -AKAT, ÁÈETE
+	A K A T > -AKAT, ÁÈOU
+	A K A T > -AKAT, AÈ
+	A K A T > -AKAT, AÈME
+	A K A T > -AKAT, AÈTE
+	A K A T > -AKAT, AÈÍC
+	A K A T > -AKAT, AÈÍCE
+
+	[^A] K A T > -KAT, ÈU	# skákat
+	[^A] K A T > -KAT, ÈE©
+	[^A] K A T > -KAT, ÈE
+	[^A] K A T > -KAT, ÈEME
+	[^A] K A T > -KAT, ÈETE
+	[^A] K A T > -KAT, ÈOU
+	K A T > -AT, EJ
+	K A T > -AT, EJME
+	K A T > -AT, EJTE
+
+	[^KRSVZ] A T > -AT, U	# klamat
+	[^KRSVZ] A T > -AT, E©
+	[^KRSVZ] A T > -AT, E
+	[^KRSVZ] A T > -AT, EME
+	[^KRSVZ] A T > -AT, ETE
+	[^KRSVZ] A T > -AT, OU
+	[AEIYÌ] [^KRSVZ] A T > -AT, -	# klamat, ale ¹krÁbat > jen ¹krábEJ
+	[AEIYÌ] [^KRSVZ] A T > -AT, ME
+	[AEIYÌ] [^KRSVZ] A T > -AT, TE
+	[^O] U [^RSVZ] A T > -AT, -	# klubat, ale dlOUbat > jen dloubEJ
+	[^O] U [^RSVZ] A T > -AT, ME
+	[^O] U [^RSVZ] A T > -AT, TE
+	[^RVZ] A T > -T, JE
+	[^RVZ] A T > -T, JÍC
+	[^RVZ] A T > -T, JÍCE
+
+	[CSZ] [BMP] A T > -AT, I	# vecpat
+	[CSZ] [BMP] A T > -AT, ÌME
+	[CSZ] [BMP] A T > -AT, ÌTE
+	S T A T > -T, Ò		# dostat
+	S T A T > -T, ÒME
+	S T A T > -T, ÒTE
+	[^CSZ] [BMP] A T > -AT, EJ	# døímat
+	[^CSZ] [BMP] A T > -AT, EJME
+	[^CSZ] [BMP] A T > -AT, EJTE
+	[^RSVZBMPT] A T > -AT, EJ	# sedat
+	[^RSVZBMPT] A T > -AT, EJME
+	[^RSVZBMPT] A T > -AT, EJTE
+	© L A T > -AT, I		# ka¹lat
+
+	[^ÁÍOUYÝCSZ] T > -T, L	# pøíèestí minulé
+	[^ÁÍOUYÝCSZ] T > -T, LA
+	[^ÁÍOUYÝCSZ] T > -T, LO
+	[^ÁÍOUYÝCSZ] T > -T, LI
+	[^ÁÍOUYÝCSZ] T > -T, LY
+
+# nadmout - flag J, (obe)jmout - tìchto slov je málo a lze je vyskloòovat
+#   uvedením první osoby, dávám pøednost slovùm dout, kout, plout, slout, zout
+#      [^N] O U T > -OUT, U
+
+	I T > -IT, ÍM		#nosit
+	I T > -IT, Í©
+	I T > -IT, Í
+	I T > -IT, ÍME
+	I T > -IT, ÍTE
+	[DTNBFPMV] I T > -IT, Ì
+	[^DTNBFPMV] I T > -IT, E
+	I T > -IT, ÍC
+	I T > -IT, ÍCE
+
+	[^O] U È I T > -IT, -	# nauèit
+	[^O] U È I T > -IT, ME
+	[^O] U È I T > -IT, TE
+
+	O U B I T > -OUBIT, UB	# hloubit
+	O U B I T > -OUBIT, UBME
+	O U B I T > -OUBIT, UBTE
+	O U È I T > -OUÈIT, UÈ	# louèit
+	O U È I T > -OUÈIT, UÈME
+	O U È I T > -OUÈIT, UÈTE
+	[^O] U D I T > -DIT, Ï	# budit
+	[^O] U D I T > -DIT, ÏME
+	[^O] U D I T > -DIT, ÏTE
+	O U D I T > -OUDIT, UÏ	# bloudit
+	O U D I T > -OUDIT, UÏME
+	O U D I T > -OUDIT, UÏTE
+	[LR] O U D I T > -T, -	# loudit, proudit
+	[LR] O U D I T > -IT, ÌME
+	[LR] O U D I T > -IT, ÌTE
+	O U L I T > -OULIT, UL	# choulit
+	O U L I T > -OULIT, ULME
+	O U L I T > -OULIT, ULTE
+	O U N I T > -OUNIT, OUNI	# èalounit
+	O U N I T > -OUNIT, OUNÌME
+	O U N I T > -OUNIT, OUNÌTE
+	O U P I T > -OUPIT, UP	# loupit
+	O U P I T > -OUPIT, UPME
+	O U P I T > -OUPIT, UPTE
+	O U Ø I T > -OUØIT, UØ	# bouøit
+	O U Ø I T > -OUØIT, UØME
+	O U Ø I T > -OUØIT, UØTE
+	O U S I T > -OUSIT, US	# brousit
+	O U S I T > -OUSIT, USME
+	O U S I T > -OUSIT, USTE
+	O U T I T > -OUTIT, U«	# kroutit
+	O U T I T > -OUTIT, U«ME
+	O U T I T > -OUTIT, U«TE
+	O U ® I T > -OU®IT, U®	# slou¾it
+	O U ® I T > -OU®IT, U®ME
+	O U ® I T > -OU®IT, U®TE
+	S O U ® I T > -T, -	# sou¾it
+	S O U ® I T > -IT, EME
+	S O U ® I T > -IT, ETE
+
+	Ù L I T > -ÙLIT, UL	# pùlit
+	Ù L I T > -ÙLIT, ULME
+	Ù L I T > -ÙLIT, ULTE
+
+	Ú ® I T > -Ú®IT, U®
+	Ú ® I T > -Ú®IT, U®ME
+	Ú ® I T > -Ú®IT, U®TE
+
+	[AEIOYÌ] [BCÈFJLMPØS©VZ®] I T > -IT, -	# ba¾it
+	[AEIOYÌ] [BCÈFJLMPØS©VZ®] I T > -IT, ME
+	[AEIOYÌ] [BCÈFJLMPØS©VZ®] I T > -IT, TE
+
+	[^AEIOUYÁÉÍÓÚÙÝÌR] [CÈJLØS©Z®] I T > -T, -	# zlehèit
+	[^AEIOUYÁÉÍÓÚÙÝÌR] [CÈJLØS©Z®] I T > -IT, EME
+	[^AEIOUYÁÉÍÓÚÙÝÌR] [CÈJLØS©Z®] I T > -IT, ETE
+
+	[^AEIOUYÁÉÍÓÚÙÝÌ] [BFMPV] I T > -T, -	# zahanbit, ozøejmit, kotvit
+	[^AEIOUYÁÉÍÓÚÙÝÌ] [BFMPV] I T > -IT, ÌME
+	[^AEIOUYÁÉÍÓÚÙÝÌ] [BFMPV] I T > -IT, ÌTE
+
+	R [BM] I T > -IT, -	# krmit, hrbit
+	R [BM] I T > -IT, ME
+	R [BM] I T > -IT, TE
+
+	[^O] U [BCÈFJLMPØS©VZ®] I T > -IT, -	# chlubit
+	[^O] U [BCÈFJLMPØS©VZ®] I T > -IT, ME
+	[^O] U [BCÈFJLMPØS©VZ®] I T > -IT, TE
+
+	T Ø I T > -T, -	# patøit, ???
+	T Ø I T > -IT, EME
+	T Ø I T > -IT, ETE
+
+	[AEIOUYÁÉÍÓÚÙÝÌ] T Ø I T > -IT, -	# patøit
+	[AEIOUYÁÉÍÓÚÙÝÌ] T Ø I T > -IT, ME
+	[AEIOUYÁÉÍÓÚÙÝÌ] T Ø I T > -IT, TE
+
+	[^AEIOYÌÁÉÍÓÚÙÝL] L I T > -T, -	# zakuklit, rozmazlit
+	[^AEIOYÌÁÉÍÓÚÙÝL] L I T > -IT, EME
+	[^AEIOYÌÁÉÍÓÚÙÝL] L I T > -IT, ETE
+
+	Á B I T > -ÁBIT, AB	# vábit
+	Á B I T > -ÁBIT, ABME
+	Á B I T > -ÁBIT, ABTE
+
+	D È I T > -T, -	# pøedèit
+	D È I T > -IT, EME
+	D È I T > -IT, ETE
+
+	Á È I T > -ÁÈIT, AÈ	# ráèit
+	Á È I T > -ÁÈIT, AÈME
+	Á È I T > -ÁÈIT, AÈTE
+
+	Á J I T > -ÁJIT, AJ	# hájit
+	Á J I T > -ÁJIT, AJME
+	Á J I T > -ÁJIT, AJTE
+
+	Á L I T > -ÁLIT, AL	# pálit
+	Á L I T > -ÁLIT, ALME
+	Á L I T > -ÁLIT, ALTE
+
+	Á M I T > -ÁMIT, AM	# mámit
+	Á M I T > -ÁMIT, AMME
+	Á M I T > -ÁMIT, AMTE
+
+	Á P I T > -ÁPIT, AP	# trápit
+	Á P I T > -ÁPIT, APME
+	Á P I T > -ÁPIT, APTE
+
+	Á Ø I T > -ÁØIT, AØ	# záøit
+	Á Ø I T > -ÁØIT, AØME
+	Á Ø I T > -ÁØIT, AØTE
+
+	Á S I T > -ÁSIT, AS	# hlásit
+	Á S I T > -ÁSIT, ASME
+	Á S I T > -ÁSIT, ASTE
+
+	Á © I T > -Á©IT, A©	# prá¹it
+	Á © I T > -Á©IT, A©ME
+	Á © I T > -Á©IT, A©TE
+
+	Á V I T > -ÁVIT, AV	# trávit
+	Á V I T > -ÁVIT, AVME
+	Á V I T > -ÁVIT, AVTE
+
+	Á ® I T > -Á®IT, A®	# vá¾it
+	Á ® I T > -Á®IT, A®ME
+	Á ® I T > -Á®IT, A®TE
+
+	É È I T > -ÉÈIT, EÈ	# léèit
+	É È I T > -ÉÈIT, EÈME
+	É È I T > -ÉÈIT, EÈTE
+
+	Í B I T > -ÍBIT, IB	# políbit
+	Í B I T > -ÍBIT, IBME
+	Í B I T > -ÍBIT, IBTE
+
+	Í È I T > -ÍÈIT, IÈ	# líèit
+	Í È I T > -ÍÈIT, IÈME
+	Í È I T > -ÍÈIT, IÈTE
+
+	Í J I T > -ÍJIT, IJ	# ???
+	Í J I T > -ÍJIT, IJME
+	Í J I T > -ÍJIT, IJTE
+
+	Í L I T > -ÍLIT, IL	# sílit
+	Í L I T > -ÍLIT, ILME
+	Í L I T > -ÍLIT, ILTE
+
+	Í M I T > -ÍMIT, IM	# vzpøímit
+	Í M I T > -ÍMIT, IMME
+	Í M I T > -ÍMIT, IMTE
+
+	Í P I T > -ÍPIT, IP	# v¹típit
+	Í P I T > -ÍPIT, IPME
+	Í P I T > -ÍPIT, IPTE
+
+	Í Ø I T > -ÍØIT, IØ	# ¹íøit
+	Í Ø I T > -ÍØIT, IØME
+	Í Ø I T > -ÍØIT, IØTE
+
+	Í S I T > -ÍSIT, IS	# mísit
+	Í S I T > -ÍSIT, ISME
+	Í S I T > -ÍSIT, ISTE
+
+	Í © I T > -Í©IT, Ì©	# pospí¹it
+	Í © I T > -Í©IT, Ì©ME
+	Í © I T > -Í©IT, Ì©TE
+
+	Í V I T > -ÍVIT, IV	# nav¹tívit
+	Í V I T > -ÍVIT, IVME
+	Í V I T > -ÍVIT, IVTE
+
+	Í ® I T > -Í®IT, I®	# ztí¾it
+	Í ® I T > -Í®IT, I®ME
+	Í ® I T > -Í®IT, I®TE
+
+	Ý B I T > -ÝBIT, YB	# ???
+	Ý B I T > -ÝBIT, YBME
+	Ý B I T > -ÝBIT, YBTE
+
+	Ý È I T > -ÝÈIT, YÈ	# smýèit
+	Ý È I T > -ÝÈIT, YÈME
+	Ý È I T > -ÝÈIT, YÈTE
+
+	Ý J I T > -ÝJIT, YJ	# ???
+	Ý J I T > -ÝJIT, YJME
+	Ý J I T > -ÝJIT, YJTE
+
+	Ý L I T > -ÝLIT, YL	# chýlit
+	Ý L I T > -ÝLIT, YLME
+	Ý L I T > -ÝLIT, YLTE
+
+	Ý M I T > -ÝMIT, YM	# dýmit
+	Ý M I T > -ÝMIT, YMME
+	Ý M I T > -ÝMIT, YMTE
+
+	Ý P I T > -ÝPIT, YP	# ???
+	Ý P I T > -ÝPIT, YPME
+	Ý P I T > -ÝPIT, YPTE
+
+	Ý Ø I T > -ÝØIT, YØ	# hýøit
+	Ý Ø I T > -ÝØIT, YØME
+	Ý Ø I T > -ÝØIT, YØTE
+
+	Ý S I T > -ÝSIT, YS	# ???
+	Ý S I T > -ÝSIT, YSME
+	Ý S I T > -ÝSIT, YSTE
+
+	Ý © I T > -Ý©IT, Y©	# pový¹it
+	Ý © I T > -Ý©IT, Y©ME
+	Ý © I T > -Ý©IT, Y©TE
+
+	Ý V I T > -ÝVIT, YV	# ???
+	Ý V I T > -ÝVIT, YVME
+	Ý V I T > -ÝVIT, YVTE
+
+	Ý ® I T > -Ý®IT, Y®	# ???
+	Ý ® I T > -Ý®IT, Y®ME
+	Ý ® I T > -Ý®IT, Y®TE
+
+	[AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -T, -	# urèit
+	[AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -IT, EME
+	[AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -IT, ETE
+
+	[^AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -IT, -	# urèit
+	[^AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -IT, ME
+	[^AEIOUYÁÉÍÓÚÙÝÌ] R [È©®] I T > -IT, TE
+
+	[AEIOYÌZ] D I T > -DIT, Ï	# hodit
+	[AEIOYÌZ] D I T > -DIT, ÏME
+	[AEIOYÌZ] D I T > -DIT, ÏTE
+	[AEIOYÌ] T I T > -TIT, «	# potit
+	[AEIOYÌ] T I T > -TIT, «ME
+	[AEIOYÌ] T I T > -TIT, «TE
+	[AEIOYÌ] N I T > -NIT, Ò	# ronit
+	[AEIOYÌ] N I T > -NIT, ÒME
+	[AEIOYÌ] N I T > -NIT, ÒTE
+
+	Á D I T > -ÁDIT, AÏ	# pádit
+	Á D I T > -ÁDIT, AÏME
+	Á D I T > -ÁDIT, AÏTE
+
+	Á N I T > -ÁNIT, AÒ	# bránit
+	Á N I T > -ÁNIT, AÒME
+	Á N I T > -ÁNIT, AÒTE
+
+	© T I T > -T, -		# poèe¹tit
+	© T I T > -IT, ÌME
+	© T I T > -IT, ÌTE
+
+	H T I T > -T, -		# pachtit
+	H T I T > -IT, ÌME
+	H T I T > -IT, ÌTE
+
+	[^IÍ] S T I T > -TIT, «	# spustit
+	[^IÍ] S T I T > -TIT, «ME
+	[^IÍ] S T I T > -TIT, «TE
+
+	[IÍ] S T I T > -T, -	# zjistit
+	[IÍ] S T I T > -IT, ÌME
+	[IÍ] S T I T > -IT, ÌTE
+
+	Á T I T > -ÁTIT, A«	# zkrátit
+	Á T I T > -ÁTIT, A«ME
+	Á T I T > -ÁTIT, A«TE
+
+	Í D I T > -ÍDIT, IÏ	# slídit
+	Í D I T > -ÍDIT, IÏME
+	Í D I T > -ÍDIT, IÏTE
+
+	Í N I T > -ÍNIT, IÒ	# stínit
+	Í N I T > -ÍNIT, IÒME
+	Í N I T > -ÍNIT, IÒTE
+
+	Í T I T > -ÍTIT, I«	# øítit
+	Í T I T > -ÍTIT, I«ME
+	Í T I T > -ÍTIT, I«TE
+
+	Ù N I T > -ÙNIT, UÒ	# trùnit
+	Ù N I T > -ÙNIT, UÒME
+	Ù N I T > -ÙNIT, UÒTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LRZ] D I T > -T, -	# posilnit
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LRZ] D I T > -IT, ÌME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LRZ] D I T > -IT, ÌTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] D I T > -DIT, Ï	# tvrdit
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] D I T > -DIT, ÏME
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] D I T > -DIT, ÏTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -T, -	# posilnit
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -IT, ÌME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -IT, ÌTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -NIT, Ò	# plnit
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -NIT, ÒME
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N I T > -NIT, ÒTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N I T > -T, -	# uprázdni
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N I T > -IT, ÌME
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N I T > -IT, ÌTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -T, -	# bortit, rozpoltit
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -IT, ÌME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -IT, ÌTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -TIT, «	# drtit
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -TIT, «ME
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] T I T > -TIT, «TE
+
+	[^ÈØ] Í T > -T, M	# pohøbít
+	[^ÈØ] Í T > -T, ©
+	[^ÈØ] Í T > -ÍT, Í
+	[^ÈØ] Í T > -T, ME
+	[^ÈØ] Í T > -T, TE
+	[^ÈØ] Í T > -ÍT, I
+	[BDFMNPTVW] Í T > -ÍT, ÌME
+	[BDFMNPTVW] Í T > -ÍT, ÌTE
+	[^BDFMNPTVWÈ] Í T > -ÍT, EME
+	[^BDFMNPTVWÈ] Í T > -ÍT, ETE
+	[BDFMNPTVW] Í T > -ÍT, Ì
+	[^BDFMNPTVWÈ] Í T > -ÍT, E
+	[^ÈØ] Í T > -T, C
+	[^ÈØ] Í T > -T, CE
+
+	[^ÈØ] Í T > -ÍT, IL	# kazil, pohøbil
+	[^ÈØ] Í T > -ÍT, ILA
+	[^ÈØ] Í T > -ÍT, ILO
+	[^ÈØ] Í T > -ÍT, ILI
+	[^ÈØ] Í T > -ÍT, ILY
+
+	® Í T > -ÍT, EME	# m¾ít > m¾eme, m¾ete
+	® Í T > -ÍT, ETE
+
+	Ø Í T > -ÍT, U	# tøít
+	Ø Í T > -ÍT, E©
+	Ø Í T > -ÍT, E
+	Ø Í T > -ÍT, EME
+	Ø Í T > -ÍT, ETE
+	Ø Í T > -ÍT, OU
+	Ø Í T > -ÍT, I
+
+	Ø Í T > -ÍT, EL	# tøel
+	Ø Í T > -ÍT, ELA
+	Ø Í T > -ÍT, ELO
+	Ø Í T > -ÍT, ELI
+	Ø Í T > -ÍT, ELY
+
+	È Í T > -ÍT, NU	# zaèít
+	È Í T > -ÍT, NE©
+	È Í T > -ÍT, NE
+	È Í T > -ÍT, NEME
+	È Í T > -ÍT, NETE
+	È Í T > -ÍT, NOU
+	È Í T > -ÍT, NI
+	È Í T > -ÍT, NÌME
+	È Í T > -ÍT, NÌTE
+	È Í T > -ÍT, AL
+	È Í T > -ÍT, ALA
+	È Í T > -ÍT, ALO
+	È Í T > -ÍT, ALI
+	È Í T > -ÍT, ALY
+
+	[^D] Ì T > -ÌT, ÍM	# churavìt
+	[^D] Ì T > -ÌT, Í©
+	[^D] Ì T > -ÌT, Í
+	[^D] Ì T > -ÌT, ÍME
+	[^D] Ì T > -ÌT, ÍTE
+	[^DNT] Ì T > -T, J
+	[^DNT] Ì T > -T, JME
+	[^DNT] Ì T > -T, JTE
+
+	Ì D Ì T > -ÌDÌT, ÍM	# vìdìt
+	Ì D Ì T > -ÌDÌT, Í©
+	Ì D Ì T > -ÌDÌT, Í
+	Ì D Ì T > -ÌDÌT, ÍME
+	Ì D Ì T > -ÌDÌT, ÍTE
+	Ì D Ì T > -ÌT, Í
+	Ì D Ì T > -DÌT, Z
+	Ì D Ì T > -DÌT, ZME
+	Ì D Ì T > -DÌT, ZTE
+
+	Á D Ì T > -T, J
+	Á D Ì T > -T, JME
+	Á D Ì T > -T, JTE
+
+	[^Ì] D Ì T > -ÌT, ÍM	# hledìt->hledím
+	[^Ì] D Ì T > -ÌT, Í©
+	[^Ì] D Ì T > -ÌT, Í
+	[^Ì] D Ì T > -ÌT, ÍME
+	[^Ì] D Ì T > -ÌT, ÍTE
+	[^ÁÌ] D Ì T > -DÌT, Ï	# hledìt->hleï
+	[^ÁÌ] D Ì T > -DÌT, ÏTE	# hledìt->hleïte
+	[^ÁÌ] D Ì T > -DÌT, ÏME	# hledìt->hleïme
+
+	T Ì T > -TÌT, «	# letìt > le»
+	T Ì T > -TÌT, «ME
+	T Ì T > -TÌT, «TE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -ÌT, I	# posilnit
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -ÌT, ÌME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -ÌT, ÌTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -NÌT, Ò	# zkoprnìt
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -NÌT, ÒME
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [LR] N Ì T > -NÌT, ÒTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N Ì T > -ÌT, I	# zdrsnìt
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N Ì T > -ÌT, ÌME
+	[^AEIOUYÁÉÍÓÚÝÙÌLR] N Ì T > -ÌT, ÌTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] N Ì T > -NÌT, Ò	# klanìt > klaò
+	[AEIOUYÁÉÍÓÚÝÙÌ] N Ì T > -NÌT, ÒME
+	[AEIOUYÁÉÍÓÚÝÙÌ] N Ì T > -NÌT, ÒTE
+
+	E T > -ET, ÍM	# myslet
+	E T > -ET, Í©
+	E T > -ET, Í
+	E T > -ET, ÍME
+	E T > -ET, ÍTE
+	E T > -T, -
+	E T > -ET, ÍC
+	E T > -ET, ÍCE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -ET, I
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -T, ME
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > E 
+
+	[ÁÉÍÓÚÝÙ] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -T, J
+	[ÁÉÍÓÚÝÙ] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -T, JME
+	[ÁÉÍÓÚÝÙ] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -T, JTE 
+
+	[AEIOUYÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -ET, -
+	[AEIOUYÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -ET, ME
+	[AEIOUYÌRL] [^AEIOUYÁÉÍÓÚÝÙÌ] E T > -ET, TE 
+
+	Ì T > -T, -
+	Ì T > -ÌT, ÍC
+	Ì T > -ÌT, ÍCE
+
+	N O U T > -OUT, U	# moknout, hrnout
+	N O U T > -OUT, E©
+	N O U T > -OUT, E 
+	N O U T > -OUT, EME
+	N O U T > -OUT, ETE
+	N O U T > -T,  -
+	N O U T > -OUT, A
+	N O U T > -T, C
+	N O U T > -T, CE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -NOUT, Ò	# hrò
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -NOUT, ÒME
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -NOUT, ÒTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, I
+	[AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ÌME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ÌTE
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] N O U T > -NOUT, Ò	# hrò
+	[AEIOUYÁÉÍÓÚÝÙÌ] N O U T > -NOUT, ÒME	# hròme
+	[AEIOUYÁÉÍÓÚÝÙÌ] N O U T > -NOUT, ÒTE	# hròte
+
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -OUT, I	# mokni
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -OUT, ÌME
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -OUT, ÌTE
+
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, UL	# trnul, stárnul
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ULA
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ULO
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ULI
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [RL] N O U T > -OUT, ULY
+
+	[AEIOUYÁÉÍÓÚÝÙÌ] R N O U T > -NOUT, L	# stárl (i stárnul)
+	[AEIOUYÁÉÍÓÚÝÙÌ] R N O U T > -NOUT, LA
+	[AEIOUYÁÉÍÓÚÝÙÌ] R N O U T > -NOUT, LO
+	[AEIOUYÁÉÍÓÚÝÙÌ] R N O U T > -NOUT, LI
+	[AEIOUYÁÉÍÓÚÝÙÌ] R N O U T > -NOUT, LY
+
+	[AEIOUYÁÉÍÓÚÝÙÌR] [^AEIOUYÁÉÍÓÚÝÙÌRL] [^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, L	# tiskl
+	[AEIOUYÁÉÍÓÚÝÙÌR] [^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, L	# mokl
+	[^AEIOUYÁÉÍÓÚÝÙÌ] L [^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -OUT, UL
+	L [^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, L
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, LA	# mokla
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, LO	# moklo
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, LI	# mokli
+	[^AEIOUYÁÉÍÓÚÝÙÌRL] N O U T > -NOUT, LY	# mokly
+
+	[AEIOUYÁÉÍÓÚÝÙÌL] N O U T > -OUT, UL	# hrnul
+	[AEIOUYÁÉÍÓÚÝÙÌL] N O U T > -OUT, ULA	# hrnula
+	[AEIOUYÁÉÍÓÚÝÙÌL] N O U T > -OUT, ULO	# hrnulo
+	[AEIOUYÁÉÍÓÚÝÙÌL] N O U T > -OUT, ULI	# hrnuli
+	[AEIOUYÁÉÍÓÚÝÙÌL] N O U T > -OUT, ULY	# hrnuly
+
+	N > A	# tvary pøíèestí trpného - dìlán
+	N > O
+	N > I
+	N > Y
+
+	Y T > A	# tvary pøíèestí trpného - kryt
+	Y T > O
+	Y T > I
+	Y T > Y
+
+	[^O] U T > A	# tvary pøíèestí trpného - tisknut
+	[^O] U T > O
+	[^O] U T > I
+	[^O] U T > Y
+
+	[^COY] T > I	# infinitiv na -ti
+	C T > -T, I	# infinitiv na -ci (péci)
+
+flag *T:
+	[^AIOUYÍÝCSZ] T > -T, N	# pøíèestí trpné
+	[^AIOUYÍÝCSZ] T > -T, NA
+	[^AIOUYÍÝCSZ] T > -T, NO
+	[^AIOUYÍÝCSZ] T > -T, NI
+	[^AIOUYÍÝCSZ] T > -T, NY
+	[^AIOUYÍÝCSZ] T > -T, NU
+
+	É C T > -ÉCT, EÈEN
+	É C T > -ÉCT, EÈENA
+	É C T > -ÉCT, EÈENO
+	É C T > -ÉCT, EÈENI
+	É C T > -ÉCT, EÈENY
+	É C T > -ÉCT, EÈENU
+
+	O U C T > -OUCT, UÈEN
+	O U C T > -OUCT, UÈENA
+	O U C T > -OUCT, UÈENO
+	O U C T > -OUCT, UÈENI
+	O U C T > -OUCT, UÈENY
+	O U C T > -OUCT, UÈENU
+
+	Á S T > -ÁST, ADEN
+	Á S T > -ÁST, ADENA
+	Á S T > -ÁST, ADENO
+	Á S T > -ÁST, ADENI
+	Á S T > -ÁST, ADENY
+	Á S T > -ÁST, ADENU
+
+	[^N] É S T > -ÉST, ETEN
+	[^N] É S T > -ÉST, ETENA
+	[^N] É S T > -ÉST, ETENO
+	[^N] É S T > -ÉST, ETENI
+	[^N] É S T > -ÉST, ETENY
+	[^N] É S T > -ÉST, ETENU
+
+	N É S T > -ÉST, ESEN
+	N É S T > -ÉST, ESENA
+	N É S T > -ÉST, ESENO
+	N É S T > -ÉST, ESENI
+	N É S T > -ÉST, ESENY
+	N É S T > -ÉST, ESENU
+
+	È Í S T > -ÍST, TEN	# èíst
+	È Í S T > -ÍST, TENA
+	È Í S T > -ÍST, TENO
+	È Í S T > -ÍST, TENI
+	È Í S T > -ÍST, TENY
+	È Í S T > -ÍST, TENU
+
+	[DTN] Í S T > -ÍST, ÌDEN	# sníst
+	[DTN] Í S T > -ÍST, ÌDENA
+	[DTN] Í S T > -ÍST, ÌDENO
+	[DTN] Í S T > -ÍST, ÌDENI
+	[DTN] Í S T > -ÍST, ÌDENY
+	[DTN] Í S T > -ÍST, ÌDENU
+
+	[^ÈDTN] Í S T > -ÍST, EDEN	# jíst
+	[^ÈDTN] Í S T > -ÍST, EDENA
+	[^ÈDTN] Í S T > -ÍST, EDENO
+	[^ÈDTN] Í S T > -ÍST, EDENI
+	[^ÈDTN] Í S T > -ÍST, EDENY
+	[^ÈDTN] Í S T > -ÍST, EDENU
+
+	É Z T > -ÉZT, EZEN
+	É Z T > -ÉZT, EZENA
+	É Z T > -ÉZT, EZENO
+	É Z T > -ÉZT, EZENI
+	É Z T > -ÉZT, EZENY
+	É Z T > -ÉZT, EZENU
+
+	[^DNT] I T > -IT, EN
+	[^DNT] I T > -IT, ENA
+	[^DNT] I T > -IT, ENO
+	[^DNT] I T > -IT, ENI
+	[^DNT] I T > -IT, ENY
+	[^DNT] I T > -IT, ENU
+
+	[DNT] I T > -IT, ÌN
+	[DNT] I T > -IT, ÌNA
+	[DNT] I T > -IT, ÌNO
+	[DNT] I T > -IT, ÌNI
+	[DNT] I T > -IT, ÌNY
+	[DNT] I T > -IT, ÌNU
+
+	A T > -AT, ÁN
+	A T > -AT, ÁNA
+	A T > -AT, ÁNO
+	A T > -AT, ÁNI
+	A T > -AT, ÁNY
+	A T > -AT, ÁNU
+
+	[DFMNPTVW] Í T > -ÍT, ÌN
+	[DFMNPTVW] Í T > -ÍT, ÌNA
+	[DFMNPTVW] Í T > -ÍT, ÌNO
+	[DFMNPTVW] Í T > -ÍT, ÌNI
+	[DFMNPTVW] Í T > -ÍT, ÌNY
+	[DFMNPTVW] Í T > -ÍT, ÌNU
+
+	[^DFMNPTVWÈ©®] Í T > -ÍT, EN
+	[^DFMNPTVWÈ©®] Í T > -ÍT, ENA
+	[^DFMNPTVWÈ©®] Í T > -ÍT, ENO
+	[^DFMNPTVWÈ©®] Í T > -ÍT, ENI
+	[^DFMNPTVWÈ©®] Í T > -ÍT, ENY
+	[^DFMNPTVWÈ©®] Í T > -ÍT, ENU
+
+	[©®] Í T > -ÍT, IT	# ¹ít, pou¾ít
+	[©®] Í T > -ÍT, ITA
+	[©®] Í T > -ÍT, ITO
+	[©®] Í T > -ÍT, ITI
+	[©®] Í T > -ÍT, ITY
+	[©®] Í T > -ÍT, ITU
+
+	È Í T > -ÍT, AT	# zaèít
+	È Í T > -ÍT, ATA
+	È Í T > -ÍT, ATO
+	È Í T > -ÍT, ATI
+	È Í T > -ÍT, ATY
+	È Í T > -ÍT, ATU
+
+	O U T > -OUT, UT	# tisknout > tisknut
+	O U T > -OUT, UTA
+	O U T > -OUT, UTO
+	O U T > -OUT, UTI
+	O U T > -OUT, UTY
+	O U T > -OUT, UTU
+
+	Ý T > -ÝT, YT	# krýt > kryt
+	Ý T > -ÝT, YTA
+	Ý T > -ÝT, YTO
+	Ý T > -ÝT, YTI
+	Ý T > -ÝT, YTY
+	Ý T > -ÝT, YTU
+
+flag *B:	# slovesa nese, bere, ma¾e ... v 3. osobì j. è.
+	E > -E, E©
+	[^CJ] E > -E, U
+	C E > -E, I	# chci
+	J E > -E, I	# kryji, kuji...
+	E > -E, EME
+	E > -E, ETE
+	[^CJ] E > -E, OU
+	C E > -CE, TÌJÍ	# chtìjí
+	     J E > -E, Í	# kryjí, kují
+# imperativ, singulár
+	C E > -CE, TÌJ		# chtìj
+	C E > -CE, TÌJME
+	C E > -CE, TÌJTE
+	[RS] E > -E, -
+	[RS] E > -E, ME
+	[RS] E > -E, TE
+	[^ÁÍL] ® E > -®E, ®
+	Í ® E > -Í®E, I®	# lí¾e->li¾
+	Á ® E > -Á®E, A®	# doká¾e->doka¾
+	L ® E > -®E, ®I	# l¾e->l¾i
+	[^Á] È E > -ÈE, È
+	Á È E > -ÈE, È	# pláèe->plaè
+	Ø E > -ØE, ØI
+	[^Í] © E > -©E, ©
+	Í © E > -Í©E, I©	# pí¹e->pi¹
+	J E > -JE, J
+	V E > -E, I	# zve->zvi
+	N E > -NE, Ò	# vstane-vstaò
+	[^S] T E > -TE, «	# kvete->kve» (sice u tohoto slova
+				#   imperativ nemá smysl, ale dejme tomu je
+				#   to vzor:)
+	[AE] D E > -DE, Ï	# jede->jeï, krade->kraï
+	[^EA] D E > -DE, DI	# jde->jdi
+# imperativ, plurál
+	[^È®©TNCDV] E > -E, TE
+	[^È®©TNCDV] E > -E, ME
+	[^Í] © E > -©E, ©ME
+	[^Í] © E > -©E, ©TE
+	Í © E > -Í©E, I©ME	# pí¹e->pi¹me
+	Í © E > -Í©E, I©TE	# pí¹e->pi¹te
+	[^ÁÍL] ® E > -®E, ®ME
+	[^ÁÍL] ® E > -®E, ®TE
+	Í ® E > -Í®E, I®ME	# lí¾e
+	Í ® E > -Í®E, I®TE	# 
+	Á ® E > -Á®E, A®ME	# doká¾e
+	Á ® E > -Á®E, A®TE	# 
+	L ® E > ME		# l¾e
+	L ® E > TE		# 
+	[^Á] È E > -ÈE, ÈME
+	[^Á] È E > -ÈE, ÈTE
+	Á È E > -ÁÈE, AÈME	# pláèe
+	Á È E > -ÁÈE, AÈTE	# 
+	[^EA] D E > -DE, DÌME	# jde->jdìme
+	[^EA] D E > -DE, DÌTE	# jde->jdìte
+	[AE] D E > -DE, ÏME	# jede->jeïme, krade->kraïme
+	[AE] D E > -DE, ÏTE	# jede->jeïte
+	N E > -NE, ÒME	# vstane->vstaòme
+	N E > -NE, ÒTE	# vstane->vstaòte
+	[^S] T E > -TE, «ME	# kvete->kve»me
+	[^S] T E > -TE, «TE	# kvete->kve»te
+	V E > -E, ÌME	# zve->zvìme
+	V E > -E, ÌTE	# zve->zvìte
+
+	[^Ï«Ò] U > -U, E©	# ma¾u, beru, peèu, tisknu, umøu
+	[^Ï«Ò] U > -U, E
+	[^Ï«Ò] U > -U, EME
+	[^Ï«Ò] U > -U, ETE
+	U > -U, OU
+
+	Ò U > -ÒU, NÌ©	# stùòu
+	Ò U > -ÒU, NÌ
+	Ò U > -ÒU, NÌME
+	Ò U > -ÒU, NÌTE
+
+	L ® U > -U, I	# l¾u
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [^AEIOUYÁÉÍÓÚÝÙÌT®] U > -U, I	# jdi
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [BDFMNPVW] U > -U, ÌME	# jdìme
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØS©Z] U > -U, EME	# jdìme
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [BDFMNPVW] U > -U, ÌTE	# jdìte
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØS©Z] U > -U, ETE	# jdìte
+	[AEIOUYÁÉÍÓÚÝÙÌ] D U > -DU, Ï
+	[AEIOUYÁÉÍÓÚÝÙÌ] D U > -DU, ÏME
+	[AEIOUYÁÉÍÓÚÝÙÌ] D U > -DU, ÏTE
+	[AEIOUYÁÉÍÓÚÝÙÌ] N U > -NU, Ò
+	[AEIOUYÁÉÍÓÚÝÙÌ] N U > -NU, ÒME
+	[AEIOUYÁÉÍÓÚÝÙÌ] N U > -NU, ÒTE
+	[AEIOUYÁÉÍÓÚÝÙÌ] T U > -TU, «
+	[AEIOUYÁÉÍÓÚÝÙÌ] T U > -TU, «ME
+	[AEIOUYÁÉÍÓÚÝÙÌ] T U > -TU, «TE
+	[AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØSZ] U > -U, -
+	[AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØSZ] U > -U, ME
+	[AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØSZ] U > -U, TE
+	Í © U > -Í©U, I©	# pí¹u
+	Í © U > -Í©U, I©ME
+	Í © U > -Í©U, I©TE
+
+	[^T] I > -I, E©	# hraji
+	[^T] I > -I, E©
+	[^T] I > -I, E
+	[^T] I > -I, EME
+	[^T] I > -I, ETE
+	[^T] I > -I, Í
+	J I > -I, -	# seji
+	J I > -I, ME
+	J I > -I, TE
+
+	Í M > -M, ©	# spím
+	Í M > -M, -
+	Í M > E
+	Í M > -M, TE
+	® Í M > -ÍM, -
+	® Í M > -ÍM, ME
+	® Í M > -ÍM, TE
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [^AEIOUYÁÉÍÓÚÝÙÌ] Í M > -ÍM, I	# spi
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [BDFMNPTVW] Í M > -ÍM, ÌME	# spìme
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØS©Z] Í M > -ÍM, EME	# 
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [BDFMNPTVW] Í M > -ÍM, ÌTE	# spìte
+	[^AEIOUYÁÉÍÓÚÝÙÌ] [CÈGHJKLRØS©Z] Í M > -ÍM, ETE	# 
+	O J Í M > -OJÍM, ÙJ
+	O J Í M > -OJÍM, ÙJME
+	O J Í M > -OJÍM, ÙJTE
+	
+	[AÁÌÍUÝ] T > I	# zùstati, ¾íti, chvìti, káti
+
+	Í T > -ÍT, IJI	# ¾iji
+#     Í T > -ÍT, IJU
+	Í T > -ÍT, IJE©
+	Í T > -ÍT, IJE
+	Í T > -ÍT, IJEME
+	Í T > -ÍT, IJETE
+	Í T > -ÍT, IJÍ
+#     Í T > -ÍT, IJOU
+	Í T > -ÍT, IJ
+	Í T > -ÍT, IJME
+	Í T > -ÍT, IJTE
+	Í T > -ÍT, IL
+	Í T > -ÍT, ILA
+	Í T > -ÍT, ILO
+	Í T > -ÍT, ILI
+	Í T > -ÍT, ILY
+
+	Ì T > -ÌT, ÍM	# trpìt
+	Ì T > -ÌT, Í©
+	Ì T > -ÌT, Í
+	Ì T > -ÌT, ÍME
+	Ì T > -ÌT, ÍTE
+	Ì T > -ÌT, -
+	Ì T > -ÌT, ME
+	Ì T > -ÌT, TE
+	Ì T > -T, -
+	Ì T > -ÌT, ÍC
+	Ì T > -ÌT, ÍCE
+
+	Ý T > -ÝT, YJI	# mýt
+#   Ý T > -ÝT, YJU
+	Ý T > -ÝT, YJE©
+	Ý T > -ÝT, YJE
+	Ý T > -ÝT, YJEME
+	Ý T > -ÝT, YJETE
+	Ý T > -ÝT, YJÍ
+#   Ý T > -ÝT, YJOU
+	Ý T > -ÝT, YJ
+	Ý T > -ÝT, YJME
+	Ý T > -ÝT, YJTE
+	Ý T > -ÝT, YL	# kryl
+	Ý T > -ÝT, YLA
+	Ý T > -ÝT, YLO
+	Ý T > -ÝT, YLI
+	Ý T > -ÝT, YLY
+
+	[^BPVMNØD] Á T > -ÁT, AJI	# vlaji
+#     [^BPVMNØD] Á T > -ÁT, AJU
+	[^BPVMNØD] Á T > -ÁT, AJE©
+	[^BPVMNØD] Á T > -ÁT, AJE
+	[^BPVMNØD] Á T > -ÁT, AJEME
+	[^BPVMNØD] Á T > -ÁT, AJETE
+	[^BPVMNØD] Á T > -ÁT, AJÍ
+#     [^BPVMNØD] Á T > -ÁT, AJOU
+	[^BPVMNØD] Á T > -ÁT, AJ
+	[^BPVMNØD] Á T > -ÁT, AJME
+	[^BPVMNØD] Á T > -ÁT, AJTE
+	[^BPVMNØD] Á T > -ÁT, AJÍC
+	[^BPVMNØD] Á T > -ÁT, AJÍCE
+
+	[BPVMN] Á T > -ÁT, ÌJI	# vìji, smìji
+#     [BPVMN] Á T > -ÁT, ÌJU
+	[BPVMN] Á T > -ÁT, ÌJE©
+	[BPVMN] Á T > -ÁT, ÌJE
+	[BPVMN] Á T > -ÁT, ÌJEME
+	[BPVMN] Á T > -ÁT, ÌJETE
+	[BPVMN] Á T > -ÁT, ÌJÍ
+#     [BPVMN] Á T > -ÁT, ÌJOU
+	[BPVMN] Á T > -ÁT, ÌJ
+	[BPVMN] Á T > -ÁT, ÌJME
+	[BPVMN] Á T > -ÁT, ÌJTE
+	[BPVMN] Á T > -ÁT, ÌJÍC
+	[BPVMN] Á T > -ÁT, ÌJÍCE
+
+	D Á T > I	# zdát se, udát (ve významu stát se), nadát (oèekávat)
+	D Á T > -T, M
+	D Á T > -T, ©
+	D Á T > -T, -
+	D Á T > -T, ME
+	D Á T > -T, TE
+	D Á T > -ÁT, AJÍ
+	D Á T > -ÁT, EJ
+	D Á T > -ÁT, EJME
+	D Á T > -ÁT, EJTE
+
+	Ø Á T > -ÁT, EJI	# høeji
+#     Ø Á T > -ÁT, EJU
+	Ø Á T > -ÁT, EJE©
+	Ø Á T > -ÁT, EJE
+	Ø Á T > -ÁT, EJEME
+	Ø Á T > -ÁT, EJETE
+	Ø Á T > -ÁT, EJÍ
+#     Ø Á T > -ÁT, EJOU
+	Ø Á T > -ÁT, EJ
+	Ø Á T > -ÁT, EJME
+	Ø Á T > -ÁT, EJTE
+	Ø Á T > -ÁT, EJÍC
+	Ø Á T > -ÁT, EJÍCE
+
+	[^M] O U T > -OUT, UJI	# dout, kout, plout, slout, zout
+#   [^M] O U T > -OUT, UJU	# podle nových pravidel je povoleno
+	[^M] O U T > -OUT, UJE©
+	[^M] O U T > -OUT, UJE
+	[^M] O U T > -OUT, UJEME
+	[^M] O U T > -OUT, UJETE
+	[^M] O U T > -OUT, UJÍ
+#   [^M] O U T > -OUT, UJOU	# podle nových pravidel je povoleno
+	[^M] O U T > -OUT, UJ
+	[^M] O U T > -OUT, UJME
+	[^M] O U T > -OUT, UJTE
+	[^M] O U T > -OUT, UL
+	[^M] O U T > -OUT, ULA
+	[^M] O U T > -OUT, ULO
+	[^M] O U T > -OUT, ULI
+	[^M] O U T > -OUT, ULY
+
+	M O U T > -OUT, U	# obejmout
+	M O U T > -OUT, E©
+	M O U T > -OUT, E
+	M O U T > -OUT, EME
+	M O U T > -OUT, ETE
+	M O U T > -T, -
+	M O U T > -OUT, I
+	M O U T > -OUT, ÌME
+	M O U T > -OUT, ÌTE
+
+	T A T > -T, NU	# zùstat
+	T A T > -T, NE©
+	T A T > -T, NE
+	T A T > -T, NEME
+	T A T > -T, NETE
+	T A T > -T, NOU
+	T A T > -T, Ò
+	T A T > -T, ÒME
+	T A T > -T, ÒTE
+
+	P A T > -AT, ÍM	# uspat
+	P A T > -AT, Í©
+	P A T > -AT, Í
+	P A T > -AT, ÍME
+	P A T > -AT, ÍTE
+	P A T > -AT, I
+	P A T > -AT, ÌME
+	P A T > -AT, ÌTE
+
+	R A T > -RAT, ØU	# orat
+	R A T > -RAT, ØE©
+	R A T > -RAT, ØE
+	R A T > -RAT, ØEME
+	R A T > -RAT, ØETE
+	R A T > -RAT, ØOU
+	R A T > -RAT, Ø
+	R A T > -RAT, ØME
+	R A T > -RAT, ØTE
+
+	[AÁEÌ] T > I
+	[AÁEÌ] T > -T, L
+	[AÁEÌ] T > -T, LA
+	[AÁEÌ] T > -T, LO
+	[AÁEÌ] T > -T, LI
+	[AÁEÌ] T > -T, LY
+
+flag *O:
+	[OS] T E N > -EN, NA	# ¹»asten, ochoten
+	[OS] T E N > -EN, NO
+	[OS] T E N > -EN, NI
+	[OS] T E N > -EN, NY
+	[OS] T E N > -EN, NU
+
+	[^OS] T E N > A	# hnìten, maten
+	[^OS] T E N > O
+	[^OS] T E N > I
+	[^OS] T E N > Y
+	[^OS] T E N > U
+
+	[BCMNPJ] E N > -EN, NA	# schopen, pøístupen, pøítomen, nemocen
+	[BCMNPJ] E N > -EN, NO
+	[BCMNPJ] E N > -EN, NI
+	[BCMNPJ] E N > -EN, NY
+	[BCMNPJ] E N > -EN, NU
+
+	[^TBCMNPJ] E N > A	# hlá¹en
+	[^TBCMNPJ] E N > O
+	[^TBCMNPJ] E N > I
+	[^TBCMNPJ] E N > Y
+	[^TBCMNPJ] E N > U
+
+	[^E] N > A	# ladìn
+	[^E] N > O
+	[^E] N > I
+	[^E] N > Y
+	[^E] N > U
+
+	[^NLVÝ] > A	# znám > známa, dìlán > dìlána
+	[^NLVÝ] > O
+	[^NLVÝGHKR] > I
+	[^NLVÝ] > Y
+	[^NLVÝ] > U
+	K > -K, CI	# jmenný tvar pøídavných jmen dalek > daleci
+	R > -R, ØI	# stár
+
+	[^E] L > A	# minulý èas nesl, bral, mazal, pral, ¹el....
+	[^E] L > O
+	[^E] L > I
+	[^E] L > Y
+
+	[^©] E L > A	# jel
+	[^©] E L > O
+	[^©] E L > I
+	[^©] E L > Y
+
+	© E L > -EL, LA	# ¹la, na¹la
+	© E L > -EL, LO
+	© E L > -EL, LI
+	© E L > -EL, LY
+
+	E V > -EV, VA	# mrtva
+	E V > -EV, VO
+	E V > -EV, VI
+	E V > -EV, VY
+	E V > -EV, VU
+
+	[^E] V > A
+	[^E] V > O
+	[^E] V > I
+	[^E] V > Y
+	[^E] V > U
+
+	Ý > -Ý, O	# pøíslovce na -o z pøídavných jmen
+
+# pøechodníky z pøechodníku mu¾ského jednotného a nìkde i z infinitivu
+flag *X:
+	A > -A, OUC
+	A > -A, OUCE
+
+	E > -E, ÍC
+	E > -E, ÍCE
+
+	Ì > -Ì, ÍC
+	Ì > -Ì, ÍCE
+
+	[DV] > ©I
+	[DV] > ©E
+
+	E T > ©I
+	E T > ©E
+
+	O U T > -OUT, UV
+	O U T > -OUT, UV©I
+	O U T > -OUT, UV©E
+
+	[AI] T > -T, V
+	[AI] T > -T, V©I
+	[AI] T > -T, V©E
+
+	Ý T > -ÝT, YV
+	Ý T > -ÝT, YV©I
+	Ý T > -ÝT, YV©E

@@ -1,0 +1,20 @@
+name_english Upper Sorbian
+name_native hornjoserbsce
+lang hsb
+data-file hsb_affix.dat
+author:
+  name Eduard Werner
+  name-native Edward Wornar
+  email e.werner at rz uni-leipzig de
+author:
+  name Jan Jeroným Zvánovec
+  email jero at zvano net
+  maintainer true
+copyright GPL
+version 0.02-0
+complete almost
+accurate unknown
+alias hsb
+dict:
+  name hsb
+  add hsb

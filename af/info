@@ -1,0 +1,19 @@
+name_english Afrikaans
+lang af
+author:
+  name Dwayne Bailey
+  email dwayne at translate org za
+author:
+  name Bernard A Nieuwoudt
+  email origen at icon co za
+author:
+  name Renier de Vos
+copyright LGPL
+version 0.50-0
+charset iso8859-1
+special ' -*- - -*-
+soundslike none
+alias af afrikaans
+dict:
+  name af
+  add af

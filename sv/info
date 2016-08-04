@@ -1,0 +1,23 @@
+name_english Swedish
+lang sv
+author:
+  name  Skåne Sjælland Linux User Group
+  email bestyrelsen at sslug dk
+author:
+  name  Jacob Sparre Andersen
+  email sparre at sslug dk
+author:
+  name  Martin Norbäck
+  email d95mback at dtek chalmers se
+copyright LGPL
+version 0.51-0
+url http://sv.speling.org/
+source-version 1.3.8
+charset iso8859-1
+special ' -** - -** . -** : -*-
+soundslike phonet
+run-together true
+alias sv swedish svenska
+dict:
+  name sv
+  add sv

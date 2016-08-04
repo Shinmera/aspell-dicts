@@ -1,0 +1,19 @@
+name_english Icelandic
+name_native Íslenska
+lang is
+author:
+  name  The University of Iceland
+author:
+  name Elías Halldór Ágústsson
+  email elias at hi is
+copyright GPL
+version 0.51.1-0
+url http://helgafell.rhi.hi.is/pub/aspell-is
+source-version 0.51
+charset iso8859-1
+soundslike phonet
+run-together true
+alias is icelandic íslenska
+dict:
+  name is
+  add is

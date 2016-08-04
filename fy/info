@@ -1,0 +1,25 @@
+name_english Frisian
+name_native Frysk
+lang fy
+data-file fy_affix.dat
+data-file l-fy.cset
+data-file l-fy.cmap
+doc-encoding iso-8859-1
+author:
+  name Eeltje de Vries
+  name-native Eeltsje de Vries
+  email eeltje.de.vries at gmail com
+  maintainer true
+author:
+  name Kevin P. Scannell
+  email kscanne at gmail com
+copyright GPL
+version 0.12-0
+url http://borel.slu.edu/crubadan/
+source-version 0.12
+complete false
+accurate true
+alias fy frysk frisian
+dict:
+  name fy
+  add fy

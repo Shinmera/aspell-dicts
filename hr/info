@@ -1,0 +1,14 @@
+name_english Croatian
+lang hr
+author:
+  name Denis Lackovic
+  email dlackov at linux hr
+copyright LGPL
+version 0.51-0
+charset iso8859-2
+special ' -**
+soundslike none
+alias hr croatian
+dict:
+  name hr
+  add hr

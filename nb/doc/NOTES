@@ -1,0 +1,7 @@
+This Norwegian Bokmål Aspell dictionary was originally "no" but this
+was ambiguous, so it was changed to "nb".
+
+The source word list is the same as in Version 0.50 but version 0.50.1
+was created from expanding the MySpell dictionary and not the Ispell
+one found in an old version of Red Hat.  The MySpell dictionary, for one
+reason or another, includes a lot more words.

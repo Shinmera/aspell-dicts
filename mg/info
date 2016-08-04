@@ -1,0 +1,19 @@
+name_english Malagasy
+lang mg
+author:
+  name Rado Ramarotafika
+  email rado at linuxmg org
+  maintainer true
+author:
+  name Kevin P. Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.03-0
+url http://linuxmg.org/
+complete false
+accurate true
+mode aspell5
+alias mg malagasy
+dict:
+  name mg
+  add mg

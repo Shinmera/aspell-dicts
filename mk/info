@@ -1,0 +1,13 @@
+name_english Macedonian
+lang mk
+version 0.50-0
+charset iso8859-5
+author:
+  name Taras Bendik 
+  email taras at ultra com mk
+copyright GPL
+soundslike none
+alias mk macedonian
+dict:
+  name mk
+  add mk

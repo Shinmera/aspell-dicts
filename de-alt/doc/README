@@ -1,0 +1,179 @@
+-------------------------------------------------------------------------
+			     hk2-deutsch
+	  Ein deutsches W"orterbuch zur Rechtschreibkontrolle
+		       mit dem Programm ispell
+			     (Version 2)
+-------------------------------------------------------------------------
+
+Bei einer automatischen Rechtschreibkontrolle sollen Schreibfehler in
+einem Text von einem Pr"ufprogramm gefunden werden. Die korrekte
+Schreibweise wird dazu in einem W"orterbuch hinterlegt. 
+
+Bei der Zusammenstellung des W"orterbuchs sind jedoch die drei
+folgenden Kriterien zu ber"ucksichtigen.
+
+1) Voraussetzung f"ur zuverl"assige Ergebnisse ist, da"s das
+W"orterbuch selbst m"oglichst keine Fehler enth"alt. 
+
+2) Das W"orterbuch mu"s einen breiten Wortschatz abdecken. Andernfalls wird
+das Pr"ufprogramm viele korrekte W"orter eines Textes als falsch
+abweisen, die nicht in dem W"orterbuch enthalten sind. Dieses Verhalten
+ist l"astig und versperrt den Blick auf die wahren Fehler.
+
+3) Es ist notwendig, da"s ein W"orterbuch nicht zu viele W"orter
+enth"alt. Zum einen kann ein selten verwendetes Wort gerade so
+geschrieben werden wie ein falsch geschriebenes Wort in dem zu
+pr"ufenden Text, welches dann nicht als fehlerhaft erkannt wird. Zum
+anderen belastet ein sehr gro"ses W"orterbuch den Arbeitsspeicher eines
+Computers evtl. so sehr, da"s die Pr"ufung unertr"aglich lange dauert.
+
+Eigenschaften
+-------------
+
+Ich habe dieses W"orterbuch hk2-deutsch unter den oben genannten Kriterien
+zusammengestellt. Besonderen Wert habe ich auf die Punkte 2 und 3
+gelegt.
+
+Um Fehler auszumerzen, habe ich zum einen durch Suchen nach falsch
+klingenden Zeichenketten bzw. regul"aren Ausdr"ucken die zu
+betrachtenden W"orter eingegrenzt. Zum anderen habe ich gro"se Teile
+Wort f"ur Wort durchgesehen. Hilfreich waren auch die zahlreichen
+R"uckmeldungen, die ich zur 1. Version dieses W"orterbuchs erhalten
+habe.
+
+Dieses W"orterbuch liegt nicht als eine gro"se Datei vor, sondern die
+W"orter sind nach verschiedenen Kriterien in einzelne Dateien
+aufgeteilt. Dadurch wird es m"oglich, ein relativ kleines W"orterbuch
+zusammenzustellen, das den individuellen Anforderungen leichter
+gen"ugt.
+
+Inhalt der Teilw"orterb"ucher
+-----------------------------
+
+Es folgt eine Beschreibung der einzelnen Dateien und der Kriterien,
+nach denen die Aufteilung der Worte vorgenommen wurde.
+
+gross		gro"s geschriebene Worte, hoffentlich nur noch Substantive
+verben		Verbformen, keine Befehlsformen
+adjektive	Adjektive
+klein           Zahlworte, F"urworte, ...
+imperat         gebr"auchliche Befehlsformen
+abkuerz         gebr"auchliche Abk"urzungen
+vornamen        gebr"auchliche Vornamen
+geographie	gebr"auchliche geographische Begriffe
+latein          lateinische Redewendungen (et cetera)
+oesterreich	in "Osterreich gebr"auchliche Worte
+informatik      Fachbegriffe aus dem Bereich der Datenverarbeitung
+infoabk         gebr"auchliche Abk"urzungen aus dem EDV Bereich
+elektronik      Fachbegriffe und Abk"urzungen aus dem Bereich Elektronik
+alphabeta	einige griechische Buchstaben
+roemisch	einige r"omische Zahlen
+orgabk          Abk"urzungen als Bezeichnung von Organisationen 
+marken          Namen von Firmen und Produkten
+worte2		weitere Substantive (noch unvollst"andig)
+zusammen        zusammengesetzte Begriffe (sehr gemischt und wenig gepr"uft)
+technik         teilweise merkw"urdige technische Begriffe 
+compeng         Computer-Englisch, insbesondere deutsch-englische Mischw"orter
+geogra2         weitere geographische Begriffe
+vornam2         weitere Vornamen
+namen           Nachnamen bekannter Personen, G"otter, Sagengestalten, ...
+abkuerz2        weitere Abk"urzungen
+seltenes        wirklich seltene Worte, ungebr"auchliche Beugungsformen
+
+Die Dateien gross, verben, adjektive, klein, imperat und abkuerz
+dienen als Grundlage f"ur ein W"orterbuch, das evtl. mit weiteren
+Teilw"orterb"uchern angereichert werden mu"s.
+
+Installation
+------------
+
+Ich empfehle, folgende Worte in ein W"orterbuch aufzunehmen:
+
+worte           immer
+verben          immer
+adjektive       immer
+klein           immer
+imperat         eher ja
+abkuerz         eher ja
+vornamen        eher ja
+geographie      eher ja
+latein          eher ja
+oesterreich	bei Bedarf
+informatik      bei Bedarf
+infoabk         bei Bedarf
+elektronik      bei Bedarf
+alphabeta       bei Bedarf
+roemisch        bei Bedarf
+orgabk          bei Bedarf
+marken          bei Bedarf
+worte2		f"ur ein gro"ses W"orterbuch
+zusammen        f"ur ein gro"ses W"orterbuch
+technik         eher nicht
+compeng         eher nicht
+geogra2         eher nicht
+vornam2         eher nicht
+namen           eher nicht
+abkuerz2        nicht
+seltenes        nicht
+
+
+F"ur das Programm ispell wird eine Datei `deutsch.hash'
+ben"otigt. Diese erstellt man am einfachsten durch Eingabe von `make',
+nachdem man in dem beiliegenden `Makefile' die Variable `WORTE' an die
+eigenen Bed"urfnisse angepa"st hat.
+
+Die Datei `deutsch.aff' in der ispell Distribution ist nicht kompatibel zu den
+hier verwendeten Affixen. Daher ist unbedingt das beiliegende
+`deutsch.aff' zu verwenden!
+
+F"ur ispell sind keine besonderen Parameter notwendig.
+Der Defaultwert `#define MASKBITS 32' ist ausreichend.
+
+Nach der Installation der Dateien `deutsch.aff' und `deutsch.hash' an
+geeigneter Stelle (siehe `ispell -vv|grep LIBDIR')
+ruft `ispell -d deutsch' das deutsche W"orterbuch auf.
+
+Verbesserungsvorschl"age
+------------------------
+
+Ich bin an einer weiteren Verbesserung dieses W"orterbuchs
+interessiert. Dazu geh"oren beispielsweise 
+- Hinweise auf fehlerhafte Worte oder Beugungsformen, 
+- Aufteilung in weitere Fachw"orterb"ucher, z. B. Medizin
+- Aufteilung in gebr"auchliche und weniger gebr"auchliche Worte,
+- Erg"anzungen um fehlende gebr"auchliche Worte.
+Sendet Eure Vorschl"age bitte an die unten angegebene E-mail Adresse.
+
+Vorarbeiten
+-----------
+
+Dieses W"orterbuch basiert auf Dateien von Martin Schulz, die man
+z.B. in
+/ftp.th-darmstadt.de:/pub/dicts/ispell/dictionaries/deutsch.tar.gz
+finden kann. Bereits dort wurde die Idee der Teilw"orterb"ucher
+verfolgt. Wesentliche "Anderungen zu dem urspr"unglichen W"orterbuch
+von Martin Schulz und zu der ersten Version dieses W"orterbuchs
+(hk-deutsch) habe ich in der Datei `Changes' dokumentiert.
+
+Ispell
+------
+
+Das Programm ispell ist verf"ugbar in /ftp.cs.ucla.edu:pub/ispell-3.1.
+Diese W"orterbuch wurde mit den Versionen ispell-3.1.18 und
+ispell-3.1.20 verwendet. 
+
+Um Ispell auf Texte mit deutschen Umlauten anwenden zu k"onnen, ist es
+je nach Kodierung mit der Option -Ttex oder -Tlatin1
+aufzurufen. Weitere Codierungen sind in der Datei `deutsch.aff'
+erl"autert. Falls haupts"achlich deutsche Texte gepr"uft werden, so
+sollte man die Environment-Variable `DICTIONARY' auf den Wert
+`deutsch' setzen. Dann braucht die Option `-d deutsch' beim Aufruf von
+ispell nicht mehr angegeben zu werden.
+   
+
+Viel Spa"s mit fehlerfreien Texten w"unscht
+
+--Heinz
+
+Heinz Knutzen                    E-mail: hk@informatik.uni-kiel.d400.de
+Lange Reihe 14c, 24244 Felm

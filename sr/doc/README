@@ -1,0 +1,46 @@
+
+
+
+Serbian language support package for GNU aspell
+0.02, 11/09/2005
+
+
+Created and released by Goran Rakic, <gox at devbase dot net>. Package is released under 
+GNU LGPL license (copy of license is included in package) and available on location 
+http://www.srpski.org/aspell/
+
+Word list also includes 133986 words from Corpus of Contemporary Serbian Language built on 
+Faculty of Mathematics, University of Belgrade, with total size of 25MW created by Natural 
+language processing group, Faculty of Mathematics. Word list is given under GNU LGPL license 
+in order to create GNU aspell and MySpell Serbian language dictionary. Additionally, correctness 
+of 284420 words from corpus formed from texts published on Internet, is checked by comparing 
+it with Corpus of Contemporary Serbian Languages. With that, 150080 words are marked as 
+potentionally incorrect. I am thankful to prof. Dusko Vitas from Faculty of Mathematics for all 
+help and given resources. You can find more informations about Corpus of Contemporary 
+Serbian Language at URL http://korpus.matf.bg.ac.yu
+
+I am thankful to Viktor Kerkez <alef at uns.ns.ac dot yu> for given word list. 281865 words,
+including 762 new words that are included in this release only because of it, are founded
+in his word list.
+
+Also, I am thankful to Tanja Samardzic from Faculty of philology, University of Belgrade for
+her suggestions and all help regarding word validation. Some of suggestion are already applied
+to this release, but better part will be applied in next releases.
+
+Dictionary in this version still doesn't use any of affix rules and contains 343242 words and their 
+forms.
+
+Package contains three dictionaries (Cyrillic, Latin and combined) and two word lists (Cyrillic and 
+Latin). Combined dictionary is default. If you want to spellcheck only text written with Cyrillic or 
+Latin script you can use "--variety" option. Words are encoded in UTF-8 code page, normalized 
+to special 8bit code page l-sr. GNU aspell files l-sr.cset and l-sr.cmap are included in this 
+package. You can find description of this code page in file misc/l-sr.txt. Support for accented
+vowels is built in, but in current release dictionary does not have any words accented vowels.
+Author it thankful to Kevin Atkinson, GNU aspell maintainer for help in creation of code page. 
+
+I will be glad if You, as a users show any initiative in intention to correct errors in words 
+from dictionary or adding more new words to dictionary. Opening of new pages on package location
+where users will be avaible to import theirs personal dictionaries, and to take part in word
+validation is planned.
+
+You can contact author of this package on email stated in header of this file.

@@ -1,0 +1,210 @@
+2004-02-14  Pablo Saratxaga <pablo@walon.org>
+	* pitite bistoke pol Sint Valintin ;-)
+	* dj' a léjhou comifåt les rîles di fonetike po aspell, et dj' a sepou
+	  fé on fitchî d' adrame; les rzultats sont clapants, on pout prinde
+	  on tecse e Feller e aspell dene cåzu tofer do prumî côp li bon
+	  mot e rfondou.
+	* i gn 4 fitchîs di rîles fonetikes (avou l' prémetou fitchî
+	  ça ndè fwait cénk): Lidje (wa@lj), Nameur (wa@na), Tchålerwè (wa@ch)
+	  eyet Hôte Årdene (~Houfalijhe) (wa@ha); ces fitchîs la onte des
+	  rîles di prononçaedje des betchfessîs d' après les pårlers.
+	  Elzès fåreut co ramidrer, et motoit nd ahiver des ôtes.
+	* 10051 intrêyes -- 3095 intrêyes decidêyes ou e decidaedje
+	 * candjî li modêye a 0.4.5
+
+2003-10-26  Pablo Saratxaga <pablo@walon.org>
+	* coridjaedjes d' après les decidaedjes del tåvlotêye rifondaedje
+	  do 25 d' octôbe.
+	* 9923 intrêyes -- 3062 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.4.4
+
+2003-07-28  Pablo Saratxaga <pablo@walon.org>
+	* coridjaedje del rîle po -eu -> -resse et sacwants mots kel eployént
+	* ene cintinne di noveas mots di l' esplicant motî
+	* 9879 intrêyes -- 3021 intrêyes decidêyes ou e decidaedje
+
+2003-07-16  Pablo Saratxaga <pablo@walon.org>
+	* coridjaedje d' on bug dins les codjowaedje po les viebes
+	  del sôre ---ire -> dji ---î
+
+2003-06-24  Pablo Saratxaga <pablo@walon.org>
+	* Sacwants mots do roman "Li batreye des cwate vints"
+	* 9725 intrêyes -- 3011 intrêyes decidêyes ou e decidaedje
+
+2003-06-12  Pablo Saratxaga <pablo@walon.org>
+	* bråmint di mots des ratournaedjes di KDE
+	* bråmint di mots des scrijhaedjes da Hinri Simon
+	* metou on LC_ALL=C divant sort -u (on pierdeut ene céncwantinne
+	  di mots si l' make esteut enondé dizo utf-8)
+	* 9692 intrêyes -- 2987 intrêyes decidêyes ou e decidaedje
+
+2003-06-04  Pablo Saratxaga <pablo@walon.org>
+	* bråmint di noveas mots foû do motî
+	* coridjî codjowaedje di poleur et voleur
+	* 9577 intrêyes -- 2900 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.4.3
+
+2003-04-15  Pablo Saratxaga <pablo@walon.org>
+	* sacwants mots des tecnikes di sårtaedje
+	* kékes mots saetchîs do ratournaedje des evandjîles
+	* 9443 intrêyes -- 2831 intrêyes decidêyes ou e decidaedje
+
+2003-03-20  Pablo Saratxaga <pablo@walon.org>
+	* radjouté rîles d' astalaedje dins li Makefile
+	* radjouté rîle po-z eployî avou aspell
+	* candjî lere/lejhou -> lére/léjhou
+	* 9400 intrêyes -- 2796 intrêyes decidêyes ou e decidaedje
+
+2003-01-05  Pablo Saratxaga <pablo@walon.org>
+        * sacwantès novelès intrêyes di l' esplicant motî
+	* ratacaedje des djivêyes di mots po decidaedje
+        * 9406 intrêyes -- 2784 intrêyes decidêyes ou e decidaedje
+
+2002-12-07  Pablo Saratxaga <pablo@walon.org>
+	* sacwantès novelès intrêyes di l' esplicant motî
+	* 9249 intrêyes -- 2585 intrêyes decidêyes ou e decidaedje
+
+2002-10-20  Pablo Saratxaga <pablo@walon.org>
+	* coridjaedjes do dierin raploû rfondaedje
+	* tot plin d' mots di « Li måjhone do djårdinî » da A. Gauditiobois
+	* 9121 intrêyes -- 2493 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.4.2
+
+2002-06-08  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* Sacwants noveas mots foû di "Zanzan-Shabots-d'-Ôr"
+	* noveas mots des novelès intrêyes di l' esplicant motî
+	* sacwants nos d' payis
+	* sacwants noveas viebes
+	* li codjowaedje a pårti di deus bodjes ni va pus; i fåreut troes
+	  bodjes; dji tuze a cmint rfé çoula... motoit ki dji n' divreut
+	  nén mete çoula dins l' djivêye di mots; mins fé totes les foûmes
+	  di codjowaedje a pårti d' èn ôte programe; oudonbén l' fé po les
+	  viebes del 4e sôre (nén -er, nén -î, nén -ixh), ki sont les cis
+	  ki pôzèt problinme.
+	* 8258 intrêyes -- 2158 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.4.1
+
+2002-05-24  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* rifwait les rîles po les viebes, po manaedjî les longous î et û
+	  (dj' a scrît, mins sicrijhant)
+	* tot plin d' mots, prindous del novele "Zanzan-Shabots-d'-Ôr"
+	* tos les viebes del sôre -ixh do live des 5.000 viebes da Gilliard
+	* sacwantès intrêyes prindowes des letes AA -> AG do Haust
+	* 8188 intrêyes -- 1590 intrêyes decidêyes ou e decidaedje
+
+2002-04-28  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* candjî li djivêye di mots sorlon les dierinnès rîles do
+	  raploû rifondaedje
+	* ~6000 intrêyes -- ~1000 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.4
+
+2002-01-12  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* rifwait les rîles po les viebes del sôre -ixh
+	* 5979 intrêyes -- 713 intrêyes decidêyes ou e decidaedje
+	* candjî li modêye e 0.3.4
+
+2001-11-27  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* coridjaedje di sacwants bugs pol codjowaedje
+	* atacaedje del verificåcion po totes les intrêyes
+	* 5238 intrêyes
+
+2001-11-05  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* radjouté sacwants viebes eyet mots foû di «So l' anuti»
+	* 5201 intrêyes
+
+2001-10-18  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* Rimetou avou les rîles do 2inme raploû rfondaedje
+	* 5129 intrêyes
+	* candjî li modêye e 0.3.3
+
+2001-09-06  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* kimincî a mete les rîles decidêyes å raploû rfondaedje d' ayir
+	(én; -éns,-ént; -êye; lepe; payis; sins; -er(cazer,...); 
+	seur; Beljike; vs, ns, ls; oto-; adjinçneu; u, udonbén (sin.))
+	* 5087 intrêyes!
+	* candjî l' limero d' modêye
+ 
+2001-08-21  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* -ou/-owe eyet -é/-êye ont stî metowes come foûmes di referince
+	  (el plaece di -u/-uwe, -è, -éye ki n' sont pus acceptêyes)
+
+2001-08-14  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* coridjî li codjowaedje po les viebes come copiner (copiné/copenes)
+	* les foûmes -IXH ni sont nén fwaites so -IS ('ti scris' ni fwait
+	  nén 'ti scrixhs') mins so -I.
+	* 5060 intrêyes!
+
+2001-06-17  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* radjouté des noveas mots et viebes prindous di scrijhaedjes da
+	  Lorint Hendschel
+	* sopoirt po les addjectifs en -ål (foûme -å metowe el djivêye)
+	* sopoirt pol futeurrece foûme des viebes come "finixhrè"
+	* sopoirt del foûme -nut (i candjèt, i candjnut)
+	* 4980 intrêyes!
+
+2001-06-10  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* radjouté kékes noveas mots al djivêye.
+	* verifyî avou totes les intrêyes des lete A->Z di l' esplicant motî.
+	* coridjî l' sopoirt des addjectifs en -eus
+	* radjouté des foûmes disrûlêyes po les viebes dire, fé eyet aveur.
+	* 4549 intrêyes
+
+2001-03-02  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* verifyî avou totes les intrêyes des lete A->T di l' esplicant motî.
+	* radjouté li sopoirt po les addjectifs e -r (eg: clér) pol drapea "m"
+	* 4266 intrêyes
+
+2001-02-26  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* verifyî avou totes les intrêyes des lete A->R di l' esplicant motî.
+	* coridjî li codjowaedje
+	* 4183 intrêyes
+
+2001-02-22  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* verifyî avou totes les intrêyes des lete A->L di l' esplicant motî.
+	* adjouté on drapea "c" po les viebes ki fjhèt des mots en -ance
+	* 4037 intrêyes
+
+2001-02-16  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* candjî li codjowaedje shuvant les tåvleas del rawete sol rifondaedje
+	  do limero 5 di Walo+ Gazete ( -î -> -îz (pus d' -oz et -ioz)
+	* accepter -u/-uwe a costé di -ou/-owe (mins -ou eployî pol djivêye
+	  di mots)
+
+2000-11-23  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* ricandjî les finåles -u/-uwe en -ou/-owe
+	* metou l' diferince inte -eye et -éye
+	* candjî l' limero del modêye e 0.2
+	* 3357 intrêyes
+	* c' est mi aniversaire :)
+
+2000-11-11  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* verifiaedje des foûmes "ti" di sacwants viebes, gråces a Lorint
+	  Hendschel (et, come dji m' atindeu, dj' esteve a costé del plake
+	  pol mitan d' zels)
+	* coridjaedje po les viebes avou on "ti" e -ds et -ts (eg: ti prinds,
+	  ti parets)
+	* 3268 intrêyes
+
+2000-11-03  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* bråmint des ramidraedjes pol codjowaedje, po mî prinde e conte
+	  les candjmints fonetikes (k->c, g->gu, c->ç, evnd.), et les
+	  variåcions di sacwants viebes disrûlés di manire erîlêye.
+	* ramidré li derivaedje po les addjectifs femrins et nos femrins;
+	  gråces a l' aidance del «croejhete walone» da Lorint Hendschel
+	* radjouté sopoirt po les fitchîs ecôdés en UTF-8
+	* radjouté des fitchîs TODO, ChangeLog (vos l' léjhoz pol
+	  moumint) et Makefile (pus åjhey po costrure ene årtchive,
+	  fé on novea diccionaire après aveur candjî des sacwès, evnd.)
+ 	* 2585 intrêyes
+
+2000-10-21  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* prumire vraiye modêye do coridjeu walon po ispell. Les rîles
+	  pol codjowaedje des viebes a stî fwait avou l' aidance
+	  da Lucyin Mahin
+	* viè 1000 intrêyes
+
+2000-01-01  Pablo Saratxaga <srtxg@chanae.alphanet.ch>
+	* prumire saye po fé on coridjeu walon po ispell
+	euh... a on moumint å cominçmint di 2000... djel a disfacé sins
+	l' voleur et i n' resse rén...
+

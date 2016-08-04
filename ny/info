@@ -1,0 +1,20 @@
+name_english Chichewa
+lang ny
+author:
+  name  Soyapi Mumba
+  email soyapi at eomw net
+  maintainer true
+author:
+  name Kevin P. Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.01-0
+url http://borel.slu.edu/crubadan/
+source-version 0.01
+complete false
+accurate true
+alias ny chichewa chewa nyanja
+mode aspell5
+dict:
+  name ny
+  add ny

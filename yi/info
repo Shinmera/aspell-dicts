@@ -1,0 +1,16 @@
+name_english Yiddish
+name-native ייִדיש
+lang yi
+data-file u-hebr.cset
+data-file u-hebr.cmap
+author:
+  name Raphael Finkel
+  email raphael at cs uky edu
+copyright GPL
+version 0.01.1-1
+complete true
+accurate true
+alias yi yiddish
+dict:
+  name yi
+  add yi

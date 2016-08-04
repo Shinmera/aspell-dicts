@@ -1,0 +1,15 @@
+name_english Test
+lang qq
+author:
+  name Kevin Atkinson
+  email kevina at gnu org
+copyright Unknown
+#url Unknown
+version 0.03-0
+#source-version 0.01
+accurate unknown
+complete unknown
+#alias qq unknown
+dict:
+  name qq
+  add qq

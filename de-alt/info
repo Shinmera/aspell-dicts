@@ -1,0 +1,19 @@
+name_english German - Old Spelling
+name_ascii Deutsch - Alter Spelling
+lang de-alt
+data-file de-alt_phonet.dat
+data-file de-alt_affix.dat
+author:
+  name Heinz Knutzen
+  email hk at informatik uni-kiel d400 de
+author:
+  name  Björn Jacke
+  email bjoern jacke at gmx de
+copyright GPL
+version 2.1-1
+accurate true
+complete true
+alias de-alt german-old deutsch-alt
+dict:
+  name de-alt
+  add de-alt

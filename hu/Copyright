@@ -1,0 +1,9 @@
+The Aspell Hungarian dictionary is based on the MySpell One:
+
+  This dictionary is based on the Hungarian wordlist and affixes created
+  by László Németh, september 2003 V0.99.4, and is covered by their original 
+  Gnu GPL license as published by the FSF, published at 
+  http://www.yahoogroups.com/group/magyarispell/files.
+
+The wordlist was cleaned up with doc/clean.pl
+

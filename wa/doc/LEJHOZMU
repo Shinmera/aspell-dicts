@@ -1,0 +1,102 @@
+Prumire[*] saye d' on coridjeu d' ortografeye e walon po ispell;
+shuvant l' ortografeye do rfondou walon.
+
+([*] li 2inme en fwait, mins li prumire a stî pierdowe po todi, a cåze
+ d' ene biestreye ki dj' a fwait avou "rm"...
+ Mins cisse chal est vormint mî k' l' ôte savoz (cmint ça "l' ôte duvreut
+ esse vormint afreuse" ?)
+
+Dj' a sortot tuzé sol manire di trover les diferinnes fômes codjowêyes
+des viebes, gråce a l' aidance di Lucyin Mahin; et poy dj' a metou
+les prumires pådjes di l' esplicant motî walon.
+
+Li tot est so licince libe bén seur.
+
+A FÉ: 
+* verifyî ki les fômes dinêyes po les viebes sont les bones (li motî dene,
+  come tos les motîs, l' efinitif; dji n' so nén foirt seur po des viebes
+  k' i gn a d' aveur prindou li bone fôme)
+* verifyî l' algorite di codjowaedje eployî et sayî d' voere s' i pout
+  bén covrî tos les viebes erîlés, et si dji n' a pont rovyî des sacwès.
+
+
+DJ' A FWAIT LES TCHÛZES SHUVANTES POL ORTOGRAFEYE EPLOYEYE CHAL:
+(mins tot çoula pout esse candjî bén seur; i fåt djusse, por on minme
+diccionaire di coridjaedje, eployî les minmes convencions tot avå)
+  - b.s. "oi" el plaece di "wae"
+  - "ai" el plaece do "ê" (mins nén po tos les mots)
+  - diferince inte -î (-> -ant) eyèt -i ( -ixhant) po les viebes (c' est
+    eployî pa l' algorite)
+  - -é -> -ez, -î -> -îz, -i -> -ixhoz, -u -> -oz pol codjowaedje des schoutants
+  - -eye (sin faflotes) po -êye/-èye/-éye/-îye
+  - -êye (avou accint) po -éye/-êye/-ée (måy -îye): pårticipe erirece femrin
+  - -a,-as,-a,-îs,-îz,-ît
+  - -anxhe,-oxhe,-exhe
+  - -inxhe,-ixhe,-inxhe
+  - -éns, -îz, -ént
+  - -reu,-reus,-reut,-réns,-rîz,-rént
+  (et d' ôtes, vey walon.aff)
+
+Bén seur tot çoula pout esse candjî dj' a seulmint metu çu ki dj' eploye
+normålmint, po poleur fé des sayes so mes fitchîs di ratournaedje wa.po;
+on côp ki ça rotreut bén, i fårè prinde ene decision po tos ces cas la
+(decision ki poreut esse candjeye pus tård, mins å moens saveur, inte ene
+decision et l' ôte, kéne ortografeye eployî; pace ki pol moumint i m'
+sonle ki tos les rfondeus scrijhèt tertos avou des rîles diferinnes l' onk
+di l' ôte :).
+
+KIMINT L' EPLOYÎ
+
+On fwait l' fitchî *.hash tot tapant "make", et copyî les deus
+fitchîs walon.aff et walon.hash dins /usr/lib/ispell.
+
+Asteure si vos vloz verifyî on fitchî "foo.txt" e walon, i fåt fé:
+	ispell -d walon foo.txt
+
+
+KIMINT L' RAMÎDRER
+
+dins l' ridant mots/ dj' a metu sacwants fitchîs, les nos des fitchîs sont
+assez simpes po comprinde i m' sonle :) vos î ploz radjouter des novelès
+intrêyes, mots, viebes,...
+tchaeke intrêye pout aveur onk ou des drapeas (separés do mot par on "/").
+Les drapeas sont:
+a: addjectif (çoula vout dire a pårti del fôme omrinne dinêye on pout aveur
+	les fômes plurieles, et femrinne). eg: "blanc/a" çoula va covrî
+	les mots "blanc", "blancs", "blanke", "blankes", "blankès"
+s: li mot pout prinde on s po fé on pluriel
+n: drapea po les nos (fwait des fômes femrin et omrin, sing et pluriel;
+	c' est cåzu come "a", mins sin l' fôme -ès )
+i: sititchåve voyale. eg: "sicole/is" ki covere "sicole", "scole", "sicoles"
+	et "scoles"
+v: viebe erîlé. po les viebes i fåt dner deus fômes: li cene pol schoutant
+	di l' edicatif prezintrece, et li pårticipe erirece omrin;
+	a pårti di ces deus fômes, li resse est fwait.
+	eg: "tådjes/v" et "tårdjî/v" oudonbén "boes/v" et "bevou/v"
+j: li viebe pout fé on mot en -aedje, eg: "sicrit/jvi" -> s(i)crijhaedje
+	li drapea "j" si mete sol fôme pårticipe erirece do viebe
+r: po les mots ki fjhèt ene fôme femrinne e -resse; eg:
+	"cinsî/r" --> "cinsî", "cinsîs", "cinsresse", "cinsresses"
+	on pot mete les drapeas "n" et "r" po les mots ki ont deus fômes
+	femrinnes, eg: "abateu/nr" -> abateu, abateus, abateuse, abateuses,
+	abatresse, abatresses 
+t: po les viebes ki polèt fé on addj. en -ant; eg: ahåyî/vt --> ahåyant,
+	ahåyants, ahåyante, ahåyantes, ahåyantès
+	li drapea si mete sol fôme pårticipe erirece do viebe  
+c: po les viebes ki fjhèt on mot en -ance; eg: amîdré/vjtc --> 
+	amîdrance, amîdrances (et ossu amîdraedje, cåze do "j", et
+	amîdrant{,s,e,es,ès} cåze do "t")
+m: - po les nos: fwait on adviebe e -mint; eg: awoureus/am --> awoureuzmint
+   - po les viebes: fwait on mot e -mint; eg: abayes/vm --> abaymint(s)
+    atincion ki po les viebes li drapea  si mete al fôme do schoutant di
+    l' edicatif erirece, dismetant ki tos les ôtes drapeas (ôtes ki "v" et "i")
+    si metèt sol fôme pårticipe erirece.
+<rén>: ci mot la et rén d' ôte, nou derivé est fwait (eg: "alans")
+
+Loukîz dvins les fitchîs di mots/* po des egzimpes.
+
+
+
+Vola, amusez vs bén et dijhoz mu çu k' vos è pinsoz.
+
+

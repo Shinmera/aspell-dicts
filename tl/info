@@ -1,0 +1,20 @@
+name_english Tagalog
+name_native Tagalog
+lang tl
+author:
+  name  Ramil Sagum
+  email ramil at astra ph
+  maintainer true
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.02-1
+url http://borel.slu.edu/crubadan/index.html
+complete false
+accurate true
+mode aspell5
+alias tl tagalog
+dict:
+  name tl
+  add tl

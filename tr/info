@@ -1,0 +1,17 @@
+name_english Turkish
+lang tr
+author:
+  name  Togan Muftuoglu
+  email togan at yahoo com
+  maintainer true
+copyright GPL
+version 0.50-0
+url http://sourceforge.net/projects/turkce
+source-version 0.2
+charset iso8859-9
+special	' -*- - -*-
+soundslike generic
+alias tr
+dict:
+  name tr
+  add tr

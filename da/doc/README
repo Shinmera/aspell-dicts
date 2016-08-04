@@ -1,0 +1,33 @@
+
+                    Den store danske ordliste (1.4)
+
+The Comprehensive Danish Dictionary from SSLUG. The 1.4 series of releases
+contains all words from our word list, that have been verified as correct by
+two or more reviewers.
+
+You can read more about the project at:
+
+   http://da.speling.org/
+
+Download the latest edition of this series from:
+
+   http://da.speling.org/filer/
+
+----------------------------------------------------------------------------
+
+Hvis der er fejl i ordlisten kan du rapportere det på:
+
+                   http://da.speling.org/fejlmelding/
+
+----------------------------------------------------------------------------
+
+You build the aspell wordlist with the command:
+
+   make
+
+You install the aspell wordlist with the command:
+
+   make install
+
+This command will in most cases have to be run with system administrator
+rights.

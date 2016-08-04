@@ -1,0 +1,13 @@
+ **********************************************
+                openmongolian
+ **********************************************
+
+This largest mongolian word list is produced by a lot of work and a lot of time from:
+Sanligiin Badral <badral@openmn.org> - Author
+Dorjgotov Batmunkh <batmunkh@num.edu.mn> - Author
+
+Kevin P. Scannell <scannell@slu.edu> - Contribution ~ 9000 crawled words, technical help and valuable suggestions.
+Ts. Ganbold <ganbold@micom.mng.net> - Contribution: ~ 8000 revised words.
+Bataa Batzolboo <batzol_b@yahoo.com> - Contribution: hand-check ~ 200 000 words.
+
+Thanks to all contributors!

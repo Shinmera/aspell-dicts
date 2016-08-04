@@ -1,0 +1,30 @@
+
+  			    BRETON (BREZHONEG) ISPELL DICTIONNARY
+				   GERIADUR BREZHONEK EVIT ISPELL
+
+
+DESCRIPTION :
+-------------
+This is a breton dictionary for ispell.
+To check spelling in brezhoneg text (Latin1 aka ISO-8859 -
+though the C'H and CH letters are not present in Latin1 :-) ),
+
+
+HOW TO USE :
+------------
+use the following command:
+	ispell -d brezhoneg <file_name>
+
+If you always want to use breton dictionnay, then add the following
+to your ~/.bashrc
+
+	export DICTIONARY=brezhoneg.hash
+
+Then the 'brezhoneg' dictionary will be used for spell checking
+when using ispell. Please consult the documentation on ispell
+for further details.
+
+Ispell will then store additions to your personal dictionary in the
+file ~/.ispell_brezhoneg. Please mail this to me, to be added back to the
+main dictionary file. I shall endeavour to release updates as frequently
+as possible.

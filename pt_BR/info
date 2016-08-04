@@ -1,0 +1,23 @@
+name_english  Brazilian Portuguese
+name_ascii    Portugues do Brasil
+name_native   Português do Brasil
+lang          pt_BR
+copyright     LGPLv2.1
+version       20090702-0
+complete      true
+accurate      true
+author:
+   name       Leonardo Ferreira Fontenelle
+   email      leonardof at gnome org
+   maintainer true
+author:
+   name       Raimundo Santos Moura
+   email      raimundomoura at openoffice org
+dict:
+   name       pt_BR
+   add        pt_BR
+data-file     pt_BR_affix.dat
+data-file     br-abnt2.kbd
+doc-encoding  utf-8
+source_url    http://www.broffice.org/verortografico
+mode          aspell6

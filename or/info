@@ -1,0 +1,24 @@
+name_english Oriya
+name_native ଓଡ଼ିଆ
+lang or
+data-file u-orya.cset
+data-file u-orya.cmap
+author:
+  name Gora Mohanty
+  name-native ଗୋରା ମାହାନ୍ତି
+  email gora at yahoo co in
+  maintainer true
+author:
+  name Rebati Project volunteers
+  email oriya-group at lists sarovar org
+copyright GPL
+url http://oriya.sarovar.org/dictionary.html
+version 0.03-1
+source-version 3
+complete false
+accurate unknown
+alias or oriya
+dict:
+  name or
+  add or
+notes Based only on Rebati glossary (largely GNOME glossary)

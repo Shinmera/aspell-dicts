@@ -1,0 +1,20 @@
+name_english Marathi
+name_native मराठी
+lang mr
+data-file u-deva.cset
+data-file u-deva.cmap
+author:
+  name The janabhaaratii Team
+  name-native जनभारती
+  email janabhaaratii at ncst dot ernet dot in
+  maintainer true
+copyright GPL
+url http://www.janabhaaratii.org.in
+version 0.10-0
+source-version 0.1
+complete false
+accurate true 
+alias mr marathi
+dict:
+  name mr
+  add mr

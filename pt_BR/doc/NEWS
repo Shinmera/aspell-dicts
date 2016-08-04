@@ -1,0 +1,34 @@
+2009-07-02-0
+
+Updated dictionary. This version uses the 1990 Orthographic Agreement, with the
+implementation details published this year by the Brazilian Academy of Letters.
+There's no alternative version; if you want the old orthography you must use
+the previous version of this dictionary.
+
+2008-07-07-0
+
+Updated dictionary. Many Aspell users use it through Enchant, which can't 
+understand hyphens as part of a word. Because of that, this dictionary version
+has some extra part-of-words so that compound words are not incorrectly marked
+as misspelled.
+
+2008-02-21-1
+
+Now actually included the keyboard mapping file.
+
+2008-02-21-0
+
+Updated dictionary, which now has full support to enclisis and mesoclisis. 
+Included a keyboard mapping file, to enhance typo fixing in the Brazilian 
+ABNT2 keyboards. Included in the documentation the shell script used to convert
+from Myspell to Aspell.
+
+2007-04-11-0
+
+Updated dictionary.
+
+2007-02-06
+
+First Brazilian Portuguese dictionary for Aspell 0.6. Based on the spell 
+checking project from BrOffice.org, the Brazilian OpenOffice.org development 
+community.

@@ -1,0 +1,19 @@
+name_english Faroese
+name_native Føroyskt
+lang fo
+author:
+  name  Jacob Sparre Andersen
+  email sparre at sslug se
+doc_encoding iso-8859-1
+data-file fo_phonet.dat
+copyright GPL
+version 0.2.16-1
+source-version 0.2.16
+url http://fo.speling.org/
+complete true
+accurate true
+mode aspell5
+alias fo føroyskt faroese
+dict:
+  name fo
+  add fo

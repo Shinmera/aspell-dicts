@@ -1,0 +1,8 @@
+This package (aspell-pt) is actually a combination of two different
+word lists.
+
+From the pt_PT README: This the br.ispell dictionary for Brazilian
+Portuguese. It's freely available under the terms of the GNU GPL.
+
+The pt_BR word list did not come with any copyright notice so for right
+now I will assume it is under the GPL.

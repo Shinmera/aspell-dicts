@@ -1,0 +1,6 @@
+include iso-8859-1.txt
+
+0x80 U+1E24
+0x81 U+1E25
+0x82 U+1E36
+0x83 U+1E37

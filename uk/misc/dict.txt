@@ -1,0 +1,150 @@
+# Aspell 0.50
+af
+bg
+br
+ca
+cs
+cy
+da
+de
+el
+en
+eo
+es
+fo
+fr
+ga
+gd
+gl
+gv
+hr
+ia
+id
+is
+it
+mi
+mk
+ms
+mt
+nb
+nl
+nn
+pl
+pt
+ro
+ru
+rw
+sc
+sk
+sl
+sv
+sw
+tet
+tn
+tr
+uk
+wa
+zu
+
+be
+
+# Aspell 0.60
+az E
+bn E
+et E
+fi E
+he E
+hsb E
+hu E
+la E
+lt E
+lv E
+ta E
+uz E
+vi E
+yi E
+mn E
+
+# Binary Ispell hash tables only
+sq M
+
+# crubadan begin
+ast M
+bem M
+bi M
+ceb M
+ch M
+co M
+eu M
+fj M
+fur M
+fy M
+gn M
+ha M
+haw M
+hil M
+ht M
+iba M
+ig M
+ilo M
+kac M
+kl M
+kw M
+lg M
+li M
+ln M
+luo M
+mg M
+min M
+nd M
+nds M
+ng M
+nso M
+oc M
+pam M
+pap M
+qu M
+rn M
+se M
+sm M
+sn M
+so M
+ss M
+st M
+su M
+to M
+tpi M
+ts M
+ty M
+ve M
+xh M
+# crubadan end
+ny P
+
+# made contact with kde/gnome translation teams
+bs M
+eu M
+gu M
+hi M
+kg M
+li M
+ml M
+mr M
+nds M
+ne M
+ss M
+te M
+tg P
+tl P
+ur M
+ve M
+xh M
+
+# other possibilites
+am P
+ar P
+fa M # Need word list
+lb M
+sr M
+ti M
+

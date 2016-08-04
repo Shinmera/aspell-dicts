@@ -1,0 +1,8 @@
+This Norwegian Nynorsk Aspell dictionary was originally "no" but this
+was ambiguous, so it was changed to "nn".
+
+The source word list is the same as in Version 0.50 but version 0.50.1
+was created from expanding the MySpell dictionary and not the Aspell
+one.  As a result the Word List is slightly different.  I am assuming
+that the MySpell expansion is more correct.
+

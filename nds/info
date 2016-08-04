@@ -1,0 +1,30 @@
+name_english Low Saxon
+name_native Plattdüütsch
+lang nds
+alt-encoding iso-8859-15 iso
+data-file nds_affix.dat
+data-file nds_phonet.dat
+data-file iso-8859-15.cset
+data-file iso-8859-15.cmap 
+author:
+  name  Heiko Evermann
+  email Heiko Evermann at gmx de
+author:
+  name  Sönke Dibbern
+  email s_dibbern at web de
+author:
+  name Volker Jockheck
+  email volkae at gmx net
+copyright LGPL
+version 0.01-0
+source_version 0.01
+complete false
+accurate true
+alias nds lowsaxon
+dict:
+  name nds
+  add nds
+
+  
+
+  

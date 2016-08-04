@@ -1,0 +1,21 @@
+name_english Dutch
+lang nl
+author:
+  name Dirk Vermeir
+  email dvermeir at vub ac be
+author:
+  name Nederlandstalige TeX Gebruikersgroep
+author:
+  name Piet Tutelaers
+  email rcpt at urc tue nl
+copyright Other
+version 0.50-1
+url http://tinf2.vub.ac.be/~dvermeir/software/dv/nl-aspell/index.html
+source-version 0.2
+charset iso8859-1
+soundslike generic
+special         ' -*- - -*-
+alias nl dutch
+dict:
+  name nl
+  add nl

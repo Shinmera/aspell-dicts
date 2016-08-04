@@ -1,0 +1,20 @@
+name_english Manx Gaelic
+lang gv
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+  maintainer true
+author:
+  name  Alastair McKinstry 
+  email mckinstry at debian org
+copyright GPL
+version 0.50-0
+url http://borel.slu.edu/crubadan/
+source-version 1.0
+charset iso8859-1
+special	' -*- - -*-
+soundslike generic
+alias gv manx gaelg
+dict:
+  name gv
+  add gv

@@ -1,0 +1,11 @@
+#    Name: Alternative map for Mongolian (Cyrillic)
+#
+#    Contact: Sanlig Badral <badral@openmn.org>
+#
+no-latin
+include cp1251.txt
+# these (re)mappings are standard in most Mongolian fonts
+0xAA	0x04E8	#CYRILLIC CAPITAL LETTER BARRED O
+0xAF	0x04AE	#CYRILLIC CAPITAL LETTER STRAIGHT U
+0xBA	0x04E9	#CYRILLIC SMALL LETTER BARRED O
+0xBF	0x04AF	#CYRILLIC SMALL LETTER STRAIGHT U

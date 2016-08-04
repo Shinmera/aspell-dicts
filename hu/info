@@ -1,0 +1,19 @@
+name_english Hungarian
+lang hu
+data-file hu_affix.dat
+author:
+  name László Németh
+  email nemethl at gyorsposta hu
+author:
+  name László Németh
+copyright GPL
+version 0.99.4.2-0
+source-version 0.99.4.2
+complete unknown
+accurate unknown
+url http://magyarispell.sourceforge.net
+alias hu hungarian
+dict:
+  name hu
+  add hu
+

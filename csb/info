@@ -1,0 +1,27 @@
+name_english Kashubian
+name_native Kaszëbsczi
+lang csb
+data-file l-csb.cset
+data-file l-csb.cmap
+doc-encoding utf-8
+author:
+  name Roman Drzeżdżon
+  name-native Róman Drzéżdżón
+  email belok at op pl
+author:
+  name Piotr Formella
+  name-native Pioter Formella
+  email gwidonus at poczta fm
+  maintainer true
+author:
+  name Kevin Scannell
+  email scannell at slu edu
+copyright GPL
+version 0.02-0
+source-version 0.02
+complete false
+accurate true
+alias csb kashubian kaszëbsczi
+dict:
+  name csb
+  add csb

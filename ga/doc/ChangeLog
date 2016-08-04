@@ -1,0 +1,3932 @@
+2010-07-24 00:08  kps
+
+	* isort: used by maintainer makefile
+
+2010-07-23 23:48  kps
+
+	* gall, giorr.in, gno: English corpus work.
+
+2010-07-23 23:48  kps
+
+	* dinneenalts.txt, dinneenok.txt: More work on 1904 Dinneen
+
+2010-07-23 23:48  kps
+
+	* buildgael: bug fix
+
+2010-07-23 23:47  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: meilit, pórt
+	  
+	  caighdeánach->neamhchaighdeánach: Bramanachas, roithín,
+	  mór-éileamh
+	  
+	  liteartha->caighdeánach: foscain
+
+2010-07-23 23:09  kps
+
+	* aitiuil: Additions
+
+2010-07-23 23:08  kps
+
+	* Makefile: cleanup
+
+2010-04-23 19:34  kps
+
+	* gaeilge.mor: Additions from running justalts
+
+2010-04-23 19:32  kps
+
+	* Makefile: More converting to UTF-8
+
+2010-04-23 16:41  kps
+
+	* ispellaff2myspell: works with UTF-8 now, input and output
+
+2010-04-23 16:41  kps
+
+	* myspell-header: going with UTF-8 distribution for hunspell now
+
+2010-04-23 16:31  kps
+
+	* ispellaff2myspell: About to change this to UTF-8, best if it's
+	  recorded in repo.
+
+2010-04-23 14:51  kps
+
+	* gaeilge.aff, gaeilge_phonet.dat, gaeilgehyph.aff, gaeilgemor.aff,
+	  hunspell-header, myspell-header: Affix files in UTF-8 too
+
+2010-04-23 13:05  kps
+
+	* Makefile, README.aspell, aitiuil, apost, athfhocail, biobla,
+	  buildgael, daoine, dinneenalts.txt, dinneenok.txt, eachtar,
+	  earraidi, fgbalts.txt, gaeilge.lit, gaeilge.mor, gaeilge.raw,
+	  gaelu.in, gall, giorr.in, gno, igcheck, logainm, miotas,
+	  myalts.txt, stair, uimhreacha: First cut at everything in UTF-8
+
+2010-04-23 01:37  kps
+
+	* acor-manifest.xml: manifest file for autocorrect data in OOo
+
+2010-04-23 01:32  kps
+
+	* athfhocail: Committing together with last one, gaeilge.*
+
+2010-04-23 01:32  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: seimisteas
+	  
+	  neamhchaighdeánach->caighdeánach: seimeastar
+	  
+	  focail infhillte míchearta (*): *ilbhreice
+
+2010-04-23 01:14  kps
+
+	* gall, giorr.in, gno: Additions from first few Gaelsceal issues
+
+2010-04-23 01:13  kps
+
+	* dinneenalts.txt, dinneenok.txt: Additions as I continue through
+	  Di04
+
+2010-04-23 01:13  kps
+
+	* apost, daoine: Additions.
+
+2010-04-23 01:12  kps
+
+	* Makefile: beginning of move to UTF-8
+
+2010-04-22 13:45  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: to UTF-8
+
+2010-02-27 22:56  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions only
+
+2010-02-27 22:23  kps
+
+	* Makefile: dinneenok.txt stuff added
+
+2010-02-27 22:21  kps
+
+	* dinneenok.txt: latin-1
+
+2010-02-27 22:18  kps
+
+	* dinneenok.txt: New file.
+
+2010-02-27 20:40  kps
+
+	* fgbalts.txt: deleting trivial substitutions:
+	  $ LC_ALL=C egrep '^([^ ]*) \1$' athfhocail
+
+2010-02-26 05:34  kps
+
+	* dinneenalts.txt: corrections, one addition.
+
+2010-02-26 05:34  kps
+
+	* Makefile: dinneenalts.txt file added
+
+2010-02-26 05:33  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Many additions
+	  (Dinneen work), plus:
+	  
+	  neamhchaighdeánach->caighdeánach: ardmhaor, cadrán, caimseach,
+	  comhairleacht, cuisleannach, cábach, dornóg, easach, easnaí,
+	  fiailteach, fiarach, foirneach, fáinneoireacht, féigh,
+	  gailbheach, gliadaire, guairneánach, iarratacha, ionramh,
+	  langaire, leadhbacha, leathracha, léiritheacht, lópa, martaíocht,
+	  measach, oigheartha, oilteanas, preicleach, páin, reathacha,
+	  scimeal, sciodarnach, sirtheach, sonda, síofrach, tochard,
+	  truailleach, truas, turaire, uamaigh, urlann, vásta
+	  
+	  neamhchaighdeánach->liteartha: cairbh, cairre, corca, cáidhe,
+	  feimíneach, páin
+	  
+	  focail infhillte míchearta (*): *buaí
+
+2010-02-23 05:27  kps
+
+	* dinneenalts.txt: Initial version, analogue of fgbalts.txt
+
+2010-02-06 03:46  kps
+
+	* manifest.xml: Readding after lost.
+
+2010-02-06 03:43  kps
+
+	* manifest.xml: Removed.
+
+2010-02-06 02:50  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: oireachas, taen
+	  
+	  caighdeánach->neamhchaighdeánach: bróist
+	  
+	  liteartha->caighdeánach: seachaibh, seachainn, seacham
+	  
+	  neamhchaighdeánach->caighdeánach: aitheach, ciabhach, gairbhín
+
+2009-11-30 02:09  kps
+
+	* sios.html: MacLitriú link
+
+2009-11-30 02:08  kps
+
+	* Makefile: fix for Firefox context menu problem
+
+2009-10-05 06:10  kps
+
+	* gall: "Jules" added
+
+2009-10-05 06:10  kps
+
+	* Makefile: autocorrect stuff for OOo
+
+2009-10-05 04:24  kps
+
+	* leadingcaps: For OpenOffice.org exception file.
+
+2009-04-27 20:30  kps
+
+	* gaeilge.raw: put d'an-chuid, etc. back (removed accidentally last
+	  commit)
+
+2009-04-27 20:18  kps
+
+	* earraidi: additions and sort
+
+2009-04-27 20:17  kps
+
+	* athfhocail: additions
+
+2009-04-27 20:09  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: freasaitheachas, iarbhunscoil,
+	  intrialta, seabhacóireacht
+	  
+	  infhilleadh gan ghá (*): *tsainchónaí
+	  
+	  focail mílitrithe (*): *marbhdraoi, *Paiseadóir, *pápanta,
+	  *siúlacht, *sneaitsíneacht
+
+2009-04-27 20:00  kps
+
+	* gno: sort
+
+2009-04-24 19:50  kps
+
+	* fgbalts.txt: typos in elec FGB
+
+2009-04-24 19:50  kps
+
+	* earraidi, gaelu.in: additions from Welsh web-crawled corpus
+
+2009-04-24 15:11  kps
+
+	* aitiuil, earraidi, gaelu.in, gall, gno: Javascript->JavaScript;
+	  plus additions based on new web-crawled corpus
+
+2009-04-24 05:00  kps
+
+	* daoine, earraidi, gall, giorr.in, gno, logainm, miotas,
+	  myalts.txt: additions
+
+2009-04-24 04:59  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  caighdeánach->neamhchaighdeánach: banaisteoir, barra-chairt,
+	  daoirseacha, físdhiosca, flanndhearg, íosthuarastal, postdhíol,
+	  teanndháileog
+	  
+	  neamhchaighdeánach->caighdeánach: barrachairt
+	  
+	  focail infhillte míchearta (*): *méadala, *méadalacha
+	  
+	  focail mílitrithe (*): *ard-abhcóide, *arm-phinsean,
+	  *ciansheoladh, *corr-thrádáil
+
+2009-04-24 04:44  kps
+
+	* aitiuil: Hull
+
+2009-04-24 04:43  kps
+
+	* apost: additions
+
+2008-12-27 17:50  kps
+
+	* fgbalts.txt: two alts breaking caighdeanáitheoir
+
+2008-08-28 20:06  kps
+
+	* athfhocail, gaeilge.mor, gaelu.in, logainm, myalts.txt: additions
+
+2008-08-27 21:43  kps
+
+	* fgbalts.txt: was causing problem with standardizer!
+
+2008-08-17 16:29  kps
+
+	* install.js, install.rdf: version bump
+
+2008-08-17 16:29  kps
+
+	* biobla: don't want <Y> tags on these.
+
+2008-08-06 19:14  kps
+
+	* gaeilge.mor: no plural of caighd. word "neamh"
+
+2008-08-06 19:13  kps
+
+	* gaeilge.raw: two additions
+
+2008-08-06 00:27  kps
+
+	* manifest.xml: for OOo extension
+
+2008-08-06 00:26  kps
+
+	* Makefile: better clean
+
+2008-08-06 00:23  kps
+
+	* sios.html: updated download links/instructions
+
+2008-08-05 05:01  kps
+
+	* Makefile: fix for ispell build process - maybe problem if run in
+	  UTF-8 locale?
+
+2008-08-05 04:57  kps
+
+	* Makefile, description.xml, index-en.html, index.html, info,
+	  sios.html, sonrai.html: version bump to 4.4
+
+2008-08-05 04:35  kps
+
+	* athfhocail, gaeilge.mor: fgbalts.txt cleanup, also cleanup of
+	  some alt vns in IG
+
+2008-08-05 04:35  kps
+
+	* Makefile: comment defunct checkearr commands
+
+2008-08-05 03:53  kps
+
+	* fgbalts.txt: cleanup
+
+2008-08-05 03:43  kps
+
+	* athfhocail, gaeilge.mor: alt verbal noun cleanups
+
+2008-08-05 03:04  kps
+
+	* Makefile: assume fromdb already done in release process, or else
+	  need to redo justalts, etc.
+
+2008-08-05 02:21  kps
+
+	* athfhocail, gaeilge.mor: additions
+
+2008-08-05 02:21  kps
+
+	* Makefile: stuff for OOo extension
+
+2008-08-05 02:07  kps
+
+	* CEADUNAIS-ga.txt, LICENSES-en.txt, description.xml,
+	  dictionaries.xcu: meta files for OOo extension
+
+2008-07-24 05:18  kps
+
+	* athfhocail: forgot to commit with gaeilge.raw and gaeilge.mor
+
+2008-07-24 05:17  kps
+
+	* gaeilge.raw: Additions, plus
+	  caighdeánach->neamhchaighdeánach: aoinne, aoinneach, bhíos
+	  
+	  infhilleadh gan ghá (*): *bhfearacht, *d'fhearacht, srl.
+
+2008-07-24 05:14  kps
+
+	* gaeilge.mor: A few forms removed - e.g. uneclipsed forms of
+	  bhfaghfar, bhfuighid, etc.
+	  
+	  Main change was massive addition of 13K or so alts from
+	  fgbalts.txt and myalts.txt files
+
+2008-07-23 20:13  kps
+
+	* Makefile: justalts target to include everything in gaeilge.mor
+
+2008-07-23 20:00  kps
+
+	* fgbalts.txt: cleanup for addition to gaeilge.mor
+
+2008-07-23 19:41  kps
+
+	* myalts.txt: additions
+
+2008-07-16 19:21  kps
+
+	* apost: additions
+
+2008-07-14 03:07  kps
+
+	* myalts.txt: adeir* words added; sorted
+
+2008-07-14 03:07  kps
+
+	* miotas: sort
+
+2008-07-14 03:07  kps
+
+	* fgbalts.txt: bugfix
+
+2008-07-14 03:06  kps
+
+	* Makefile: sort myalts.txt too
+
+2008-06-23 16:08  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions, esp. to
+	  athfhocail (caighdeanaitheoir work), plus:
+	  focail infhillte míchearta (*): *ardrithe, *leasrithe
+
+2008-06-23 15:55  kps
+
+	* gall, logainm, miotas, myalts.txt: additions
+
+2008-06-23 15:54  kps
+
+	* fgbalts.txt: error fixed - coiscéimeanna
+
+2008-06-23 15:54  kps
+
+	* earraidi: additions, plus removed "cinéal", and "slam" which are
+	  legit alternates vs errors
+
+2008-06-23 15:53  kps
+
+	* daoine: additions, Tobar texts
+
+2008-06-19 20:48  kps
+
+	* logainm, myalts.txt: additions
+
+2008-06-19 20:48  kps
+
+	* apost: Many additions, first systematic look at Tobar corpus
+
+2008-06-19 20:47  kps
+
+	* Makefile: myalts.txt added
+
+2008-06-18 01:52  kps
+
+	* myalts.txt: Analogue of fgbalts.txt but not nec. out of FGB
+
+2008-06-09 14:58  kps
+
+	* fgbalts.txt: morph. variants extracted out of FGB; sort with
+	  LC_ALL=C
+
+2008-06-09 14:55  kps
+
+	* fgbalts.txt: want better message for "usaid". Cleanup.
+
+2008-06-06 04:53  kps
+
+	* gaeilge.mor: additions from fgb alt-phrases.txt
+
+2008-06-06 04:53  kps
+
+	* athfhocail: caps fixed in fgbalts.txt
+
+2008-06-06 04:45  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Many additions to
+	  athfhocail, from fgbalts.txt.
+	  A few other additions, plus one change:
+	  
+	  caighdeánach->neamhchaighdeánach: Muscat
+	  
+	  neamhchaighdeánach->caighdeánach: Muscáit
+
+2008-06-06 04:42  kps
+
+	* Makefile: fgbalts.txt added to athfhocail
+
+2008-06-06 04:41  kps
+
+	* fgbalts.txt: cleanup
+
+2008-06-06 04:38  kps
+
+	* fgbalts.txt: sort -u
+
+2008-06-06 04:37  kps
+
+	* fgbalts.txt: cleanup, caps fixed
+
+2008-06-06 04:30  kps
+
+	* fgbalts.txt: reality is these will never all make it into IG, so
+	  add to build system
+
+2008-06-03 02:36  kps
+
+	* myspell-header: TRY string update again
+
+2008-05-20 19:38  kps
+
+	* biobla: adding Síonáí to IG from OLT, etc.
+
+2008-05-20 19:21  kps
+
+	* gaelu.in: French just as good as German
+
+2008-04-29 03:05  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: many additions, especially
+	  alts. But removed 'na, 'nocht, 'nois, etc. from gaeilge.mor --
+	  these are not recognized as legal tokens by aspell, etc. so no
+	  need to put them in there. Don't bother noting this removal on
+	  web page since they were added just a commit or two ago,
+	  definitely since last release.
+
+2008-04-25 19:01  kps
+
+	* athfhocail, gaeilge.mor: common non-standard forms in Tobar na G.
+
+2008-04-25 19:00  kps
+
+	* earraidi: these are legit non-standard forms; moved to such
+
+2008-04-25 18:05  kps
+
+	* apost: new ones from Tobar na G.
+
+2008-04-22 04:06  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: additions only
+
+2008-04-22 04:06  kps
+
+	* aitiuil, daoine, eachtar, earraidi, gaelu.in, gall, giorr.in,
+	  gno, logainm: corpus additions
+
+2008-04-21 02:16  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: Astracán, Iarachó
+
+2008-04-21 02:12  kps
+
+	* logainm: one added for tagging purposes - avoids gramadoir error
+
+2008-04-21 02:11  kps
+
+	* daoine: one addition
+
+2008-04-04 19:36  kps
+
+	* biobla: LC_ALL=C sort, rerun long overdue after changes removing
+	  eclipsis from adjs, etc. and other small tweaks to DB (Ind)
+	  removed in place of standard India
+
+2007-12-24 05:03  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: fóire
+
+2007-12-24 05:02  kps
+
+	* giorr.in, gno: additions
+
+2007-11-29 15:26  kps
+
+	* Makefile: thesaurus stuff into pack
+
+2007-11-28 05:33  kps
+
+	* gaelu.in: about 600 new ones from gaeilge/diolaim/x/LogA
+
+2007-11-28 05:32  kps
+
+	* gaelu.in: couple of corrections, dozen or so additions
+
+2007-10-30 04:00  kps
+
+	* index.html, sios.html, sonrai.html: version 4.3
+
+2007-10-30 03:33  kps
+
+	* athfhocail, gaeilge.mor: cleanup based on "altsurv" output
+
+2007-10-30 03:33  kps
+
+	* gaeilge.raw: additions only
+
+2007-10-30 01:32  kps
+
+	* info: version bump
+
+2007-10-30 01:32  kps
+
+	* athfhocail: forgot to commit with previous batch
+
+2007-10-30 01:31  kps
+
+	* gaeilge.raw: focail infhillte míchearta (*): *airctíopaa,
+	  *tíáilim, etc.
+
+2007-10-30 01:27  kps
+
+	* Makefile: version bump; improved/debugged checkearr target
+
+2007-10-29 19:32  kps
+
+	* README, myspell-header: updated copyright year
+
+2007-10-29 19:31  kps
+
+	* info: email address change
+
+2007-10-29 19:30  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Many additions
+	  from Ox00b, plus:
+	  
+	  caighdeánach->liteartha: sleamhán
+	  
+	  caighdeánach->neamhchaighdeánach: aircitíp(each), Béarút,
+	  creachóir, grog, iarCh
+	  ríost, inathnuaite, inseoir, lánGhaeilge, neamhghairéad,
+	  próiseálán, topagrafach
+	  t
+	  
+	  neamhchaighdeánach->caighdeánach: lán-Ghaeilge
+	  
+	  focail mílitrithe (*): *neamhchairéiseach
+
+2007-10-29 19:11  kps
+
+	* Makefile: see previous commit - be safe with miotas too!
+
+2007-10-29 19:09  kps
+
+	* Makefile: locale bug for "Napoléon:..."
+
+2007-07-23 01:02  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: fáthach
+	  
+	  caighdeánach->neamhchaighdeánach: cantóir, cianósta,
+	  Cirgeastáinis, Hiteais, Suiméarais, Tigrinis, Turcamáinis,
+	  uamhach
+	  
+	  neamhchaighdeánach->caighdeánach: Tigrínis, Tuircméinis
+	  
+	  focail infhillte míchearta (*): *nanashoicinde, *soicinde
+	  
+	  focail mílitrithe (*): *Moraiv
+
+2007-05-30 14:17  kps
+
+	* gaeilge.raw: focail infhillte míchearta (*): *mairthe
+
+2007-05-30 14:16  kps
+
+	* gaelu.in, gall: additions
+
+2007-05-30 14:11  kps
+
+	* sonrai.html: sonnda added and removed!
+
+2007-05-30 14:06  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: fos, ragaire, teilgeán
+
+2007-05-30 14:03  kps
+
+	* Makefile: continue to use old aimsigh FREQ list
+
+2007-05-07 03:56  kps
+
+	* Makefile, index-en.html, index.html, info, sios.html,
+	  sonrai.html: updates for 4.2
+
+2007-05-07 03:21  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: additions
+
+2007-05-07 03:03  kps
+
+	* Makefile: clean
+
+2007-05-07 03:01  kps
+
+	* Makefile: clean improved
+
+2007-05-07 03:00  kps
+
+	* gno: adding (late)
+
+2007-05-07 02:36  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions only
+
+2007-05-07 02:36  kps
+
+	* daoine, gall, giorr.in, logainm, miotas: additions
+
+2007-05-05 21:06  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: goire, gora
+	  
+	  caighdeánach->neamhchaighdeánach: sligéisc
+	  
+	  neamhchaighdeánach->caighdeánach: sliogéisc
+
+2007-05-05 21:03  kps
+
+	* earraidi: sort
+
+2007-05-05 01:03  kps
+
+	* daoine, earraidi, gall, giorr.in, logainm: corpus additions.
+
+2007-05-03 14:26  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: gráín, oireacht, seafaid
+
+2007-05-03 14:24  kps
+
+	* sios.html: url updated
+
+2007-05-03 14:24  kps
+
+	* daoine, earraidi, giorr.in: corpus
+
+2007-05-03 14:24  kps
+
+	* gaelu.in: foram, corpus
+
+2007-05-03 14:22  kps
+
+	* aitiuil: welsh, french
+
+2007-05-03 14:22  kps
+
+	* Makefile: validalts.txt target
+
+2007-04-10 18:47  kps
+
+	* daoine, earraidi: additions
+
+2007-04-09 18:50  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: faisc (fasc), maltach
+
+2007-03-30 15:05  kps
+
+	* index-en.html: help request on placenames, personal names
+
+2007-03-30 15:04  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: path, siltean
+	  
+	  caighdeánach->neamhchaighdeánach: Aegéach, Éabró, Curdastáin,
+	  Leiveant, Tioról
+	  
+	  infhilleadh gan ghá (*): *tAibisín
+
+2007-03-30 14:57  kps
+
+	* Makefile: accents.txt target
+
+2007-03-04 18:39  kps
+
+	* index.html: No more fáinne.
+
+2007-03-04 18:39  kps
+
+	* Makefile: move script to libexec
+
+2007-02-16 23:09  kps
+
+	* aitiuil, daoine, eachtar, earraidi, gaelu.in, gall, logainm,
+	  miotas, stair: resort with LC_ALL=C
+
+2007-02-16 23:09  kps
+
+	* sios.html: links updated
+
+2007-02-16 23:07  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Just resorting
+	  with LC_ALL=C. Unfortunately, quite by accident, also
+	  made one more relevant change:
+	  
+	  caighdeánach->liteartha: sonnda
+	  
+	  And also fixed the declension of alternate "follus" to an adj
+	  instead
+	  of nm1, but this isn't really change-loggable.
+
+2007-02-16 22:42  kps
+
+	* Makefile: giving up on ga_IE sort; anything in CVS will be sorted
+	  with C locale
+
+2007-02-16 21:34  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw:
+	  caighdeánach->neamhchaighdeánach: buncaer, mhaille, meireamorfach
+	  
+	  liteartha->caighdeánach: comhré, crannstruchtúr, críochach,
+	  dréachtlitir, forghníomhaitheach, glaotháille, íomháphróiseáil,
+	  jabdheis, saormheán, sonnda, uaschostas, uídh
+	  
+	  infhilleadh gan ghá (*): *tEiritré
+	  
+	  focail infhillte míchearta (*): *bloghtha
+	  
+	  focail mílitrithe (*): *srathmharfóir
+
+2007-02-16 21:20  kps
+
+	* daoine, eachtar, earraidi, gall, giorr.in: additions and
+	  occasional shuffling that is about to go away
+
+2007-02-16 21:17  kps
+
+	* aitiuil: one addition
+
+2007-02-15 22:24  kps
+
+	* Makefile: locale fixes again
+
+2006-12-13 22:45  kps
+
+	* Makefile: first cut at making utf8 clean
+
+2006-12-07 19:28  kps
+
+	* COPYING: updated GPL, better address, etc.
+
+2006-12-07 19:27  kps
+
+	* README, gaeilge_phonet.dat, myspell-header: FSF address
+
+2006-10-18 20:00  kps
+
+	* install.js, install.rdf: version bump; underlying dict still 4.1,
+	  modified install.rdf
+	  version number ranges for FF, TB, SM
+
+2006-10-18 19:52  kps
+
+	* install.rdf: ok according to Robert Kaiser here:
+	  
+	  http://groups.google.com/group/mozilla.dev.l10n/browse_thread/thread/c094cabd5e099d4f/0fcb9ac855aaf1c8#0fcb9ac855aaf1c8
+
+2006-10-17 03:32  kps
+
+	* README.aspell, gaeilge_phonet.dat: email changed
+
+2006-09-27 02:56  kps
+
+	* install.rdf: optional properties added
+	  http://developer.mozilla.org/en/docs/Install_Manifests
+
+2006-09-07 04:51  kps
+
+	* gall: corpus work
+
+2006-08-24 04:35  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw:
+	  caighdeánach->liteartha: b'ama, t-ama, b'amaí, d'amaí, etc.,
+	  cartlainn, colann, iar
+	  
+	  caighdeánach->neamhchaighdeánach: cogneolaíoch, friotaí
+	  
+	  liteartha->caighdeánach: caimse, ríghe
+	  
+	  neamhchaighdeánach->caighdeánach: friotóir
+
+2006-08-24 04:27  kps
+
+	* aitiuil, apost, daoine, earraidi, gaelu.in, gall, giorr.in:
+	  additions (aimsigh corpus)
+
+2006-08-16 03:18  kps
+
+	* Makefile: romhanach added
+
+2006-08-16 03:14  kps
+
+	* roman.pl: generate selected roman numerals programmatically
+
+2006-08-15 17:19  kps
+
+	* miotas: see "stair" for deBh spelling of Horace.
+	  This word is from OLT "eye of Horus" I think
+
+2006-08-14 20:07  kps
+
+	* Makefile: mydist improved
+
+2006-08-04 15:04  kps
+
+	* install.js, install.rdf: Files for mozilla xpi
+
+2006-08-02 12:53  kps
+
+	* Makefile: more clean
+
+2006-08-02 05:30  kps
+
+	* gaelu.in: also get into gaelu file other ways
+
+2006-08-02 05:30  kps
+
+	* gall: also gaelu.in candidates, but might as well just take em
+
+2006-08-02 05:30  kps
+
+	* aitiuil: Irish placenames with no original gaelic version
+
+2006-08-02 05:27  kps
+
+	* gaelu.in: remove dangerous words
+
+2006-08-02 05:27  kps
+
+	* logainm: additions from gaelu.in logainmneacha
+
+2006-08-02 05:14  kps
+
+	* gaelu.in: typos
+
+2006-08-02 05:12  kps
+
+	* gaelu.in: Large addition from online logainmneacha db
+
+2006-08-02 04:47  kps
+
+	* aitiuil: Bangor now in gaelu.in
+
+2006-08-02 04:44  kps
+
+	* gaelu.in: def. articles added to some
+
+2006-08-01 00:15  kps
+
+	* sios.html: file size
+
+2006-08-01 00:15  kps
+
+	* sonrai.html: gramadach
+
+2006-08-01 00:14  kps
+
+	* index.html: final tweaks b4 release
+
+2006-08-01 00:14  kps
+
+	* gall: final addition
+
+2006-08-01 00:14  kps
+
+	* Makefile: sort aspell.txt
+
+2006-07-31 22:07  kps
+
+	* Makefile: personal is needed by gramadoir makefile
+
+2006-07-31 21:51  kps
+
+	* aitiuil, logainm: additions (from checkearr)
+
+2006-07-31 21:50  kps
+
+	* athfhocail, gaeilge.raw: additions; also "ba shiúd" -> "ba siúd"
+	  in phrase
+	  since we're not accepting "shiúd" as a standalone word!
+
+2006-07-31 21:49  kps
+
+	* Makefile: improve checkearr.
+	  bug fix - don't filter out "/" from gaeilge.raw, etc.!
+	  bug fix - use gaeilge.focail in gaeilge.hash target, not RAWWORDS
+
+2006-07-31 21:40  kps
+
+	* gaelu.in: added to IG
+
+2006-07-31 21:09  kps
+
+	* daoine, earraidi: make checkearr fixes
+
+2006-07-31 21:02  kps
+
+	* index.html, info, sios.html: version bump
+
+2006-07-31 21:02  kps
+
+	* sonrai.html: 4.1 description, copyright
+
+2006-07-31 21:02  kps
+
+	* README.aspell: personal dictionaries -> main hash table.
+	  gaelu.in and earraidi added to repl
+
+2006-07-31 21:01  kps
+
+	* Makefile: personal dicts mixed in with main hash tables now
+
+2006-07-31 20:18  kps
+
+	* Makefile: release #, get rid of isort nonsense
+
+2006-07-31 19:26  kps
+
+	* Makefile: hunspell stuff
+
+2006-07-31 19:22  kps
+
+	* README, index-en.html, sios.html: hunspell, copyright
+
+2006-07-31 19:17  kps
+
+	* myspell-header: copyright year
+
+2006-07-31 19:16  kps
+
+	* myspell-header: myspell -> hunspell
+
+2006-07-31 18:58  kps
+
+	* hunspell-header: First cut at new hunspell features
+
+2006-07-31 18:58  kps
+
+	* myspell-header: new TRY string
+
+2006-07-31 16:46  kps
+
+	* gaeilge.raw: added "uaslódáil" as a noun
+
+2006-07-31 16:23  kps
+
+	* gaelu.in, gall, giorr.in, miotas, stair: additions only.
+
+2006-07-31 16:22  kps
+
+	* logainm: additions, plus replace Fanaid with Fánaid
+
+2006-07-31 16:21  kps
+
+	* earraidi: additions, plus some paring b/c of improved morph-ga
+	  rules
+
+2006-07-31 16:21  kps
+
+	* daoine: additions, plus replace Seaghdha with Séaghdha
+
+2006-07-31 16:20  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions
+	  (corpus work), plus:
+	  
+	  caighdeánach->neamhchaighdeánach: dí-scrios
+
+2006-07-31 15:19  kps
+
+	* aitiuil, apost: additions
+
+2006-07-28 22:33  kps
+
+	* miotas: one addition, plus switch Ba59 spelling of Quixote to
+	  published translation's version: Cíochótae
+
+2006-07-24 20:52  kps
+
+	* daoine, earraidi, gall: sorted.
+
+2006-07-24 20:51  kps
+
+	* aitiuil, daoine, earraidi, gaelu.in, gall, giorr.in, stair:
+	  additions only, from aimsigh.com corpus
+
+2006-07-24 20:51  kps
+
+	* logainm: additions, plus Bhlarna->Bhlárna
+
+2006-07-24 04:31  kps
+
+	* gall, logainm, miotas, stair: additions
+
+2006-07-24 04:31  kps
+
+	* giorr.in: explanations finished
+
+2006-07-24 04:30  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: additions only
+
+2006-07-24 03:50  kps
+
+	* daoine, gaelu.in: additions only
+
+2006-07-24 03:49  kps
+
+	* aitiuil, eachtar, earraidi: additions
+
+2006-07-24 03:48  kps
+
+	* Makefile: giorr.in added
+
+2006-07-22 18:09  kps
+
+	* giorr: moved to giorr.in
+
+2006-07-22 18:09  kps
+
+	* giorr.in: moved from giorr.
+
+2006-04-23 23:11  kps
+
+	* gaeilge.lit, gaeilge.raw: additions, plus:
+	  
+	  caighdeánach->liteartha: seiceal
+
+2006-02-01 03:05  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions only
+
+2006-01-23 01:26  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: First batch of additions
+	  from Foclóir Beag.
+	  
+	  Plus one correction:
+	  
+	  focail mílitrithe (*): *cortásach
+
+2006-01-22 21:58  kps
+
+	* earraidi: Additions for aimsigh standardizer.
+
+2006-01-22 21:55  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions
+	  only.
+
+2005-11-30 15:04  kps
+
+	* earraidi: additions; plus removal of -aiochta? since this
+	  is now in morph-ga.
+
+2005-11-29 22:22  kps
+
+	* index.html: Fáinne Órga update from VM
+
+2005-11-26 04:40  kps
+
+	* apost: Used by gramadoir, not by aspell (yet).
+
+2005-10-12 03:33  kps
+
+	* gaeilge.raw: focail infhillte míchearta (*): *ciúáileann,
+	  *gliúáileann, *sciáileann,
+	  *scriúáileann, *spraeáileann, *straeáileann, *stuáileann,
+	  *tatuáileann, etc.
+
+2005-10-12 02:29  kps
+
+	* gaeilge.raw: additions only.
+
+2005-10-12 02:29  kps
+
+	* index.html, sios.html, sonrai.html: cleanup.
+
+2005-07-18 18:20  kps
+
+	* Makefile, index.html, info, sios.html, sonrai.html: version bump.
+
+2005-07-18 17:15  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: A few
+	  additions.
+	  Removed all eclipsed verbal adjectives that aren't
+	  also genitives of verbal nouns (so lots of eclipsed -áilte
+	  words);
+	  at the same time I was careful to lookup all irregular forms
+	  and added headwords for any "gs as vn"s that appear in Ó Donaill;
+	  e.g. goid, gs. gada but "gs as vn" is goidte.
+	  
+	  Corrections:
+	  
+	  focail infhillte míchearta (*): *buairthe, *coinscríobha,
+	  *iniste, *íospairthe, *tuirlingte
+
+2005-07-16 23:40  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: additions
+	  only.
+
+2005-05-28 19:51  kps
+
+	* earraidi: Corpus additions.
+
+2005-05-28 19:51  kps
+
+	* daoine: Additions to avoid tagging conflicts with 'real' words.
+
+2005-05-28 19:50  kps
+
+	* gaeilge.raw: No functional change.
+
+2005-05-28 19:44  kps
+
+	* gaeilge.raw: no functional change.
+
+2005-05-28 19:38  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: deán, troim (gs trom)
+	  
+	  caighdeánach->neamhchaighdeánach: algóirithim,
+	  bogearraí-le-roinnt, Réitea-Rómáinis
+	  
+	  neamhchaighdeánach->caighdeánach: algartam
+	  
+	  focail mílitrithe (*): *Limbuirgis, *Limbúis
+
+2005-04-04 01:14  kps
+
+	* gall: else tagged as plural "ros" by Gramadoir :(
+
+2005-04-04 01:13  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: beitheanna, ceantrach, cin v., deachaigh
+	  v., t-inse,
+	  punta, ranníocach,
+	  
+	  caighdeánach->neamhchaighdeánach: Amarais, Casacstáis, Címéiris,
+	  dearcóir,
+	  feidhmoideas, fostaitheoir, idiréadan, líonléitheoir,
+	  nuachtghrúpa,
+	  Seireoicis, Tibéadais, toipic
+	  
+	  focail infhillte míchearta (*): *coirthe, *doirthe, *lánscoirim
+	  srl.,
+	  *scoirthe, *tobscoirthe
+
+2005-04-04 00:24  kps
+
+	* eachtar: suite is a real word!
+
+2005-04-04 00:24  kps
+
+	* sios.html: couple of new links
+
+2005-03-16 21:51  kps
+
+	* Makefile: clean clean.
+
+2005-03-16 21:46  kps
+
+	* earraidi: bug fixes; want replacements words to be correct!
+
+2005-03-16 21:43  kps
+
+	* gaeilge.aff, gaeilgemor.aff: Add regexp to match under I and J
+	  that guarantees that
+	  the affix is strippable (was true anyway, so no change in
+	  functionality, but this make the affix file play more nicely
+	  with aspell and also with the gramadoir my2morph.pl script)
+
+2005-03-08 18:38  kps
+
+	* gaeilge.aff, gaeilgemor.aff: grammatical correction in comment
+
+2005-01-25 05:09  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Two big
+	  changes:
+	  (1) no "b'" on gsm (common, pl, and gsf are all ok, gsf since
+	  it's the comp.)
+	  (2) no "h" on any adj. except common form
+	  Checked diff of resulting aspell.txt and none of the 2403 removed
+	  words appears in the corpus.
+
+2005-01-25 04:30  kps
+
+	* Makefile: changes to adjective => get /BH when tags are melded by
+	  "Gin 7",
+	  so flip em to keep CVS logs clean
+
+2005-01-24 04:37  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: a couple of
+	  additions, plus:
+	  
+	  caighdeánach->liteartha: breacachan, brod, canach, canach,
+	  cocaire, cocaireacht, cuise, éadaigh v., dluigh v., rata, scal
+	  
+	  caighdeánach->neamhchaighdeánach: bandaraon, cosarbolg, facthas,
+	  síos-luchtaigh
+	  
+	  infhilleadh gan ghá (*): *dtinneall, *thinneall
+	  
+	  focail infhillte míchearta (*): *mir
+
+2005-01-24 04:31  kps
+
+	* giorr: Add CIC so don't get SEIMHIU errors since gramadoir thinks
+	  it's "cic" nb2
+
+2005-01-24 04:30  kps
+
+	* daoine: Bhaoil added or else get NISEIMHIU since disambigs as
+	  "bhaoil"
+
+2005-01-24 04:29  kps
+
+	* Makefile: uimhreacha added.
+
+2005-01-17 20:53  kps
+
+	* uimhreacha: Add 3T (3D), sort.
+
+2005-01-17 20:52  kps
+
+	* daoine: Add Gabhann so <Y> is among possibilities for gramadoir.
+
+2005-01-17 20:51  kps
+
+	* Makefile: cleanup.
+
+2005-01-07 18:00  kps
+
+	* Makefile: Builds aspell5 and aspell6 tarballs.
+
+2005-01-07 17:59  kps
+
+	* README: Year bump.
+
+2005-01-07 17:23  kps
+
+	* giorr: Removing three that are too close to real words.
+
+2005-01-07 17:13  kps
+
+	* Makefile, index-en.html, index.html, info, sios.html,
+	  sonrai.html: Info for new version. Also fixed "síos-lucht*" to
+	  "íoslucht*"
+
+2005-01-07 16:49  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: altsurv results.
+	  
+	  Couple of additions, plus several inflections of alternates
+	  removed
+	  so as to agree with headword.
+
+2005-01-07 16:13  kps
+
+	* gaeilge.raw: Big fix, removes an unwanted "B" flag from all
+	  plural headwords.
+	  In particular, a few b'+gpls are gone:
+	  
+	  infhilleadh gan ghá (*): *b'aidhleann, *b'fhorchostas,
+	  *b'ilmheán, *b'ioncúnabal, *b'uasalealaíon
+
+2005-01-07 15:42  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: A few
+	  additions,
+	  
+	  caighdeánach->neamhchaighdeánach: íospairteach
+	  
+	  infhilleadh gan ghá (*): *féimheacha, *féimhí
+	  
+	  AND (major change):
+	  no more default eclipsis on adjectives
+	  except cardinals and ordinals
+
+2005-01-07 03:39  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: couple of additions, plus:
+	  
+	  infhilleadh gan ghá (*): *b'Fheirste
+
+2005-01-07 03:38  kps
+
+	* uimhreacha: Not used by ispell; Gramadoir::GA only.
+
+2005-01-06 04:52  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  caighdeánach->liteartha: láthar
+	  
+	  caighdeánach->neamhchaighdeánach: guais-soilse
+
+2004-12-16 02:41  kps
+
+	* Makefile: Cleaned up the seiceail target again.
+
+2004-12-16 02:40  kps
+
+	* sonrai.html: Grammar fixes.
+
+2004-12-16 02:40  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Removed all
+	  "b'" prefixes from genitive singular and plural nouns.
+	  Verified that none of these 2155 removed words appears in the
+	  corpus. Note that prefix m',d',h, n- are all legit in gs
+	  (for instance all four from possessives: "ar fud m'intinne")
+
+2004-12-12 21:15  kps
+
+	* gaeilge.raw: dheirimid and dheirtear are OK in subjunctive.
+	  This is better with An Gramadóir since these can
+	  be trapped as errors if they don't follow "nár"
+	  or whatever, but so be it.
+
+2004-12-12 21:12  kps
+
+	* Makefile: Comments for "seiceail".
+
+2004-12-12 20:49  kps
+
+	* gaeilge.raw: infhilleadh gan ghá (*): *fhuaireadar, *fhuaireamar,
+	  *fhuarthas
+
+2004-12-12 19:23  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: log (v.)
+	  
+	  neamhchaighdeánach->caighdeánach: logáil (v.)
+
+2004-12-12 19:22  kps
+
+	* stair: Common in corpus.
+
+2004-12-12 19:22  kps
+
+	* miotas: Some Irish myth. additions.
+
+2004-12-12 19:21  kps
+
+	* logainm: Sort.
+
+2004-12-12 19:21  kps
+
+	* index-en.html: Crawler discussion, less railing against Microbog.
+
+2004-12-12 19:20  kps
+
+	* giorr: MA, USA
+
+2004-12-12 19:20  kps
+
+	* gaelu.in: Additions.
+
+2004-12-12 19:19  kps
+
+	* daoine, earraidi: Sorted.
+
+2004-12-12 19:18  kps
+
+	* eachtar: "post" is Irish!
+
+2004-11-03 03:21  kps
+
+	* logainm: Additions only, from corpus.
+
+2004-11-03 03:21  kps
+
+	* gall: One bigchkm pass.
+
+2004-11-03 03:20  kps
+
+	* earraidi: One thorough bigchkm pass, adding all words from
+	  A.*.txt.xml that appear to be real misspellings.
+
+2004-11-03 03:19  kps
+
+	* daoine: Many additions, plus replaced Seaghain with Seagháin.
+
+2004-11-03 03:18  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Many
+	  additions, esp. to alternates.
+	  PLUS:
+	  
+	  caighdeánach->neamhchaighdeánach: diagnóisíoch
+	  
+	  focail infhillte míchearta (*): *cuntrapháirtí
+
+2004-11-03 03:11  kps
+
+	* aitiuil: A few (mostly UK) placenames from corpus.
+
+2004-11-03 03:11  kps
+
+	* Makefile: Added gno file.
+
+2004-10-26 18:35  kps
+
+	* earraidi: sort -k1,1 PLUS added 300+ new lines from output of
+	  "irishacc" script.
+
+2004-10-26 18:31  kps
+
+	* earraidi: A few more removed that are now handled by general
+	  morph rules.
+
+2004-10-26 18:28  kps
+
+	* earraidi: Removed words with initial mutations since these are
+	  reported
+	  by An Gramadóir as "based on commonly misspelled word..."
+
+2004-10-26 17:28  kps
+
+	* earraidi: Additions based on achtanna.ie pre-1945 corpus.
+
+2004-10-15 05:36  kps
+
+	* gall: Took out lenited forms; makes this more reusable across
+	  languages. Also, these are now correctly warned in
+	  gramadoir-ga, so no real need.
+
+2004-10-15 05:33  kps
+
+	* gall: Corpus additions.
+
+2004-10-09 19:17  kps
+
+	* ga.aff: Now generated automatically.
+
+2004-10-09 19:15  kps
+
+	* buildgael: Correctly handle new stair/miotas format.
+
+2004-10-09 19:14  kps
+
+	* biobla: Removed silly and dangerous "On".
+
+2004-10-09 19:14  kps
+
+	* earraidi: A couple of additions, plus resorted.
+
+2004-10-09 19:14  kps
+
+	* miotas, stair: Accidentally checked in unsorted.
+
+2004-10-09 19:09  kps
+
+	* aitiuil, daoine, gall, logainm: Corpus additions.
+
+2004-10-09 19:05  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions
+	  (mostly alts) plus:
+	  
+	  caighdeánach->neamhchaighdeánach: picseal
+
+2004-09-29 19:41  kps
+
+	* Makefile: Apparently OOo installers, etc. depend on
+	  ga_IE filenames vs. just ga.
+
+2004-09-27 19:20  kps
+
+	* Makefile: Tweak to README_ga_IE.txt.
+
+2004-08-04 17:19  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  focail infhillte míchearta (*): *íosmhéide(anna)
+
+2004-07-27 02:32  kps
+
+	* earraidi: Common errors; NOT pre-standard or alternate forms;
+	  those go in IG.
+
+2004-07-27 02:27  kps
+
+	* Makefile: Restructured to allow splitting off a distributable
+	  "makefile".
+
+2004-07-27 01:45  kps
+
+	* gaelu.in: Used as extra input to "buildgael" which creates the
+	  gaelu file
+	  that is used for replacements with An Gramadóir.
+
+2004-07-27 01:44  kps
+
+	* stair: First cut of version with English translations for
+	  Gramadóir replacement.
+
+2004-07-27 01:12  kps
+
+	* miotas: First draft including English translations for Gramadóir
+	  replacements.
+	  In the course of including these I removed "Eilit" (already in IG
+	  "doe")
+	  and "Néaró" (already in "stair").
+
+2004-07-26 22:30  kps
+
+	* buildgael: Create the file "gaelu" from various inputs and "ig7"
+	  in seal dir.
+
+2004-07-23 23:02  kps
+
+	* gaeilge.raw: focail infhillte míchearta (*): *cornta, *carnta,
+	  *díchornta, *spairnte
+
+2004-07-23 22:57  kps
+
+	* info, sios.html: aspell version number corrected with trailing -0
+	  per K.A.'s request.
+
+2004-07-23 22:57  kps
+
+	* aitiuil, eachtar, gall, giorr, logainm: corpus additions.
+
+2004-07-23 22:55  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions only.
+
+2004-07-23 22:54  kps
+
+	* daoine: corpus additions; removed accentless "Oilibheir" not in
+	  corpus.
+
+2004-07-23 22:52  kps
+
+	* Makefile: Added a reversed-dictionary target for morphology work
+	  (Gramadoir)
+
+2004-07-18 18:34  kps
+
+	* Makefile, index-en.html, index.html, sios.html, sonrai.html:
+	  Version bump.
+
+2004-07-17 20:02  kps
+
+	* sios.html: Updated URLS.
+
+2004-07-17 20:01  kps
+
+	* gaeilgemor.aff: added "h-" as a non-standard version of prefix
+	  "h".
+
+2004-07-17 19:58  kps
+
+	* stair: additions from corpus.
+
+2004-07-17 19:58  kps
+
+	* miotas: additions (corpus).
+
+2004-07-17 19:58  kps
+
+	* logainm: additions only (corpus).
+
+2004-07-17 19:57  kps
+
+	* giorr: Added "MBA" otherwise gramadoir complains about
+	  incorrect capitalization of "mba/mBa".
+
+2004-07-17 19:56  kps
+
+	* gall: additions (corpus),
+	  plus removed "Micheal" as it is a common misspelling
+	  of English Michael and Irish name with accent!
+
+2004-07-17 19:55  kps
+
+	* daoine, eachtar: additions only (corpus)
+
+2004-07-17 19:54  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Many additions, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: nuálaíoch
+	  
+	  infhilleadh gan ghá (*): *han-ard, *n-an-ard, etc.
+	  
+	  focail mílitrithe (*): *fodhlithe, *péindlithe
+
+2004-07-17 19:49  kps
+
+	* aitiuil: Corpus additions.
+
+2004-07-17 19:48  kps
+
+	* Makefile: (1) Added eachtar to system/distribution.
+	  (2) sort gaelu.in+earraidi in make sortpersonal for use with
+	  crawler "bigchkm" stuff, but not part of spell checker dists.
+	  (3) take out words with non-legal chars from personal dict
+	  or else ispell chokes on em
+	  (4) tweaked adist since using new "proc" script (aspell 0.60
+	  version)
+	  that needs the ol' gaeilge.dat file
+
+2004-07-17 19:36  kps
+
+	* gaeilge.dat: This file is, miraculously, back from the dead and
+	  goes into
+	  the aspell5 and aspell6 distributions as ga.dat.
+
+2004-07-17 19:35  kps
+
+	* info: Now using the unified aspell5/aspell6 language packaging
+	  script proc.
+
+2004-07-12 23:05  kps
+
+	* giorr: Several corpus additions; removed "NA" since it is picked
+	  up
+	  by the plural article anyway, and messes up nice tagging by
+	  An Gramadóir.
+
+2004-07-02 16:34  kps
+
+	* aitiuil: Added US state names, excepting those that have Irish
+	  spellings
+	  (Alaska, Georgia, Hawaii, Jersey, Mexico, Virginia, York)
+
+2004-07-02 15:40  kps
+
+	* eachtar: Foreign words and phrases that appear legitimately in
+	  running Irish text,
+	  and have no (better) Irish equivalent.
+
+2004-07-02 02:04  kps
+
+	* stair: Additions from OLT.
+
+2004-07-02 02:03  kps
+
+	* gall: Additions only, all from corpus I think.
+
+2004-07-02 02:02  kps
+
+	* aitiuil, daoine: Corpus additions.
+
+2004-07-02 02:00  kps
+
+	* Makefile: aitiuil and gaelu files added to system.
+
+2004-07-02 01:58  kps
+
+	* miotas: More than doubled the size by grepping "Myth." from OLT.
+	  In several places, there were small spelling changes with
+	  the existing entries (which were mostly from Ba59) in which
+	  case I discarded the OLT versions as mostly gratuitous.
+
+2004-07-01 03:22  kps
+
+	* aitiuil: More corpus additions.
+
+2004-07-01 02:03  kps
+
+	* aitiuil: Created this by assembling placenames from two sources:
+	  (1) Mdcf database; took placenames that appear in FREQ file for
+	  corpus
+	  (2) OLT file:
+	  
+	  $ cat OLT | egrep '\(Geog' | egrep '^(.*) s \(Geog[^)]*\) \1' |
+	  sed 's/ s .*//'
+
+2004-07-01 01:08  kps
+
+	* logainm: Corpus work; moved Caerdydd to "aitiuil".
+
+2004-06-30 18:48  kps
+
+	* Makefile: gaeilgemor.aff and ga.aff now built from gaeilge.aff
+	  automatically.
+
+2004-06-30 18:48  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions.
+	  
+	  Plus, removed various gaeilge.mor incorrectly (or unnecessarily)
+	  inflected forms.
+
+2004-06-30 16:58  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Changes to deal with "loigh"
+	  (alt. luigh) vs. "cloígh".
+
+2004-06-30 05:31  kps
+
+	* ga.aff: First version produced automatically.
+	  "diff -b" shows no differences (after a bit of hacking with
+	  the "PFX S" capitals in the makefile).
+
+2004-06-30 04:44  kps
+
+	* myspell-header: Was in ga.aff. For automatic build using
+	  ispellaff2myspell.
+
+2004-06-30 04:40  kps
+
+	* ga.aff: Comments stripped; moving to automatic build system.
+
+2004-06-30 03:29  kps
+
+	* athfhocail: Bug fixes in IG discovered with altsurv script
+
+2004-06-29 16:27  kps
+
+	* daoine, gall: Added highest freq names from corpus.
+
+2004-06-29 15:25  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions,
+	  plus:
+	  
+	  focail infhillte míchearta (*): *uasmhéide, *uasmhéidí.
+
+2004-06-28 19:46  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions.
+	  Plus:
+	  
+	  caighdeánach->neamhchaighdeánach: gairmiúlachas
+	  
+	  liteartha->caighdeánach: tobscoir
+
+2004-06-28 19:41  kps
+
+	* index-en.html, index.html, sonrai.html: Updated link to projects
+	  page.
+
+2004-06-28 19:39  kps
+
+	* README.aspell: Add email address.
+
+2004-06-28 19:38  kps
+
+	* Makefile: Tweak aspell/myspell dist targets.
+
+2004-06-24 16:26  kps
+
+	* ga.aff: Miscounted -- bug turned up with new aspell6.
+
+2004-05-31 18:04  kps
+
+	* Makefile.asp: Not needed anymore.
+
+2004-04-03 03:27  kps
+
+	* Makefile, index.html, sios.html, sonrai.html: Version bumps. 3.4
+	  details added to sonrai.html
+
+2004-03-31 06:17  kps
+
+	* README.aspell: Added for doc/ subdirectory in aspell
+	  distribution.
+
+2004-03-30 22:18  kps
+
+	* gaeilge.mor, gaeilge.raw: caighdeánach->neamhchaighdeánach:
+	  cinní, Guaranaí, Urdúis
+	  
+	  focail mílitrithe (*): *Ocsatánais, *Úizbeiceastáin
+
+2004-03-30 22:09  kps
+
+	* miotas: One addition.
+
+2004-03-30 22:09  kps
+
+	* info: Version bump.
+
+2004-03-30 22:07  kps
+
+	* gaeilgehyph.aff: Tweaks to help build correct hyphenation dict.
+
+2004-03-30 22:06  kps
+
+	* daoine: 6 additions.
+
+2004-03-30 22:05  kps
+
+	* athfhocail: Additions only.
+
+2004-03-30 22:05  kps
+
+	* Makefile: Added targets for "hyphenation" spelling dict.
+	  Other minor changes.
+
+2004-01-23 03:05  kps
+
+	* gaeilgehyph.aff: File used in generating TeX hyphenation
+	  patterns.
+	  See ${HOME}/gaeilge/fleiscin.
+
+2004-01-07 04:45  kps
+
+	* athfhocail: Many additions, and changes reflecting most of the
+	  recent
+	  gramadoir debugging:
+	  no lenition of "abair" forms, no apostrophes before fh+consonant.
+
+2004-01-07 03:10  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: caighdeánach->liteartha:
+	  cláracha, cláraí, fíge, gion, leitir, los, teannach
+	  
+	  caighdeánach->neamhchaighdeánach: fuaid
+	  
+	  infhilleadh gan ghá (*): *bhrách, *mbrách, *cheadas, *gceadas,
+	  *fách, *fhách,
+	  *fhud, *ghrifín, *ngrifín
+
+2004-01-06 22:09  kps
+
+	* daoine, gall, giorr, logainm, stair: Additions found while
+	  debugging An Gramadóir
+	  (stuff needing <Y> tag instead of a true grammatical tag).
+
+2004-01-02 04:23  kps
+
+	* gaeilge.raw: CB94 p.133 12b; abair forms are never lenited except
+	  in
+	  subjunctive. Corpus has many "dhúirt"'s though so
+	  this is possibly controversial...
+	  Adding "dhúirt" as an alternate -- maybe later
+	  add "níor dhúirt" as alt. of "ní dúirt", etc.?
+
+2004-01-02 03:45  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->liteartha: car (v), leabhair (a)
+	  
+	  infhilleadh gan ghá (*): *ndú, *dhú
+
+2003-12-20 19:17  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Major (at this stage) bug
+	  fix:
+	  No prefix b', m', d' before "fh"+consonant
+	  (except d' verbal particle of course --
+	  CB94 and corpus have lotsa "d'fhreagair"'s)
+
+2003-12-20 18:58  kps
+
+	* athfhocail: Additions, some changes as an aftereffect of
+	  debugging gender of -áil verbal nouns, etc.
+
+2003-12-20 18:57  kps
+
+	* gaeilge.raw: Decided after long last to add
+	  "níb" and "níba" since they're in
+	  CB94 despite not being treated in OD77.
+
+2003-12-20 18:56  kps
+
+	* daoine, gall, giorr, logainm: Additions while debugging/testing
+	  An Gramadóir tagger.
+
+2003-12-02 19:38  kps
+
+	* gaeilge.mor, gaeilge.raw: Similar bug fix, but now additions only
+	  (prefix t forms of common, feminine verbal nouns beginning with
+	  s)
+	  like "tsuncáil")
+
+2003-12-02 19:30  kps
+
+	* gaeilge.mor, gaeilge.raw: Bug fix -- gender of verbal nouns was
+	  assumed masculine throughout --
+	  now corrected for the few exceptions (mostly *áil):
+	  
+	  infhilleadh gan ghá (*): *t-achtáil, *t-athchúrsáil, etc. ...,
+	  *tseirbheála,...
+
+2003-12-02 19:16  kps
+
+	* gaeilge.mor, gaeilge.raw: Additions only.
+
+2003-11-24 16:01  kps
+
+	* gaeilge.mor, gaeilge.raw: Additions.
+	  
+	  Plus, added exception making 2nd decl verb "neamhnigh"
+	  inflect with slender endings (note that the imperative form
+	  "neamhnigh" itself breaks "broad w/ broad, slender w/ slender".
+	  
+	  6 corpus appearances with broad endings, several hundred with
+	  slender, esp if you include the frequent vn "neamhniú"
+	  (no appearances of "neamhnú"). Online Foclóir Beag gives
+	  slender endings too.
+
+2003-11-21 17:05  kps
+
+	* athfhocail: "as is" bug corrected (so no more "ghach", etc.)
+	  
+	  No ts- on gen. plurals anymore.
+
+2003-11-21 16:14  kps
+
+	* gaeilge.mor, gaeilge.raw: Added "facthas" unlenited (was fooled
+	  by CB94 only listing "ní fhacthas").
+	  
+	  caighdeánach->neamhchaighdeánach: gheobhair, rachad, tabharfad
+
+2003-11-21 05:23  kps
+
+	* athfhocail: Fallout from the switch to new irregular verb system.
+	  This was the main motivation in fact -- tense/number of
+	  irregulars is now correctly matched up with tense/number
+	  of standard forms.
+
+2003-11-21 05:16  kps
+
+	* gaeilge.mor, gaeilge.raw: Another major change to underlying
+	  infrastructure with only
+	  trivial surface changes -- all irregular forms of verbs moved
+	  under
+	  headword and corresponding restructuring of the verb "in_toto"
+	  functions; tag/tug declensions moved under tar/tabhair, etc.
+	  
+	  Most changes have no consequence for the expanded wordlist:
+	  fuaireadar/US is now two entries,
+	  
+	  fuaireadar and
+	  fhuaireadar/U
+	  
+	  (i.e. a typical lenited past form plus the unlenited
+	  "exceptional" form)
+	  
+	  Substantive changes:
+	  
+	  caighdeánach->neamhchaighdeánach: deireann
+	  
+	  infhilleadh gan ghá (*): *n-arsa, *deirigí, *dtáthar, *tháthar
+
+2003-11-17 21:17  kps
+
+	* athfhocail: Moved irreg adjectives under headword.
+	  So now "nuaí" is automatically recognized as the
+	  correct form for Dinneen-ish gsf "nuaidhe" which was
+	  stored with "nua".
+
+2003-11-17 21:15  kps
+
+	* gaeilge.mor, gaeilge.raw: Only change:
+	  
+	  caighdeánach -> neamhchaighdeánach: tiorma
+	  
+	  Underlying this, though, was the move to irregular adjective
+	  forms
+	  under the headword, and a removal of the exceptions from the
+	  actual morphology code. Similar to the nouns done over the
+	  weekend.
+	  Verbs are next!
+
+2003-11-17 05:40  kps
+
+	* athfhocail: This is the real benefit of the major database change
+	  --
+	  since irregulars are stored with "headword" record, the
+	  "all_forms" function is improved for these headwords,
+	  which, among other things, improves the replacement list
+	  since there are fewer xx's.
+
+2003-11-17 05:38  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Rather large change to
+	  structure of underlying database, with
+	  minimal change to surface spellchecker -- main idea is to
+	  now store "irregular" inflections as part of the headword record.
+	  
+	  As part of this, I wrote "genitive_singular" for generic regular
+	  verbal nouns -adh, -ú, so these make up the main change
+	  (permuted flags when verb was in db already and new ones when
+	  no verb there).
+	  
+	  A few additions too, plus:
+	  
+	  caighdeánach->neamhchaighdeánach: bráithreacha, geanntracha
+	  
+	  focail mílitrithe (*): *idirgníomhú
+
+2003-11-15 04:42  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Added a bunch of vn's for
+	  verbs already in db.
+	  Net effect is tiny -- permutes some affix flags
+	  and a couple of new plural vn's.
+	  
+	  Also:
+	  
+	  caighdeánach -> liteartha: sios v.
+
+2003-11-13 15:24  kps
+
+	* athfhocail: Ah, the real magic -- gpl corrections now appear here
+	  when
+	  stnd word and alt word have weak/strong or strong/weak plurals.
+
+2003-11-13 15:17  kps
+
+	* gaeilge.lit: Harmless slop in strip_repeats.
+
+2003-11-13 15:13  kps
+
+	* gaeilge.raw: Minor-looking addition of three words was really
+	  major
+	  addition of gpl's across the system.
+
+2003-11-13 14:53  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: A few additions, plus:
+	  
+	  caighdeánach->liteartha: chuile, cuile, ur
+	  
+	  infhilleadh gan ghá (*): *t-altóir, *grástaí
+
+2003-11-11 22:20  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions only.
+
+2003-11-11 21:25  kps
+
+	* daoine, gall, giorr, logainm: Additions from November corpus
+	  work.
+
+2003-11-11 18:01  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  caighdeánach->liteartha: ar/air (ainmfhocail), aithneach, ana,
+	  beartanna, búr,
+	  cogarnaigh, díbh (briathar), díogach, drud, far, fineach, Franc,
+	  gaoith,
+	  príomh, time
+	  
+	  liteartha->caighdeánach: beannachtach
+
+2003-11-11 15:17  kps
+
+	* giorr: Additions from November "bigchkm" of corpus.
+
+2003-11-10 03:39  kps
+
+	* Makefile: Changelog stuff added.
+
+2003-11-10 03:39  kps
+
+	* athfhocail: Additions.
+
+2003-11-10 03:38  kps
+
+	* miotas: Now in IG.
+
+2003-11-10 03:38  kps
+
+	* gaeilge.lit, gaeilge.mor: See previous commit of gaeilge.raw.
+
+2003-11-10 03:38  kps
+
+	* gaeilge.raw: caighdeánach->liteartha: aireamh, bas, cana,
+	  connall, crúthaigh, dram, féan,
+	  fhéin, etc., forán, geál, gléic, rionn, scairtigh, stáid,
+	  tarrach,
+	  tiomain(t), tíor
+	  
+	  caighdeánach->neamhchaighdeánach: comhadaigh
+	  
+	  liteartha->caighdeánach: sceallagach
+
+2003-11-10 03:25  kps
+
+	* stair: Now in IG.
+
+2003-11-10 03:24  kps
+
+	* sios.html: New web reference.
+
+2003-11-10 03:24  kps
+
+	* gall: Was hidden by "luis".
+
+2003-11-10 03:15  kps
+
+	* logainm: Some taken out since solidly in IG now (Sunda,
+	  Chonnachta, srl.)
+	  But mostly additions from looking at rare.xml --
+	  unusual lowercase versions of these caused Gramadoir to report
+	  them even though not rare as logainmneacha.
+
+2003-11-10 03:13  kps
+
+	* daoine: Mostly additions from looking at rare.xml --
+	  rare lowercase hiding these names.
+
+2003-10-12 05:04  kps
+
+	* ga.aff: R. Holt from openoffice asked for caps to be included in
+	  the TRY
+	  string; this change is the result of running myspfreq on the
+	  current
+	  non-lex corpus of 100megabytes, 19.5 million words.
+
+2003-09-11 02:44  kps
+
+	* daoine: Additions. All from igbib, Corpas Náisiúnta na Gaeilge.
+
+2003-09-11 02:31  kps
+
+	* gall: Additions from igbib, mostly from Corpas Náisiúnta na
+	  Gaeilge
+
+2003-09-10 18:35  kps
+
+	* ga.aff: Redid the character frequencies for ga.aff.
+
+2003-09-10 18:35  kps
+
+	* sios.html: Gentoo links
+
+2003-09-04 21:29  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw:
+	  caighdeánach->liteartha: conach, eis, feir, fóbairt
+	  
+	  liteartha->caighdeánach: cáich, ibhe, suaill
+	  
+	  focail mílitrithe (*): *domhsan
+
+2003-09-04 21:12  kps
+
+	* index-en.html: Added some anti-Microsoft rhetoric. :)
+
+2003-09-04 21:12  kps
+
+	* sios.html: Updated link.
+
+2003-09-04 21:11  kps
+
+	* daoine, giorr, logainm, stair: Additions only. From Corpas
+	  Náisiúnta na Gaeilge.
+
+2003-08-14 18:27  kps
+
+	* gall: Additions from C.N.G.
+
+2003-08-14 18:15  kps
+
+	* daoine: Additions from Corpas Náisiúnta na Gaeilge
+
+2003-08-01 15:28  kps
+
+	* README, ga.aff: Simplified homepage address.
+
+2003-07-30 15:50  kps
+
+	* gaeilge.raw: Bug fix on emphatic forms of "as", "de", and "faoi".
+	  Don't need to log on web page since I just checked the
+	  incorrect forms in for the first time 15 minutes ago.
+
+2003-07-30 15:37  kps
+
+	* gaeilge.lit, gaeilge.raw: Additions, some from FP01, some from
+	  bigchkm of corpus.
+	  
+	  One change:
+	  
+	  caighdeánach->liteartha: cáich
+
+2003-07-30 15:33  kps
+
+	* index.html: NO SPAM!
+
+2003-07-28 14:37  kps
+
+	* biobla: Resorted according to new isort scheme.
+	  
+	  Removed "Libe", "Sír", "Síreach", "Féinícia" since
+	  these are really ALTS in the main IG dictionary, should
+	  be reported as such when spellchecking OF81.
+	  
+	  Found these while generating the alt database for gramadoir.
+
+2003-07-25 18:41  kps
+
+	* Makefile: Added comments about sort problems.
+	  Wrapped my "isort" in GOODSORT make variable.
+	  Users will only run into this if they are making
+	  the extended models (not the default).
+
+2003-07-18 16:20  kps
+
+	* daoine: Good example of software symbiosis -- in debugging
+	  grammar checker,
+	  Phroinsias came up as misspelled which led me to this correction
+	  and rebuild of the focail.bs database.
+
+2003-07-11 02:14  kps
+
+	* sios.html: Googled myself and tidied up links to other sources.
+
+2003-07-10 17:27  kps
+
+	* Makefile, info: New version numbers only.
+
+2003-07-10 17:27  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: New version
+	  numbers and info in *.html, plus some general tidying.
+
+2003-07-10 17:21  kps
+
+	* gaeilge_phonet.dat, igcheck: Added new exceptions to igcheck
+	  script and
+	  changed a single comment in phonetics file.
+
+2003-07-10 16:09  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions only, all from
+	  FP01.
+
+2003-07-02 15:55  kps
+
+	* Makefile: Some serious changes related to port from Solaris to
+	  new machine:
+	  
+	  (1) changed lots of default paths
+	  (2) changed "sort" to "isort" when dealing with word lists having
+	  affixes --
+	  see commentary in clar/script/isort
+	  (3) redid all of the aspell dist target to use aspelldev/proc
+	  directly
+	  (4) discovered that aspell create personal/repl are not
+	  implemented,
+	  so I'm now creating them directly in "apersonal" target. Seems to
+	  work.
+
+2003-07-02 14:48  kps
+
+	* daoine, gall, logainm, miotas, stair: Handful of additions,
+	  occasional resorting for GNU sort.
+
+2003-07-02 14:46  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Lots of additions, plus:
+	  
+	  caighdeánach->liteartha: lóch, muscail, raille
+	  
+	  caighdeánach->neamhchaighdeánach: fínéagrán, Francóir,
+	  pandiachas, Seitnia
+	  
+	  neamhchaighdeánach->caighdeánach: nascóir
+	  
+	  infhilleadh gan ghá (*): *ioncholluithe, *inleighise
+	  
+	  focail mílitrithe (*): *fótachríoch, *Teileagúis
+
+2003-07-02 14:35  kps
+
+	* athfhocail: Lots of changes, plus new sorting scheme.
+
+2003-07-02 14:02  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Only a resort. GNU sort is
+	  more rational in some ways and
+	  irritatingly irrational in others. Once I wrapped things
+	  up in the "isort" script (which avoided the problems caused by
+	  continuing the sort into the affix flags), the new sort order
+	  is better than before -- basically correct dictionary order
+	  (ignoring - and ' unlike before and also placing accented
+	  forms after the unaccented ones, while still collating them
+	  together).
+
+2003-05-22 15:39  kps
+
+	* athfhocail: Handful of additions.
+
+2003-04-18 15:42  kps
+
+	* Makefile, index.html, info, sios.html, sonrai.html: Updated
+	  version number in Makefile, *.html, info.
+	  Added description in sonrai.html
+
+2003-04-18 14:52  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.mor, gaeilge.raw:
+	  caighdeánach->liteartha: athlamh, drochbhlasta, easca, éigne,
+	  mionnán, mun,
+	  paist, sealg, sir
+	  
+	  caighdeánach->neamhchaighdeánach: Féinícia
+	  
+	  liteartha->caighdeánach: fiondruine, Ultaibh
+
+2003-04-18 14:40  kps
+
+	* daoine, gall, stair: Handful of additions from spellchecking
+	  online stuff.
+
+2003-03-05 21:50  kps
+
+	* README, gaeilge_phonet.dat: Updated Copyright to 2003.
+
+2003-03-05 21:50  kps
+
+	* Makefile: Changes for 3.0->3.1, plus added targets
+	  "forproc" and "ga.cwl" for the aspell build process
+
+2003-03-05 21:49  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: Updates for
+	  3.0 -> 3.1 release.
+	  Added accent to Donnaíle!
+
+2003-03-05 21:40  kps
+
+	* info: For some reason I forgot to check this in way back at the
+	  first
+	  release of the aspell version.
+
+2003-03-05 19:48  kps
+
+	* gaeilge_phonet.dat, igcheck: Non-substantive changes to igcheck
+	  (more stuff to filter out)
+	  and phonetics file (two comments changed).
+
+2003-03-05 18:42  kps
+
+	* athfhocail, gaeilge.mor, gaeilge.raw: Additions only.
+
+2003-03-05 18:41  kps
+
+	* daoine, gall, logainm, miotas: Trivial additions.
+
+2003-03-05 18:41  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Bug fix because of glae*
+	  with -t endings.
+
+2003-02-17 22:18  kps
+
+	* athfhocail, gaeilge.lit, gaeilge.raw: A few bug fixes in SC++
+	  code resulted in corrections to the
+	  "incorrect inflections" below. Plus a couple of demotions to
+	  literary.
+	  
+	  caighdeánach->liteartha: adag, dreasachtach
+	  
+	  focail infhillte míchearta (*): *eisiaite, *glaetar, *ghlaetá,
+	  *ghlaetaí,
+	  *iaite, *iarmhartha
+
+2003-02-17 22:17  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Fixed a bug in affix files
+	  -- the -t verb endings were wrong for
+	  the verb glaeigh.
+
+2003-02-17 18:40  kps
+
+	* Makefile: Changed the "make seiceail". (1) now "Gin" spits out
+	  all _inflected_
+	  forms of all headwords (2) now, instead of spellchecking this
+	  dump,
+	  I simply do a diff with aspelllit.txt.
+	  As of this date, only diffs are the glae verb bug
+	  and a couple of ró- words not in IG.
+
+2003-02-17 18:38  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: Update web
+	  site to reflect the incorporation
+	  of my ispell/aspell/myspell packages into the
+	  "GaelSpell family of spellcheckers".
+
+2003-02-12 18:58  kps
+
+	* athfhocail: Tidied up code in irishde for distinguishing
+	  a_priori_lenitable from lenitable, etc.
+
+2003-02-12 15:43  kps
+
+	* athfhocail: Just finished debugging all_forms stuff, athfhocail
+	  now
+	  in close-to-final form hopefully.
+
+2003-02-11 22:42  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Fixed a bug which was
+	  discovered with the new "make seiceail"
+	  which compares aspelllit.txt and the output of the "all_forms"
+	  code.
+	  
+	  The bug was that ispell was treating the pp of -áil verbs as the
+	  gs of the verbal noun, which it is not. So the possessive forms,
+	  etc. of this gs have been moved to the correct forms.
+
+2003-02-11 22:08  kps
+
+	* gaeilge.mor, gaeilge.raw: Additions only. Checking in b/c of
+	  substantial change about
+	  to be made regarding -áil pp/vn
+
+2003-02-10 15:29  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Added lots of capital
+	  words b/c they appear in phrases in database.
+	  
+	  Plus, made the 1st person past ending -(e)as non-standard, with
+	  the
+	  following effect:
+	  
+	  caighdeánach->neamhchaighdeánach: fuaireas, itheas, rugas, thugas
+	  
+	  infhilleadh gan ghá (*): *achras, *adhnas, *adhras, *dheighleas,
+	  *ghleadhras,
+	  *ionlas, *saighdeas, *sleabhcas, *thiomnas, *thorchras
+
+2003-02-05 21:35  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, plus:
+	  
+	  liteartha->caighdeánach: aonbheannach, soraidh
+	  
+	  infhilleadh gan ghá (*): *Connaichte
+	  
+	  focail mílitrithe (*): *máistirplean, *teasdhíonadh
+
+2003-01-27 22:13  kps
+
+	* daoine, gall, logainm: Additions based on downloaded back issues
+	  of "Beo!" and running bigchkm.
+
+2003-01-27 22:09  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Lots of additions, mostly
+	  to gaeilge.mor b/c of continuing work
+	  on OS70, alternate token references.
+	  
+	  Also added the OD77b system for moving "dangerous spellings" of
+	  uncommon words into the literary model (hence the bunch of
+	  demotions below):
+	  
+	  caighdeánach->liteartha: áirí, brúitíneach, casca, cíl, cloca,
+	  dálta, deirc,
+	  deois, fuad, géata, liost, loistín, miam, múid, nuar, pana, rabh,
+	  ruma,
+	  sill, slád, tóla
+	  
+	  caighdeánach->neamhchaighdeánach: dros
+	  
+	  focail mílitrithe (*): *staidiúil
+
+2003-01-24 18:08  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Additions, most of them
+	  into gaeilge.mor because I
+	  just went through and cleaned up entries with multiple "alternate
+	  tokens".
+	  
+	  Plus this process turned up the following:
+	  
+	  caighdeánach->neamhchaighdeánach: doghafa, dubhú, éagadh,
+	  fuirsíonn, etc.,
+	  léimeadh, meathadh, siocadh, tráchtadh
+	  
+	  focail mílitrithe (*): *teipeannach
+
+2003-01-23 20:41  kps
+
+	* Makefile, Makefile.asp: Changes for automatic generation and
+	  building of
+	  aspell replacement file.
+
+2003-01-20 15:58  kps
+
+	* gaeilge.mor, gaeilge.raw: Some additions. Mostly the changes
+	  below were discovered using
+	  the new "spelling_problem_finder" code in dentry.
+	  
+	  caighdeánach->neamhchaighdeánach: cnágshnámh, foghúna, glaothán,
+	  tiúna
+	  
+	  infhilleadh gan ghá (*): *máinneálann, *scuabálann, srl
+	  
+	  focail mílitrithe (*): *cóireagrafaí
+
+2003-01-06 22:14  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw:
+	  neamhchaighdeánach->caighdeánach: fuirste
+	  
+	  neamhchaighdeánach->liteartha: ing
+	  
+	  Couple of other bug fixes only affecting the large model
+	  (haven't been recording these on the web page I think):
+	  e.g. had tiormach,triomlach as a1 instead of nm1-1...
+
+2003-01-03 17:30  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Lots of additions, plus:
+	  
+	  caighdeánach->liteartha: seanadh, tairiseacht, táite
+	  
+	  liteartha->caighdeánach: coránach, sacraifís, sroigheall
+	  
+	  focail infhillte míchearta (*): *breithmhis, *móideimeanna
+
+2002-12-17 21:10  kps
+
+	* Makefile: Will soon redo the "alternate spelling" system in SC++,
+	  so they won't be headwords in any sense. With this in
+	  mind I took out such references in *.html and in "make allcounts"
+	  in the Makefile
+
+2002-12-17 21:10  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: Changes to
+	  HTML files for 2.0 -> 3.0
+
+2002-12-17 20:21  kps
+
+	* igcheck: A few exceptions added to deal with new data.
+
+2002-12-17 20:21  kps
+
+	* giorr: Added "tAth", pretty common in corpus.
+
+2002-12-17 20:20  kps
+
+	* gall: A few additions.
+
+2002-12-17 20:19  kps
+
+	* Makefile: Trivial change for 3.0
+
+2002-12-12 20:20  kps
+
+	* biobla: Added some book names not in Bible proper but discussed
+	  in preface.
+
+2002-12-12 15:20  kps
+
+	* biobla: Added words from Apocrypha: Tobit, Judith, Wisdom,
+	  Sirach, Baruch,
+	  1,2 Maccabees. Didn't do the Padraig letters. About 200 new
+	  words.
+	  
+	  These additions led to new "majority rules" spellings for 4
+	  biobla
+	  words: Níocanór->Niocánór, Ptolamaís->Ptolamais,
+	  Dionisius->Díonaíosas,
+	  and Sóspatras->Sosapataer.
+	  
+	  In hacking this file, also discovered a couple of bugs in dict
+	  code:
+	  Was eclipsing "pre-lenited" words in DB (were only two in
+	  previous
+	  version of biobla: gChazó and bPharóis). Also I was
+	  eclipsing/leniting
+	  Ptolamaís which seems a bit stupid so I made it an "as is"
+	  substantive.
+	  Removing *Pht and *mPt words.
+
+2002-12-06 20:40  kps
+
+	* gaeilge.raw: A few new words added: found them when I took out
+	  the subjunctives,
+	  respellchecked the corpus -- these were the new "misspellings".
+
+2002-12-06 20:13  kps
+
+	* ga.aff: Oops -- forgot to change the "affix counts" !!
+
+2002-12-06 20:02  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Major overhaul of affix
+	  files, all in order to eliminate
+	  the subjunctives without lenition/eclipsis. Primary changes:
+	  (1) deleted all foshuiteach lines out of the "present" affixes
+	  (A,C,I)
+	  (2) to make up for the unlenited forms which happen to coincide
+	  with
+	  some of the deleted subjunctives, I had to add "caite saor" line
+	  and two "ordaitheach" lines in each of A,C,and I.
+	  
+	  Note that some changes to the underlying code for generating
+	  gaeilge.raw
+	  handled the "in_toto" verbs.
+
+2002-12-06 19:24  kps
+
+	* daoine: Added Irish forms of names of Oireachtas members.
+	  A lot seem contrived!
+
+2002-12-06 19:23  kps
+
+	* Makefile: More tidying up of the Makefile, nothing substantive.
+
+2002-12-06 19:22  kps
+
+	* logainm: Added "Carna".
+
+2002-12-06 19:21  kps
+
+	* gaeilge.lit, gaeilge.mor, gaeilge.raw: Major bug fix. Net effect
+	  of this change is to remove all
+	  unlenited/uneclipsed subjunctives. It took a major restructuring
+	  of the affix file (to be checked in next). It also meant adding
+	  the present subjunctive explicitly instead of relying on the
+	  affix
+	  file to do it (because of the vowel situation -- want "n-aola"
+	  but
+	  not "d'aola"). So gaeilge.raw LOOKS a lot bigger, but the net
+	  result in, say, aspell.txt is several thousand words smaller.
+
+2002-12-06 15:49  kps
+
+	* gall: Added names of current Oireachtas members.
+
+2002-12-05 21:48  kps
+
+	* giorr: couple of additions before v 3.0
+
+2002-12-05 21:47  kps
+
+	* logainm: added a few names, mostly from titles of books in my
+	  bib!
+
+2002-12-03 16:37  kps
+
+	* gaeilge.aff, gaeilgemor.aff: BUG FIX in gaeilgemor.aff -- I'd
+	  fixed this in gaeilge.aff a while
+	  ago and forgot to make the change in gaeilgemor. Checking in
+	  gaeilge.aff because in the course of debugging I noticed an
+	  incorrect comment.
+
+2002-12-03 16:32  kps
+
+	* gaeilge.aff, gaeilgemor.aff: Trivial changes to minimize the size
+	  of the "diff" file
+	  (spaces to tabs and vice versa). Nothing substantive.
+
+2002-12-03 16:04  kps
+
+	* gaeilge.lit, gaeilge.raw: Oops -- when creating the gaeilge.lit
+	  file I mistakenly moved some
+	  OL97 words (e.g. stuff from dialect dictionaries) in there. I
+	  added
+	  "FN" refs to those words, hence this checkin moves them back.
+
+2002-12-03 00:23  kps
+
+	* Makefile: Changes to Makefile to enable building literary model,
+	  etc.
+
+2002-12-03 00:22  kps
+
+	* gaeilge.raw: Removed literary (and obsolete) words from
+	  gaeilge.raw to gaeilge.lit
+	  (previous checkin).
+
+2002-12-03 00:19  kps
+
+	* gaeilge.lit: Added gaeilge.lit to the project. These words are
+	  excised from
+	  gaeilge.raw (will check in next). Note that there are some
+	  literary words which overlap with non-literary words:
+	  e.g. "os" is a preposition (so now appears in gaeilge.raw as "os"
+	  only)
+	  but a literary noun (so appears in gaeilge.lit as "os/HBMDUT".
+
+2002-11-25 20:42  kps
+
+	* Makefile: Ignore return value with "-".
+	  
+	  Add line for installing sios.html.
+
+2002-11-25 18:42  kps
+
+	* gaeilge.mor, gaeilge.raw: caighdeánach->canúnach: fuarthóir,
+	  grás, greas, ing
+	  
+	  infhilleadh gan ghá (*): *eoil, *t-eol
+	  
+	  focail mílitrithe (*): *ceolsholas, *daonnachaí, *dísréad,
+	  *feimeanachas,
+	  *ionsamhlaigh, *ionsamhlóir
+
+2002-11-22 19:31  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: Added "meta"
+	  information in <head> and
+	  the link to "Zoularis" in sios.html
+
+2002-11-07 21:22  kps
+
+	* index.html: Shrunk An Fáinne Órga navigation graphics to fit
+	  better in
+	  Navigation column.
+
+2002-11-07 14:28  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: More cosmetic
+	  changes.
+	  
+	  Moved the Fáinne Órga to the navigation column.
+	  Narrowed all <pre> text so it wouldn't squeeze the
+	  navigation column.
+	  
+	  Did some "lint" stuff -- removed spaces between <li> and text,
+	  etc.
+
+2002-11-06 18:24  kps
+
+	* index-en.html, index.html, sios.html, sonrai.html: Lots of
+	  cosmetic changes to HTML files, including complete committment
+	  to the "two-column" style sheet stuff.
+
+2002-11-06 16:35  kps
+
+	* sios.html: Pulled download stuff out of index.html, make it
+	  bilingual?
+
+2002-10-14 21:53  kps
+
+	* igcheck: Series of additional exceptions because of the new words
+	  added to
+	  the database. One more serious change b/c I wasn't egrepping
+	  '^dh' words when considering the aspell DHR, DHL rules....
+
+2002-10-14 21:52  kps
+
+	* gaeilge_phonet.dat: Previous commit (for aimhghliceas, etc.)
+	  uncovered a bug in
+	  igcheck and phonetics b/c I wasn't considering '^dh' words !
+	  Fixed now I think.
+
+2002-10-14 21:03  kps
+
+	* gaeilge_phonet.dat: Two minor changes to phonetics to handle
+	  "aimhghliceas" and "sreangdhruma"
+
+2002-10-14 20:01  kps
+
+	* gaeilge.mor, gaeilge.raw: canúnach->caighdeánach: togra
+	  
+	  caighdeánach->canúnach: baoischreideamh, cileabeart, ecstasaí,
+	  fiolaictéir,
+	  grásmhar, iliteach, iliteoir, luathrán, neamhfhaitíosach, robar,
+	  stopuaireadóir, visciúlacht
+	  
+	  focail mílitrithe (*): *ath-thochrais, *cognolaíoch,
+	  *hipeartéacs, *Iútach,
+	  *naíon, *síthrá
+
+2002-10-09 18:15  kps
+
+	* index.html: Added Debian link, and comment that Mandrake is out
+	  of date.
+
+2002-09-12 23:03  kps
+
+	* gaeilge.mor, gaeilge.raw: Lots of additions, plus:
+	  
+	  caighdeánach->canúnach: pizza, síceois
+	  
+	  focail mílitrithe (*): *crombóg, *sótálaigh
+
+2002-09-12 23:00  kps
+
+	* stair: Four new words from acmhainn.ie "Stair" dictionaries.
+
+2002-09-09 19:54  kps
+
+	* gaeilge_phonet.dat, igcheck: Demoted "pizza", trivial
+	  corresponding changes.
+
+2002-08-19 19:46  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Turned off "cross-products"
+	  for the "H" flag.
+	  
+	  Because I just took out all "H"'s on verbs with ending flags
+	  this is BASICALLY meaningless -- BUT one word (obainn) is,
+	  by coincidence, a verb with 'E' affix flag and separately
+	  a noun with an 'H' flag. If cross-products remain
+	  on, then illegal h+verb forms will still be included for this
+	  one example!
+
+2002-08-19 19:43  kps
+
+	* gaeilge.mor, gaeilge.raw, index-en.html: Changed code so that "H"
+	  flag is only used for imperative forms
+	  of verbs. When the verb starts with a vowel, this are all written
+	  individually to gaeilge.raw with /H, otherwise (consonants)
+	  the affix file takes care of the imperatives (saving space).
+	  
+	  Had to modify index-en.html slightly since I'd claimed "over 100"
+	  forms are added for a verb starting with "i" -- this is more like
+	  80 after the incorrect "h" forms are taken out.
+	  
+	  The 3rd person imperatives and autonomous imperatives are used
+	  several times in the Bible, so I included them. Can't find any
+	  instance of a 1st person imperative, so I'm not including those.
+
+2002-08-19 17:33  kps
+
+	* gaeilge.raw: focail infhillte míchearta (*): *Gaelaíodar,
+	  *Gaelódh, *Gaelófá, srl.
+	  
+	  Fixed bugs in in_toto verb code (originally assumed no
+	  capitalized
+	  verbs) -- upshot was that past and conditionals were being added
+	  without lenition (as above), and no eclipsed versions were added
+	  at all
+	  (OK now).
+
+2002-08-19 17:02  kps
+
+	* igcheck: added a check catching, e.g., nGhaelaigh, which had
+	  crept in
+	  while trying to debug capitalized verbs...
+
+2002-08-19 16:42  kps
+
+	* gaeilge.raw: Added code to explicitly add lenited forms of
+	  "double-capped"
+	  words, like Gael-Mheiriceánach, b/c of earlier bug in ispell
+	  affix code which gives wrong answer for "S" flag.
+
+2002-08-19 16:06  kps
+
+	* gaeilge.raw, sonrai.html: infhilleadh gan ghá (*): *d'fhaigh
+	  
+	  focail infhillte míchearta (*): *neamhfhorleathna
+	  
+	  focail mílitrithe (*): *dtag, *tag, *thag, *tug
+	  
+	  REMARKS:
+	  tag/tug stuff is a bug fix, hence the check-in of sonrai.html
+	  too.
+	  
+	  Also, bheir,chlois,chluin etc. fictional past tense forms were
+	  removed
+	  from gaeilge.raw (not affecting final word list though since
+	  these are
+	  already picked up as beir/US, clois/US, etc.).
+	  
+	  Also note that while "d'fhaigh" is unnecessary, d'fheic remains
+	  OK
+	  as possessive of the noun "feic".
+
+2002-08-19 12:35  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Killed "-sé" hints from all
+	  affix files.
+	  This was in there because of misprints in the
+	  CD-Rom version of An Bíobla Naofa -- I checked
+	  all instances (see Gein 13:8,17:1,31:52, Eoin 7:6, 7:8, 15:11,
+	  etc. etc.)
+	  in the printed Bible and all of them were in fact "-se",
+	  often with a comma following which maybe explains
+	  it (bad scanning?)
+
+2002-08-18 20:55  kps
+
+	* gaeilge.mor, gaeilge.raw, sonrai.html: Added lots of words, most
+	  proper names from FTP81.
+	  
+	  canúnach->caighdeánach: Somáileach
+	  
+	  focail mílitrithe (*): *ghach, *Suaslannach, *t(h)ólamh,
+	  *Túiníseach
+	  
+	  BUG FIXES: ghach,tólamh were listed on sonrai.html page.
+	  Also had "bhfiú" there as well, but this word is fine, if for
+	  no other reason than it is the eclipsed version of "fiú^2" in
+	  OD77
+	  meaning "ferrule".
+
+2002-08-18 20:42  kps
+
+	* gaeilge_phonet.dat, igcheck: No substantive changes -- added
+	  exceptions b/c of "gearrdhráma"
+
+2002-08-18 20:40  kps
+
+	* Makefile: Added target for sorting personal dictionary files
+	  (used to be part of "sort" target which seemed a bit
+	  extreme -- taking these sorts out was a bad idea
+	  though since for some reason when ispell runs
+	  with one of these as the personal dictionary,
+	  it leaves it in a non-sorted form).
+
+2002-08-15 15:45  kps
+
+	* giorr: Added a handful of abbreviations from newspaper articles.
+
+2002-08-15 15:41  kps
+
+	* daoine: Oops, forgot to resort daoine before last checkin.
+	  Only additions on that commit, only sort here.
+
+2002-08-15 15:39  kps
+
+	* daoine, gall: Entered lots of personal names from the best Irish
+	  surname page I
+	  could find:
+	  
+	  http://www.fortunecity.com/bally/kilkenny/2/irenames.htm
+
+2002-08-13 15:00  kps
+
+	* gaeilge.mor, gaeilge.raw: Added words, many from FTP81.
+	  
+	  Also made many corrections to genders, some spellings in list
+	  of proper names from FTP81.
+	  
+	  canúnach->caighdeánach: Caismíor, Laitve
+	  
+	  caighdeánach->canúnach:
+	  
+	  infhilleadh gan ghá (*): *Bairéine, *Búcairiste, *Búdaipeiste,
+	  *Eacuadóir,
+	  *Iarúsailéime, *Iostanbúil, *Liospóine, *Lováine, *Maidride,
+	  *Mósaimbíce,
+	  *Nasaireite, *Omain, *Suaise, *tÉimin, *tIamáice, *tSomáile,
+	  *Túinise
+	  
+	  focail infhillte míchearta (*):
+	  
+	  focail mílitrithe (*): *Basútalainn, *Beachuanalainn, *Gúam,
+	  *Inde-Sín, *Sáir,
+	  *Seirb, *Úral
+
+2002-08-13 14:52  kps
+
+	* Makefile: Changed default permissions on INSTALL_DATA.
+
+2002-08-07 18:25  kps
+
+	* index.html: Update ISO8859-1 link.
+
+2002-08-07 18:15  kps
+
+	* sonrai.html: Cosmetic changes.
+
+2002-08-07 18:15  kps
+
+	* index.html: Took out ISO-8859-1 characters from #name references
+	  in case they
+	  are a problem for people.
+	  
+	  Added the fancy download section with links to prebuilt binaries,
+	  etc.
+
+2002-08-07 18:14  kps
+
+	* index-en.html: Enhanced the English page based on some confusion
+	  from installers.
+	  
+	  (1) Added an explicit "downloading" link back to the Irish page
+	  (2) Added a link to the Change Log in sonrai (since NetBSD guy
+	  remarked that there was no change log!)
+	  (3) Just indicated that one should use "make" to build (no need
+	  to
+	  edit makefile unless there are problems) -- Horkan's idea
+	  (4) Strong remark that installers should choose gaeilge.hash as
+	  default
+	  (discussed with Horkan re: abiword)
+
+2002-08-06 20:48  kps
+
+	* gaeilge.mor: After fighting for a couple of days I realized that
+	  so/S is just the prefix so- being included as an
+	  adjective in the gaeilge.mor large model, where
+	  free compounding with affixes is legal.
+
+2002-08-06 20:35  kps
+
+	* gaeilge.raw: NO SUBSTANTIVE CHANGES! All the lines changed are
+	  just
+	  some unnecessary reordering of the affixes as a side effect
+	  of the change I'm about to describe:
+	  
+	  Changed code for stripping redundancies in affixes -- used
+	  to just look for one word having a "subset" of the other
+	  and wiped it. There were three words not handled by this:
+	  
+	  fuaim/BMDUS vs. fuaim/USA
+	  obainn/HBMDU vs. obainn/E
+	  sáinn/ST vs. sáinn/E
+	  
+	  (and sin/S not wiping "sin" because they were too far apart in
+	  the list -- fixed that too).
+	  
+	  Changed the code so that everything goes on one line.
+	  One consequence was that I had to change the BDMT flags to
+	  NOT combine with (entirely verbal) affixes!
+	  
+	  Result was supposed to be no change to aspell.txt. This is
+	  basically true, but I uncovered the fact that the "H" flag
+	  is not always added to, e.g., verbs flagged with "E".
+	  (since hobadar, etc. appeared when the lines above were melded)
+	  
+	  Will fix this later.
+
+2002-08-06 14:27  kps
+
+	* Makefile: Added installweb target.
+	  Reorganized things to separate out "user" targets from
+	  "development" targets. Reduced the number of
+	  variables which a user would potentially want to edit.
+
+2002-08-06 14:25  kps
+
+	* ga.aff, gaeilge.aff, gaeilgemor.aff: Turned off "cross-product"
+	  for B,D,M,T flags
+	  (so not allowed to be combined with suffixes --
+	  ok since all suffixes are verb endings and only D
+	  is used with verbs -- it is handled separately,
+	  basically by explicitly including the d' verb
+	  with a suffix flag)
+	  
+	  It is important to note that this has no affect
+	  on the expanded word list (this is the point of
+	  the change-- will then allow me to lump together
+	  affixes for "fuaim", "obainn", "sáinn")
+
+2002-08-06 14:22  kps
+
+	* index.html: Added Alan Horkan, link to V. Morley.
+
+2002-08-05 21:35  kps
+
+	* Makefile: Comment about reversing order of fuaim
+
+2002-08-05 21:34  kps
+
+	* ga.aff: Translated gaeilge.aff to MySpell format.
+
+2002-08-05 20:26  kps
+
+	* Makefile, README, index-en.html, index.html: Trivial changes for
+	  the release of myspell-gaeilge-2.0 package.
+
+2002-08-05 19:54  kps
+
+	* gaeilge.aff, gaeilgemor.aff: Changes to both affix files because
+	  of a bug with the verb "buígh".
+	  Only place, it seems, where a prefix and suffix collide among the
+	  rules:
+	  the problem was that I was matching "buím", etc. to catch buím
+	  but since combining these verb endings with flag S=seimhiú is
+	  allowed,
+	  sometimes these get lenited BEFORE the match is done with the
+	  verb endings.
+	  
+	  So I just added a couple of extra rules.
+	  
+	  I found this bug while porting to myspell, which seems a bit
+	  smarter than
+	  ispell -- w/o the addition of this rule, it matches the verb
+	  ending correctly
+	  (i.e. matches the stuff before the slash in gaeilge.raw, not the
+	  word
+	  after other prefixes have been applied)
+
+2002-08-05 18:57  kps
+
+	* gaeilge.raw: Added handful of words. tríléim demoted
+	  (previous checkin seemed only to record this as
+	  an addition to gaeilge.mor, not a subtraction from gaeilge.raw?)
+
+2002-08-05 18:05  kps
+
+	* gaeilge.mor, gaeilge.raw: Demoted tríléim from standard to
+	  dialect.
+	  
+	  Added a few other words. Checking in because I'm about to
+	  rewrite the affix "melding" code...
+
+2002-08-01 21:56  kps
+
+	* index-en.html: Finishing touches before announcement.
+
+2002-08-01 17:19  kps
+
+	* Makefile: Mostly non-functional changes to the Makefile.
+	  Tidied up targets to avoid some redundancies.
+
+2002-08-01 17:19  kps
+
+	* index.html: Added link to English Summary.
+	  
+	  Added file sizes to "Síos-luchtaigh" lines.
+	  
+	  Added "% make" before "% make install" twice.
+	  
+	  Changed spelling of "bogearra" to plural.
+
+2002-08-01 17:17  kps
+
+	* index-en.html: Created this morning so when I announce v. 2.0 to
+	  people
+	  I can point them to this.
+
+2002-07-31 18:03  kps
+
+	* sonrai.html: Added lines describing the 2.0 release.
+	  
+	  Also fixed some repeats of corrections in earlier versions
+	  caused by the way I was accessing the log files with cvs
+	  (using : vs. :: which was including the last revision before
+	  the previous release).
+
+2002-07-31 18:01  kps
+
+	* index.html: Changes for 2.0 release.
+	  Includes a couple of trivial mentions of "aspell-gaeilge".
+	  Should eventually add a fuller description, installation
+	  instructions, etc.
+
+2002-07-31 17:42  kps
+
+	* Makefile: Changes for 2.0 release.
+	  
+	  Tidied up aspell "adist" target.
+	  
+	  changed "reallyclean" to "distclean"
+	  
+	  Fixed "altcount" bug (was using "gaeilge.hash" not
+	  "gaeilgemor.hash")
+
+2002-07-31 16:23  kps
+
+	* igcheck: One tiny change.
+
+2002-07-31 16:23  kps
+
+	* Makefile.asp: Put clean and distclean targets together (was bug
+	  before).
+	  
+	  Decided to distribute the personal dictionary files all
+	  lumped together as "proper" instead of separately.
+
+2002-07-24 18:12  kps
+
+	* gaeilge.mor, gaeilge.raw: Temporarily removed "S" flag on words
+	  with two capital
+	  letters since the affix file doesn't do it correctly (inserts
+	  the 'h' but makes first letter lowercase). I'll fix the code
+	  in a later version.
+	  
+	  canúnach->caighdeánach: bunán
+	  
+	  caighdeánach->canúnach: aillse, cáideo
+	  
+	  infhilleadh gan ghá (*): *dhara, *soiscéalta, *SHEIF, *dt-léine,
+	  *th-léine,
+	  hu-chasadh, srl.
+	  
+	  fleiscíní gan ghá: ard-teicneolaíocht, feidhm-oideas,
+	  dreach-caillte
+	  
+	  focail infhillte míchearta (*): Fionlanna
+	  
+	  focail mílitrithe (*):
+
+2002-07-24 17:25  kps
+
+	* gaeilge_phonet.dat: Mostly changes to comments, but I deleted the
+	  EALBH rules as
+	  redundant, and made some of the rules more liberal so they
+	  apply to words which weren't in my database until I discovered
+	  them (with igcheck) in the McKinstry and GaelSpell lists.
+
+2002-07-24 17:22  kps
+
+	* igcheck: Serious work to bring this up-to-date with
+	  gaeilge_phonet.dat.
+	  Want checks for each rule where sensible.
+	  Moved the J,K,Q,etc. checks to the end with the other aspell
+	  stuff.
+	  
+	  Runs clean with current version of aspell.txt.
+	  
+	  I spent some time running McKinstry's and GaelSpell's lists
+	  through igcheck and weakening the checks where appropriate to
+	  accept their acceptable words.
+
+2002-07-24 13:30  kps
+
+	* gaeilge_phonet.dat: Two longs days of work on this.
+	  
+	  Added a ton of stuff. Mostly work on epenthetic vowels, lots
+	  of commenting, etc. Coming around into deliverable shape.
+
+2002-07-19 20:08  kps
+
+	* gaeilge_phonet.dat, igcheck: One day's work on these two files.
+	  A ton of changes to the phonetics, some serious commenting and
+	  cleaning up. A lot of the changes had to do with redundancies
+	  after having discovered the collapsing rule. Others came from
+	  implementing "assumptions" about the word list and sticking these
+	  in "igcheck". Did my best to make the lines in "igcheck" match up
+	  with the lines in the phonetic file.
+
+2002-07-19 19:36  kps
+
+	* Makefile: Cleaned up "adist" target a bit to make it look
+	  more like what Atkinson describes, though I still
+	  can't get his "proc" perl script to work.
+	  
+	  Also discovered the -u flag for sort
+	  which makes my stupid "stripdbl" moot.
+
+2002-07-18 19:05  kps
+
+	* Makefile: Lots of changes for aspell targets.
+
+2002-07-18 19:04  kps
+
+	* gaeilge_phonet.dat: Lots of changes. Brings it to a state that
+	  it seems to do all of the basic things I want.
+	  
+	  One key observation was the use of "followup 0" and
+	  "collapse_result 1", the second of which makes the
+	  avoidance of doubled letters in the phonetic strings
+	  automatics (I was recursing, etc. to avoid these manually).
+
+2002-07-18 19:02  kps
+
+	* igcheck: Lots more checks coming from aspell phonetic
+	  conventions.
+
+2002-07-18 19:01  kps
+
+	* README: Trivial changes mentioning aspell.
+
+2002-07-18 19:00  kps
+
+	* Makefile.asp: Added sounds.txt target for fun.
+	  Added "personal" target which generates personal
+	  dictionary out of my sources in home dir.
+
+2002-07-18 14:57  kps
+
+	* biobla: Expanded all ispell "S" affixes and resorted so that I
+	  can
+	  distribute and install this file "as is" with aspell.
+
+2002-07-17 20:46  kps
+
+	* Makefile.asp: Makefile for the aspell distribution --
+	  it will get copied to "Makefile" when building the
+	  tarball...
+
+2002-07-17 20:46  kps
+
+	* gaeilge_phonet.dat: First cut at Irish language phonetics for
+	  aspell.
+
+2002-07-17 20:45  kps
+
+	* gaeilge.dat: aspell data file for Irish.
+
+2002-07-17 19:21  kps
+
+	* igcheck: Accidentally had slow "repeat letter" check lines
+	  commented in
+	  checked-in version.
+	  
+	  Added some checks encoding some of the assumptions made while
+	  writing the aspell phonetics file.
+
+2002-07-16 21:24  kps
+
+	* igcheck: Added lots of checks from the Litriú na Gaeilge
+	  handbook.
+	  Now also working under the assumption that the input file
+	  is a raw list of words (i.e. not the output of ispell -e, say,
+	  or a gaeilge.raw with affixes).
+
+2002-07-16 21:23  kps
+
+	* Makefile: Added lines for generating aspell raw word lists,
+	  and for generating correct raw word counts for releases.
+
+2002-07-16 21:19  kps
+
+	* sonrai.html: Weirdly repeated some misspelled words in the
+	  description of
+	  v. 1.2 which were already taken out in v. 1.1.
+
+2002-07-16 20:58  kps
+
+	* index.html: Revised the historical word counts on the web page
+	  avoiding double counts in gaeilge.full
+	  (basically generating aspell.txt now uses "sort" and "stripdbl").
+
+2002-07-15 19:00  kps
+
+	* igcheck: Added chunks which grep out lenited/eclipsed versions
+	  of the "exceptions" so igcheck will work with
+	  raw word lists like aspell.txt
+	  (was assuming the wordlist looked like gaeilge.raw
+	  or the output of ispell -e)
+
+2002-06-26 21:53  kps
+
+	* Makefile, index.html, sonrai.html: Changes to Makefile, *.html
+	  for release of version 1.2.
+
+2002-06-26 20:59  kps
+
+	* gaeilge.raw: ADDITIONS ONLY (mostly from Oxford dictionary, I-E
+	  half)
+
+2002-06-26 20:57  kps
+
+	* igcheck: Added triphthong checks to igcheck.
+
+2002-06-21 21:47  kps
+
+	* gaeilge.mor, gaeilge.raw, logainm: Huge list of additions. Plus:
+	  
+	  canúnach->caighdeánach: cuideog
+	  
+	  caighdeánach->canúnach: achréidh, adaigh, Bailteach, casino,
+	  ceirib,
+	  cruinníocha, galaoireach, íodha, kebab, méasantar, parfaraí,
+	  Samáireach,
+	  slabaire
+	  
+	  caighdeánach->logainm: Achréidh, Caerdydd
+	  
+	  [Cheartaigh mé na fabhtanna seo:]
+	  
+	  Eliminated reliance on affix file to turn
+	  capitalized "Gh-" into "nG" (was giving "Ng"-)
+	  
+	  infhilleadh gan ghá (*): *glanaidh
+	  
+	  focail infhillte míchearta (*): *comhluú (srl), *faighineacha,
+	  *faraesean,
+	  *Gaelím (srl), *glaeim (srl), *naouithe, *neamhdhaingeana,
+	  *neamhthinne,
+	  *parailéile, *parailéala, *rúndaingeana, *séuithe, *spraeáilim
+	  (srl),
+	  *táthchuda, *uiríseala
+	  
+	  + gsf several adjs: beag,breac,ceart,
+	  geal,mear,oircheas, sean, seicear,srl.
+	  
+	  focail mílitrithe (*): *ardteistméireacht, *bruinneach,
+	  *cisíocht, *deasgnáth,
+	  *Neipeál, *scríoblálaí, *svaistice, *taobhraoinn, *teasóras
+
+2002-06-21 21:25  kps
+
+	* gaeilge.aff, gaeilgemor.aff: Changes to affix files which avoid
+	  doubling the "f" in
+	  graf, liteagraf v1's with, e.g. conditional endings.
+
+2002-06-20 21:31  kps
+
+	* Makefile: Made changes to conform more closely with GNU coding
+	  standards.
+
+2002-06-20 21:24  kps
+
+	* igcheck: Added this little shell script for hunting down
+	  potential problems.
+	  It immediately found the graffaidh, glaeeadh, etc. bugs in
+	  gaeilge.aff.
+	  Also found incorrect conjugation flag in IG for comhluigh.
+
+2002-06-19 19:59  kps
+
+	* index.html, sonrai.html: Apparently, translations of the word
+	  "copyright" have no legal standing.
+
+2002-06-12 21:02  kps
+
+	* index.html: Minor boo-boo on McKinstry hyperlink.
+
+2002-06-07 14:16  kps
+
+	* daoine, gall, logainm: Added a bunch of stuff from "Beo"
+	  May-Sept. 2001
+
+2002-06-07 14:16  kps
+
+	* miotas, stair: Minor changes from de Bhaldraithe
+
+2002-06-07 14:10  kps
+
+	* index.html, sonrai.html: Validated web pages and checked links
+	  with
+	  http://validator.w3.org/
+	  Now using cascading style sheets.
+
+2002-05-29 20:17  kps
+
+	* Makefile: Added fun stuff for
+	  (1) periodic spellchecking tasks
+	  (2) building gaeilge.raw, gaeilge.mor directly from IG.
+	  (3) counting headwords and inflected words for web page data
+
+2002-05-09 14:14  kps
+
+	* miotas: Added remaining names from Ba59.
+
+2002-05-09 14:07  kps
+
+	* logainm: Added remaining Irish placename elements from Ba59.
+
+2002-05-02 14:02  kps
+
+	* miotas, stair: Corrections from Ba59 appendix.
+
+2002-04-23 19:54  kps
+
+	* miotas, stair: Some trivial changes between the "miotas" and
+	  "stair" files.
+
+2002-04-23 19:52  kps
+
+	* Makefile, index.html: Added some HTML internationalization lines
+	  to index.html,
+	  corrected spelling of "idirnáisiúntú" to conform with TR.
+	  
+	  Trivial path change in Makefile for new Solaris installation.
+
+2002-02-21 20:00  kps
+
+	* Makefile, daoine, gaeilge.raw, gall, logainm, miotas, stair: *
+	  Added new files:
+	  gall (Non-Irish spellings out of old "daoine" file)
+	  miotas (fictional character names with Irish spellings out of de
+	  Bhaldraithe)
+	  stair (historical personages with Irish spellings out of de
+	  Bhaldraithe)
+	  
+	  * Made the necessary changes to the Makefile for these additions.
+	  
+	  * Added all Irish spellings of first names from de Bhaldraithe to
+	  "daoine".
+	  
+	  * Sorted the "logainm" file which wasn't for some reason.
+	  
+	  * Lots of new words added to gaeilge.raw (no removals!)
+
+2001-12-28 20:36  kps
+
+	* Makefile: Updated Makefile to version 1.1.
+
+2001-12-28 20:35  kps
+
+	* index.html, sonrai.html: Made necessary changes to index.html for
+	  release of version 1.1.
+	  
+	  Also, pulled out the details of known bugs and details of
+	  incremental changes into a second HTML file, sonrai.html.
+
+2001-12-28 18:05  kps
+
+	* gaeilge.mor, gaeilge.raw: Added a whole mess of new words!
+	  
+	  Plus:
+	  
+	  PROMOTED: failm, feara, fraochmhar, síolaigh, tamhnóg, uaire
+	  
+	  DEMOTED: aipsint, alabastar, fisicí, fisiciúil, fogus,
+	  húrla-hárla,
+	  ilphairtíoch, ináitreabh, Pol, tachtóir, truaillitheacht
+	  
+	  MISSPELLED (*): *bachrán, *ceannrach, *Fionlannais, *mígnaíúil,
+	  *mísheanmhar,
+	  *ói, *príbhéad
+	  
+	  UNNEC. INFLECTION (*): *aoldathanna, *forbaí
+	  
+	  INCORRECT INFLECTION (*): *dé-óidí, -chuir -> *-chuirthe,
+	  *neamhbheichte
+
+2001-08-30 19:08  kps
+
+	* gaeilge.mor, gaeilge.raw: Lots of new words added.
+	  
+	  PROMOTED: daoránach, múnláil, raiméis, reathaire, tutaíl
+	  
+	  DEMOTED: aindiathaí, aislingeoir, bearád, cianúlas, costriomach,
+	  cothaíocht,
+	  cráiteach, dúthach, easláintiúil, faillíoch, faireoir, fealsúnta,
+	  féaracht,
+	  galltacht, gearr-ruballach, gidh, gliogarnáil, gliúcálaí,
+	  imirceoir,
+	  iniúchóireacht, lásar, miocrascóp, nuall, óstán, ráiméis, réigh,
+	  tartúil,
+	  tiomchaint, tréanmhar, uileloisctheach, vultúr
+	  
+	  MISSPELLED: *aisín (áisín), *ceoldhráma (ceoldráma), *cnuachair
+	  (cnuchair),
+	  *cos-i-mbos, *eispistil, *fadbhreathaitheach
+	  (fadbhreathnaitheach),
+	  *meilséara (méilséara), *míliste (mílíste), *scabharta
+	  (scabhartha),
+	  *tagdhach (taghdach),
+	  
+	  UNNEC. INFLECTION: *bóiléagair, *clochmhóinte, *éadruaigh,
+	  *féinrialacha,
+	  *imshaolta, *luasc-cheolta, *mórthíortha, *seansaolta
+	  
+	  INCORRECT INFLECTION: *cainninn, *cileavataí, *garmhaic,
+	  *leathuaireanta,
+	  *sabhana, *searca, *vataí, *voltaí
+
+2001-06-21 16:32  kps
+
+	* gaeilge.mor, gaeilge.raw: Demoted to large model (replaced with
+	  better spellings from OD):
+	  anaestéise, -ach, anaestéisí, cionúireacht, diabaetas, muruach,
+	  préatóiriam, séaram, plus nine nationalities from CO that differ
+	  from OD.
+	  
+	  Demoted (variant): naofar.
+	  
+	  Unnecessary or incorrect inflection: Uisceadóirí, coimeáid,
+	  coirdéil,
+	  cráifiscí, geiréinéim.
+	  
+	  Misspelling: *Ródéiseach
+
+2001-05-28 19:01  kps
+
+	* gaeilge.mor, gaeilge.raw: Added many new words.
+	  
+	  New spelling: Neipealach
+	  
+	  Demoted to large model: bomaite
+	  
+	  Promoted from large model: cranna (pl. crann in phrases)
+	  
+	  Unnecessary or incorrect inflections:
+	  *adanóid (pl. only), *cruóga, *mainneire (gs mainnear),
+	  *peiréid (gs peiriad), *sréin (gs srian)
+
+2001-04-27 16:30  kps
+
+	* gaeilge.mor, gaeilge.raw: Demoted nf2 version of "gabháil"
+	  (yeast), "glaech/saitilít" (Gem95), "ógán"
+	  to the large model dictionary.
+	  
+	  Removed plural versions of many capitalized words
+	  (Airí, Ard-Oifigí, Bailte, Ollscoileanna, etc.)
+	  
+	  Removed lowercase versions of words which only appear capitalized
+	  (*camchéachta, *gall, *feisire)
+	  
+	  Removed "Rumania" words and left "Romania" spellings.
+	  
+	  Incorrect or unnecessary inflections:
+	  - *coimhéid gs of verbal noun coimhéad
+	  - corrected snáth to nm3
+	  - corrected traidhfil to 4th decl, no plural (Gem has 2nd)
+	  - no plurals on seintimint, stopainn
+
+2001-04-08 14:11  kps
+
+	* daoine, gaeilge.mor, gaeilge.raw, index.html: NEW SPELLINGS
+	  bitiúman, Céineach, hiptéis, sainchomartha, diosc-thiomáint
+	  
+	  ILLEGAL INFLECTIONS:
+	  báisteacha, builí, siúcraí (no plurals)
+	  dirbh incorrect gsm of dearbh
+	  troim (only for elder-tree, nm1)
+	  eiriceacha/eiricí
+	  fabhaile/fabhala (syncopate)
+	  leathronna
+	  feorainneacha -> feoranna
+	  suirbhéithe -> suirbhéanna
+	  
+	  BIG INFLECTION CHANGE
+	  baineann,broineann,coiteann,éagoiteann,fireann,droimeann gsf were
+	  wrong
+	  and nf2 aoileann,cúileann,faoileann gs
+	  
+	  VOCAB
+	  carnphointe -> new coinage
+	  
+	  MINOR CHANGES to other files.
+	  
+	  Nic from IG to daoine
+	  
+	  aithnigh -> variant of aithin
+	  
+	  some web page grammar, "bugs to fix"
+
+2001-02-22 22:13  kps
+
+	* Makefile, index.html: Added all changes to index.html necessary
+	  for moving from
+	  version 0.2 to version 1.0. Mainly, this was the work on
+	  the "changes" section but also some reworking of stuff
+	  to fit the "dialects" section in.
+	  
+	  One minor change to Makefile includes "biobla" in the tarfile.
+
+2001-02-14 17:36  kps
+
+	* gaeilge.raw: Added several new words. Also:
+	  Killed some incorrect verbal adjectives: *dathaithe, *táthaithe,
+	  *tnúta.
+	  Minor changes: added "slánchruinne" without prefix 't' and
+	  removed
+	  lowercase version of "Domhnach".
+
+2001-01-23 01:00  kps
+
+	* gaeilge.mor, gaeilge.raw: Added the flags for undeclined words
+	  (like the existing "defective"
+	  verb flag). Enabled me to change various substantives (e.g. deo)
+	  to unlenitable/uneclipsable/etc. Also flagged the genitives as
+	  such, allowing formation t+súgartha. Removed some other incorrect
+	  forms.
+
+2001-01-22 22:50  kps
+
+	* gaeilge.mor, gaeilge.raw: Corrected or added missing grammatical
+	  information for several words.
+	  Added singulars of some npl's in database.
+	  Added a few random words.
+	  Fixed comórtha verbal adjective bug.
+	  Fixed obscure bug which left out possessive forms of plural,
+	  capitalized words!
+
+2001-01-19 21:15  kps
+
+	* gaeilge.mor, gaeilge.raw: Demoted a few dialect forms from
+	  gaeilge.raw to gaeilge.mor
+	  Added a few new words that struck my fancy
+	  Corrected a few mistakes (uailbhreas, infhear, barúlacht, etc.)
+
+2001-01-18 22:34  kps
+
+	* gaeilge.mor, gaeilge.raw: Added many words taken from a careful
+	  spellchecking of
+	  newspaper articles in nuacht/*/*
+	  Also fixed plurals of praghas, comhdháil, bandáil, seac,
+	  and changed to Ó Donaill spellings of
+	  homaighnéasach, traigéide, eispéireas.
+
+2001-01-18 22:21  kps
+
+	* biobla: Sorted the biobla dictionary using "sort -f".
+	  Hopefully won't need changes in the future, unless
+	  I discover sporadic errors upon re-spellchecking An Biobla Naofa.
+
+2001-01-18 22:15  kps
+
+	* daoine, giorr, logainm: Made substantial additions to the three
+	  new "personal dictionary"
+	  source files, primarily "logainm" by adding Gaeltacht sites from
+	  back issues of "Cuisle".
+
+2001-01-16 21:05  kps
+
+	* logainm: Added Irish place names to logainm out of Irish Atlas in
+	  SLU library.
+
+2001-01-16 15:07  kps
+
+	* Makefile, biobla: Finally decided to add biobla file to the
+	  package,
+	  though the end user will have to figure out what
+	  he or she wants to do with it. Only changed Makefile
+	  to recopy it to my ~/.biobla when generating .ispell_gaeilge
+
+2001-01-15 22:12  kps
+
+	* Makefile, daoine, giorr, logainm: Added three source files for
+	  creating personal dictionary.
+	  Makefile modified also, allowing "make personal" to create
+	  ~/.ispell_gaeilge from these sources.
+
+2001-01-11 23:17  kps
+
+	* Makefile, gaeilge.aff, gaeilge.mor, gaeilge.raw, gaeilgemor.aff:
+	  Primary change is the addition of a second affix file for the
+	  "large model".
+	  This is gaeilgemor.aff, and it is the same, up to comments, as
+	  the
+	  gaeilge.aff in the previous version. gaeilge.aff, which will
+	  serve the
+	  "small model", has had all non-CO verb endings taken out (except
+	  the common
+	  "-dar" ones) and had "compoundwords" turned off.
+	  Minor changes to gaeilge.mor ["cúisiú" now an alt. of "cúiseamh"]
+	  and gaeilge.raw [added a bunch of "sain-" words, as it is not
+	  common
+	  enough to justify its inclusion in *.aff].
+	  Makefile was modified to allow for the generation of large/small
+	  model.
+
+2001-01-11 22:13  kps
+
+	* gaeilge.aff, gaeilge.raw: Added prefix hints to gaeilge.aff for
+	  ain-,ath-,comh-,droch-,for-,frith-,réamh-
+	  (at least three letters and not stand-alone words,
+	  needed only for small model)
+
+2001-01-11 17:52  kps
+
+	* Makefile, gaeilge.mor, gaeilge.raw: First attempt at "dialect
+	  support", by adding the file gaeilge.mor.
+	  It contains _all_ alternate spellings in IG -- this includes some
+	  which
+	  were previously "legit" (e.g. from An Biobla) and others which
+	  were
+	  not (mainly from O Siadhail and Cre na Cille) for which I looked
+	  up
+	  the grammar info last night.
+	  Conversely, there are no longer _any_ alternate spellings in
+	  gaeilge.raw.
+	  I also put the affixes into gaeilge.mor, to allow free
+	  combinations
+	  with droch, comh, etc.
+	  Makefile was changed to deal with the "beag" and "mor" models.
+
+2001-01-10 21:52  kps
+
+	* gaeilge.raw: Removed affixes from gaeilge.raw -- while some are
+	  already stand-alone words
+	  (féin, neamh, etc.) others are not. The ones with at least three
+	  letters:
+	  ain, ath, comh, dea, for, freas, fri, frith, íos, micrea, micri,
+	  neas,
+	  réalt, réamh, sain, tras, uas.
+	  Hints for (some of) these will have to go in the affix file. For
+	  the
+	  less common ones, I can add words explicitly to database.
+
+2001-01-10 18:40  kps
+
+	* gaeilge.raw: Added some new words, corrected many irregular
+	  genitives,
+	  removed needless conjugation of "tig"
+
+2001-01-08 22:20  kps
+
+	* gaeilge.raw: Many, many new words added to gaeilge.raw between 2
+	  Oct 2000 and 8 Jan 2001
+
+2001-01-08 21:37  kps
+
+	* gaeilge.raw: Additions to raw data (+ fix of gsf -\'ach
+	  adjectives) through 2 Oct 2000.
+	  These are the final changes before start of CVS repository 8 Jan
+	  2001.
+
+2001-01-08 21:24  kps
+
+	* Makefile, README, gaeilge.aff, gaeilge.raw, index.html: All
+	  changes from release 0.1 to release 0.2 (20 Sept 2000)
+
+2001-01-08 21:16  kps
+
+	* index.html: Improvements to Irish in index.html in preparation
+	  for link to An Fainne Orga, thanks to Vincent Morley.
+
+2001-01-08 20:59  kps
+
+	* gaeilge.aff: New affix file, completes Release 0.1 on 14 June
+	  2000
+
+2001-01-08 20:44  kps
+
+	* gaeilge.aff: gaeilge.aff historical modifications 2 June 2000 ->
+	  5 June 2000
+
+2001-01-08 20:22  kps
+
+	* COPYING, Makefile, README, gaeilge.aff, gaeilge.raw, index.html:
+	  Imported sources
+
+2001-01-08 20:22  
+
+	* .: Standard project directories initialized by cvs2svn.
+

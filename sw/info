@@ -1,0 +1,18 @@
+name_english Swahili
+lang sw
+copyright LGPL
+version 0.50-0
+source-version 20040316
+charset iso8859-1
+soundslike none
+special ' -*- - -*-
+author:
+    name Jason M Githeko
+    email githeko at avo org
+dict:
+    name sw
+    alias kiswahili
+    alias swahili
+    add sw
+name_ascii Kiswahili
+name_native Kiswahili

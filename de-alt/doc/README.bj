@@ -1,0 +1,13 @@
+This Patch for the hk2 ispell dictionary adds
+
+- fixes for my hk2-buglist collection and more
+- utf-8 for the affix file (use with ispell -T utf8)
+- scripts and Makefile extensions for creating a myspell dictionary
+- myspell affix file
+
+This patch and all contained programs and files are licensed under
+the GNU General Public Licence (GPL) version 2.
+
+You can reach me via email:
+
+Bjoern Jacke <bjoern [at] j3e.de>

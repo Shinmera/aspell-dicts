@@ -1,0 +1,23 @@
+name_english Catalan
+lang ca
+data-file ca_affix.dat
+copyright GPLv2
+version 2.1.5-1
+complete true
+accurate true
+author:
+  name Joan Moratinos
+  email jmo at softcatala org
+  maintainer true
+url http://www.softcatala.org/wiki/Projectes/Corrector_ortografic
+
+alias ca catalan
+dict:
+  name ca-general
+  alias ca
+  add ca-common
+
+dict:
+  name ca-valencia
+  add ca-common
+  add ca-valencia-mes

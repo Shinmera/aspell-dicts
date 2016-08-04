@@ -1,0 +1,28 @@
+
+
+
+Serbian language support package for GNU aspell
+
+Changelog
+
+* version 0.02, 11/09/2005
+
+ - First official release included in Dictionary list on
+   GNU aspell homepage
+
+ - Change in version names. Previous test release was 0.1,
+   next release will be 0.03
+
+ - Renamed dictionary containing only words written in
+   Cyrillic script from "cyr" to "cyrl".
+
+ - New code page with support for accented vowels.
+   Code page is renamed from "u-serbian" to "l-sr".
+   Further updates of code page are not planned.
+ 
+ - Uncorect words are removed from word list, and new words
+   are added.
+
+* version 0.1 (first release), 08/08/2005
+
+ - First unofficial release, published on http://srpski.org/aspell

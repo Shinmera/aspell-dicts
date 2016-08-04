@@ -1,0 +1,17 @@
+The Aspell German 20030222 dictionary is generated from the
+igerman98-20030222 dictionary.
+
+The affix file used is combination of the affix file used for the
+German and Swiss dictionary found in the original package.  A new flag
+was created when the original affix flag for the Swiss affix file was
+different from the German affix file.
+
+The source wordlist included affix information, however, affix
+compression IS NOT enabled since there is also a phonet file for the
+German language.  If you wish to use affix compression simply add the
+line:
+  affix-compress true
+to the file "de.dat".
+
+Kevin Atkinson
+2004-11-03

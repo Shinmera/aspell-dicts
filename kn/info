@@ -1,0 +1,24 @@
+name_english Kannada
+name_native ಕನ್ನಡ
+lang kn
+data-file u-knda.cset
+data-file u-knda.cmap
+author:
+  name Vasudev Kamath
+  name-native ವಾಸುದೇವ ಕಾಮತ್
+  email kamathvasudev at gmail dot com
+  maintainer true
+author:
+  name Sanchaya
+  name-native ಸಂಚಯ
+  email dev at lists dot sanchaya dot net
+copyright GPLv3
+url https://gitorious.org/aspell-kn
+version 0.01-1
+complete false
+accurate true
+alias kn kannada
+dict:
+  name kn
+  add kn
+notes Based on OpenOffice.org Kannada dictionary

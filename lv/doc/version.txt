@@ -1,0 +1,36 @@
+# Latvieðu valodas affix fails lietoðanai ar OpenOffice 1.0 un augstâk
+# Latvian affix table for OpenOffice 1.0 and higher
+#
+# Copyright (C) 2002 Janis Eisaks, jancs@dv.lv
+#
+#
+=================
+Verson info 0.5.5
+- pievienota visa 1. konjugâcija....
+- lietvârdu pamazinâmo formu afiksi
+
+Vârdnîcâ 0.5.5 nav atrodami:
+- darbîbas vârdi, kuri eksistç tikai refleksîvajâs formâs
+- lietvârdi-daudzskaitlinieki
+- vçl ðis un tas
+
+================
+
+Vârdîcas uzstâdîðanai - skat. :
+
+Uzmanîbu OpenOffice 1.0.2, 1.1.x lietotâjiem!!!!!!!!!!!
+
+Visai sistçmai kopçjas vârdnîcas ðai versijai var izvietot direktorijaa
+
+%OpenOffice.org%/share/dict/ooo
+
+Pârçjais - kâ aprakstîts zemâk (arî OO 1.01).
+
+
+http://www.ooodocs.org/dictinstall/nexthelp.html   (En)
+
+vai
+
+http://www.integoplus.lv/opensource/openoffice.html  (Lv)
+
+
